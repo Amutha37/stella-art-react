@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stella-art-react/static/css/main.de93ca9a.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.58e6497d.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.58e6497d.chunk.js.map",
+    "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
+    "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
+    "static/js/2.71336690.chunk.js": "/stella-art-react/static/js/2.71336690.chunk.js",
+    "static/js/2.71336690.chunk.js.map": "/stella-art-react/static/js/2.71336690.chunk.js.map",
+    "index.html": "/stella-art-react/index.html",
+    "static/css/main.de93ca9a.chunk.css.map": "/stella-art-react/static/css/main.de93ca9a.chunk.css.map",
+    "static/js/2.71336690.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.71336690.chunk.js.LICENSE.txt",
+    "static/media/Lily.jpg": "/stella-art-react/static/media/Lily.f0cb640f.jpg",
+    "static/media/crashingwaves.jpg": "/stella-art-react/static/media/crashingwaves.b9a2a3f5.jpg",
+    "static/media/majesty.jpg": "/stella-art-react/static/media/majesty.190a15c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91f0cde1.js",
+    "static/js/2.71336690.chunk.js",
+    "static/css/main.de93ca9a.chunk.css",
+    "static/js/main.58e6497d.chunk.js"
+  ]
+}
