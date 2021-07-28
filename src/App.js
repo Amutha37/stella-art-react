@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  Redirect,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import React from "react";
 // import "./App.css";
 
@@ -38,7 +43,7 @@ const App = () => {
         </Switch> */}
         {/* new  */}
         <Switch>
-          <Route path="/" exact component={Home} />
+          {/* <Route path="/" exact component={Home} /> */}
           <Route path="/painting" component={Painting} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
@@ -48,6 +53,11 @@ const App = () => {
           <Route path="/florals" component={Florals} />
           <Route path="/birdanimal" component={BirdAnimal} />
           <Route path="/commissions" component={Commissions} />
+          {/* home page */}
+          <Route>
+            <Redirect exact from="/" to="/home" />
+            <Route exact path="/home" component={Home} />
+          </Route>
         </Switch>
       </Router>
     </div>

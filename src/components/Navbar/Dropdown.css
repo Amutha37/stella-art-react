@@ -1,7 +1,7 @@
 .dropdown-menu {
   width: 140px;
   position: absolute;
-  top: 125px;
+  top: 137px;
   list-style: none;
   text-align: start;
 }
@@ -13,13 +13,13 @@
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-bottom-color: #a7bce1;
+  border-bottom-color: #929292;
   border-top: 0;
   margin-left: -10px;
   margin-top: -10px;
 }
 .dropdown-menu li {
-  background: #a7bce1;
+  background: #929292;
   cursor: pointer;
   color: #f8f6f6;
   text-align: center;
