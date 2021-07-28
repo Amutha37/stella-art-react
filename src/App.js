@@ -43,8 +43,8 @@ const App = () => {
         </Switch> */}
         {/* new  */}
         <Switch>
-          {/* <Route path="/" exact component={Home} /> */}
-          <Route path="/painting" component={Painting} />
+          <Route path="/" exact component={Home} />
+          <Route path="/paintingsale" component={Painting} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           {/* <Route path="/sign-up" component={SignUp} /> */}
