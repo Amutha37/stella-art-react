@@ -1,40 +1,56 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from "react";
+// import "./App.css";
+
+import Navbar from "./components/Navbar/Navbar";
+// import Navapp from "./components/Navbar/Navapp";
+
+import Home from "./components/pages/Home";
+
+import Painting from "./components/pages/Painting";
+
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+
+import Florals from "./components/pages/Florals";
+import BirdAnimal from "./components/pages/BirdAnimal";
+import Commissions from "./components/pages/Commissions";
+import Nature from "./components/pages/Nature";
+import Portraits from "./components/pages/Portraits";
 import "./App.css";
-import IMAGES from "./Images/Images";
-// import Picture1 from "./img/slider/Fuji_TallHero_Beauty_v2_en_US_1x._CB429089975_.jpg";
+//
 
-// import Picture2 from "./img/slider/Fuji_TallHero_Computers_1x._CB432469755_.jpg";
-
-// import Picture3 from "./img/slider/Fuji_TallHero_Currency_v2_en_US_2x._CB428993290_.jpg";
-// import Picture4 from "./img/slider/Fuji_TallHero_Home_v2_en_US_1x._CB429090084_.jpg";
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Stella Kypriotis Fine Art Jeff</p>
-
-        <div className="landing_Image">
-          <div className="landing_Container">
-            <p>Captivated by Nature</p>
-
-            {/* <img src={IMAGES.beachWaves} alt="crashing waves" /> */}
-            <img src={IMAGES.lily} alt="crashing waves" />
-          </div>
-        </div>
-      </header>
-      {/* slide  */}
-      {/* <!-- slide show starts here --> */}
-      <div id="slider1">
-        <figure>
-          <img src={IMAGES.lily} alt="" />
-          <img src={IMAGES.majesty} alt="" />
-          <img src={IMAGES.lilyy} alt="" />
-          <img src={IMAGES.crashingwaves} alt="" />
-        </figure>
+    <div>
+      <div className="appheader">
+        <p>Stella Kypriotis Fine Art</p>
       </div>
-      {/* <!-- slide show ends here --> */}
+      <Router>
+        <Navbar />
+        {/* <Navapp /> */}
+        {/* <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/contact" component={Contact} />
+          
+        </Switch> */}
+        {/* new  */}
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/painting" component={Painting} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          {/* <Route path="/sign-up" component={SignUp} /> */}
+          <Route path="/nature" component={Nature} />
+          <Route path="/portraits" component={Portraits} />
+          <Route path="/florals" component={Florals} />
+          <Route path="/birdanimal" component={BirdAnimal} />
+          <Route path="/commissions" component={Commissions} />
+        </Switch>
+      </Router>
     </div>
   );
-}
-
+};
 export default App;
