@@ -13,18 +13,20 @@ const Home = () => {
             <img src={IMAGES.hummingbird} alt="lily flower" />
             <div className="copyright">
               <hr></hr>
-              <div className="left">
-                <p>
-                  {" "}
-                  Copyright <i class="far fa-copyright"></i> All rights
-                  reserved.
-                </p>
-              </div>
-              <div className="right">
-                <p>share</p>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
+              <div className="footertext">
+                <div className="left">
+                  <p>
+                    {" "}
+                    Copyright <i class="far fa-copyright"></i> All rights
+                    reserved.
+                  </p>
+                </div>
+                <div className="right">
+                  <p>share</p>
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
               </div>
             </div>
           </div>

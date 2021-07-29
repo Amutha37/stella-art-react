@@ -12,37 +12,18 @@
   margin-left: 0;
   margin-right: 0;
 } */
+html,
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
 .landing_Container {
-  /* width: 100%; */
-  /* margin-top: 2rem; */
-  /* padding: 20px; */
-  /* display: flex; */
-  /* /* justify-content: center; */
-
-  /* box-sizing: border-box; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* margin-left: auto;
-  margin-right: auto;
-  width: fit-content; */
-  /* height: 900px; */
-  /* width: 600px;
-  margin-left: auto;
-  margin-right: auto; */
   color: rgb(99, 96, 96);
   text-align: left;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
   font-size: 20px;
 }
 .landing_Image {
-  /* max-width: 100%; */
-  /* min-width: 100%; */
-  /* height: 150px;
-  object-fit: fill; */
-  /* margin: 3rem;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto; */
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -63,18 +44,16 @@ img {
 }
 hr {
   width: 100%;
-  position: relative;
-  bottom: 0;
+  /* position: relative; */
+  /* bottom: 0; */
   border: 0.1px solid rgb(239, 234, 234);
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-top: 6rem; */
-  margin: 6rem auto 4rem auto;
+
+  margin: 6rem auto 1rem auto;
   justify-self: center;
 }
 .copyright {
   /* margin-top: 4rem; */
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .copyright p {
   color: rgb(8, 1, 1);
@@ -98,6 +77,9 @@ hr {
   font-size: 0.8rem;
 }
 
+.footertext {
+  margin-bottom: 2rem;
+}
 /* @media screen and (max-width: 960px) {
   .landing_Container {
     margin-top: 5rem;
@@ -112,15 +94,18 @@ hr {
     font-size: 1.1rem;
   }
 } */
-/* @media screen and (max-width: 768px) {
-  .appheader p {
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  /* .copyright {
 
-    color: rgb(12, 12, 12);
-
-    text-align: left;
-
-    font-size: 20px;
-    margin-top: 1rem;
+    margin-top: 10rem;
+  } */
+  /* .copyright p {
+    color: rgb(8, 1, 1);
+  } */
+  hr {
+    margin: 9rem auto 2rem auto;
   }
-} */
+  .footertext {
+    margin-bottom: 3rem;
+  }
+}
