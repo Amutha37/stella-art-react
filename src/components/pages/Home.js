@@ -16,9 +16,9 @@ const Home = () => {
               <div className="footertext">
                 <div className="left">
                   <p>
-                    {" "}
-                    Copyright <i class="far fa-copyright"></i> All rights
-                    reserved.
+                    Art work by Stella Kypriotis {""}
+                    <i class="far fa-copyright"> </i>
+                    {""} 2022 All Right Reserved.
                   </p>
                 </div>
                 <div className="right">
