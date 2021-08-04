@@ -14,6 +14,7 @@
   height: 0;
   border: 17px solid transparent;
   border-bottom-color: #929292;
+  opacity: 1;
   border-top: 0;
   margin-left: -25px;
   margin-top: -17px;
@@ -44,8 +45,8 @@
   padding: 6px;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   .fa-caret-down {
     display: none;
   }
-}
+} */

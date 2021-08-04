@@ -10,13 +10,17 @@ const Home = () => {
           <div className="landing_Image">
             <p>Captivated by Nature</p>
 
-            <img src={IMAGES.hummingbird} alt="lily flower" />
+            {/* <img src={IMAGES.hummingbird1} alt="lily flower" /> */}
+            {/* <img src={IMAGES.lily5} alt="lily flower" /> */}
+            <img src={IMAGES.lily4} alt="lily flower" />
+            {/* <img src={IMAGES.lily3} alt="lily flower" /> */}
             <div className="copyright">
               <hr></hr>
               <div className="footertext">
                 <div className="left">
                   <p>
-                    Art work by Stella Kypriotis {""}
+                    Copyright
+                    {""}
                     <i class="far fa-copyright"> </i>
                     {""} 2022 All Right Reserved.
                   </p>
