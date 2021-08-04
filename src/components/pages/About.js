@@ -9,7 +9,6 @@ const About = () => {
           <img className="center-fit" src={stella} alt="Stella" />
         </div>
         <p>
-          <br></br> <br></br>
           Born in Greece, Stella Kypriotis is an artist who lives and works in
           Sydney Australia. She is married to her husband of 32 years and
           together have raised 3 sons.
