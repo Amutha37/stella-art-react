@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.e293846c.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.a04f4814.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.a04f4814.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.4e1026f4.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.df037bf2.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.df037bf2.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
     "static/js/2.35830da8.chunk.js": "/stella-art-react/static/js/2.35830da8.chunk.js",
     "static/js/2.35830da8.chunk.js.map": "/stella-art-react/static/js/2.35830da8.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.e293846c.chunk.css.map": "/stella-art-react/static/css/main.e293846c.chunk.css.map",
+    "static/css/main.4e1026f4.chunk.css.map": "/stella-art-react/static/css/main.4e1026f4.chunk.css.map",
     "static/js/2.35830da8.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.35830da8.chunk.js.LICENSE.txt",
     "static/media/crashingwaves.jpg": "/stella-art-react/static/media/crashingwaves.b9a2a3f5.jpg",
     "static/media/hummingbird.jpg": "/stella-art-react/static/media/hummingbird.9c0aef16.jpg",
+    "static/media/hummingbird1.png": "/stella-art-react/static/media/hummingbird1.08852505.png",
+    "static/media/hummingbird2.png": "/stella-art-react/static/media/hummingbird2.e689d115.png",
     "static/media/lily2.jpg": "/stella-art-react/static/media/lily2.99cc048b.jpg",
-    "static/media/majesty.jpg": "/stella-art-react/static/media/majesty.190a15c9.jpg"
+    "static/media/lily3.png": "/stella-art-react/static/media/lily3.4e3a7f31.png",
+    "static/media/lily4.png": "/stella-art-react/static/media/lily4.94f0f581.png",
+    "static/media/lily5.png": "/stella-art-react/static/media/lily5.626da3f4.png",
+    "static/media/majesty.jpg": "/stella-art-react/static/media/majesty.190a15c9.jpg",
+    "static/media/stellaphoto.fd706089.jpeg": "/stella-art-react/static/media/stellaphoto.fd706089.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
     "static/js/2.35830da8.chunk.js",
-    "static/css/main.e293846c.chunk.css",
-    "static/js/main.a04f4814.chunk.js"
+    "static/css/main.4e1026f4.chunk.css",
+    "static/js/main.df037bf2.chunk.js"
   ]
 }
