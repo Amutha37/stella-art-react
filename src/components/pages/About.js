@@ -1,5 +1,5 @@
 import React from "react";
-import stella from "./Images/stellaphoto.jpeg";
+import stella from "./Images/stellaoutdoor.jpg";
 const About = () => {
   return (
     <div>

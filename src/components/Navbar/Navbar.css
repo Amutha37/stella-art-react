@@ -205,3 +205,19 @@
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  /* .fa-caret-down {
+    display: none;
+  } */
+  .dropdown-link {
+    display: absolute;
+
+    height: 100%;
+    width: 100%;
+    /* text-decoration: none; */
+    top: 2;
+    left: 6;
+    color: rgb(251, 249, 249);
+    padding: 6px;
+  }
+}

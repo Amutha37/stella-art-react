@@ -10,5 +10,6 @@ const IMAGES = {
   hummingbird1: require("./hummingbird1.png").default,
   hummingbird2: require("./hummingbird2.png").default,
   waves: require("./crashingwaves.jpg").default,
+  threesisters: require("./threesisters.jpg").default,
 };
 export default IMAGES;

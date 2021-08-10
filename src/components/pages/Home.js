@@ -1,4 +1,5 @@
 import IMAGES from "./Images/Images";
+import Footer from "./Footer/Footer";
 import "./homestyles.css";
 
 const Home = () => {
@@ -14,25 +15,7 @@ const Home = () => {
             {/* <img src={IMAGES.lily5} alt="lily flower" /> */}
             <img src={IMAGES.lily4} alt="lily flower" />
             {/* <img src={IMAGES.lily3} alt="lily flower" /> */}
-            <div className="copyright">
-              <hr></hr>
-              <div className="footertext">
-                <div className="left">
-                  <p>
-                    Copyright
-                    {""}
-                    <i class="far fa-copyright"> </i>
-                    {""} 2022 All Right Reserved.
-                  </p>
-                </div>
-                <div className="right">
-                  <p>share</p>
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-instagram"></i>
-                  <i class="fab fa-linkedin-in"></i>
-                </div>
-              </div>
-            </div>
+            <Footer />
           </div>
         </div>
       </header>

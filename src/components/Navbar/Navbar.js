@@ -12,19 +12,19 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
+    // if (window.innerWidth < 768) {
+    setDropdown(true);
+    // } else {
+    // setDropdown(true);
+    // }
   };
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
+    // if (window.innerWidth < 768) {
+    setDropdown(false);
+    // } else {
+    // setDropdown(false);
+    // }
   };
 
   return (
