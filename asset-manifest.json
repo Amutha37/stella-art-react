@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.45ce9512.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.ab70b67d.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.ab70b67d.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.469a66bd.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.a2ad7011.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.a2ad7011.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
-    "static/js/2.be259953.chunk.js": "/stella-art-react/static/js/2.be259953.chunk.js",
-    "static/js/2.be259953.chunk.js.map": "/stella-art-react/static/js/2.be259953.chunk.js.map",
+    "static/js/2.96c8453c.chunk.js": "/stella-art-react/static/js/2.96c8453c.chunk.js",
+    "static/js/2.96c8453c.chunk.js.map": "/stella-art-react/static/js/2.96c8453c.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.45ce9512.chunk.css.map": "/stella-art-react/static/css/main.45ce9512.chunk.css.map",
-    "static/js/2.be259953.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.be259953.chunk.js.LICENSE.txt",
+    "static/css/main.469a66bd.chunk.css.map": "/stella-art-react/static/css/main.469a66bd.chunk.css.map",
+    "static/js/2.96c8453c.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.96c8453c.chunk.js.LICENSE.txt",
     "static/media/cavebeach.jpg": "/stella-art-react/static/media/cavebeach.97d05884.jpg",
+    "static/media/contactnote.png": "/stella-art-react/static/media/contactnote.a1c3c302.png",
     "static/media/greatoceanroad.jpg": "/stella-art-react/static/media/greatoceanroad.f3403652.jpg",
     "static/media/lilybanner.png": "/stella-art-react/static/media/lilybanner.94f0f581.png",
+    "static/media/minnamurrafalls.jpg": "/stella-art-react/static/media/minnamurrafalls.768fd64f.jpg",
     "static/media/stellaoutdoor.jpg": "/stella-art-react/static/media/stellaoutdoor.8dc7b89d.jpg",
     "static/media/threesisters.jpg": "/stella-art-react/static/media/threesisters.e811d6ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
-    "static/js/2.be259953.chunk.js",
-    "static/css/main.45ce9512.chunk.css",
-    "static/js/main.ab70b67d.chunk.js"
+    "static/js/2.96c8453c.chunk.js",
+    "static/css/main.469a66bd.chunk.css",
+    "static/js/main.a2ad7011.chunk.js"
   ]
 }
