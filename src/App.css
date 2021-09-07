@@ -13,10 +13,10 @@
   margin: 0;
   padding: 0;
 }
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 .appheader p {
   display: flex;
   flex-direction: column;

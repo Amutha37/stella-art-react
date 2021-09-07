@@ -22,14 +22,12 @@ const BannerImage = [
   {
     id: 2,
     name: "The Three Sistes",
-    // image: require("./lilybanner.png"),
     image: require("./threesisters.jpg").default,
   },
   {
     id: 3,
     name: "Stella Outdoor",
     image: require("./stellaoutdoor.jpg").default,
-    // image: require(".threesisters.jpg"),
   },
 ];
 

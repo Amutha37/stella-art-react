@@ -1,24 +1,25 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ImageService from "./Images/Images";
 
-import NatureDescriptions from "./NatureDescriptions";
+// import NatureDescriptions from "./NatureDescriptions";
+import SlideNature from "./nature/SlideNature";
 import Footer from "./Footer/Footer";
 
 const Nature = () => {
   return (
-    <div>
-      <div className="landing_Image">
-        <p>Captivated by Nature</p>
+    <Fragment>
+      {/* <div className="landing_Image"> */}
+      {/* <p>Captivated by Nature</p> */}
 
-        <img
+      {/* <img
           src={ImageService.BannerImage[1].image}
           alt={ImageService.BannerImage[1].name}
-        />
+        /> */}
 
-        <NatureDescriptions />
-        <Footer />
-      </div>
-    </div>
+      <SlideNature />
+      {/* <NatureDescriptions /> */}
+      <Footer />
+    </Fragment>
   );
 };
 

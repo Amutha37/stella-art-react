@@ -12,11 +12,12 @@
   margin-left: 0;
   margin-right: 0;
 } */
-html,
+
+/* html,
 body {
   overflow-x: hidden;
-  /* overflow-y: hidden; */
-}
+  
+} */
 .landing_Container {
   color: rgb(99, 96, 96);
   text-align: left;
@@ -36,11 +37,8 @@ body {
   color: rgb(116, 108, 108);
   /* text-align: left; */
 }
-img {
+.landing_Image img {
   width: 100%;
-  /* display: fix; */
-
-  /* max-height: 100%; */
 }
 hr {
   width: 100%;
