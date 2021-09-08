@@ -1,6 +1,6 @@
 import React from "react";
 import Buttons from "./Buttons";
-import Caption from "./Caption";
+// import Caption from "./Caption";
 
 const Fullimageview = (props) => {
   // const hideImage = {
@@ -26,14 +26,17 @@ const Fullimageview = (props) => {
           // style={`sts ? ${showImage} : ${hideImage}`}
         >
           {/* <!-- Full-width images with number text --> */}
-          <div className="numbertext">
+          {/* <div className="numbertext">
             {slideIndex} /{slides.length}
-          </div>
+          </div> */}
           <img src={item.image} alt={item.name} />
         </div>
       ))}
       <Buttons plusSlides={plusSlides} />
-      <Caption slides={slides} slideIndex={slideIndex} />
+      <div id="caption">
+        <p>{slides[slideIndex - 1].name} </p>
+      </div>
+      {/* <Caption slides={slides} slideIndex={slideIndex} /> */}
     </>
   );
 };

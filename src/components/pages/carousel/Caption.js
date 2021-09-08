@@ -5,6 +5,7 @@ const Caption = ({ slides, slideIndex }) => {
     <>
       {/* <!-- Image text --> */}
       <div className="caption-container">
+        {/* <div> */}
         <p id="caption">{slides[slideIndex - 1].name} </p>
       </div>
     </>

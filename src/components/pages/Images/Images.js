@@ -39,7 +39,7 @@ export const NatureImages = [
   },
   {
     id: 5,
-    name: "conatact note",
+    name: "contact note",
     image: require("./contactnote.png").default,
   },
 ];

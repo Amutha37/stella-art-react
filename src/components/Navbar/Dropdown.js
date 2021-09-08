@@ -1,26 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import { MenuItems } from "./MenuItems";
 import "./Dropdown.css";
 import { Link } from "react-router-dom";
 //
 
-function Dropdown() {
-  // const [toggleShut, setToggleShut] = useState(false);
-  const [toggleShut, setToggleShut] = useState(false);
+function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
+  // const [shutDropdown, setToggleShut] = useState(false);
+  // const [shutDropdown, setShutDropdown] = useState(false);
 
   // const [select, setSelect] = useState(false);
 
   // const handleSelect = () => setSelect(!select);
-  const handleSelect = () => setToggleShut(!toggleShut);
-  const closeMobileMenu = () => {
-    // setSelect(false);
-    setToggleShut(false);
-  };
+  // const handleSelect = () => setShutDropdown(!shutDropdown);
+  // const closeDropdownMenu = () => {
+  //   // setSelect(false);
+  //   setShutDropdown(false);
+  // };
   return (
     <>
       <ul
         onClick={handleSelect}
-        className={toggleShut ? "dropdown-menu clicked" : "dropdown-menu"}
+        className={shutDropdown ? "dropdown-menu clicked" : "dropdown-menu"}
       >
         {MenuItems.map((item, index) => {
           return (
@@ -29,6 +29,7 @@ function Dropdown() {
                 className={item.cName}
                 to={item.path}
                 // onClick={() => setSelect(false)}
+                // onClick={closeDropdownMenu}
                 onClick={closeMobileMenu}
               >
                 {item.title}

@@ -5,6 +5,7 @@ import "./Navbar.css";
 import Dropdown from "./Dropdown";
 
 function Navbar() {
+  const [shutDropdown, setShutDropdown] = useState(false);
   const [toggleShut, setToggleShut] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -12,19 +13,18 @@ function Navbar() {
   const closeMobileMenu = () => setToggleShut(false);
 
   const onMouseEnter = () => {
-    // if (window.innerWidth < 768) {
     setDropdown(true);
-    // } else {
-    // setDropdown(true);
-    // }
   };
 
   const onMouseLeave = () => {
-    // if (window.innerWidth < 768) {
     setDropdown(false);
-    // } else {
-    // setDropdown(false);
-    // }
+    setShutDropdown(false);
+  };
+
+  // dropdown menu control
+  const handleSelect = () => setShutDropdown(!shutDropdown);
+  const closeDropdownMenu = () => {
+    setShutDropdown(false);
   };
 
   return (
@@ -47,7 +47,15 @@ function Navbar() {
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               PAINTINGS <i className="fas fa-caret-down" />
             </Link>
-            {dropdown && <Dropdown />}
+            {dropdown && (
+              <Dropdown
+                closeDropdownMenu={closeDropdownMenu}
+                closeMobileMenu={closeMobileMenu}
+                shutDropdown={shutDropdown}
+                handleSelect={handleSelect}
+              />
+            )}
+            {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
