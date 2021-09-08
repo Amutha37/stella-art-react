@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 import Thumbnailimages from "../carousel/Thumbnailimages";
 import Fullimageview from "../carousel/Fullimageview";
-
-import NatureImages from "./natureimg/NatureImg";
+import { NatureImages } from "../Images/Images";
 import "../carousel/carousel.css";
 
 const SlideNature = () => {
-  const imgarrlength = NatureImages.NatureImages.length;
+  const imgarrlength = NatureImages.length;
+
   const [imageIndex, setImageIndex] = useState(1);
   const [status, setStatus] = useState(
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
@@ -18,7 +18,6 @@ const SlideNature = () => {
     let ind = Number(event.target.value);
     let newind = imageIndex + ind;
     let nex;
-    console.log(newind, imgarrlength);
 
     if (newind < 1) {
       nex = imgarrlength;
@@ -33,8 +32,6 @@ const SlideNature = () => {
   // Thumbnail image controls
   const currentSlide = (e) => {
     const num = Number(e.target.id);
-
-    console.log("num", num);
     statusUpdate(num);
   };
 

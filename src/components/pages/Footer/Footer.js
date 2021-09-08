@@ -10,7 +10,7 @@ function Footer() {
             <p>
               Copyright
               {""}
-              <i class="far fa-copyright"> </i>
+              <i className="far fa-copyright"> </i>
               {""} 2022 All Right Reserved.
             </p>
           </div>
@@ -20,8 +20,8 @@ function Footer() {
               http="https://www.facebook.com/search/top?q=stellas_art"
               className="fab fa-facebook-f"
             ></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-linkedin-in"></i>
           </div>
         </div>
       </div>

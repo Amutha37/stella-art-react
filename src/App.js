@@ -20,7 +20,7 @@ import Contact from "./components/pages/Contact";
 import Florals from "./components/pages/Florals";
 import BirdAnimal from "./components/pages/BirdAnimal";
 import Commissions from "./components/pages/Commissions";
-import Nature from "./components/pages/Nature";
+import Nature from "./components/pages/nature/Nature";
 import Portraits from "./components/pages/Portraits";
 import "./App.css";
 //

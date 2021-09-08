@@ -2,17 +2,25 @@ import React, { useState } from "react";
 import { MenuItems } from "./MenuItems";
 import "./Dropdown.css";
 import { Link } from "react-router-dom";
+//
 
 function Dropdown() {
-  const [click, setClick] = useState(false);
+  // const [toggleShut, setToggleShut] = useState(false);
+  const [toggleShut, setToggleShut] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  // const [select, setSelect] = useState(false);
 
+  // const handleSelect = () => setSelect(!select);
+  const handleSelect = () => setToggleShut(!toggleShut);
+  const closeMobileMenu = () => {
+    // setSelect(false);
+    setToggleShut(false);
+  };
   return (
     <>
       <ul
-        onClick={handleClick}
-        className={click ? "dropdown-menu clicked" : "dropdown-menu"}
+        onClick={handleSelect}
+        className={toggleShut ? "dropdown-menu clicked" : "dropdown-menu"}
       >
         {MenuItems.map((item, index) => {
           return (
@@ -20,7 +28,8 @@ function Dropdown() {
               <Link
                 className={item.cName}
                 to={item.path}
-                onClick={() => setClick(false)}
+                // onClick={() => setSelect(false)}
+                onClick={closeMobileMenu}
               >
                 {item.title}
               </Link>

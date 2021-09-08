@@ -1,15 +1,13 @@
 import React from "react";
-// import NatureImages from "../Images/Images";
+
 function Thumbnailimages(props) {
-  const { slides, currentSlide, status, slideIndex } = props;
+  const { slides, currentSlide, status } = props;
 
   // console.log(props);
-
   return (
     //  <!-- Thumbnail images -->
-
     <div className="row">
-      {slides.NatureImages.map((item, i) => (
+      {slides.map((item, i) => (
         <div key={i} className="column">
           <img
             className={`cursor ${status[i] ? "active" : "demo"}`}

@@ -1,4 +1,4 @@
-import ImageService from "./Images/Images";
+import { BannerImage } from "./Images/Images";
 import Footer from "./Footer/Footer";
 import "./homestyles.css";
 
@@ -11,10 +11,7 @@ const Home = () => {
           <div className="landing_Image">
             <p>Captivated by Nature</p>
 
-            <img
-              src={ImageService.BannerImage[0].image}
-              alt={ImageService.BannerImage[0].name}
-            />
+            <img src={BannerImage[0].image} alt={BannerImage[0].name} />
             <Footer />
           </div>
         </div>

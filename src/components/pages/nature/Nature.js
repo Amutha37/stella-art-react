@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
-import ImageService from "./Images/Images";
-
 // import NatureDescriptions from "./NatureDescriptions";
-import SlideNature from "./nature/SlideNature";
-import Footer from "./Footer/Footer";
+import SlideNature from "./SlideNature";
+import Footer from "../Footer/Footer";
 
 const Nature = () => {
   return (

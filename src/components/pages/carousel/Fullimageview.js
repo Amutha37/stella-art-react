@@ -15,7 +15,7 @@ const Fullimageview = (props) => {
   // console.log(props);
   return (
     <>
-      {slides.NatureImages.map((item, index) => (
+      {slides.map((item, index) => (
         <div
           className="mySlides"
           style={status[index] ? { display: "block" } : { display: "none" }}
@@ -27,7 +27,7 @@ const Fullimageview = (props) => {
         >
           {/* <!-- Full-width images with number text --> */}
           <div className="numbertext">
-            {slideIndex} /{slides.NatureImages.length}
+            {slideIndex} /{slides.length}
           </div>
           <img src={item.image} alt={item.name} />
         </div>

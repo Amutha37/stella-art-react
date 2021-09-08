@@ -1,19 +1,4 @@
-// const IMAGES = {
-//   beachWaves: require("./crashingwaves.jpg").default,
-//   majesty: require("./majesty.jpg").default,
-
-//   lily: require("./lily2.jpg").default,
-//   lily3: require("./lily3.png").default,
-//   lily4: require("./lily4.png").default,
-//   lily5: require("./lily5.png").default,
-//   hummingbird: require("./hummingbird.jpg").default,
-//   hummingbird1: require("./hummingbird1.png").default,
-//   hummingbird2: require("./hummingbird2.png").default,
-//   waves: require("./crashingwaves.jpg").default,
-//   threesisters: require("./threesisters.jpg").default,
-// };
-// export default IMAGES;
-const BannerImage = [
+export const BannerImage = [
   {
     id: 1,
     name: "Lily Flower",
@@ -31,26 +16,30 @@ const BannerImage = [
   },
 ];
 
-const NatureImages = [
+export const NatureImages = [
   {
     id: 1,
     name: "Caves beach",
-    image: require("./cavebeach.jpg"),
-    className: "demo",
+    image: require("./cavebeach.jpg").default,
   },
   {
     id: 2,
     name: "Great Ocean Road",
-    image: require("./greatoceanroad.jpg"),
-    classname: "demo",
+    image: require("./greatoceanroad.jpg").default,
   },
   {
     id: 3,
-    name: "threesisters",
-    // image: require("./greatoceanroad.jpg"),
-    image: require("./threesisters.jpg"),
-    className: "demo",
+    name: "The Three Sisters",
+    image: require("./threesisters.jpg").default,
+  },
+  {
+    id: 4,
+    name: "Minnamurra Fall",
+    image: require("./minnamurrafalls.jpg").default,
+  },
+  {
+    id: 5,
+    name: "conatact note",
+    image: require("./contactnote.png").default,
   },
 ];
-
-export default { BannerImage, NatureImages };

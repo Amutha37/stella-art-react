@@ -5,7 +5,7 @@ const Caption = ({ slides, slideIndex }) => {
     <>
       {/* <!-- Image text --> */}
       <div className="caption-container">
-        <p id="caption">{slides.NatureImages[slideIndex - 1].name} </p>
+        <p id="caption">{slides[slideIndex - 1].name} </p>
       </div>
     </>
   );

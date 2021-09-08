@@ -47,7 +47,7 @@ hr {
   border: 0.1px solid rgb(239, 234, 234);
 
   margin: 6rem auto 1rem auto;
-  justify-self: center;
+  /* justify-self: center; */
 }
 .copyright {
   /* margin-top: 4rem; */

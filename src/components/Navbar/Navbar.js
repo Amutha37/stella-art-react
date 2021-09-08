@@ -5,11 +5,11 @@ import "./Navbar.css";
 import Dropdown from "./Dropdown";
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [toggleShut, setToggleShut] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setToggleShut(!toggleShut);
+  const closeMobileMenu = () => setToggleShut(false);
 
   const onMouseEnter = () => {
     // if (window.innerWidth < 768) {
@@ -31,9 +31,9 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <i className={toggleShut ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={toggleShut ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               HOME
