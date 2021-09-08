@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.469a66bd.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.a2ad7011.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.a2ad7011.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.4da83724.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.3564fedb.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.3564fedb.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
     "static/js/2.96c8453c.chunk.js": "/stella-art-react/static/js/2.96c8453c.chunk.js",
     "static/js/2.96c8453c.chunk.js.map": "/stella-art-react/static/js/2.96c8453c.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.469a66bd.chunk.css.map": "/stella-art-react/static/css/main.469a66bd.chunk.css.map",
+    "static/css/main.4da83724.chunk.css.map": "/stella-art-react/static/css/main.4da83724.chunk.css.map",
     "static/js/2.96c8453c.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.96c8453c.chunk.js.LICENSE.txt",
     "static/media/cavebeach.jpg": "/stella-art-react/static/media/cavebeach.97d05884.jpg",
     "static/media/contactnote.png": "/stella-art-react/static/media/contactnote.a1c3c302.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
     "static/js/2.96c8453c.chunk.js",
-    "static/css/main.469a66bd.chunk.css",
-    "static/js/main.a2ad7011.chunk.js"
+    "static/css/main.4da83724.chunk.css",
+    "static/js/main.3564fedb.chunk.js"
   ]
 }
