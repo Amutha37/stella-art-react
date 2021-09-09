@@ -2,13 +2,12 @@ import {
   Redirect,
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
-import React from "react";
+import React, { Fragment } from "react";
 // import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
-// import Navapp from "./components/Navbar/Navapp";
 
 import Home from "./components/pages/Home";
 
@@ -27,10 +26,10 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <div className="appheader">
+    <Fragment>
+      {/* <div className="appheader">
         <p>Stella Kypriotis Fine Art</p>
-      </div>
+      </div> */}
       <Router>
         <Navbar />
         {/* <Navapp /> */}
@@ -60,7 +59,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </div>
+    </Fragment>
   );
 };
 export default App;

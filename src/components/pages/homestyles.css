@@ -50,8 +50,9 @@ hr {
   /* justify-self: center; */
 }
 .copyright {
-  /* margin-top: 4rem; */
-  margin-bottom: 2rem;
+  width: 80%;
+  /* margin-top: 4rem;
+  margin-bottom: 2rem; */
 }
 .copyright p {
   color: rgb(8, 1, 1);
@@ -75,9 +76,9 @@ hr {
   font-size: 0.9rem;
 }
 
-.footertext {
+/* .footertext {
   margin-bottom: 2rem;
-}
+} */
 /* @media screen and (max-width: 960px) {
   .landing_Container {
     margin-top: 5rem;

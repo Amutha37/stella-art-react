@@ -3,7 +3,7 @@ import React from "react";
 // Next and previous buttons
 function Buttons({ plusSlides }) {
   return (
-    <div>
+    <>
       {/* <a class="prev" onclick="plusSlides(-1)">
         ❮
       </a>
@@ -24,7 +24,7 @@ function Buttons({ plusSlides }) {
       <button className="next" value="1" onClick={plusSlides}>
         ►
       </button>
-    </div>
+    </>
   );
 }
 

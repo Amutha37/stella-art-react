@@ -1,7 +1,7 @@
 import React from "react";
-
+import Buttons from "./Buttons";
 function Thumbnailimages(props) {
-  const { slides, currentSlide, status } = props;
+  const { slides, currentSlide, status,plusSlides} = props;
 
   // console.log(props);
   return (
@@ -17,8 +17,10 @@ function Thumbnailimages(props) {
             id={item.id}
             onClick={currentSlide}
           />
+          <Buttons plusSlides={plusSlides} />
         </div>
       ))}
+      
     </div>
   );
 }

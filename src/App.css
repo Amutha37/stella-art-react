@@ -17,7 +17,8 @@
 body {
   overflow-x: hidden;
 } */
-.appheader p {
+
+/* .appheader p {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,19 +27,8 @@ body {
   color: rgb(12, 12, 12);
   margin-top: 2rem;
   font-family: "Nobel Book", "san-serif";
-}
-/* .image-box {
-  display: grid;
-  height: 40%;
 } */
-/* .image-box img {
-  padding: 0;
-  display: block;
-  margin: 0 auto;
 
-  max-height: 100%;
-  max-width: 100%;
-} */
 .stellaimg {
   width: 90%;
   margin-left: 1rem;
@@ -66,58 +56,16 @@ h2 {
   margin-top: 1rem;
 }
 
-/* .appheader p {
-  font-family: "Nobel Book", "Nobel Book", sans-serif;
-  text-align: center;
-  /* color: #b32727; */
-/* font-size: 36px;
-  margin-top: 3rem; */
 
-/* }  */
-/*
-.App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* .home,
-.portraits,
-.about,
-.contact,
-.nature,
-.florals,
-.birdanimal,
-.commissions {
-  display: flex;
-  /* height: 90vh; */
-/* align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-} */
 @media screen and (max-width: 768px) {
-  .appheader p {
+  /* .appheader p {
     flex-direction: column;
     color: rgb(12, 12, 12);
-    /* position: absolute; */
     text-align: left;
-    /* top: 3; */
     font-size: calc(10px + 3vmin);
-
     margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 768px) {
+  } */
   .image-box img {
     width: 40%;
-    /* float: left;
-    margin-right: 1rem; */
   }
 }

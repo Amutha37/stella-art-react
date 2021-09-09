@@ -50,13 +50,13 @@ const SlideNature = () => {
     <div className="natureContainer">
       <div className="containernature">
         <Fullimageview
-          plusSlides={plusSlides}
           slideIndex={imageIndex}
           slides={NatureImages}
           status={status}
         />
 
         <Thumbnailimages
+         plusSlides={plusSlides}
           slides={NatureImages}
           currentSlide={currentSlide}
           status={status}

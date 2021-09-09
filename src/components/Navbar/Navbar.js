@@ -29,7 +29,11 @@ function Navbar() {
 
   return (
     <>
+    <div className="appheader">
+        <p>Stella Kypriotis Fine Art</p>
+      </div>
       <nav className="navbar">
+      
         <div className="menu-icon" onClick={handleClick}>
           <i className={toggleShut ? "fas fa-times" : "fas fa-bars"} />
         </div>
