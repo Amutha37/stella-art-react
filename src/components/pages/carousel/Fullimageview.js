@@ -2,17 +2,8 @@ import React from "react";
 // import Buttons from "./Buttons";
 // import Caption from "./Caption";
 
-const Fullimageview = (props) => {
-  // const hideImage = {
-  //   display: "none",
-  // };
-  // const showImage = {
-  //   display: "block",
-  // };
-  const { status, slides, slideIndex } = props;
-
-  // console.log(props);
-  // console.log(props);
+const Fullimageview = ({ status, slides, slideIndex }) => {
+  
   return (
     <>
       {slides.map((item, index) => (
