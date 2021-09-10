@@ -1,8 +1,12 @@
 import React from "react";
 import Buttons from "./Buttons";
-function Thumbnailimages(props) {
-  const { slides, currentSlide, status,plusSlides} = props;
-
+function Thumbnailimages({
+  slides,
+  currentSlide,
+  status,
+  plusSlides,
+  slideIndex,
+}) {
   // console.log(props);
   return (
     //  <!-- Thumbnail images -->
@@ -17,10 +21,16 @@ function Thumbnailimages(props) {
             id={item.id}
             onClick={currentSlide}
           />
-          <Buttons plusSlides={plusSlides} />
+          {/* note symbol for the last image */}
+          <div className="notesymbol">
+            <i class="fas fa-align-justify"></i>
+          </div>
         </div>
       ))}
-      
+
+      <div className="nexprearrow">
+        <Buttons plusSlides={plusSlides} />
+      </div>
     </div>
   );
 }

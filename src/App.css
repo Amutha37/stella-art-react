@@ -58,13 +58,6 @@ h2 {
 
 
 @media screen and (max-width: 768px) {
-  /* .appheader p {
-    flex-direction: column;
-    color: rgb(12, 12, 12);
-    text-align: left;
-    font-size: calc(10px + 3vmin);
-    margin-top: 1rem;
-  } */
   .image-box img {
     width: 40%;
   }

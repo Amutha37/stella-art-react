@@ -94,20 +94,12 @@ hr {
   }
 } */
 @media screen and (max-width: 768px) {
-  /* .copyright {
-
-    margin-top: 10rem;
-  } */
-  /* .copyright p {
-    color: rgb(8, 1, 1);
-  } */
   /* footer */
   hr {
     margin: 9rem auto 2rem auto;
   }
   .footertext p {
     font-size: 0.7rem;
-    /* margin-bottom: 3rem; */
   }
   .right .fab {
     font-size: 0.7rem;

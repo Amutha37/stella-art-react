@@ -2,19 +2,19 @@
   box-sizing: border-box;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  /* margin-top: 0; */
   outline: 0;
 }
 .natureContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .containernature {
   position: relative;
   /* margin-top: 2rem; */
   width: 95%;
- 
 }
 
 /* Hide the images by default */
@@ -22,30 +22,37 @@
   display: none;
   text-align: center;
   background-color: rgb(242, 244, 241);
- height: 500px; 
+  height: 500px;
 }
 .mySlides img {
-  margin-right: auto;
+  /* left: 50%;
+  transform: translate(-50%,0);
+  position: absolute; */
+  /* margin-right: auto;
   margin-left: auto;
   margin-top: auto;
-margin-bottom: auto;
+  margin-bottom: auto; */
+  /* position: absolute; */
+  /* margin: 0; */
+  /* top: 0; */
+  /* left: 0;
+  right: 0; */
+  /* bottom: 0; */
   max-width: 100%;
   max-height: 100%;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .contactnote {
   position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
   top: 25%;
-  width: 100%;
-  /* margin-left: 3rem;
-  margin-right:3rem; */
+  width: 90%;
   font-size: 1rem;
 }
 p > a {
@@ -61,12 +68,11 @@ p > a {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 85%;
+  top: 15%;
   width: auto;
-  /* margin-top: -40px; */
-  color: white;
+  color: blue;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -88,38 +94,33 @@ button {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  /* background-color: rgba(0, 0, 0, 0.8); */
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
-
-
 /* Container for image text */
-
+.imagesize {
+  font-size: 15px;
+}
 #caption {
   width: 45%;
   text-align: center;
-  /* background-color: #222;
-  padding: 7px 16px;
-  color: white; */
   color: black;
   font-size: 1.5rem;
 
-  margin: 2rem;
+  /* margin: 1rem; */
   margin-right: auto;
   margin-left: auto;
 }
 
-
 .row {
-  background-color: rgb(227, 223, 223);
-  background-color: black;  /* max-height: 150px; */
+  max-height: 150px;
 }
 .row {
+  position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  top: 2rem;
 }
 .row:after {
   content: "";
@@ -129,8 +130,6 @@ button {
 
 /* Six columns side by side */
 .column {
-  /* float: left;
-  width: 25%; */
   margin-right: 5px;
 }
 .column:last-child {
@@ -139,10 +138,14 @@ button {
 .column img {
   max-width: 100%;
   max-height: 9rem;
-
   text-align: center;
-
   vertical-align: middle;
+}
+.notesymbol {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  font-size: 15px;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -154,62 +157,65 @@ button {
 .demo:hover {
   opacity: 1;
 }
+
 .footerdescription {
   margin-top: 5rem;
 }
-.copyright{
-  width:95%;
-  margin-right:auto;
-  margin-left:auto;
-  margin-bottom:5rem;
+.copyright {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
 }
-
- /* @media screen and (max-width: 960px) {
-  .column img {
-    max-height: 7rem;
-  }
-  
-}  */
+/* Media screen */
 @media screen and (max-width: 768px) {
   .mySlides {
-   height: 350px; 
+    height: 350px;
   }
   .prev,
   .next {
-    top:87%;
-    font-size: 20px;
+    top: 10%;
+    font-size: 18px;
+  }
+
+  .imagesize {
+    font-size: 12px;
+  }
+  #caption {
+    width: 55%;
+
+    font-size: 1.2rem;
   }
   button {
-  
     height: 3rem;
   }
   .column img {
     max-height: 7rem;
   }
-  .copyright{
-    width:90%;
-    /* margin-right:auto;
-    margin-left:auto;
-    margin-bottom:5rem; */
+  .notesymbol {
+    top: 50%;
+    font-size: 12px;
+  }
+  .copyright {
+    width: 90%;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .menu-icon {
-    font-size: calc(10px + 3vmin); 
-    top: 2rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .mySlides img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } */
+  .prev,
+  .next {
+    /* top: 10%; */
+    font-size: 15px;
   }
-  .nav-menu.active {
-    top: 5rem;
+  button {
+    height: 2rem;
   }
-  .fa-times {
-    font-size: calc(10px + 3vmin);
-  }
-  .fa-times {
-    font-size: calc(10px + 3vmin);
-  }
-    .appheader p {
-     font-size: calc(10px + 3vmin); 
-      margin-top: 10%;
-    }
-} */
+}

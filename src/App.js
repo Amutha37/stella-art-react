@@ -5,7 +5,6 @@ import {
   Route
 } from "react-router-dom";
 import React, { Fragment } from "react";
-// import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
 
