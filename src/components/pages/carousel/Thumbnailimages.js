@@ -1,12 +1,6 @@
 import React from "react";
 import Buttons from "./Buttons";
-function Thumbnailimages({
-  slides,
-  currentSlide,
-  status,
-  plusSlides,
-  slideIndex,
-}) {
+function Thumbnailimages({ slides, currentSlide, status, plusSlides }) {
   // console.log(props);
   return (
     //  <!-- Thumbnail images -->
@@ -23,7 +17,7 @@ function Thumbnailimages({
           />
           {/* note symbol for the last image */}
           <div className="notesymbol">
-            <i class="fas fa-align-justify"></i>
+            <i className="fas fa-align-justify"></i>
           </div>
         </div>
       ))}

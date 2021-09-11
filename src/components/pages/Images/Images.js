@@ -43,27 +43,28 @@ export const NatureImages = [
   },
   {
     id: 5,
-    name: "Dear in Wilderness",
-    size: "30cm(W)x25cm(H)",
-    image: require("./dearinwilderness.jpg").default,
-  },
-  {
-    id: 6,
-    name: "Hang-in-there Koala Bear",
-    size: "none",
-    image: require("./hangintherekoalabear.jpg").default,
-  },
-  {
-    id: 7,
     name: "Glistening Waters",
     size: "30.5cm(W)x23cm(H)",
     image: require("./glisteningwaters.jpg").default,
   },
   {
+    id: 6,
+    name: "Dear in Wilderness",
+    size: "30cm(W)x25cm(H)",
+    image: require("./dearinwilderness.jpg").default,
+  },
+  {
+    id: 7,
+    name: "Hang-in-there Koala Bear",
+    size: "none",
+    image: require("./hangintherekoalabear.jpg").default,
+  },
+
+  {
     id: 8,
     name: "Note",
     size: "",
-    image: require("./screen6.png").default,
+    image: require("./screen7.png").default,
     // image: require("./scree1.png").default,
   },
 ];

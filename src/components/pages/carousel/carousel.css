@@ -24,6 +24,12 @@
   background-color: rgb(242, 244, 241);
   height: 500px;
 }
+.mySlides:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
 .mySlides img {
   /* left: 50%;
   transform: translate(-50%,0);
@@ -38,12 +44,21 @@
   /* left: 0;
   right: 0; */
   /* bottom: 0; */
+
+  display: inline-block;
+  vertical-align: middle;
+
   max-width: 100%;
   max-height: 100%;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  /* all side shadow */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* three side shadow */
+  /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+    0 100px 80px rgba(0, 0, 0, 0.12); */
 }
 .contactnote {
   position: absolute;
@@ -150,12 +165,12 @@ button {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .footerdescription {
@@ -171,7 +186,18 @@ button {
 @media screen and (max-width: 768px) {
   .mySlides {
     height: 350px;
+    /* display: table-cell; */
   }
+  /* .mySlides:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .mySlides img {
+    display: inline-block;
+    vertical-align: middle;
+  } */
   .prev,
   .next {
     top: 10%;
@@ -184,13 +210,17 @@ button {
   #caption {
     width: 55%;
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   button {
     height: 3rem;
   }
+  /* .row {
+    max-height: 650px;
+  } */
   .column img {
-    max-height: 7rem;
+    max-height: 650px;
+    /* max-height: 7rem; */
   }
   .notesymbol {
     top: 50%;
@@ -202,14 +232,15 @@ button {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  /* .mySlides img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  } */
+  .row {
+    top: 1rem;
+  }
+  #caption {
+    font-size: 0.9rem;
+  }
+  .notesymbol {
+    right: 1.4rem;
+  }
   .prev,
   .next {
     /* top: 10%; */
