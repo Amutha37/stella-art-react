@@ -82,7 +82,7 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -123,12 +123,12 @@
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
+
     right: 0;
     transform: translate(-100%, 60%);
     font-size: calc(10px + 3vmin);
     cursor: pointer;
-    top: 6%;
+    top: 8%;
   }
   .fa-times {
     color: rgb(12, 10, 10);
@@ -139,26 +139,54 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  .nav-menu {
-    /* display: flex;
-    flex-direction: column;
+  /* .dropdown-link {
+    top: 4;
+    left: 6;
+  } */
+  /* .nav-links:hover:after {
     width: 100%;
-    height: 100vh;
-    position: absolute; */
+    background: #71bbe3;
+    border-radius: 3px;
+    padding: 2px;
+  } */
+  /* .nav-links:hover:after {
+    width: 20%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+  } */
+  .nav-menu {
     top: 14%;
-    /* left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1; */
   }
   .menu-icon {
-    /* display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: calc(10px + 3vmin);
-    cursor: pointer; */
     top: 9%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu {
+    top: 15%;
+  }
+  .menu-icon {
+    top: 9.3%;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 0.9rem;
+    margin-top: 2rem;
+    font-size: 0.89rem;
+    display: table;
+    width: 90%;
+    transition: all 0.5s ease;
+    color: white;
+  }
+  .nav-links:hover:after {
+    width: 30%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
   }
 }
