@@ -3,7 +3,6 @@ import React from "react";
 // import Caption from "./Caption";
 
 const Fullimageview = ({ status, slides, slideIndex }) => {
-  
   return (
     <>
       {slides.map((item, index) => (
@@ -15,9 +14,11 @@ const Fullimageview = ({ status, slides, slideIndex }) => {
           {index === slides.length - 1 ? null : (
             <img src={item.image} alt={item.name} />
           )}
+          {/* <img src={item.image} alt={item.name} /> */}
           {/* contact note */}
           {slideIndex === slides.length && (
             <div className="contactnote">
+              {/* <i class="fas fa-quote-right"></i> */}
               <p>
                 The paintings are now available through my personal account on{" "}
                 <a href="https://bluethumb.com.au/stella-kypriotis">

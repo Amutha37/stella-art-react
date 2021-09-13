@@ -17,7 +17,9 @@ function Thumbnailimages({ slides, currentSlide, status, plusSlides }) {
           />
           {/* note symbol for the last image */}
           <div className="notesymbol">
-            <i className="fas fa-align-justify"></i>
+            {/* note */}
+            {/* <i class="fas fa-align-center"></i> */}
+            {/* <i class="fas fa-quote-right"></i> */}
           </div>
         </div>
       ))}

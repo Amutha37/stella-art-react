@@ -13,7 +13,6 @@
 /* Position the image container (needed to position the left and right arrows) */
 .containernature {
   position: relative;
-  /* margin-top: 2rem; */
   width: 95%;
 }
 
@@ -126,6 +125,7 @@ button {
   /* margin: 1rem; */
   margin-right: auto;
   margin-left: auto;
+  /* text-shadow: -4px 3px 0 #000, -14px 7px 0 #0a0e27; */
 }
 
 .row {
@@ -156,12 +156,12 @@ button {
   text-align: center;
   vertical-align: middle;
 }
-.notesymbol {
+/* .notesymbol {
   position: absolute;
   top: 50%;
-  right: 8%;
+  right: 10%;
   font-size: 15px;
-}
+} */
 
 /* Add a transparency effect for thumnbail images */
 .demo {
@@ -184,10 +184,20 @@ button {
 }
 /* Media screen */
 @media screen and (max-width: 768px) {
+  .containernature {
+    /* width: 95%; */
+    width: 100%;
+  }
   .mySlides {
-    height: 350px;
+    height: 600px;
     /* display: table-cell; */
   }
+  /* .mySlides {
+    display: none;
+    text-align: center;
+    background-color: rgb(242, 244, 241);
+    height: 500px;
+  } */
   /* .mySlides:before {
     content: "";
     height: 100%;
@@ -198,23 +208,22 @@ button {
     display: inline-block;
     vertical-align: middle;
   } */
-  .prev,
+  /* .prev,
   .next {
     top: 10%;
     font-size: 18px;
-  }
+  } */
 
   .imagesize {
     font-size: 12px;
   }
   #caption {
     width: 55%;
-
     font-size: 1.1rem;
   }
-  button {
+  /* button {
     height: 3rem;
-  }
+  } */
   /* .row {
     max-height: 650px;
   } */
@@ -222,28 +231,33 @@ button {
     max-height: 650px;
     /* max-height: 7rem; */
   }
-  .notesymbol {
+  /* .notesymbol {
     top: 50%;
-    font-size: 12px;
-  }
+    font-size: 11px;
+  } */
   .copyright {
     width: 90%;
   }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* .containernature {
+    width: 100%;
+  } */
   .row {
     top: 1rem;
   }
   #caption {
     font-size: 0.9rem;
   }
-  .notesymbol {
+  /* .notesymbol {
+    left: 94%;
     right: 1.4rem;
-  }
+  } */
   .prev,
   .next {
     /* top: 10%; */
+    display: none;
     font-size: 15px;
   }
   button {

@@ -64,7 +64,7 @@ export const NatureImages = [
     id: 8,
     name: "Note",
     size: "",
-    image: require("./screen7.png").default,
+    image: require("./screen10.png").default,
     // image: require("./scree1.png").default,
   },
 ];
