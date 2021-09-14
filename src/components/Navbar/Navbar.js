@@ -29,11 +29,10 @@ function Navbar() {
 
   return (
     <>
-    <div className="appheader">
+      <div className="appheader">
         <p>Stella Kypriotis Fine Art</p>
       </div>
       <nav className="navbar">
-      
         <div className="menu-icon" onClick={handleClick}>
           <i className={toggleShut ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -48,7 +47,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/" className="nav-links">
               PAINTINGS <i className="fas fa-caret-down" />
             </Link>
             {dropdown && (

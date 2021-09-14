@@ -168,7 +168,7 @@ button {
   opacity: 1;
 }
 
-.active,
+.current,
 .demo:hover {
   opacity: 0.6;
 }
@@ -221,12 +221,7 @@ button {
     width: 55%;
     font-size: 1.1rem;
   }
-  /* button {
-    height: 3rem;
-  } */
-  /* .row {
-    max-height: 650px;
-  } */
+
   .column img {
     max-height: 650px;
     /* max-height: 7rem; */
@@ -249,18 +244,5 @@ button {
   }
   #caption {
     font-size: 0.9rem;
-  }
-  /* .notesymbol {
-    left: 94%;
-    right: 1.4rem;
-  } */
-  .prev,
-  .next {
-    /* top: 10%; */
-    display: none;
-    font-size: 15px;
-  }
-  button {
-    height: 2rem;
   }
 }
