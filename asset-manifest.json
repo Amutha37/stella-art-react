@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.fb1869fb.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.c70eb986.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.c70eb986.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.02aea38a.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.b5b58cd0.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.b5b58cd0.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
     "static/js/2.3ac56a6b.chunk.js": "/stella-art-react/static/js/2.3ac56a6b.chunk.js",
     "static/js/2.3ac56a6b.chunk.js.map": "/stella-art-react/static/js/2.3ac56a6b.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.fb1869fb.chunk.css.map": "/stella-art-react/static/css/main.fb1869fb.chunk.css.map",
+    "static/css/main.02aea38a.chunk.css.map": "/stella-art-react/static/css/main.02aea38a.chunk.css.map",
     "static/js/2.3ac56a6b.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.3ac56a6b.chunk.js.LICENSE.txt",
     "static/media/cavesbeach.jpg": "/stella-art-react/static/media/cavesbeach.97d05884.jpg",
     "static/media/dearinwilderness.jpg": "/stella-art-react/static/media/dearinwilderness.8528d313.jpg",
-    "static/media/glisteningwaters.jpg": "/stella-art-react/static/media/glisteningwaters.4d7fc7c8.jpg",
+    "static/media/glisteningwaters.jpg": "/stella-art-react/static/media/glisteningwaters.00e7c3ad.jpg",
     "static/media/greatoceanroad.jpg": "/stella-art-react/static/media/greatoceanroad.f3403652.jpg",
-    "static/media/hangintherekoalabear.jpg": "/stella-art-react/static/media/hangintherekoalabear.164d8f2a.jpg",
+    "static/media/hangintherekoalabear.jpg": "/stella-art-react/static/media/hangintherekoalabear.5db23f11.jpg",
     "static/media/lilybanner.png": "/stella-art-react/static/media/lilybanner.94f0f581.png",
     "static/media/minnamurrafalls.jpg": "/stella-art-react/static/media/minnamurrafalls.768fd64f.jpg",
     "static/media/screen10.png": "/stella-art-react/static/media/screen10.d138c7c4.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
     "static/js/2.3ac56a6b.chunk.js",
-    "static/css/main.fb1869fb.chunk.css",
-    "static/js/main.c70eb986.chunk.js"
+    "static/css/main.02aea38a.chunk.css",
+    "static/js/main.b5b58cd0.chunk.js"
   ]
 }
