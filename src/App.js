@@ -2,7 +2,7 @@ import {
   Redirect,
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
 } from "react-router-dom";
 import React, { Fragment } from "react";
 
@@ -16,9 +16,10 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 
 import Florals from "./components/pages/Florals";
-import BirdAnimal from "./components/pages/BirdAnimal";
+import BirdAnimal from "./components/pages/wildlife/BirdAnimal";
 import Commissions from "./components/pages/Commissions";
 import Nature from "./components/pages/nature/Nature";
+
 import Portraits from "./components/pages/Portraits";
 import "./App.css";
 //

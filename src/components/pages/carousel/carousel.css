@@ -21,7 +21,7 @@
   display: none;
   text-align: center;
   background-color: rgb(242, 244, 241);
-  height: 450px;
+  height: 600px;
 }
 .mySlides:before {
   content: "";
@@ -226,7 +226,7 @@ button {
   }
 
   .column img {
-    max-height: 650px;
+    max-height: 9rem;
     /* max-height: 7rem; */
   }
   /* .notesymbol {
@@ -239,9 +239,9 @@ button {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  /* .containernature {
-    width: 100%;
-  } */
+  .mySlides {
+    height: 400px;
+  }
   .row {
     top: 1rem;
   }

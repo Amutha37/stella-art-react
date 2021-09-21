@@ -72,10 +72,6 @@
 }
 /* media screen */
 @media screen and (max-width: 768px) {
-  .dropdown-link {
-    top: 2;
-    left: 6;
-  }
   .appheader p {
     font-size: calc(10px + 3vmin);
     margin-top: 5rem;
@@ -134,13 +130,11 @@
     font-size: calc(10px + 3vmin);
     cursor: pointer;
     top: 8%;
+    font-size: 1.3rem;
   }
   .fa-times {
     color: rgb(12, 10, 10);
     transition: all 0.5s ease;
-  }
-  .fa-times {
-    color: rgb(8, 8, 8);
   }
 }
 @media only screen and (max-width: 600px) {
@@ -165,7 +159,7 @@
     top: 14%;
   }
   .menu-icon {
-    top: 9%;
+    top: 7.5%;
   }
 }
 

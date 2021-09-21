@@ -67,3 +67,25 @@ export const NatureImages = [
     image: require("./screen10.png").default,
   },
 ];
+
+export const WildLife = [
+  {
+    id: 1,
+    name: "Dear in Wilderness",
+    size: "30cm(W) x 25cm(H)",
+    image: require("./dearinwilderness.jpg").default,
+  },
+  {
+    id: 2,
+    name: "Hang-in-there Koala Bear",
+    size: "20cm(W) x 25cm(H)",
+    image: require("./hangintherekoalabear.jpg").default,
+  },
+
+  {
+    id: 3,
+    name: "Note",
+    size: "",
+    image: require("./screen10.png").default,
+  },
+];
