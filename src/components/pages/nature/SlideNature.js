@@ -53,10 +53,10 @@ const SlideNature = () => {
           slideIndex={imageIndex}
           slides={NatureImages}
           status={status}
+          plusSlides={plusSlides}
         />
 
         <Thumbnailimages
-          plusSlides={plusSlides}
           slides={NatureImages}
           currentSlide={currentSlide}
           status={status}

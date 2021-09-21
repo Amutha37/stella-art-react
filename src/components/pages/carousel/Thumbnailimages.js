@@ -1,6 +1,6 @@
 import React from "react";
-import Buttons from "./Buttons";
-function Thumbnailimages({ slides, currentSlide, status, plusSlides }) {
+
+function Thumbnailimages({ slides, currentSlide, status }) {
   // console.log(props);
   return (
     //  <!-- Thumbnail images -->
@@ -24,10 +24,6 @@ function Thumbnailimages({ slides, currentSlide, status, plusSlides }) {
           {/* </div> */}
         </div>
       ))}
-
-      <div className="nexprearrow">
-        <Buttons plusSlides={plusSlides} />
-      </div>
     </div>
   );
 }

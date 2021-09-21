@@ -21,7 +21,7 @@
   display: none;
   text-align: center;
   background-color: rgb(242, 244, 241);
-  height: 500px;
+  height: 450px;
 }
 .mySlides:before {
   content: "";
@@ -65,7 +65,7 @@
   margin-left: auto;
   right: 0;
   left: 0;
-  top: 25%;
+  top: 10%;
   width: 90%;
   font-size: 1rem;
 }
@@ -82,7 +82,7 @@ p > a {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 15%;
+  top: 35%;
   width: auto;
   color: blue;
   font-weight: bold;
@@ -187,6 +187,9 @@ button {
   .containernature {
     /* width: 95%; */
     width: 100%;
+  }
+  #caption {
+    display: none;
   }
   .mySlides {
     height: 600px;

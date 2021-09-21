@@ -11,7 +11,7 @@ function Footer() {
               Copyright
               {""}
               <i className="far fa-copyright"> </i>
-              {""} 2022 All Right Reserved.
+              {""} 2021 All Right Reserved.
             </p>
           </div>
           <div className="right">
