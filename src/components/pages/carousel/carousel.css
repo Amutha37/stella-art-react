@@ -30,23 +30,8 @@
   vertical-align: middle;
 }
 .mySlides img {
-  /* left: 50%;
-  transform: translate(-50%,0);
-  position: absolute; */
-  /* margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto; */
-  /* position: absolute; */
-  /* margin: 0; */
-  /* top: 0; */
-  /* left: 0;
-  right: 0; */
-  /* bottom: 0; */
-
   display: inline-block;
   vertical-align: middle;
-
   max-width: 100%;
   max-height: 100%;
   /* all side shadow */
@@ -121,11 +106,8 @@ button {
   text-align: center;
   color: black;
   font-size: 1.5rem;
-
-  /* margin: 1rem; */
   margin-right: auto;
   margin-left: auto;
-  /* text-shadow: -4px 3px 0 #000, -14px 7px 0 #0a0e27; */
 }
 
 .row {
@@ -156,12 +138,6 @@ button {
   text-align: center;
   vertical-align: middle;
 }
-/* .notesymbol {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  font-size: 15px;
-} */
 
 /* Add a transparency effect for thumnbail images */
 .demo {
@@ -192,30 +168,9 @@ button {
     display: none;
   }
   .mySlides {
-    height: 600px;
+    height: 500px;
     /* display: table-cell; */
   }
-  /* .mySlides {
-    display: none;
-    text-align: center;
-    background-color: rgb(242, 244, 241);
-    height: 500px;
-  } */
-  /* .mySlides:before {
-    content: "";
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .mySlides img {
-    display: inline-block;
-    vertical-align: middle;
-  } */
-  /* .prev,
-  .next {
-    top: 10%;
-    font-size: 18px;
-  } */
 
   .imagesize {
     font-size: 12px;
@@ -227,12 +182,7 @@ button {
 
   .column img {
     max-height: 9rem;
-    /* max-height: 7rem; */
   }
-  /* .notesymbol {
-    top: 50%;
-    font-size: 11px;
-  } */
   .copyright {
     width: 90%;
   }
@@ -242,8 +192,8 @@ button {
   .mySlides {
     height: 400px;
   }
-  .row {
-    top: 1rem;
+  .column img {
+    max-height: 9rem;
   }
   #caption {
     font-size: 0.9rem;
