@@ -15,12 +15,12 @@ import Painting from "./components/pages/Painting";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 
-import Florals from "./components/pages/Florals";
+import Florals from "./components/pages/floral/Florals";
 import BirdAnimal from "./components/pages/wildlife/BirdAnimal";
-import Commissions from "./components/pages/Commissions";
+import Sold from "./components/pages/sold/Sold";
 import Nature from "./components/pages/nature/Nature";
 
-import Portraits from "./components/pages/Portraits";
+import Portraits from "./components/pages/portrait/Portraits";
 import "./App.css";
 //
 
@@ -51,7 +51,7 @@ const App = () => {
           <Route path="/portraits" component={Portraits} />
           <Route path="/florals" component={Florals} />
           <Route path="/birdanimal" component={BirdAnimal} />
-          <Route path="/commissions" component={Commissions} />
+          <Route path="/commissions" component={Sold} />
           {/* home page */}
           <Route>
             <Redirect exact from="/" to="/home" />

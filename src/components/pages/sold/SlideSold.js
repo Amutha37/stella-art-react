@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 import Thumbnailimages from "../carousel/Thumbnailimages";
 import Fullimageview from "../carousel/Fullimageview";
-import { WildLifeImages } from "../Images/Images";
+import { SoldImages } from "../Images/Images";
 import "../carousel/carousel.css";
 
-const SlideNature = () => {
-  const imgarrlength = WildLifeImages.length;
+const SlideSold = () => {
+  const imgarrlength = SoldImages.length;
 
   const [imageIndex, setImageIndex] = useState(1);
   const [status, setStatus] = useState(
@@ -51,13 +51,13 @@ const SlideNature = () => {
       <div className="containernature">
         <Fullimageview
           slideIndex={imageIndex}
-          slides={WildLifeImages}
+          slides={SoldImages}
           status={status}
           plusSlides={plusSlides}
         />
 
         <Thumbnailimages
-          slides={WildLifeImages}
+          slides={SoldImages}
           currentSlide={currentSlide}
           status={status}
           slideIndex={imageIndex}
@@ -67,4 +67,4 @@ const SlideNature = () => {
   );
 };
 
-export default SlideNature;
+export default SlideSold;

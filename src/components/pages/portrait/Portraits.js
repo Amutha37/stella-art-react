@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
-import SlideNature from "./SlideNature";
+import SlidePortraits from "./SlidePortraits";
 import Footer from "../Footer/Footer";
 
-const Nature = () => {
+const Portraits = () => {
   return (
     <Fragment>
-      <SlideNature />
+      <SlidePortraits />
       <Footer />
     </Fragment>
   );
 };
 
-export default Nature;
+export default Portraits;

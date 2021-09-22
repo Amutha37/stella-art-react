@@ -32,6 +32,13 @@ const Fullimageview = ({ status, slides, slideIndex, plusSlides }) => {
                 Contact me if you would like more information. If interested in
                 commissioning me a painting through my contact form.
               </p>
+              <p>
+                Please feel free to contact me if you have any enquiries or
+                comments.
+                <br></br>
+                If you need me to contact me over the phone, please leave your
+                details in the message & I will call you back.
+              </p>
               <br></br>
               <p>
                 * There are no additional charges for deliveries in Australia.
