@@ -4,16 +4,16 @@ export const BannerImage = [
     name: "Lily Flower",
     image: require("./lilybanner.png").default,
   },
-  {
-    id: 2,
-    name: "The Three Sistes",
-    image: require("./threesisters.jpg").default,
-  },
-  {
-    id: 3,
-    name: "Stella Outdoor",
-    image: require("./stellaoutdoor.jpg").default,
-  },
+  // {
+  //   id: 2,
+  //   name: "The Three Sistes",
+  //   image: require("./threesisters.jpg").default,
+  // },
+  // {
+  //   id: 3,
+  //   name: "Stella Outdoor",
+  //   image: require("./stellaoutdoor.jpg").default,
+  // },
 ];
 
 export const NatureImages = [
@@ -56,13 +56,13 @@ export const WildLifeImages = [
     id: 1,
     name: "Dear in Wilderness",
     size: "30cm(W) x 25cm(H)",
-    image: require("./dearinwilderness.jpg").default,
+    image: require("./sold/dearinwilderness.jpg").default,
   },
   {
     id: 2,
     name: "Hang-in-there Koala Bear",
     size: "20cm(W) x 25cm(H)",
-    image: require("./hangintherekoalabear.jpg").default,
+    image: require("./sold/hangintherekoalabear.jpg").default,
   },
 
   {
@@ -76,19 +76,30 @@ export const WildLifeImages = [
 export const FloralImages = [
   {
     id: 1,
-    name: "Dear in Wilderness",
-    size: "30cm(W) x 25cm(H)",
-    image: require("./dearinwilderness.jpg").default,
+    name: "Skoulariki Fuschia Plant",
+    size: "32cm(W) x 27cm(H)",
+    image: require("./floral/skoularikifuschiaplant.jpg").default,
   },
   {
     id: 2,
-    name: "Hang-in-there Koala Bear",
-    size: "20cm(W) x 25cm(H)",
-    image: require("./hangintherekoalabear.jpg").default,
+    name: "Blossomed Tulip",
+    size: "50cm(W) x 50cm(H)",
+    image: require("./floral/blossomed.jpg").default,
   },
-
   {
     id: 3,
+    name: "Waterlily Study By Mason",
+    size: "50cm(W) x 40cm(H)",
+    image: require("./floral/waterlilystudybymason.jpg").default,
+  },
+  {
+    id: 4,
+    name: "Lifes Sweet Perfume",
+    size: "60cm(W) x 30cm(H)",
+    image: require("./floral/lifessweetperfume.jpg").default,
+  },
+  {
+    id: 5,
     name: "Note",
     size: "",
     image: require("./screen10.png").default,
@@ -100,13 +111,13 @@ export const PortraitImages = [
     id: 1,
     name: "Dear in Wilderness",
     size: "30cm(W) x 25cm(H)",
-    image: require("./dearinwilderness.jpg").default,
+    image: require("./sold/dearinwilderness.jpg").default,
   },
   {
     id: 2,
     name: "Hang-in-there Koala Bear",
     size: "20cm(W) x 25cm(H)",
-    image: require("./hangintherekoalabear.jpg").default,
+    image: require("./sold/hangintherekoalabear.jpg").default,
   },
 
   {
@@ -122,13 +133,13 @@ export const SoldImages = [
     id: 1,
     name: "Dear in Wilderness",
     size: "30cm(W) x 25cm(H)",
-    image: require("./dearinwilderness.jpg").default,
+    image: require("./sold/dearinwilderness.jpg").default,
   },
   {
     id: 2,
     name: "Hang-in-there Koala Bear",
     size: "20cm(W) x 25cm(H)",
-    image: require("./hangintherekoalabear.jpg").default,
+    image: require("./sold/hangintherekoalabear.jpg").default,
   },
 
   {
