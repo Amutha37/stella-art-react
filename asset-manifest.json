@@ -1,31 +1,35 @@
 {
   "files": {
     "main.css": "/stella-art-react/static/css/main.6db5a930.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.03a6c846.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.03a6c846.chunk.js.map",
+    "main.js": "/stella-art-react/static/js/main.aff5902c.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.aff5902c.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
-    "static/js/2.b6b7ad92.chunk.js": "/stella-art-react/static/js/2.b6b7ad92.chunk.js",
-    "static/js/2.b6b7ad92.chunk.js.map": "/stella-art-react/static/js/2.b6b7ad92.chunk.js.map",
+    "static/js/2.a97c6892.chunk.js": "/stella-art-react/static/js/2.a97c6892.chunk.js",
+    "static/js/2.a97c6892.chunk.js.map": "/stella-art-react/static/js/2.a97c6892.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
     "static/css/main.6db5a930.chunk.css.map": "/stella-art-react/static/css/main.6db5a930.chunk.css.map",
-    "static/js/2.b6b7ad92.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.b6b7ad92.chunk.js.LICENSE.txt",
+    "static/js/2.a97c6892.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.a97c6892.chunk.js.LICENSE.txt",
+    "static/media/blossomed.jpg": "/stella-art-react/static/media/blossomed.41709df2.jpg",
     "static/media/cavesbeach.jpg": "/stella-art-react/static/media/cavesbeach.ef82b60c.jpg",
     "static/media/dearinwilderness.jpg": "/stella-art-react/static/media/dearinwilderness.8528d313.jpg",
     "static/media/glisteningwaters.jpg": "/stella-art-react/static/media/glisteningwaters.ba8b8b66.jpg",
     "static/media/greatoceanroad.jpg": "/stella-art-react/static/media/greatoceanroad.f3403652.jpg",
     "static/media/hangintherekoalabear.jpg": "/stella-art-react/static/media/hangintherekoalabear.5db23f11.jpg",
+    "static/media/lifessweetperfume.jpg": "/stella-art-react/static/media/lifessweetperfume.a1325a9b.jpg",
     "static/media/lilybanner.png": "/stella-art-react/static/media/lilybanner.94f0f581.png",
     "static/media/minnamurrafalls.jpg": "/stella-art-react/static/media/minnamurrafalls.768fd64f.jpg",
     "static/media/scenicwatershawaii.jpg": "/stella-art-react/static/media/scenicwatershawaii.c52950c1.jpg",
     "static/media/screen10.png": "/stella-art-react/static/media/screen10.d138c7c4.png",
-    "static/media/stellaoutdoor.jpg": "/stella-art-react/static/media/stellaoutdoor.8dc7b89d.jpg",
-    "static/media/threesisters.jpg": "/stella-art-react/static/media/threesisters.e811d6ae.jpg"
+    "static/media/skoularikifuschiaplant.jpg": "/stella-art-react/static/media/skoularikifuschiaplant.9a524bf4.jpg",
+    "static/media/stellaoutdoor.8dc7b89d.jpg": "/stella-art-react/static/media/stellaoutdoor.8dc7b89d.jpg",
+    "static/media/threesisters.jpg": "/stella-art-react/static/media/threesisters.e811d6ae.jpg",
+    "static/media/waterlilystudybymason.jpg": "/stella-art-react/static/media/waterlilystudybymason.99cc048b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
-    "static/js/2.b6b7ad92.chunk.js",
+    "static/js/2.a97c6892.chunk.js",
     "static/css/main.6db5a930.chunk.css",
-    "static/js/main.03a6c846.chunk.js"
+    "static/js/main.aff5902c.chunk.js"
   ]
 }
