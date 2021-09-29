@@ -2,7 +2,7 @@ export const BannerImage = [
   {
     id: 1,
     name: "Lily Flower",
-    image: require("./lilybanner.png").default,
+    image: require("./globalimages/lilybanner.png").default,
   },
   // {
   //   id: 2,
@@ -21,55 +21,48 @@ export const NatureImages = [
     id: 1,
     name: "Caves beach",
     size: "75cm(W)x50cm(H)",
-    image: require("./cavesbeach.jpg").default,
+    image: require("./nature/cavesbeach.jpg").default,
   },
 
   {
     id: 2,
     name: "Minnamurra Falls",
     size: "23cm(W) x 30cm(H)",
-    image: require("./minnamurrafalls.jpg").default,
+    image: require("./nature/minnamurrafalls.jpg").default,
   },
   {
     id: 3,
     name: "Glistening Waters",
     size: "30.5cm(W) x 23cm(H)",
-    image: require("./glisteningwaters.jpg").default,
+    image: require("./nature/glisteningwaters.jpg").default,
   },
 
   {
     id: 4,
     name: "Scenic Waters Hawaii",
     size: "30cm(W) x 30cm(H)",
-    image: require("./scenicwatershawaii.jpg").default,
+    image: require("./nature/scenicwatershawaii.jpg").default,
   },
   {
     id: 5,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
 // wildlife
 export const WildLifeImages = [
   {
     id: 1,
-    name: "Dear in Wilderness",
-    size: "30cm(W) x 25cm(H)",
-    image: require("./sold/dearinwilderness.jpg").default,
+    name: "Nature's Beauty",
+    size: "20cm(W) x 25cm(H)",
+    image: require("./wildlife/naturebeauty.jpg").default,
   },
   {
     id: 2,
-    name: "Hang-in-there Koala Bear",
-    size: "20cm(W) x 25cm(H)",
-    image: require("./sold/hangintherekoalabear.jpg").default,
-  },
-
-  {
-    id: 3,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
 // Floral
@@ -102,7 +95,7 @@ export const FloralImages = [
     id: 5,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
 // potraits
@@ -124,7 +117,7 @@ export const PortraitImages = [
     id: 3,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
 // sold
@@ -132,21 +125,44 @@ export const SoldImages = [
   {
     id: 1,
     name: "Dear in Wilderness",
-    size: "30cm(W) x 25cm(H)",
+    size: "",
     image: require("./sold/dearinwilderness.jpg").default,
   },
   {
     id: 2,
     name: "Hang-in-there Koala Bear",
-    size: "20cm(W) x 25cm(H)",
+    size: "   ",
     image: require("./sold/hangintherekoalabear.jpg").default,
   },
-
   {
     id: 3,
+    name: "Aussie Lorikeet",
+    size: " ",
+    image: require("./sold/aussielorikeet.jpg").default,
+  },
+  {
+    id: 4,
+    name: "Calming Florals",
+    size: " ",
+    image: require("./sold/calmingflorals.jpg").default,
+  },
+  {
+    id: 5,
+    name: "Budgies in Love",
+    size: " ",
+    image: require("./sold/budgiesinlove.jpg").default,
+  },
+  {
+    id: 6,
+    name: "Deep Blue Sea Turtle",
+    size: " ",
+    image: require("./sold/deepblueseaturtle.jpg").default,
+  },
+  {
+    id: 7,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
 // more paintings
@@ -155,19 +171,19 @@ export const MorePaintingImages = [
     id: 1,
     name: "Great Ocean Road",
     size: "none",
-    image: require("./greatoceanroad.jpg").default,
+    image: require("./morepaintings/greatoceanroad.jpg").default,
   },
   {
     id: 2,
     name: "The Three Sisters",
     size: "none",
-    image: require("./threesisters.jpg").default,
+    image: require("./morepaintings/threesisters.jpg").default,
   },
 
   {
     id: 3,
     name: "Note",
     size: "",
-    image: require("./screen10.png").default,
+    image: require("./globalimages/quotation.png").default,
   },
 ];
