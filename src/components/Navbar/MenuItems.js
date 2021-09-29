@@ -15,14 +15,15 @@ export const MenuItems = [
     path: "/birdanimal",
     cName: "dropdown-link",
   },
-  {
-    title: "PORTRAITS",
-    path: "/portraits",
-    cName: "dropdown-link",
-  },
+
   {
     title: "SOLD",
     path: "/commissions",
+    cName: "dropdown-link",
+  },
+  {
+    title: "PORTRAITS",
+    path: "/portraits",
     cName: "dropdown-link",
   },
 ];
