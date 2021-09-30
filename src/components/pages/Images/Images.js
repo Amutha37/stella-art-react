@@ -2,7 +2,7 @@ export const BannerImage = [
   {
     id: 1,
     name: "Lily Flower",
-    image: require("./globalimages/lilybanner.png").default,
+    image: require("./globalimages/bannerimage.jpg").default,
   },
   // {
   //   id: 2,
@@ -43,6 +43,7 @@ export const NatureImages = [
     size: "30cm(W) x 30cm(H)",
     image: require("./nature/scenicwatershawaii.jpg").default,
   },
+
   {
     id: 5,
     name: "Note",
@@ -202,7 +203,7 @@ export const SoldImages = [
     id: 8,
     name: "Peaceful Journey",
     size: " ",
-    image: require("./sold/peacefuljourney.jpg").default,
+    image: require("./sold/peacefulljourney.jpg").default,
   },
   {
     id: 9,
