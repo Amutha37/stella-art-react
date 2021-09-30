@@ -20,7 +20,8 @@ const Fullimageview = ({ status, slides, slideIndex, plusSlides }) => {
             <div className="contactnote">
               {/* <i class="fas fa-quote-right"></i> */}
               <p>
-                These paintings are now available through{" "}
+                These paintings are available for sale through my personal
+                account on{" "}
                 <a href="https://bluethumb.com.au/stella-kypriotis">
                   Bluethumb{" "}
                 </a>{" "}
@@ -29,20 +30,19 @@ const Fullimageview = ({ status, slides, slideIndex, plusSlides }) => {
 
               <br></br>
               <p>
-                Contact me if you would like more information. If interested in
-                commissioning me a painting through my contact form.
+                If you would like further information or would like to contact
+                me, just click on this Contact Form and I will get back to you.
               </p>
-              <p>
-                Please feel free to contact me if you have any enquiries or
-                comments.
-                <br></br>
-                If you need me to contact me over the phone, please leave your
-                details in the message & I will call you back.
-              </p>
+
               <br></br>
               <p>
                 * There are no additional charges for deliveries in Australia.
               </p>
+              <br></br>
+              <br></br>
+              <p>Thank you</p>
+              <br></br>
+              <p>Stella</p>
             </div>
           )}
         </div>

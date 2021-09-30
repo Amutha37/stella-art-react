@@ -160,7 +160,7 @@ export const SoldImages = [
   {
     id: 1,
     name: "Nature's Beauty",
-    size: "20cm(W) x 25cm(H)",
+    size: "",
     image: require("./sold/naturebeauty.jpg").default,
   },
   {
