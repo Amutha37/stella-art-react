@@ -46,7 +46,7 @@ export const NatureImages = [
 
   {
     id: 5,
-    name: "Note",
+    name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
   },
@@ -93,7 +93,7 @@ export const WildLifeImages = [
   },
   {
     id: 7,
-    name: "Note",
+    name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
   },
@@ -150,7 +150,7 @@ export const PortraitImages = [
 
   {
     id: 3,
-    name: "Note",
+    name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
   },
@@ -213,7 +213,7 @@ export const SoldImages = [
   },
   {
     id: 10,
-    name: "Note",
+    name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
   },
@@ -235,7 +235,7 @@ export const MorePaintingImages = [
 
   {
     id: 3,
-    name: "Note",
+    name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
   },
