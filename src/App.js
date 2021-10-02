@@ -14,11 +14,13 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 
 import Florals from "./components/pages/floral/Florals";
+import Mastercopies from "./components/pages/mastercopies/Mastercopies";
 import BirdAnimal from "./components/pages/wildlife/BirdAnimal";
 import Sold from "./components/pages/sold/Sold";
 import Nature from "./components/pages/nature/Nature";
 
 import Portraits from "./components/pages/portrait/Portraits";
+import Petportraits from "./components/pages/petportrait/Petportraits";
 import "./App.css";
 //
 
@@ -41,7 +43,11 @@ const App = () => {
 
           <Route path="/nature" component={Nature} />
 
+          <Route path="/mastercopies" component={Mastercopies} />
+
           <Route path="/portraits" component={Portraits} />
+
+          <Route path="/petportraits" component={Petportraits} />
 
           <Route path="/florals" component={Florals} />
 

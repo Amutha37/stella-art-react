@@ -81,18 +81,12 @@ export const WildLifeImages = [
 
   {
     id: 5,
-    name: "Majesty",
-    size: "31cm(W)x41cm(H)",
-    image: require("./wildlife/majesty.jpg").default,
-  },
-  {
-    id: 6,
     name: "Silver-Gull by the Beach",
     size: "30cm(W)x30cm(H)",
     image: require("./wildlife/silvergullbythebeach.jpg").default,
   },
   {
-    id: 7,
+    id: 6,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -165,9 +159,9 @@ export const SoldImages = [
   },
   {
     id: 2,
-    name: "Dear in Wilderness",
+    name: "Deer in Wilderness",
     size: "",
-    image: require("./sold/dearinwilderness.jpg").default,
+    image: require("./sold/deerinwilderness.jpg").default,
   },
   {
     id: 3,
@@ -235,6 +229,72 @@ export const MorePaintingImages = [
 
   {
     id: 3,
+    name: "",
+    size: "",
+    image: require("./globalimages/quotation.png").default,
+  },
+];
+// mastercopies
+
+export const MastercopiesImages = [
+  {
+    id: 1,
+    name: "Girl in Pink Dress",
+    size: "",
+    image: require("./mastercopies/girlinpinkdress.jpg").default,
+  },
+  {
+    id: 2,
+    name: "Play in the Surf",
+    size: "",
+    image: require("./mastercopies/playinthesurf.jpg").default,
+  },
+
+  {
+    id: 3,
+    name: "The Grand Canal of Venice",
+    size: "",
+    image: require("./mastercopies/thegrandcanalofvenice.jpg").default,
+  },
+  {
+    id: 4,
+    name: "Young Woman by a Window",
+    size: "",
+    image: require("./mastercopies/youngwomanbyawindow.jpg").default,
+  },
+  {
+    id: 5,
+    name: "Rembrant Study",
+    // size: "31cm(W)x41cm(H)",
+    size: "",
+    image: require("./mastercopies/rembrandtstudy.jpg").default,
+  },
+  {
+    id: 6,
+    name: "Majesty",
+    // size: "31cm(W)x41cm(H)",
+    size: "31cm(W)x41cm(H)",
+    image: require("./mastercopies/majesty.jpg").default,
+  },
+  {
+    id: 6,
+    name: "",
+    size: "",
+    image: require("./globalimages/quotation.png").default,
+  },
+];
+
+// pet portraits paintings
+export const PetportraitsImages = [
+  {
+    id: 1,
+    name: "Charlie",
+    size: "none",
+    image: require("./petportraits/charlie.jpg").default,
+  },
+
+  {
+    id: 2,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
