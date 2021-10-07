@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stella-art-react/static/css/main.651e79eb.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.1cf3e8fb.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.1cf3e8fb.chunk.js.map",
+    "main.js": "/stella-art-react/static/js/main.f3c34d1d.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.f3c34d1d.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
     "static/js/2.bfe94ae1.chunk.js": "/stella-art-react/static/js/2.bfe94ae1.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/hangintherekoalabear.jpg": "/stella-art-react/static/media/hangintherekoalabear.988fa850.jpg",
     "static/media/kookaburrastudybybishal.jpg": "/stella-art-react/static/media/kookaburrastudybybishal.965e1f78.jpg",
     "static/media/lifessweetperfume.jpg": "/stella-art-react/static/media/lifessweetperfume.a1325a9b.jpg",
+    "static/media/lorikeet.jpg": "/stella-art-react/static/media/lorikeet.46af09b7.jpg",
     "static/media/lorikeetsinlove.jpg": "/stella-art-react/static/media/lorikeetsinlove.8777368e.jpg",
     "static/media/majesty.jpg": "/stella-art-react/static/media/majesty.2e6ddc78.jpg",
     "static/media/minnamurrafalls.jpg": "/stella-art-react/static/media/minnamurrafalls.768fd64f.jpg",
@@ -35,6 +36,7 @@
     "static/media/peacefulljourney.jpg": "/stella-art-react/static/media/peacefulljourney.6a732a01.jpg",
     "static/media/playinthesurf.jpg": "/stella-art-react/static/media/playinthesurf.b2d9ccec.jpg",
     "static/media/portrait1.jpg": "/stella-art-react/static/media/portrait1.e4bcd4f8.jpg",
+    "static/media/portrait2.jpg": "/stella-art-react/static/media/portrait2.d015a007.jpg",
     "static/media/quotation.png": "/stella-art-react/static/media/quotation.d138c7c4.png",
     "static/media/rembrandtstudy.jpg": "/stella-art-react/static/media/rembrandtstudy.362ee6d2.jpg",
     "static/media/scenicwatershawaii.jpg": "/stella-art-react/static/media/scenicwatershawaii.c52950c1.jpg",
@@ -51,6 +53,6 @@
     "static/js/runtime-main.91f0cde1.js",
     "static/js/2.bfe94ae1.chunk.js",
     "static/css/main.651e79eb.chunk.css",
-    "static/js/main.1cf3e8fb.chunk.js"
+    "static/js/main.f3c34d1d.chunk.js"
   ]
 }
