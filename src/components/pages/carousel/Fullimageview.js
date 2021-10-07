@@ -30,13 +30,8 @@ const Fullimageview = ({ status, slides, slideIndex, plusSlides }) => {
 
               <br></br>
               <p>
-                If you would like further information or would like to contact
-                me, just click on this Contact Form and I will get back to you.
-              </p>
-
-              <br></br>
-              <p>
-                * There are no additional charges for deliveries in Australia.
+                If you would like further assistance, fill in the contact form
+                and I will get back to you as soon as possible.
               </p>
               <br></br>
               <br></br>

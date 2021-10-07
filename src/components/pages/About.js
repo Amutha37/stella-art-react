@@ -9,33 +9,32 @@ const About = () => {
           <img className="center-fit" src={stella} alt="Stella" />
         </div>
         <p>
-          Born in Greece, Stella Kypriotis is an artist who lives and works in
-          Sydney Australia. She is married to her husband of 32 years and
-          together have raised 3 sons.
-          <br></br> <br></br>
+          Stella Kypriotis is an artist who lives and works in Sydney Australia.
+          She is married to her husband of 32 years and together have raised 3
+          sons.
+          {/* <br></br> <br></br>
           Her interest in art started from her school life when she picked Arts
-          as her subject and felt very connected to that subject.
+          as her subject and felt very connected to that subject. */}
           <br></br> <br></br>
           She loves painting a variety of subjects including florals, birds,
-          landscapes and portraits.She paints mainly in (artist grade) oils on
+          landscapes and portraits. She paints mainly in (artist grade) oils on
           canvas or wooden board ensuring her surface is well prepared and
-          finished with varnish for longervity.
+          finished with varnish for longevity.
           <br></br> <br></br>
-          During her career life, she worked in various office roles, which
+          During her career life she worked in various office roles, which
           didn't leave room for her creativity making her realise her true
           passion was arts. She decided to work in an art-shop which was a great
-          way to help her further explore that field.She then enrolled in art
+          way to help her further explore that field. She then enrolled in art
           classes to learn oil painting and hasn't stopped since.
           <br></br> <br></br>
           Stella constantly seeks improvement in all her work to ensure the last
           painting is better then the previous. She also loves to go 'plein-air'
-          painting outdoors whenever possible and staying connected to other
-          artist.
+          whenever possible and staying connected to other artists.
           <br></br> <br></br>
           Stella makes every effort to paint every day, knowing that the more
-          someone paints the better they become. Her gold is to be original and
-          authentic and to be able to touch the viewer with her paintings is
-          what drives her.
+          someone paints the better they become. Her goal is to be original,
+          authentic and her desire is to be able to touch the collecters with
+          her works, which is what drives her.
           <br></br> <br></br>
           "Art speaks where words are unable to explain." by Mathiole"
           <br></br> <br></br>

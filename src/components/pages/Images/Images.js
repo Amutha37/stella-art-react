@@ -137,13 +137,19 @@ export const PortraitImages = [
   },
   {
     id: 2,
+    name: "Portrait 2",
+    size: "",
+    image: require("./portrait/portrait2.jpg").default,
+  },
+  {
+    id: 3,
     name: "Christopher",
     size: "",
     image: require("./portrait/christopher.jpg").default,
   },
 
   {
-    id: 3,
+    id: 4,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -277,7 +283,7 @@ export const MastercopiesImages = [
     image: require("./mastercopies/majesty.jpg").default,
   },
   {
-    id: 6,
+    id: 7,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -289,12 +295,17 @@ export const PetportraitsImages = [
   {
     id: 1,
     name: "Charlie",
-    size: "none",
+    size: "",
     image: require("./petportraits/charlie.jpg").default,
   },
-
   {
     id: 2,
+    name: "Charlie",
+    size: "",
+    image: require("./petportraits/lorikeet.jpg").default,
+  },
+  {
+    id: 3,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
