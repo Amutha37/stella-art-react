@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.70349c99.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.f3c34d1d.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.f3c34d1d.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.28d6fe12.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.2036eac6.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.2036eac6.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
     "static/js/2.bfe94ae1.chunk.js": "/stella-art-react/static/js/2.bfe94ae1.chunk.js",
     "static/js/2.bfe94ae1.chunk.js.map": "/stella-art-react/static/js/2.bfe94ae1.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.70349c99.chunk.css.map": "/stella-art-react/static/css/main.70349c99.chunk.css.map",
+    "static/css/main.28d6fe12.chunk.css.map": "/stella-art-react/static/css/main.28d6fe12.chunk.css.map",
     "static/js/2.bfe94ae1.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.bfe94ae1.chunk.js.LICENSE.txt",
     "static/media/aussielorikeet.jpg": "/stella-art-react/static/media/aussielorikeet.13c62958.jpg",
     "static/media/bannerimage.jpg": "/stella-art-react/static/media/bannerimage.eba78586.jpg",
@@ -29,6 +29,7 @@
     "static/media/lifessweetperfume.jpg": "/stella-art-react/static/media/lifessweetperfume.a1325a9b.jpg",
     "static/media/lorikeet.jpg": "/stella-art-react/static/media/lorikeet.46af09b7.jpg",
     "static/media/lorikeetsinlove.jpg": "/stella-art-react/static/media/lorikeetsinlove.8777368e.jpg",
+    "static/media/macaw.jpg": "/stella-art-react/static/media/macaw.f9db9fd9.jpg",
     "static/media/majesty.jpg": "/stella-art-react/static/media/majesty.2e6ddc78.jpg",
     "static/media/minnamurrafalls.jpg": "/stella-art-react/static/media/minnamurrafalls.768fd64f.jpg",
     "static/media/naturebeauty.jpg": "/stella-art-react/static/media/naturebeauty.ceaee784.jpg",
@@ -46,13 +47,14 @@
     "static/media/sulfarcrestedcockatooinfruittree.jpg": "/stella-art-react/static/media/sulfarcrestedcockatooinfruittree.07461865.jpg",
     "static/media/thegrandcanalofvenice.jpg": "/stella-art-react/static/media/thegrandcanalofvenice.19af1a34.jpg",
     "static/media/threesisters.jpg": "/stella-art-react/static/media/threesisters.e811d6ae.jpg",
+    "static/media/treetrunk.jpg": "/stella-art-react/static/media/treetrunk.9f74149d.jpg",
     "static/media/waterlilystudybymason.jpg": "/stella-art-react/static/media/waterlilystudybymason.99cc048b.jpg",
     "static/media/youngwomanbyawindow.jpg": "/stella-art-react/static/media/youngwomanbyawindow.4ad26ab5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
     "static/js/2.bfe94ae1.chunk.js",
-    "static/css/main.70349c99.chunk.css",
-    "static/js/main.f3c34d1d.chunk.js"
+    "static/css/main.28d6fe12.chunk.css",
+    "static/js/main.2036eac6.chunk.js"
   ]
 }
