@@ -43,9 +43,15 @@ export const NatureImages = [
     size: "30cm(W) x 30cm(H)",
     image: require("./nature/scenicwatershawaii.jpg").default,
   },
-
   {
     id: 5,
+    name: "Tree",
+    size: "",
+    image: require("./nature/treetrunk.jpg").default,
+  },
+
+  {
+    id: 6,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -294,18 +300,24 @@ export const MastercopiesImages = [
 export const PetportraitsImages = [
   {
     id: 1,
-    name: "Charlie",
+    name: "Lorikeet",
     size: "",
-    image: require("./petportraits/charlie.jpg").default,
+    image: require("./petportraits/lorikeet.jpg").default,
   },
   {
     id: 2,
     name: "Charlie",
     size: "",
-    image: require("./petportraits/lorikeet.jpg").default,
+    image: require("./petportraits/charlie.jpg").default,
   },
   {
     id: 3,
+    name: "Macaws",
+    size: "",
+    image: require("./petportraits/macaw.jpg").default,
+  },
+  {
+    id: 4,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
