@@ -13,6 +13,9 @@ const SlideSold = () => {
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
   );
 
+  const [messageIdStatus, setMessageIdStatus] = useState(
+    new Array(4).fill().map((note, idm) => idm === 3)
+  );
   // Next/previous controls
   function plusSlides(event) {
     let ind = Number(event.target.value);
@@ -54,6 +57,7 @@ const SlideSold = () => {
           slides={SoldImages}
           status={status}
           plusSlides={plusSlides}
+          message={messageIdStatus}
         />
 
         <Thumbnailimages

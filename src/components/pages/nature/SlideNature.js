@@ -12,6 +12,9 @@ const SlideNature = () => {
   const [status, setStatus] = useState(
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
   );
+  const [messageIdStatus, setMessageIdStatus] = useState(
+    new Array(3).fill().map((note, idm) => idm === 0)
+  );
 
   // Next/previous controls
   function plusSlides(event) {
@@ -54,6 +57,7 @@ const SlideNature = () => {
           slides={NatureImages}
           status={status}
           plusSlides={plusSlides}
+          message={messageIdStatus}
         />
 
         <Thumbnailimages

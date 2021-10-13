@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 
 import { Link } from "react-router-dom";
 import "./Navbar.css";
@@ -28,7 +28,7 @@ function Navbar() {
   };
 
   return (
-    <>
+    <Fragment>
       <div className="appheader">
         <p>Stella Kypriotis Fine Art</p>
       </div>
@@ -70,19 +70,9 @@ function Navbar() {
               CONTACT
             </Link>
           </li>
-          {/* <li>
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Sign Up
-            </Link>
-          </li> */}
         </ul>
-        {/* <Button /> */}
       </nav>
-    </>
+    </Fragment>
   );
 }
 
