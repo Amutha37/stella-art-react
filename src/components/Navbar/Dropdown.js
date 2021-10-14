@@ -5,17 +5,6 @@ import { Link } from "react-router-dom";
 //
 
 function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
-  // const [shutDropdown, setToggleShut] = useState(false);
-  // const [shutDropdown, setShutDropdown] = useState(false);
-
-  // const [select, setSelect] = useState(false);
-
-  // const handleSelect = () => setSelect(!select);
-  // const handleSelect = () => setShutDropdown(!shutDropdown);
-  // const closeDropdownMenu = () => {
-  //   // setSelect(false);
-  //   setShutDropdown(false);
-  // };
   return (
     <>
       <ul
@@ -28,8 +17,6 @@ function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
               <Link
                 className={item.cName}
                 to={item.path}
-                // onClick={() => setSelect(false)}
-                // onClick={closeDropdownMenu}
                 onClick={closeMobileMenu}
               >
                 {item.title}

@@ -2,18 +2,8 @@ export const BannerImage = [
   {
     id: 1,
     name: "Lily Flower",
-    image: require("./globalimages/bannerimage.jpg").default,
+    image: require("./globalimages/peacefuljourney.jpg").default,
   },
-  // {
-  //   id: 2,
-  //   name: "The Three Sistes",
-  //   image: require("./threesisters.jpg").default,
-  // },
-  // {
-  //   id: 3,
-  //   name: "Stella Outdoor",
-  //   image: require("./stellaoutdoor.jpg").default,
-  // },
 ];
 
 export const NatureImages = [
@@ -45,9 +35,9 @@ export const NatureImages = [
   },
   {
     id: 5,
-    name: "Tree",
+    name: "Shining Gum Tree",
     size: "",
-    image: require("./nature/treetrunk.jpg").default,
+    image: require("./nature/shininggumtree.jpg").default,
   },
 
   {
@@ -93,6 +83,13 @@ export const WildLifeImages = [
   },
   {
     id: 6,
+    name: "Majesty",
+    // size: "31cm(W)x41cm(H)",
+    size: "31cm(W)x41cm(H)",
+    image: require("./mastercopies/majesty.jpg").default,
+  },
+  {
+    id: 7,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -189,7 +186,7 @@ export const SoldImages = [
   },
   {
     id: 5,
-    name: "Calming Florals",
+    name: "Calming Florals(Commission Piece)",
     size: " ",
     image: require("./sold/calmingflorals.jpg").default,
   },
@@ -207,9 +204,9 @@ export const SoldImages = [
   },
   {
     id: 8,
-    name: "Peaceful Journey",
+    name: "Peaceful Journey(Commission Piece)",
     size: " ",
-    image: require("./sold/peacefulljourney.jpg").default,
+    image: require("./sold/peacefuljourney.jpg").default,
   },
   {
     id: 9,
@@ -251,10 +248,11 @@ export const MorePaintingImages = [
 export const MastercopiesImages = [
   {
     id: 1,
-    name: "Girl in Pink Dress",
+    name: "Young Woman by a Window",
     size: "",
-    image: require("./mastercopies/girlinpinkdress.jpg").default,
+    image: require("./mastercopies/youngwomanbyawindow.jpg").default,
   },
+
   {
     id: 2,
     name: "Play in the Surf",
@@ -270,26 +268,20 @@ export const MastercopiesImages = [
   },
   {
     id: 4,
-    name: "Young Woman by a Window",
+    name: "Girl in Pink Dress",
     size: "",
-    image: require("./mastercopies/youngwomanbyawindow.jpg").default,
+    image: require("./mastercopies/girlinpinkdress.jpg").default,
   },
   {
     id: 5,
-    name: "Rembrant Study",
+    name: "Rembrandt Study",
     // size: "31cm(W)x41cm(H)",
     size: "",
     image: require("./mastercopies/rembrandtstudy.jpg").default,
   },
+
   {
     id: 6,
-    name: "Majesty",
-    // size: "31cm(W)x41cm(H)",
-    size: "31cm(W)x41cm(H)",
-    image: require("./mastercopies/majesty.jpg").default,
-  },
-  {
-    id: 7,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -300,9 +292,9 @@ export const MastercopiesImages = [
 export const PetportraitsImages = [
   {
     id: 1,
-    name: "Lorikeet",
+    name: "Striking Macaws",
     size: "",
-    image: require("./petportraits/lorikeet.jpg").default,
+    image: require("./petportraits/strikingmacaws.jpg").default,
   },
   {
     id: 2,
@@ -312,10 +304,11 @@ export const PetportraitsImages = [
   },
   {
     id: 3,
-    name: "Macaws",
+    name: "Lorikeet",
     size: "",
-    image: require("./petportraits/macaw.jpg").default,
+    image: require("./petportraits/lorikeet.jpg").default,
   },
+
   {
     id: 4,
     name: "",

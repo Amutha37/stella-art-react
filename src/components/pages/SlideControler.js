@@ -2,15 +2,17 @@ import React, { useState } from "react";
 
 import Thumbnailimages from "../carousel/Thumbnailimages";
 import Fullimageview from "../carousel/Fullimageview";
-import { NatureImages } from "../Images/Images";
 import "../carousel/carousel.css";
 
-const SlideNature = () => {
-  const imgarrlength = NatureImages.length;
+const SlideControler = ({ slideImages }) => {
+  const imgarrlength = slideImages.length;
 
   const [imageIndex, setImageIndex] = useState(1);
   const [status, setStatus] = useState(
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
+  );
+  const [messageIdStatus, setMessageIdStatus] = useState(
+    new Array(3).fill().map((note, idm) => idm === 0)
   );
 
   // Next/previous controls
@@ -51,13 +53,14 @@ const SlideNature = () => {
       <div className="containernature">
         <Fullimageview
           slideIndex={imageIndex}
-          slides={NatureImages}
+          slides={slideImages}
           status={status}
           plusSlides={plusSlides}
+          message={messageIdStatus}
         />
 
         <Thumbnailimages
-          slides={NatureImages}
+          slides={slideImages}
           currentSlide={currentSlide}
           status={status}
           slideIndex={imageIndex}
@@ -67,4 +70,4 @@ const SlideNature = () => {
   );
 };
 
-export default SlideNature;
+export default SlideControler;

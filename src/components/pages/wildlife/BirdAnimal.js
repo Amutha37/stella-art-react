@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-
-import SlideWildlife from "./SlideWildlife";
+import SlideControler from "../SlideControler";
+import { WildLifeImages } from "../../../components/Images/Images";
 import Footer from "../Footer/Footer";
 
 const BirdAnimal = () => {
   return (
     <Fragment>
-      <SlideWildlife />
+      <SlideControler slideImages={WildLifeImages} />
+      {/* <SlideWildlife /> */}
 
       <Footer />
     </Fragment>

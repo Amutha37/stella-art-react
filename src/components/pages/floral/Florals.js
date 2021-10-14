@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
-
-import SlideFlorals from "./SlideFlorals";
+import { FloralImages } from "../../../components/Images/Images";
+import SlideControler from "../SlideControler";
 import Footer from "../Footer/Footer";
 
 const Florals = () => {
   return (
     <Fragment>
-      <SlideFlorals />
+      <SlideControler slideImages={FloralImages} />
       <Footer />
     </Fragment>
   );

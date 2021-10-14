@@ -45,13 +45,17 @@
   margin-left: auto;
   right: 0;
   left: 0;
-  top: 20%;
+  top: 5%;
   width: 90%;
   font-size: 1rem;
+  line-height: 17px;
+  margin-top: 1rem;
+  text-align: left;
 }
 p > a {
   color: blue;
 }
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
@@ -194,5 +198,9 @@ button {
   }
   #caption {
     font-size: 0.9rem;
+  }
+  .contactnote {
+    font-size: 13px;
+    line-height: 13px;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import stella from "./Images/globalimages/stellaoutdoor.jpg";
+import stella from "../../../components/Images/globalimages/stellaoutdoor.jpg";
+// "./Images/globalimages/stellaoutdoor.jpg";
 const About = () => {
   return (
     <div>

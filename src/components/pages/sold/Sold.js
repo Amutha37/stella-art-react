@@ -1,11 +1,13 @@
 import React, { Fragment } from "react";
-import SlideSold from "./SlideSold";
+import { SoldImages } from "../../../components/Images/Images";
+import SlideControler from "../SlideControler";
 import Footer from "../Footer/Footer";
 
 const Sold = () => {
   return (
     <Fragment>
-      <SlideSold />
+      <SlideControler slideImages={SoldImages} />
+      {/* <SlideSold /> */}
       <Footer />
     </Fragment>
   );

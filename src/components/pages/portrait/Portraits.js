@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
-import SlidePortraits from "./SlidePortraits";
+import SlideControler from "../SlideControler";
+import { PortraitImages } from "../../../components/Images/Images";
 import Footer from "../Footer/Footer";
 
 const Portraits = () => {
   return (
     <Fragment>
-      <SlidePortraits />
+      <SlideControler slideImages={PortraitImages} />
       <Footer />
     </Fragment>
   );

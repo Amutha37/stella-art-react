@@ -8,10 +8,10 @@ import React, { Fragment } from "react";
 
 import Navbar from "./components/Navbar/Navbar";
 
-import Home from "./components/pages/Home";
+import Home from "./components/pages/home/Home";
 
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
+import About from "./components/pages/about/About";
+import Contact from "./components/pages/contact/Contact";
 
 import Florals from "./components/pages/floral/Florals";
 import Mastercopies from "./components/pages/mastercopies/Mastercopies";
