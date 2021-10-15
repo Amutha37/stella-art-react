@@ -1,22 +1,22 @@
 export const MenuItems = [
   {
-    title: "🌴 NATURE",
+    title: "NATURE",
     path: "/nature",
     cName: "dropdown-link",
   },
 
   {
-    title: "💐 FLORALS",
+    title: "FLORALS",
     path: "/florals",
     cName: "dropdown-link",
   },
   {
-    title: "🐨 WILD-LIFE",
+    title: "WILD-LIFE",
     path: "/birdanimal",
     cName: "dropdown-link",
   },
   {
-    title: "🔕 SOLD",
+    title: "SOLD",
     path: "/commissions",
     cName: "dropdown-link",
   },
@@ -26,12 +26,12 @@ export const MenuItems = [
     cName: "dropdown-link",
   },
   {
-    title: "👤 PORTRAITS",
+    title: "PORTRAITS",
     path: "/portraits",
     cName: "dropdown-link",
   },
   {
-    title: "🐕 PET PORTRAIT ",
+    title: "PET PORTRAIT ",
     path: "/petportraits",
     cName: "dropdown-link",
   },

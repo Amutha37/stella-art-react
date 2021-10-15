@@ -1,18 +1,14 @@
 import React, { useState } from "react";
-
 import Thumbnailimages from "../carousel/Thumbnailimages";
 import Fullimageview from "../carousel/Fullimageview";
 import "../carousel/carousel.css";
 
-const SlideControler = ({ slideImages }) => {
+const SlideControler = ({ slideImages, PrintMessage }) => {
   const imgarrlength = slideImages.length;
 
   const [imageIndex, setImageIndex] = useState(1);
   const [status, setStatus] = useState(
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
-  );
-  const [messageIdStatus, setMessageIdStatus] = useState(
-    new Array(3).fill().map((note, idm) => idm === 0)
   );
 
   // Next/previous controls
@@ -56,7 +52,7 @@ const SlideControler = ({ slideImages }) => {
           slides={slideImages}
           status={status}
           plusSlides={plusSlides}
-          message={messageIdStatus}
+          PrintMessage={PrintMessage}
         />
 
         <Thumbnailimages
