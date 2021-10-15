@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <Fragment>
       <div className="appheader">
-        <p>Stella Kypriotis Fine Art 🖼</p>
+        <p>Stella Kypriotis Fine Art </p>
       </div>
       <nav className="navbar">
         <div className="menu-icon" onClick={handleClick}>

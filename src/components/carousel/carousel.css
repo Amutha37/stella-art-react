@@ -170,9 +170,9 @@ button {
     height: 500px;
     /* display: table-cell; */
   }
-  .prev {
+  /* .prev {
     right: 1;
-  }
+  } */
   .imagesize {
     font-size: 12px;
   }
@@ -202,5 +202,8 @@ button {
   .contactnote {
     font-size: 13px;
     line-height: 13px;
+  }
+  .next {
+    left: 1;
   }
 }
