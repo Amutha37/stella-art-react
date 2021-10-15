@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.d47a8aa8.chunk.css",
-    "main.js": "/stella-art-react/static/js/main.336a3a4c.chunk.js",
-    "main.js.map": "/stella-art-react/static/js/main.336a3a4c.chunk.js.map",
+    "main.css": "/stella-art-react/static/css/main.909501b8.chunk.css",
+    "main.js": "/stella-art-react/static/js/main.ccd8820a.chunk.js",
+    "main.js.map": "/stella-art-react/static/js/main.ccd8820a.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.91f0cde1.js",
     "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.91f0cde1.js.map",
-    "static/js/2.bfe94ae1.chunk.js": "/stella-art-react/static/js/2.bfe94ae1.chunk.js",
-    "static/js/2.bfe94ae1.chunk.js.map": "/stella-art-react/static/js/2.bfe94ae1.chunk.js.map",
+    "static/js/2.1a044390.chunk.js": "/stella-art-react/static/js/2.1a044390.chunk.js",
+    "static/js/2.1a044390.chunk.js.map": "/stella-art-react/static/js/2.1a044390.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/main.d47a8aa8.chunk.css.map": "/stella-art-react/static/css/main.d47a8aa8.chunk.css.map",
-    "static/js/2.bfe94ae1.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.bfe94ae1.chunk.js.LICENSE.txt",
+    "static/css/main.909501b8.chunk.css.map": "/stella-art-react/static/css/main.909501b8.chunk.css.map",
+    "static/js/2.1a044390.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.1a044390.chunk.js.LICENSE.txt",
     "static/media/aussielorikeet.jpg": "/stella-art-react/static/media/aussielorikeet.13c62958.jpg",
     "static/media/blossomedtulip.jpg": "/stella-art-react/static/media/blossomedtulip.7dc77ce3.jpg",
     "static/media/budgiesinlove.jpg": "/stella-art-react/static/media/budgiesinlove.4a55dd88.jpg",
@@ -52,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.91f0cde1.js",
-    "static/js/2.bfe94ae1.chunk.js",
-    "static/css/main.d47a8aa8.chunk.css",
-    "static/js/main.336a3a4c.chunk.js"
+    "static/js/2.1a044390.chunk.js",
+    "static/css/main.909501b8.chunk.css",
+    "static/js/main.ccd8820a.chunk.js"
   ]
 }
