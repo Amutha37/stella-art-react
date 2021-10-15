@@ -69,7 +69,7 @@ const Contact = () => {
     <>
       <div className="maincontainer">
         <div className="contact-form1">
-          <h1>Contact Form</h1>
+          <h1>Contact Form under construction ⚠️ ⚠️</h1>
         </div>
         <div className="contact-form">
           <form
