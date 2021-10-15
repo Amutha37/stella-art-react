@@ -1,34 +1,8 @@
-/* .App {
-  font-family: "Nobel Light", "Nobel Light", sans-serif;
-}
-.App-header p {
-  text-align: center;
-  color: rgb(26, 26, 26);
-  font-size: 30px;
-  margin-top: 3rem;
-} */
-/* new style */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* html,
-body {
-  overflow-x: hidden;
-} */
-
-/* .appheader p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 4vmin);
-  color: rgb(12, 12, 12);
-  margin-top: 2rem;
-  font-family: "Nobel Book", "san-serif";
-} */
-
 .stellaimg {
   width: 90%;
   margin-left: 1rem;
@@ -60,5 +34,4 @@ h2 {
   .image-box img {
     width: 40%;
   }
-  
 }

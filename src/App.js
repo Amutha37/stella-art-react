@@ -22,7 +22,6 @@ import Nature from "./components/pages/nature/Nature";
 import Portraits from "./components/pages/portrait/Portraits";
 import Petportraits from "./components/pages/petportrait/Petportraits";
 import "./App.css";
-//
 
 const App = () => {
   return (
