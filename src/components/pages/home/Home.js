@@ -9,7 +9,7 @@ const Home = () => {
         {/* home page */}
         <div className="landing_Container">
           <div className="landing_Image">
-            <p>Captivated by Nature 🌳</p>
+            <p>Captivated by Nature 🌴</p>
             <img src={BannerImage[0].image} alt={BannerImage[0].name} />
           </div>
         </div>

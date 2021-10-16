@@ -48,7 +48,8 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link to="/" className="nav-links">
-              PAINTINGS FOR SALE <i className="fas fa-caret-down" />
+              🖼 PAINTINGS SALE/MORE
+              <i className="fas fa-caret-down" />
             </Link>
             {dropdown && (
               <Dropdown
@@ -68,6 +69,11 @@ function Navbar() {
           <li className="nav-item">
             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               📩 CONTACT
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/faq" className="nav-links" onClick={closeMobileMenu}>
+              ❓ FAQ
             </Link>
           </li>
         </ul>

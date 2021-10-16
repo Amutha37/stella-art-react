@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
-// import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({});
@@ -67,9 +67,10 @@ const Contact = () => {
 
   return (
     <>
-      <div className="maincontainer">
+      <>
         <div className="contact-form1">
-          <h1>Contact Form under construction ⚠️ </h1>
+          <h1>Under construction ⚠️ </h1>
+          <h1>Contact Form </h1>
         </div>
         <div className="contact-form">
           <form
@@ -97,20 +98,10 @@ const Contact = () => {
               <textarea name="message" onChange={handleInput} />
               <input name="submit" type="submit" value="Send" />
             </div>
+            <Footer />
           </form>
         </div>
-      </div>
-
-      <div className="copyright">
-        <hr></hr>
-
-        <p>
-          Copyright
-          {""}
-          <i className="far fa-copyright"> </i>
-          {""} 2021 All Right Reserved.
-        </p>
-      </div>
+      </>
     </>
   );
 };
