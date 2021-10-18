@@ -141,6 +141,8 @@ button {
 /* Six columns side by side */
 .column {
   margin-right: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 .column:last-child {
   margin-right: 0px;
