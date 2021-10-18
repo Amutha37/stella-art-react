@@ -16,7 +16,7 @@
 /* html,
 body {
   overflow-x: hidden;
-  
+
 } */
 .landing_Container {
   color: rgb(99, 96, 96);
@@ -54,24 +54,24 @@ hr {
   /* margin-top: 4rem;
   margin-bottom: 2rem; */
 }
-.copyright p {
+.copyright .footertext p {
   color: rgb(8, 1, 1);
 }
-.left p {
+.footertext .left p {
   text-align: left;
   font-size: 0.8rem;
   float: left;
 }
 
-.right p {
+.footertext .right p {
   font-size: 0.9rem;
 }
-.right {
+.footertext .right {
   display: flex;
   float: right;
   text-align: right;
 }
-.right .fab {
+.footertext .right .fab {
   padding: 4px;
   font-size: 0.9rem;
 }
@@ -101,7 +101,7 @@ hr {
   .footertext p {
     font-size: 0.7rem;
   }
-  .right .fab {
+  .footertext .right .fab {
     font-size: 0.7rem;
   }
 }

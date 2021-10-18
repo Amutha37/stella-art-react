@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
+import { FaHeart } from "react-icons/fa";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import Footer from "../Footer/Footer";
 
 const Contact = () => {
@@ -67,41 +70,125 @@ const Contact = () => {
 
   return (
     <>
-      <>
-        <div className="contact-form1">
-          <h1>Under construction ⚠️ </h1>
-          <h1>Contact Form </h1>
-        </div>
-        <div className="contact-form">
-          <form
-            className="input-form"
-            id="feedback"
-            name="feedback"
-            required
-            onSubmit={sendData}
-          >
-            <div>
-              <label>Name:</label>
-              <input name="name" type="text" required onChange={handleInput} />
+      {/* <div> */}
+      {/* <div className="contact-form1"> */}
+      {/* <h1>Under construction ⚠️ </h1> */}
+
+      <div className="form-container">
+        <p>Contact Stella</p>
+        <form
+          className="input-form"
+          // id="feedback"
+          // name="feedback"
+          required
+          onSubmit={sendData}
+        >
+          <div className="login">
+            {/* <label>Name:</label> */}
+            <input
+              name="name"
+              type="text"
+              className="input"
+              required
+              placeholder="Your Name"
+              onChange={handleInput}
+            />
+            {/* </div> */}
+            {/* <div className="login"> */}
+            {/* <label>E-mail :</label> */}
+            <input
+              name="email"
+              type="email"
+              required
+              placeholder="Your Email Address"
+              onChange={handleInput}
+              className="input"
+            />
+          </div>
+
+          <div className="subject">
+            <input type="text" placeholder="Subject" className="input" />
+          </div>
+
+          <div className="msg">
+            <label>Message :</label>
+            <textarea
+              name="message"
+              className="area"
+              placeholder="Leave a Message"
+              onChange={handleInput}
+            ></textarea>
+          </div>
+
+          <div className="btn">
+            <input className="btn" name="submit" type="submit" value="Send" />
+          </div>
+
+          {/* social media */}
+          <div>
+            <div className="social-media">
+              <p>Follow me ⤵️ </p>
+              <div className="icons">
+                <a href="https://www.facebook.com/search/top?q=stellas_art">
+                  <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-facebook-f">
+                      {/* <AiFillLinkedin />{" "} */}
+                    </span>
+                  </div>
+                  <div className="text">Facebook</div>
+                </a>
+                <a href="#">
+                  <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-twitter"></span>
+                  </div>
+                  <div className="text">Twitter</div>
+                </a>
+                <a href="https://www.instagram.com/stellas_art3/">
+                  <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-instagram"></span>
+                  </div>
+                  <div className="text">Instagram</div>
+                </a>
+                <a href="#">
+                  <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-linkedin-in"></span>
+                  </div>
+                  <div className="text">Linkedin</div>
+                </a>
+                <a href="#">
+                  <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-youtube"></span>
+                  </div>
+                  <div className="text">YouTube</div>
+                </a>
+              </div>
             </div>
-            <div>
-              <label>E-mail :</label>
-              <input
-                name="email"
-                type="email"
-                required
-                onChange={handleInput}
-              />
-            </div>
-            <div>
-              <label>Message :</label>
-              <textarea name="message" onChange={handleInput} />
-              <input name="submit" type="submit" value="Send" />
-            </div>
-            <Footer />
-          </form>
-        </div>
-      </>
+          </div>
+        </form>
+        <Footer />
+      </div>
+      {/* <Footer /> */}
+      {/* </div> */}
     </>
   );
 };
