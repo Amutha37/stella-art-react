@@ -48,8 +48,16 @@ const App = () => {
 
       {/* new  */}
       <Switch>
-        ,
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense
+          fallback={
+            <div className="container-loader">
+              <div className="flex">
+                <div className="loader"></div>
+              </div>
+              <div className="load-text">Loading...</div>
+            </div>
+          }
+        >
           <Route path="/" exact component={Home} />
 
           <Route path="/about" component={About} />
