@@ -189,7 +189,9 @@ const Contact = () => {
         <p>
           Copyright
           {""}
-          <i className="far fa-copyright"> </i>
+          <i className="far fa-copyright" id="contact-copyright">
+            {" "}
+          </i>
           {""} 2021 All Right Reserved.
         </p>
       </div>

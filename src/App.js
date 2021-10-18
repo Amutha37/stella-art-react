@@ -43,21 +43,21 @@ const Petportraits = lazy(() =>
 const App = () => {
   return (
     // <Fragment>
-    <Router>
-      <Navbar />
+    <Suspense
+      fallback={
+        <div className="container-loader">
+          <div className="flex">
+            <div className="loader"></div>
+          </div>
+          <div className="load-text">Loading...</div>
+        </div>
+      }
+    >
+      <Router>
+        <Navbar />
 
-      {/* new  */}
-      <Switch>
-        <Suspense
-          fallback={
-            <div className="container-loader">
-              <div className="flex">
-                <div className="loader"></div>
-              </div>
-              <div className="load-text">Loading...</div>
-            </div>
-          }
-        >
+        {/* new  */}
+        <Switch>
           <Route path="/" exact component={Home} />
 
           <Route path="/about" component={About} />
@@ -83,9 +83,9 @@ const App = () => {
             <Redirect exact from="/" to="/home" />
             <Route exact path="/home" component={Home} />
           </Route>
-        </Suspense>
-      </Switch>
-    </Router>
+        </Switch>
+      </Router>
+    </Suspense>
   );
 };
 export default App;
