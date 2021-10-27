@@ -138,7 +138,7 @@ const Contact = () => {
                     </div>
                     <div className="text">Facebook</div>
                   </a>
-                  <a href="https://www.instagram.com/stellas_art3/">
+                  <a href="https://twitter.com/KypriotisStella">
                     <div className="layer">
                       <span></span>
                       <span></span>
@@ -158,7 +158,7 @@ const Contact = () => {
                     </div>
                     <div className="text">Instagram</div>
                   </a>
-                  <a href="https://www.instagram.com/stellas_art3/">
+                  <a href="https://www.linkedin.com/in/stella-kypriotis-949101206/">
                     <div className="layer">
                       <span></span>
                       <span></span>
@@ -168,7 +168,7 @@ const Contact = () => {
                     </div>
                     <div className="text">Linkedin</div>
                   </a>
-                  <a href="https://www.instagram.com/stellas_art3/">
+                  {/* <a href="https://www.instagram.com/stellas_art3/">
                     <div className="layer">
                       <span></span>
                       <span></span>
@@ -177,7 +177,7 @@ const Contact = () => {
                       <span className="fab fa-youtube"></span>
                     </div>
                     <div className="text">YouTube</div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@ const Contact = () => {
         <p>
           Copyright
           {""}
-          <i className="far fa-copyright" id="contact-copyright">
+          <i className="far fa-copyright contact-icons" id="contact-copyright">
             {" "}
           </i>
           {""} 2021 All Right Reserved.

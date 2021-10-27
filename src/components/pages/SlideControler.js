@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Thumbnailimages from "../carousel/Thumbnailimages";
-import Fullimageview from "../carousel/Fullimageview";
+import ThumbNailImages from "../carousel/ThumbNailImages";
+import WholeImageView from "../carousel/WholeImageView";
 import "../carousel/carousel.css";
 
 const SlideControler = ({ slideImages, PrintMessage }) => {
@@ -47,7 +47,7 @@ const SlideControler = ({ slideImages, PrintMessage }) => {
     //  <!-- Container for the image gallery -->
     <div className="natureContainer">
       <div className="containernature">
-        <Fullimageview
+        <WholeImageView
           slideIndex={imageIndex}
           slides={slideImages}
           status={status}
@@ -55,7 +55,7 @@ const SlideControler = ({ slideImages, PrintMessage }) => {
           PrintMessage={PrintMessage}
         />
 
-        <Thumbnailimages
+        <ThumbNailImages
           slides={slideImages}
           currentSlide={currentSlide}
           status={status}

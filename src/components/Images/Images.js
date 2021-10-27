@@ -39,9 +39,14 @@ export const NatureImages = [
     size: "",
     image: require("./nature/shininggumtree.jpg").default,
   },
-
   {
     id: 6,
+    name: "The lighthouse Wollongong",
+    size: "",
+    image: require("./nature/thelighthousewollongong.jpeg").default,
+  },
+  {
+    id: 7,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,
@@ -140,19 +145,25 @@ export const PortraitImages = [
   },
   {
     id: 2,
+    name: "Martin Luther King",
+    size: "",
+    image: require("./portrait/martinlutherking.jpg").default,
+  },
+  {
+    id: 3,
     name: "Portrait 2",
     size: "",
     image: require("./portrait/portrait2.jpg").default,
   },
   {
-    id: 3,
+    id: 4,
     name: "Christopher",
     size: "",
     image: require("./portrait/christopher.jpg").default,
   },
 
   {
-    id: 4,
+    id: 5,
     name: "",
     size: "",
     image: require("./globalimages/quotation.png").default,

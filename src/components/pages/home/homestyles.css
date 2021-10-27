@@ -20,7 +20,7 @@
 .landing_Image img {
   width: 100%;
 }
-hr {
+/* hr {
   width: 100%;
   border: 0.1px solid rgb(239, 234, 234);
   margin: 6rem auto 1rem auto;
@@ -50,7 +50,7 @@ hr {
 .footertext .right .fab {
   padding: 4px;
   font-size: 0.9rem;
-}
+} */
 
 /* .footertext {
   margin-bottom: 2rem;
@@ -69,8 +69,8 @@ hr {
     font-size: 1.1rem;
   }
 } */
-@media screen and (max-width: 768px) {
-  /* footer */
+/* @media screen and (max-width: 768px) {
+
   hr {
     margin: 9rem auto 2rem auto;
   }
@@ -80,4 +80,4 @@ hr {
   .footertext .right .fab {
     font-size: 0.7rem;
   }
-}
+} */

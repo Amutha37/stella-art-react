@@ -26,6 +26,8 @@
   font-size: 45px;
   margin-bottom: 20px;
   color: #486255;
+  font-weight: 400;
+  /* color: #7d7e7e; */
 }
 
 .input,
@@ -56,6 +58,7 @@
 .btn {
   width: 250px;
   background: #486255;
+  /* background: #7d7e7e; */
   height: 50px;
   line-height: 40px;
   text-align: center;
@@ -150,18 +153,18 @@
 .icons a:nth-child(3) .layer span,
 .icons a:nth-child(3) .text {
   color: #e1306c;
-  border-color: #e1306c;
+  border-color: #e1304a;
 }
 .icons a:nth-child(4) .layer span,
 .icons a:nth-child(4) .text {
   color: #2867b2;
   border-color: #2867b2;
 }
-.icons a:nth-child(5) .layer span,
+/* .icons a:nth-child(5) .layer span,
 .icons a:nth-child(5) .text {
   color: #ff0000;
   border-color: #ff0000;
-}
+} */
 .icons a:hover:nth-child(1) .layer span {
   box-shadow: -1px 1px 3px #4267b2;
 }
@@ -169,14 +172,14 @@
   box-shadow: -1px 1px 3px #1da1f2;
 }
 .icons a:hover:nth-child(3) .layer span {
-  box-shadow: -1px 1px 3px #e1306c;
+  box-shadow: -1px 1px 3px #e1304a;
 }
 .icons a:hover:nth-child(4) .layer span {
   box-shadow: -1px 1px 3px #2867b2;
 }
-.icons a:hover:nth-child(5) .layer span {
+/* .icons a:hover:nth-child(5) .layer span {
   box-shadow: -1px 1px 3px #ff0000;
-}
+} */
 .icons a .text {
   position: absolute;
   left: 50%;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Thumbnailimages({ slides, currentSlide, status }) {
+function ThumbNailImages({ slides, currentSlide, status }) {
   return (
     //  <!-- Thumbnail images -->
     <div className="row">
@@ -19,4 +19,4 @@ function Thumbnailimages({ slides, currentSlide, status }) {
   );
 }
 
-export default Thumbnailimages;
+export default ThumbNailImages;
