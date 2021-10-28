@@ -5,7 +5,7 @@
   list-style: none;
   text-align: start;
   z-index: 1;
-  margin-left: 9rem;
+  margin-left: 6rem;
   margin-top: 0.2rem;
 }
 
@@ -24,18 +24,19 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 70%;
+  left: 45%;
   width: 0;
   height: 0;
   border: 17px solid transparent;
-  border-bottom-color: #929292;
+  border-bottom-color: #486255;
   opacity: 1;
   border-top: 0;
   margin-left: -25px;
   margin-top: -17px;
 }
 .dropdown-menu li {
-  background-color: #929292;
+  /* background-color: #929292; */
+  background-color: #486255;
   cursor: pointer;
   color: #f8f6f6;
   text-align: center;
@@ -60,25 +61,26 @@
 @media screen and (max-width: 768px) {
   .dropdown-menu {
     top: 89%;
-    right: 31%;
+    right: 35%;
   }
   .dropdown-menu:after {
     left: 70%;
   }
   .dropdown-menu li {
     font-size: 0.8rem;
-    background-color: #929292;
+    /* background-color: #929292; */
+    background-color: #486255;
   }
 
   .dropdown-menu:after {
     margin-left: -1px;
     margin-top: -17px;
-    left: 19%;
+    left: 30%;
   }
 }
 @media only screen and (max-width: 600px) {
   .dropdown-menu {
     /* top: 85%; */
-    right: 20%;
+    right: 26%;
   }
 }

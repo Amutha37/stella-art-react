@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 3rem;
 }
-p {
+.question-container p {
   font-style: 30px;
 }
 .whole-list-questions {
@@ -22,18 +22,18 @@ p {
 /* survey styling */
 .survey {
   margin-top: 4rem;
-  width: 80%;
+  width: 40%;
 }
 .wrapper {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
   max-width: 50%;
-  min-width: 50%;
+  min-width: 80%;
   width: 60%;
   /* width: 350px; */
   background: #fff;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   margin-bottom: 4rem;
 }
@@ -44,7 +44,7 @@ p {
   background: #333;
   font-size: 25px;
   font-weight: 500;
-  border-radius: 10px 10px 0 0;
+  /* border-radius: 10px 10px 0 0; */
 }
 .wrapper .box {
   padding: 20px 30px;
@@ -56,8 +56,8 @@ p {
   height: 53px;
   /* width: 100%; */
   align-items: center;
-  border: 1px solid lightgrey;
-  border-radius: 50px;
+  /* border: 1px solid lightgrey; */
+  /* border-radius: 50px; */
   margin: 10px 0;
   padding-left: 20px;
   cursor: default;
@@ -126,12 +126,42 @@ p {
 .wrapper .box input[type="radio"] {
   display: none;
 }
-.btn-count {
-  padding: 5px;
-  background-color: teal;
+
+.form-group{
+  margin-bottom: 2rem;
+  height:  5rem;
+}
+.question-container .btn-count {
+  padding: 3px;
+  background-color:#486255;
+  color: #fff;
   font-size: 15px;
   outline: none;
-  border-radius: 5px;
-  width: 4rem;
-  margin-bottom: 2rem;
+  border-radius: 3px;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+#thank-you{
+  font-size:25px;
+  color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .survey {
+    /* margin-top: 4rem; */
+    width: 80%;
+  }
+header .container-question {
+    color: #fff;
+    line-height: 40px;
+    /* text-align: center;
+    background: #333; */
+    font-size: 18px;
+    /* font-weight: 500; */
+    /* border-radius: 10px 10px 0 0; */
+  }
+  .wrapper {
+    
+    width: 80%;
+}
 }

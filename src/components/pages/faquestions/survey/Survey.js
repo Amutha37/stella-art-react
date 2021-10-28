@@ -4,9 +4,11 @@ import "../faq.css";
 
 const Survey = () => {
   const [countOption, setCountOption] = useState({});
+  const [surveyThankMsg, setSurveyThankMsg] = useState(false)
 
   const handleSubmit = (event) => {
     event.preventDefault();
+      setSurveyThankMsg(true);
     // googlesheet
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
@@ -129,9 +131,10 @@ const Survey = () => {
             </label>
           </div>
           <div className="form-group">
-            <button type="submit" className="btn-count">
+           
+      {!surveyThankMsg ? ( <button type="submit" className="btn-count">
               Submit
-            </button>
+            </button>) : (<p id="thank-you"> Submited Thank you!</p>)}      
           </div>
         </form>
       </div>

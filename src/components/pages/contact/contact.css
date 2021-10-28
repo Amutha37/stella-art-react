@@ -8,7 +8,7 @@
 }
 .form-container {
   max-width: 800px;
-  height: 680px;
+  height: 780px;
   background: #fff;
   margin: 50px auto;
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
@@ -84,6 +84,15 @@
 .social-media p {
   margin-top: 1.3rem;
   font-size: 20px;
+}
+
+#thank-you-container{
+  margin-bottom: 1rem;
+  color: blue;
+  height: 20px;
+}
+#thank-you-container #thank-you {
+  color: blue;
 }
 
 /* social media disign */
@@ -204,7 +213,7 @@
   }
   .form-container {
     width: 420px;
-    height: 660px;
+    height: 760px;
   }
   .form-container p {
     font-size: 30px;

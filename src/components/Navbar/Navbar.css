@@ -39,7 +39,9 @@
 }
 .nav-links:hover:after {
   width: 100%;
-  background: #71bbe3;
+  /* background: #71bbe3; */
+    background: #486255;
+  
   border-radius: 3px;
   padding: 2px;
 }

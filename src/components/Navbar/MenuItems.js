@@ -15,11 +15,7 @@ export const MenuItems = [
     path: "/birdanimal",
     cName: "dropdown-link",
   },
-  {
-    title: "SOLD",
-    path: "/commissions",
-    cName: "dropdown-link",
-  },
+  
   {
     title: "MASTER-COPY",
     path: "/mastercopies",
@@ -33,6 +29,11 @@ export const MenuItems = [
   {
     title: "PET PORTRAIT ",
     path: "/petportraits",
+    cName: "dropdown-link",
+  },
+  {
+    title: "SOLD",
+    path: "/commissions",
     cName: "dropdown-link",
   },
 ];

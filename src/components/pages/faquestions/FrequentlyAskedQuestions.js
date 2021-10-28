@@ -1,54 +1,11 @@
-// import React, { useState } from "react";
+
 import Survey from "./survey/Survey";
 import Footer from "../Footer/Footer";
 // import { FrequentQuestions } from "../../../components/fetchMessage/FetchMessage";
 
 const FrequentlyAskedQuestions = () => {
-  // const PrintFAQ = FrequentQuestions();
-  // const [countOption, setCountOption] = useState({});
-
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   // googlesheet
-  //   const myHeaders = new Headers();
-  //   myHeaders.append("Content-Type", "application/json");
-  //   const requestCountOptions = {
-  //     method: "post",
-  //     headers: myHeaders,
-  //     redirect: "follow",
-  //     body: JSON.stringify([
-  //       [
-  //         countOption.google,
-  //         countOption.facebook,
-  //         countOption.instagram,
-  //         countOption.bluethumb,
-  //         countOption.family,
-  //         countOption.other,
-  //         new Date().toLocaleString(),
-  //       ],
-  //     ]),
-  //   };
-  //   // Amutha'sgit
-
-  //   fetch(
-  //     "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey",
-  //     requestCountOptions
-  //   )
-  //     // STELLA'S
-  //     // fetch(
-  //     //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
-  //     //   requestCountOptions
-  //     // )
-  //     .then((response) => response.text())
-  //     .catch((error) => console.log("error", error));
-  //   setCountOption({});
-  // };
-  // const handleSelect = (e) => {
-  //   const copycountOption = { ...countOption };
-  //   copycountOption[e.target.value] = 1;
-  //   setCountOption(copycountOption);
-  // };
-
+   
+  
   return (
     <div className="question-container">
       <header>

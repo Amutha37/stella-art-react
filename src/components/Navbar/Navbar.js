@@ -48,7 +48,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link to="/" className="nav-links">
-              🖼 PAINTINGS SALE/MORE
+              🖼 PAINTINGS
               <i className="fas fa-caret-down" />
             </Link>
             {dropdown && (

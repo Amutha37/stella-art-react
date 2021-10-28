@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({});
+  const [thankMsg, setThankMsg] = useState(false)
 
   const handleInput = (e) => {
     const copyFormData = { ...formData };
@@ -23,6 +24,8 @@ const Contact = () => {
     //     "user_A0rfHSP2yohzhMSJ4oDEU"
     //   )
     // Amutha
+    setThankMsg(true);
+
     emailjs
       .sendForm(
         "service_1lpa9id",
@@ -63,8 +66,13 @@ const Contact = () => {
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
     setFormData({});
+      reset()
   };
-
+const reset = ()=>{
+  formData.name = ""
+          formData.email = ""
+          formData.message = ""
+}
   return (
     <div>
       {/* <div> */}
@@ -117,9 +125,11 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <div className="btn">
-              <input className="btn" name="submit" type="submit" value="Send" />
-            </div>
+            
+            <div id="thank-you-container">
+{!thankMsg  ? (<div className="btn">
+              <input className="btn" name="submit" type="submit" value="Send" /></div>) :
+            (<p id="thank-you"> Submited Thank you!</p> )}</div>
 
             {/* social media */}
             <div>
