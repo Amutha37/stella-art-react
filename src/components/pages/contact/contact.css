@@ -3,12 +3,11 @@
 }
 .contact-main {
   margin-top: 1rem;
-  margin-bottom: 2rem;
   text-align: center;
 }
 .form-container {
   max-width: 800px;
-  height: 780px;
+  height: 720px;
   background: #fff;
   margin: 50px auto;
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
@@ -75,18 +74,18 @@
 }
 
 ::-webkit-input-placeholder {
-  font-family: "roboto";
+  font-family: 'roboto';
 }
 .social-media {
   display: grid;
   place-items: center;
+  margin-top: 5rem;
 }
 .social-media p {
-  margin-top: 1.3rem;
   font-size: 20px;
 }
 
-#thank-you-container{
+#thank-you-container {
   margin-bottom: 1rem;
   color: blue;
   height: 20px;
@@ -119,8 +118,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
   border: 1px solid #fff;
   border-radius: 5px;
   transition: all 0.3s;
@@ -169,11 +168,6 @@
   color: #2867b2;
   border-color: #2867b2;
 }
-/* .icons a:nth-child(5) .layer span,
-.icons a:nth-child(5) .text {
-  color: #ff0000;
-  border-color: #ff0000;
-} */
 .icons a:hover:nth-child(1) .layer span {
   box-shadow: -1px 1px 3px #4267b2;
 }
@@ -212,8 +206,8 @@
     font-size: 15px;
   }
   .form-container {
-    width: 420px;
-    height: 760px;
+    width: 418px;
+    height: 660px;
   }
   .form-container p {
     font-size: 30px;
@@ -240,22 +234,22 @@
   .login .input {
     width: 100%;
   }
+  .social-media {
+    margin-top: 3.5rem;
+  }
   .social-media p {
     font-size: 15px;
   }
   .icons a .layer {
     width: 40px;
     height: 40px;
-    /* transition: transform 0.s; */
   }
   .icons a .layer span {
     height: 70%;
     width: 70%;
   }
   .icons a .layer span.fab {
-    /* font-size: 15px; */
     line-height: 25px;
-    /* text-align: center; */
   }
   .icons a .text {
     font-size: 15px;

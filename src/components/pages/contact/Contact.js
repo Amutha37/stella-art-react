@@ -1,19 +1,20 @@
-import React, { useState } from "react";
-import "./contact.css";
-import emailjs from "emailjs-com";
+import React, { useState } from 'react'
+import { SocialMedia } from './SocialMedia'
+import './contact.css'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({})
   const [thankMsg, setThankMsg] = useState(false)
 
   const handleInput = (e) => {
-    const copyFormData = { ...formData };
-    copyFormData[e.target.name] = e.target.value;
-    setFormData(copyFormData);
-  };
+    const copyFormData = { ...formData }
+    copyFormData[e.target.name] = e.target.value
+    setFormData(copyFormData)
+  }
 
   const sendData = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
     // email
     // stella
     // emailjs
@@ -24,26 +25,26 @@ const Contact = () => {
     //     "user_A0rfHSP2yohzhMSJ4oDEU"
     //   )
     // Amutha
-    setThankMsg(true);
+    setThankMsg(true)
 
     emailjs
       .sendForm(
-        "service_1lpa9id",
-        "template_n6n6r8p",
+        'service_1lpa9id',
+        'template_n6n6r8p',
         e.target,
-        "user_etuc4QBUGfJPQyWZealTj"
+        'user_etuc4QBUGfJPQyWZealTj'
       )
       .then((res) => {
-        console.log(res);
+        console.log(res)
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
     // googlesheet
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
+    const myHeaders = new Headers()
+    myHeaders.append('Content-Type', 'application/json')
     const requestOptions = {
-      method: "post",
+      method: 'post',
       headers: myHeaders,
-      redirect: "follow",
+      redirect: 'follow',
       body: JSON.stringify([
         [
           formData.name,
@@ -52,10 +53,10 @@ const Contact = () => {
           new Date().toLocaleString(),
         ],
       ]),
-    };
+    }
     // Amutha'sgit
     fetch(
-      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback",
+      'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
       requestOptions
     )
       // STELLA'S
@@ -64,50 +65,41 @@ const Contact = () => {
       //   requestOptions
       // )
       .then((response) => response.text())
-      .catch((error) => console.log("error", error));
-    setFormData({});
-      reset()
-  };
-const reset = ()=>{
-  formData.name = ""
-          formData.email = ""
-          formData.message = ""
-}
+      .catch((error) => console.log('error', error))
+    setFormData({})
+    reset()
+  }
+  const reset = () => {
+    formData.name = ''
+    formData.email = ''
+    formData.message = ''
+  }
   return (
     <div>
-      {/* <div> */}
-      <div className="contact-main ">
-        {/* <h1>Under construction ⚠️ </h1> */}
-
-        <div className="form-container">
-          <p id="contact-form-title">Contact Stella</p>
-          <form
-            className="input-form"
-            // id="feedback"
-            // name="feedback"
-            required
-            onSubmit={sendData}
-          >
-            <div className="login">
+      <div className='contact-main '>
+        <div className='form-container'>
+          <p id='contact-form-title'>Contact Stella</p>
+          <form className='input-form' required onSubmit={sendData}>
+            <div className='login'>
               {/* <label>Name:</label> */}
               <input
-                name="name"
-                type="text"
+                name='name'
+                type='text'
                 required
-                placeholder="Your Name"
+                placeholder='Your Name'
                 onChange={handleInput}
-                className="input"
+                className='input'
               />
             </div>
-            <div className="login">
+            <div className='login'>
               {/* <label>E-mail :</label> */}
               <input
-                name="email"
-                type="email"
+                name='email'
+                type='email'
                 required
-                placeholder="Your Email Address"
+                placeholder='Your Email Address'
                 onChange={handleInput}
-                className="input"
+                className='input'
               />
             </div>
 
@@ -115,97 +107,98 @@ const reset = ()=>{
             <input type="text" placeholder="Subject" className="input" />
           </div> */}
 
-            <div className="msg">
+            <div className='msg'>
               <label>Message :</label>
               <textarea
-                name="message"
-                className="area"
-                placeholder="Leave a Message"
+                name='message'
+                className='area'
+                placeholder='Leave a Message'
                 onChange={handleInput}
               ></textarea>
             </div>
 
-            
-            <div id="thank-you-container">
-{!thankMsg  ? (<div className="btn">
-              <input className="btn" name="submit" type="submit" value="Send" /></div>) :
-            (<p id="thank-you"> Submited Thank you!</p> )}</div>
+            <div id='thank-you-container'>
+              {!thankMsg ? (
+                <div className='btn'>
+                  <input
+                    className='btn'
+                    name='submit'
+                    type='submit'
+                    value='Send'
+                  />
+                </div>
+              ) : (
+                <p id='thank-you'> Submited Thank you!</p>
+              )}
+            </div>
 
             {/* social media */}
-            <div>
-              <div className="social-media">
+            {/* <div>
+              <div className='social-media'>
                 <p>Follow me ⤵️ </p>
-                <div className="icons">
-                  <a href="https://www.facebook.com/search/top?q=stellas_art">
-                    <div className="layer">
+                <div className='icons'>
+                  <a href='https://www.facebook.com/search/top?q=stellas_art'>
+                    <div className='layer'>
                       <span></span>
                       <span></span>
                       <span></span>
                       <span></span>
-                      <span className="fab fa-facebook-f">
-                        {/* <AiFillLinkedin />{" "} */}
+                      <span className='fab fa-facebook-f'>
+                        
                       </span>
                     </div>
-                    <div className="text">Facebook</div>
+                    <div className='text'>Facebook</div>
                   </a>
-                  <a href="https://twitter.com/KypriotisStella">
-                    <div className="layer">
+                  <a href='https://twitter.com/KypriotisStella'>
+                    <div className='layer'>
                       <span></span>
                       <span></span>
                       <span></span>
                       <span></span>
-                      <span className="fab fa-twitter"></span>
+                      <span className='fab fa-twitter'></span>
                     </div>
-                    <div className="text">Twitter</div>
+                    <div className='text'>Twitter</div>
                   </a>
-                  <a href="https://www.instagram.com/stellas_art3/">
-                    <div className="layer">
+                  <a href='https://www.instagram.com/stellas_art3/'>
+                    <div className='layer'>
                       <span></span>
                       <span></span>
                       <span></span>
                       <span></span>
-                      <span className="fab fa-instagram"></span>
+                      <span className='fab fa-instagram'></span>
                     </div>
-                    <div className="text">Instagram</div>
+                    <div className='text'>Instagram</div>
                   </a>
-                  <a href="https://www.linkedin.com/in/stella-kypriotis-949101206/">
-                    <div className="layer">
+                  <a href='https://www.linkedin.com/in/stella-kypriotis-949101206/'>
+                    <div className='layer'>
                       <span></span>
                       <span></span>
                       <span></span>
                       <span></span>
-                      <span className="fab fa-linkedin-in"></span>
+                      <span className='fab fa-linkedin-in'></span>
                     </div>
-                    <div className="text">Linkedin</div>
+                    <div className='text'>Linkedin</div>
                   </a>
-                  {/* <a href="https://www.instagram.com/stellas_art3/">
-                    <div className="layer">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span className="fab fa-youtube"></span>
-                    </div>
-                    <div className="text">YouTube</div>
-                  </a> */}
-                </div>
-              </div>
-            </div>
+                 
+                </div> */}
+            {/* </div> */}
+            {/* </div> */}
+            <SocialMedia />
           </form>
         </div>
-        {/* <Footer /> */}
+
         {/* </div> */}
         {/* <div className="classNacontact-main"> */}
         <p>
           Copyright
-          {""}
-          <i className="far fa-copyright contact-icons" id="contact-copyright">
-            {" "}
+          {''}
+          <i className='far fa-copyright contact-icons' id='contact-copyright'>
+            {' '}
           </i>
-          {""} 2021 All Right Reserved.
+          {''} 2021 All Right Reserved.
         </p>
       </div>
     </div>
-  );
-};
-export default Contact;
+  )
+}
+export default Contact
