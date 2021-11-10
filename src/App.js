@@ -3,44 +3,47 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom";
-import React, { lazy, Suspense } from "react";
-import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-const Home = lazy(() => import("./components/pages/home/Home"));
+} from 'react-router-dom'
+import React, { lazy, Suspense } from 'react'
+import './App.css'
+import Navbar from './components/Navbar/Navbar'
+const Home = lazy(() => import('./components/pages/home/Home'))
 // import Home from "./components/pages/home/Home";
-const About = lazy(() => import("./components/pages/about/About"));
+const About = lazy(() => import('./components/pages/about/About'))
+const Commissions = lazy(() =>
+  import('./components/pages/commissions/Commissions')
+)
 // import About from "./components/pages/about/About";
 
-const Contact = lazy(() => import("./components/pages/contact/Contact"));
+const Contact = lazy(() => import('./components/pages/contact/Contact'))
 // import Contact from "./components/pages/contact/Contact";
 
-const Florals = lazy(() => import("./components/pages/floral/Florals"));
+const Florals = lazy(() => import('./components/pages/floral/Florals'))
 // import Florals from "./components/pages/floral/Florals";
 
 const Mastercopies = lazy(() =>
-  import("./components/pages/mastercopies/Mastercopies")
-);
+  import('./components/pages/mastercopies/Mastercopies')
+)
 // import Mastercopies from "./components/pages/mastercopies/Mastercopies";
 
-const BirdAnimal = lazy(() => import("./components/pages/wildlife/BirdAnimal"));
+const BirdAnimal = lazy(() => import('./components/pages/wildlife/BirdAnimal'))
 // import BirdAnimal from "./components/pages/wildlife/BirdAnimal";
 
-const Sold = lazy(() => import("./components/pages/sold/Sold"));
+const Sold = lazy(() => import('./components/pages/sold/Sold'))
 // import Sold from "./components/pages/sold/Sold";
 
-const Nature = lazy(() => import("./components/pages/nature/Nature"));
+const Nature = lazy(() => import('./components/pages/nature/Nature'))
 // import Nature from "./components/pages/nature/Nature";
 
-const Portraits = lazy(() => import("./components/pages/portrait/Portraits"));
+const Portraits = lazy(() => import('./components/pages/portrait/Portraits'))
 // import Portraits from "./components/pages/portrait/Portraits";
 
 const Petportraits = lazy(() =>
-  import("./components/pages/petportrait/Petportraits")
-);
+  import('./components/pages/petportrait/Petportraits')
+)
 const FrequentlyAskedQuestions = lazy(() =>
-  import("./components/pages/faquestions/FrequentlyAskedQuestions")
-);
+  import('./components/pages/faquestions/FrequentlyAskedQuestions')
+)
 // import Petportraits from "./components/pages/petportrait/Petportraits";
 
 const App = () => {
@@ -48,11 +51,11 @@ const App = () => {
     // <Fragment>
     <Suspense
       fallback={
-        <div className="container-loader">
-          <div className="flex">
-            <div className="loader"></div>
+        <div className='container-loader'>
+          <div className='flex'>
+            <div className='loader'></div>
           </div>
-          <div className="load-text">Loading...</div>
+          <div className='load-text'>Loading...</div>
         </div>
       }
     >
@@ -61,36 +64,38 @@ const App = () => {
 
         {/* new  */}
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path='/' exact component={Home} />
 
-          <Route path="/about" component={About} />
+          <Route path='/about' component={About} />
 
-          <Route path="/contact" component={Contact} />
+          <Route path='/commissions' component={Commissions} />
 
-          <Route path="/nature" component={Nature} />
+          <Route path='/contact' component={Contact} />
 
-          <Route path="/mastercopies" component={Mastercopies} />
+          <Route path='/nature' component={Nature} />
 
-          <Route path="/portraits" component={Portraits} />
+          <Route path='/mastercopies' component={Mastercopies} />
 
-          <Route path="/petportraits" component={Petportraits} />
+          <Route path='/portraits' component={Portraits} />
 
-          <Route path="/florals" component={Florals} />
+          <Route path='/petportraits' component={Petportraits} />
 
-          <Route path="/birdanimal" component={BirdAnimal} />
+          <Route path='/florals' component={Florals} />
 
-          <Route path="/commissions" component={Sold} />
+          <Route path='/birdanimal' component={BirdAnimal} />
 
-          <Route path="/faquestions" component={FrequentlyAskedQuestions} />
+          <Route path='/sold' component={Sold} />
+
+          <Route path='/faquestions' component={FrequentlyAskedQuestions} />
 
           {/* home page */}
           <Route>
-            <Redirect exact from="/" to="/home" />
-            <Route exact path="/home" component={Home} />
+            <Redirect exact from='/' to='/home' />
+            <Route exact path='/home' component={Home} />
           </Route>
         </Switch>
       </Router>
     </Suspense>
-  );
-};
-export default App;
+  )
+}
+export default App

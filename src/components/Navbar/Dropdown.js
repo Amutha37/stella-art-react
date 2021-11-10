@@ -1,7 +1,7 @@
-import React from "react";
-import { MenuItems } from "./MenuItems";
-import "./Dropdown.css";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { DropDownItems } from './dropDownItems'
+import './Dropdown.css'
+import { Link } from 'react-router-dom'
 //
 
 function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
@@ -9,9 +9,9 @@ function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
     <>
       <ul
         onClick={handleSelect}
-        className={shutDropdown ? "dropdown-menu clicked" : "dropdown-menu"}
+        className={shutDropdown ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {MenuItems.map((item, index) => {
+        {DropDownItems.map((item, index) => {
           return (
             <li key={index}>
               <Link
@@ -22,11 +22,11 @@ function Dropdown({ shutDropdown, handleSelect, closeMobileMenu }) {
                 {item.title}
               </Link>
             </li>
-          );
+          )
         })}
       </ul>
     </>
-  );
+  )
 }
 
-export default Dropdown;
+export default Dropdown

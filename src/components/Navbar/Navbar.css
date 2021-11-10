@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 2rem;
+  /* background-color: teal; */
 }
 
-.fa-firstdraft {
+/* .fa-firstdraft {
   margin-left: 0.5rem;
   font-size: 1.6rem;
-}
+} */
 
 .nav-item {
   display: flex;
@@ -18,8 +19,8 @@
 }
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 5px;
   list-style: none;
   text-align: center;
   margin-right: 1rem;
@@ -31,7 +32,7 @@
 }
 
 .nav-links:after {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   transition: width 0.7s ease, background-color 0.5s ease;
@@ -40,8 +41,8 @@
 .nav-links:hover:after {
   width: 100%;
   /* background: #71bbe3; */
-    background: #486255;
-  
+  background: #486255;
+
   border-radius: 3px;
   padding: 2px;
 }
@@ -64,7 +65,7 @@
   font-size: calc(9px + 3vmin);
   color: rgb(12, 12, 12);
   margin-top: 7rem;
-  font-family: "Nobel Book", "san-serif";
+  font-family: 'Nobel Book', 'san-serif';
   /* all side shadow */
   text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,

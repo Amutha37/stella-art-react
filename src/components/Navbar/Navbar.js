@@ -1,55 +1,55 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment } from 'react'
 
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import Dropdown from "./Dropdown";
+import { Link } from 'react-router-dom'
+import './Navbar.css'
+import Dropdown from './Dropdown'
 
 function Navbar() {
-  const [shutDropdown, setShutDropdown] = useState(false);
-  const [toggleShut, setToggleShut] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  const [shutDropdown, setShutDropdown] = useState(false)
+  const [toggleShut, setToggleShut] = useState(false)
+  const [dropdown, setDropdown] = useState(false)
 
-  const handleClick = () => setToggleShut(!toggleShut);
-  const closeMobileMenu = () => setToggleShut(false);
+  const handleClick = () => setToggleShut(!toggleShut)
+  const closeMobileMenu = () => setToggleShut(false)
 
   const onMouseEnter = () => {
-    setDropdown(true);
-  };
+    setDropdown(true)
+  }
 
   const onMouseLeave = () => {
-    setDropdown(false);
-    setShutDropdown(false);
-  };
+    setDropdown(false)
+    setShutDropdown(false)
+  }
 
   // dropdown menu control
-  const handleSelect = () => setShutDropdown(!shutDropdown);
+  const handleSelect = () => setShutDropdown(!shutDropdown)
   const closeDropdownMenu = () => {
-    setShutDropdown(false);
-  };
+    setShutDropdown(false)
+  }
 
   return (
     <Fragment>
-      <div className="appheader">
+      <div className='appheader'>
         <p>Stella Kypriotis Fine Art </p>
       </div>
-      <nav className="navbar">
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={toggleShut ? "fas fa-times" : "fas fa-bars"} />
+      <nav className='navbar'>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={toggleShut ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        <ul className={toggleShut ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+        <ul className={toggleShut ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               🏠 HOME
             </Link>
           </li>
           <li
-            className="nav-item"
+            className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link to="/" className="nav-links">
-              🖼 PAINTINGS
-              <i className="fas fa-caret-down" />
+            <Link to='/' className='nav-links'>
+              PAINTINGS
+              <i className='fas fa-caret-down' />
             </Link>
             {dropdown && (
               <Dropdown
@@ -61,29 +61,38 @@ function Navbar() {
             )}
             {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-              🙍‍♀️ THE ARTIST
+          <li className='nav-item'>
+            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+              THE ARTIST
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-              📩 CONTACT
-            </Link>
-          </li>
-          <li className="nav-item">
+          <li className='nav-item'>
             <Link
-              to="/faquestions"
-              className="nav-links"
+              to='/commissions'
+              className='nav-links'
               onClick={closeMobileMenu}
             >
-              ❓ FAQ
+              COMMISSIONS
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              CONTACT
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/faquestions'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              FAQ
             </Link>
           </li>
         </ul>
       </nav>
     </Fragment>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
