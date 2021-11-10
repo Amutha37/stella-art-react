@@ -1,32 +1,32 @@
 import React from 'react'
 // import peacefuljourney from './peacefuljourney.jpg'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import './commission.css'
 
 function Commissions() {
   return (
-    // <div classNameName='ui inverted vertical masthead center aligned segment'>
-    //   <div className='ui text container'>
-    //     <p className='ui inverted header'>My name</p>
-    //     <h2>My role</h2>
-    //     <div className='ui huge primary button' id='note2'>
-    //       Get Started
-    //     </div>
-    //   </div>
-    //   <Footer />
-    // </div>
     <>
-      <div
+      {/* blury background */}
+      <div>
+        <div class='bg-image'></div>
+
+        <div class='bg-text'>
+          <h1>I am Stella Krypriotis</h1>
+          <p>And I'm an Artist</p>
+        </div>
+      </div>
+
+      {/* hero image text */}
+      {/* <div
         className='hero-image'
-        // style={{ backgroundImage: `url(${peacefuljourney})` }}
       >
         <div className='hero-text'>
           <h1>I am Stella Krypriotis</h1>
           <p>And I'm an Artist</p>
-          {/* <button>Hire me</button> */}
         </div>
-      </div>
-      <Footer />
+      </div> */}
+
+      {/* <Footer /> */}
     </>
   )
 }
