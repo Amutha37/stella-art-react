@@ -62,6 +62,7 @@ h2 {
   background-repeat: no-repeat !important;
   background-size: cover; */
   margin-top: 2rem;
+  margin-bottom: 2rem;
   height: 100%;
   padding: 10%;
 
@@ -72,6 +73,7 @@ h2 {
   margin-right: auto;
   margin-left: auto;
 }
+
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0, 0, 0); /* Fallback color */
@@ -90,20 +92,45 @@ h2 {
   margin-right: auto;
   margin-left: auto;
 }
+.testimonials {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonials h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.testimonials p {
+  color: rgba(111, 109, 109, 0.982);
+  font-size: 16px;
+}
 @media screen and (max-width: 768px) {
+  .bg-image {
+    width: 100%;
+  }
   .bg-text {
     top: 26%;
     left: 50%;
     width: 43%;
     padding: 16px;
   }
-  h1 {
+  .hero-image-container h1 {
     font-size: 1.5rem;
   }
-  p {
+  .hero-image-container p {
     font-size: 1.1rem;
   }
 }
+
+hr {
+  width: 80%;
+  color: rgb(216, 208, 208);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 680px) {
   .bg-text {
     top: 25%;
@@ -111,10 +138,10 @@ h2 {
     width: 50%;
     padding: 10px;
   }
-  h1 {
+  .hero-image-container h1 {
     font-size: 1rem;
   }
-  p {
+  .hero-image-container p {
     font-size: 0.7rem;
   }
 }
