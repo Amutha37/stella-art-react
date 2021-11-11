@@ -327,3 +327,31 @@ export const PetportraitsImages = [
     image: require('./globalimages/quotation.png').default,
   },
 ]
+
+// commission images sample display
+
+export const CommissionSamples = [
+  {
+    id: 1,
+    name: 'Calming Florals(Commission Piece)',
+    size: ' ',
+    image: require('./sold/calmingflorals.jpg').default,
+  },
+  {
+    id: 2,
+    name: 'Martin Luther King',
+    size: '',
+    image: require('./portrait/martinlutherking.jpg').default,
+  },
+  {
+    id: 3,
+    name: 'Lily Flower',
+    image: require('./globalimages/peacefuljourney.jpg').default,
+  },
+  {
+    id: 4,
+    name: 'Charlie',
+    size: '',
+    image: require('./petportraits/charlie.jpg').default,
+  },
+]

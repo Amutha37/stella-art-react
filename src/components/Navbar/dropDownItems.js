@@ -33,7 +33,7 @@ export const DropDownItems = [
   },
   {
     title: 'SOLD',
-    path: '/commissions',
+    path: '/sold',
     cName: 'dropdown-link',
   },
 ]

@@ -1,14 +1,14 @@
-import React from "react";
-import stella from "../../../components/Images/globalimages/stellaoutdoor.jpg";
-import "../../../App.css";
+import React from 'react'
+import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
+import '../../../App.css'
 // "./Images/globalimages/stellaoutdoor.jpg";
 const About = () => {
   return (
     <div>
-      <div className="stellaimg">
-        <h2 className="about">About Me</h2>
-        <div className="image-box">
-          <img className="center-fit" src={stella} alt="Stella" />
+      <div className='stellaimg'>
+        <h2 className='about'>About Me</h2>
+        <div className='image-box'>
+          <img className='center-fit' src={stella} alt='Stella' />
         </div>
         <p>
           Stella Kypriotis is an artist who lives and works in Sydney Australia.
@@ -41,7 +41,7 @@ const About = () => {
           "Art speaks where words are unable to explain." by Mathiole"
           <br></br> <br></br>
         </p>
-        <div id="exhibitionNote">
+        <div id='exhibitionNote'>
           <h3>Exhibitions</h3>
           <p>Solo Exhibition,</p>
           <p>Art House Cafe,</p>
@@ -56,8 +56,8 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 //   <br></br>
 // Born in Greece, I migrated here to Sydney at a young age. I am married
@@ -88,4 +88,4 @@ const About = () => {
 // painting or custom portrait, please contact me using the links below.
 // <br></br>
 //
-export default About;
+export default About
