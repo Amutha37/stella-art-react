@@ -17,7 +17,7 @@ export const priceList = [
     price: '610',
   },
   {
-    size: '16" x 20" ',
+    size: ' ',
     person: 2,
     price: '650',
   },
@@ -27,7 +27,7 @@ export const priceList = [
     price: '700',
   },
   {
-    size: '24" x 30" ',
+    size: ' ',
     person: 2,
     price: '750',
   },
@@ -38,7 +38,7 @@ export const priceList = [
   },
 
   {
-    size: '24" x 36" ',
+    size: '',
     person: 2,
     price: '780',
   },
@@ -57,7 +57,6 @@ export function PrintPrice() {
       <table className='dml_table' cellPadding={0} cellSpacing={0}>
         <thead className='sticky-thc'>
           <tr>
-            <th>Seq.</th>
             <th>Size "inches"</th>
             <th>Person</th>
             <th>Price (A$)</th>
@@ -65,8 +64,7 @@ export function PrintPrice() {
         </thead>
         <tbody>
           {priceList.map((item, i) => (
-            <tr>
-              <td>{i + 1}</td>
+            <tr key={i}>
               <td>{item.size}</td>
               <td>{item.person}</td>
               <td>{item.price}</td>
