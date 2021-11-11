@@ -194,6 +194,10 @@ hr {
 }
 
 /* table */
+.table-container {
+  text-align: center;
+  margin-top: 2rem;
+}
 table {
   margin: 4rem auto;
   width: 60%;

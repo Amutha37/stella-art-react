@@ -47,7 +47,13 @@ export const priceList = [
 export function PrintPrice() {
   //   let ind = 0
   return (
-    <div>
+    <div className='table-container'>
+      <p>ALL PRICES ARE IN AUDS.</p>
+      <br />
+      <p>
+        Please note: All paintings require a non-refundable 50% deposit before
+        starting.
+      </p>
       <table className='dml_table' cellPadding={0} cellSpacing={0}>
         <thead className='sticky-thc'>
           <tr>
