@@ -1,7 +1,7 @@
 export const BannerImage = [
   {
     id: 1,
-    name: 'Lily Flower',
+    name: 'Peaceful Journey',
     image: require('./globalimages/peacefuljourney.jpg').default,
   },
 ]
@@ -333,25 +333,30 @@ export const PetportraitsImages = [
 export const CommissionSamples = [
   {
     id: 1,
-    name: 'Calming Florals(Commission Piece)',
-    size: ' ',
+    name: 'Calming Florals 2020 76cm x 76cm x 4cm depth Oil on stretched canvas',
+    size: '76cm x 76cm x 4cm depth',
+    info: 'Oil on stretched canvas',
     image: require('./sold/calmingflorals.jpg').default,
   },
   {
     id: 2,
     name: 'Martin Luther King',
     size: '',
+    info: '',
     image: require('./portrait/martinlutherking.jpg').default,
   },
   {
     id: 3,
-    name: 'Lily Flower',
+    name: 'Peaceful Journey 2021',
+    size: '120cm x 90cm x 4cm depth',
+    info: 'Oil on stretched canvas',
     image: require('./globalimages/peacefuljourney.jpg').default,
   },
   {
     id: 4,
     name: 'Charlie',
     size: '',
+    info: '',
     image: require('./petportraits/charlie.jpg').default,
   },
 ]

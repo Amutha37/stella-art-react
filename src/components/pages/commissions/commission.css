@@ -47,9 +47,6 @@ h2 {
 /* blury background  */
 
 .bg-image {
-  /* The image used */
-  /* background-image: url('./peacefuljourney.jpg') !important; */
-
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
@@ -63,7 +60,6 @@ h2 {
   background-size: cover; */
   margin-top: 2rem;
   margin-bottom: 2rem;
-  height: 100%;
   padding: 10%;
 
   background-image: url('./sunrise3.jpg');
@@ -72,11 +68,12 @@ h2 {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  height: 200px;
 }
 
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0, 0, 0); /* Fallback color */
+  /* background-color: rgb(0, 0, 0); Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
@@ -98,21 +95,80 @@ h2 {
   margin-top: 3rem;
   display: flex;
   width: 80%;
-  overflow-x: scroll;
+  overflow-y: hidden;
+  /* background-color: black; */
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
   justify-content: center;
 }
 .commission-samples img {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  max-height: 300px;
+  max-height: 250px;
   padding: 8px;
-  margin-left: auto;
-  margin-right: auto;
 }
+/* overlay on hover */
+
+.portrai-sample {
+  position: relative;
+  /* width: 280px;
+  height: 280px; */
+
+  margin: 0 auto;
+}
+/* .portrai-sample img {
+  width: 100%;
+  vertical-align: top;
+  background: transparent;
+} */
+.portrai-sample:after,
+.portrai-sample:before {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.portrai-sample:after {
+  content: '\A';
+  /* width: 100%;
+  height: 100%; */
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.portrai-sample:before {
+  content: attr(data-content);
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 18px;
+  z-index: 1;
+  bottom: 1;
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  /* padding: 4px 20px; */
+  text-align: center;
+  background: rgba(12, 12, 12, 0.5);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/* hr {
+  height: 5px;
+  background-color: blue;
+  width: 80%;
+
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+} */
+.portrai-sample:hover:after,
+.portrai-sample:hover:before {
+  opacity: 1;
+}
+
 /* testimonial */
 .testimonials {
   width: 70%;
@@ -127,6 +183,103 @@ h2 {
 .testimonials p {
   color: rgb(97, 94, 94);
   font-size: 16px;
+}
+
+hr {
+  width: 90%;
+  color: rgb(91, 89, 89);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+/* table */
+table {
+  margin: 4rem auto;
+  width: 60%;
+
+  margin: 3rem auto;
+  text-align: center;
+  width: 60%;
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  box-sizing: border-box;
+  /* margin-left: 20%; */
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* width: 100%; */
+}
+
+/* tr th {
+  background: #99d3d5;
+  color: rgba(14, 14, 20, 0.77);
+  font-size: 1rem;
+  padding: 0.6rem;
+  color: white;
+  border-bottom: 2px solid rgb(2, 14, 11);
+  border-top: 4px solid rgb(2, 14, 11);
+  border-left: 4px solid rgb(2, 14, 11);
+  
+} */
+/* tr {
+  border-collapse: collapse;
+  font-weight: bold;
+  width: fit-content;
+} */
+thead {
+  background-color: rgb(56, 74, 51);
+  color: #fff;
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+/* tr th:last-child {
+  border-right: 4px solid rgb(2, 14, 11);
+} */
+/* td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+} */
+/* tr td {
+  color: rgba(13, 13, 14, 0.77);
+  padding: 0.5rem;
+  border-top: 2px solid rgb(2, 12, 11);
+  border-left: 3px solid rgb(2, 14, 11);
+  background: rgba(100, 154, 131, 0.77);
+} */
+
+/* .dml_table tr th:last-child, */
+/* tr td:last-child {
+  border-right: 3px solid rgb(1, 11, 9);
+} */
+/* .dml_table tr:last-child th, */
+/* tr:last-child td {
+  border-bottom: 2px solid rgb(1, 11, 9);
+} */
+
+tr td {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  border: 1px solid #151515;
+  background-color: #dddddd;
+}
+@media screen and (max-width: 920px) {
+  .bg-text {
+    top: 40%;
+  }
+  .hero-image-container h1 {
+    font-size: 1.5rem;
+  }
+  .hero-image-container p {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .bg-image {
@@ -144,19 +297,14 @@ h2 {
   .hero-image-container p {
     font-size: 1.1rem;
   }
-}
-
-hr {
-  width: 90%;
-  color: rgb(91, 89, 89);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1rem;
+  .commission-samples img {
+    max-height: 170px;
+  }
 }
 
 @media screen and (max-width: 680px) {
   .bg-text {
-    top: 25%;
+    top: 23%;
     left: 50%;
     width: 50%;
     padding: 10px;
@@ -166,5 +314,8 @@ hr {
   }
   .hero-image-container p {
     font-size: 0.7rem;
+  }
+  .commission-samples img {
+    height: 110px;
   }
 }
