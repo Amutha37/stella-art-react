@@ -49,6 +49,7 @@ commission-container .bg-text h1 {
   max-width: 100%;
   max-height: 300px;
   padding: 4px;
+  overflow-y: hidden;
 }
 /* overlay on hover */
 .commission-container .commission-samples {
@@ -209,26 +210,31 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 680px) {
   .commission-container .bg-text {
-    top: 25%;
+    top: 26%;
     left: 50%;
     width: 80%;
-    padding: 13px;
   }
 
   /* .hero-image-container h1 {
     font-size: 1rem;
   } */
-  .hero-image-container p {
+  .commission-container .hero-image-container p {
     font-size: 0.9rem;
   }
-  .commission-samples {
+  .commission-container .commission-samples {
     width: 100%;
   }
-  .commission-samples img {
-    max-width: auto;
-    max-height: auto;
-  }
+  /* .commission-samples img {
+    max-width: 100%;
+    max-height: 200px;
+  } */
   table {
     width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .commission-container .bg-text {
+    top: 30%;
+    width: 90%;
   }
 }
