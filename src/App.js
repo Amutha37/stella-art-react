@@ -42,7 +42,7 @@ const Petportraits = lazy(() =>
   import('./components/pages/petportrait/Petportraits')
 )
 const FrequentlyAskedQuestions = lazy(() =>
-  import('./components/pages/faquestions/FrequentlyAskedQuestions')
+  import('./components/pages/fquestionsAsked/FrequentlyAskedQuestions')
 )
 // import Petportraits from "./components/pages/petportrait/Petportraits";
 

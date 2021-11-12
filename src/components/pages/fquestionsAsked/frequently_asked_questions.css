@@ -1,24 +1,22 @@
 .question-container {
   text-align: center;
-  margin-top: 3rem;
   width: 80%;
+  margin: 3rem auto 3rem auto;
 }
 
 .question-container p {
   font-style: 30px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  /* float: left; */
 }
-.whole-list-questions {
-  margin-top: 2rem;
+.question-container .whole-list-questions {
+  margin-top: 4rem;
   margin-left: 14px;
-  /* text-align: left; */
+  text-align: left;
 }
-.each-question {
+.question-container .each-question {
   margin-top: 1.5rem;
 }
-.each-answer {
+.question-container .each-answer {
   margin-top: 5px;
 }
 

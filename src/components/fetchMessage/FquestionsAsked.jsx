@@ -1,8 +1,4 @@
-// import Survey from './survey/Survey'
-import Footer from '../Footer/Footer'
-// import { FrequentQuestions } from "../../../components/fetchMessage/FetchMessage";
-
-const FrequentlyAskedQuestions = () => {
+export function FquestionsAsked() {
   return (
     <div className='question-container'>
       <header>
@@ -66,11 +62,6 @@ const FrequentlyAskedQuestions = () => {
           </div>
         </div>
       </header>
-      {/* <PrintFAQ /> */}
-      {/* <Survey /> */}
-      <Footer />
     </div>
   )
 }
-
-export default FrequentlyAskedQuestions
