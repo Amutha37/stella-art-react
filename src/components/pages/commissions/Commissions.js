@@ -1,16 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import peacefuljourney from './peacefuljourney.jpg'
 import Footer from '../Footer/Footer'
 import { CommissionSamples } from '../../../components/Images/Images'
 import { Testimonial } from '../../../components/fetchMessage/Testimonial'
 import { PrintPrice } from '../../../components/fetchMessage/PriceTable'
 import './commission.css'
+// import './commission2.css'
+import './commission2.css'
 
 function Commissions() {
-  const [hover, setHover] = useState(false)
-  const onHover = () => {
-    setHover(!hover)
-  }
+  // const [hover, setHover] = useState(false)
+  // const onHover = () => {
+  //   setHover(!hover)
+  // }
   return (
     <div className='commission-container'>
       {/* blury background */}
@@ -23,37 +25,32 @@ function Commissions() {
           <p> FREE SHIPPING in Australia</p>
         </div>
       </div>
-      <div className='image-container'>
-        <div className='commission-samples'>
-          {CommissionSamples.map((sampleImg, i) => (
-            <div
-              key={i}
-              className='portrai-sample'
-              // data-content={sampleImg.name}
-              // eslint-disable-next-line react/jsx-no-duplicate-props
+      {/* <div className='image-container'> */}
+      <div className='commission-images-container'>
+        {CommissionSamples.map((sampleImg, i) => (
+          <div
+            key={i}
+            className='commision-single-image'
+            // data-content={sampleImg.name}
+            // eslint-disable-next-line react/jsx-no-duplicate-props
+            // data-content={sampleImg.size}
+          >
+            <img
+              // className='{sampleImg.class[i]}'
               // data-content={sampleImg.size}
-            >
-              <img
-                // className='portrai-sample'
-                // data-content={sampleImg.size}
-                src={sampleImg.image}
-                alt={sampleImg.name}
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-              />
-              {/* {hover && (
-                <div className='overlay'>
-                  <div className='text'>
-                    <p>{sampleImg.name}</p>
-                    <p>{sampleImg.size}</p>
-                    <p>{sampleImg.info}</p>
-                  </div>
-                </div>
-              )} */}
+              src={sampleImg.image}
+              alt={sampleImg.name}
+            />
+
+            <div className='overlay-text' activeClassName='{sampleImg.clName}'>
+              <p>{sampleImg.name}</p>
+              <p>{sampleImg.size}</p>
+              <p>{sampleImg.info}</p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+      {/* </div> */}
       <PrintPrice />
       <Testimonial />
       <Footer />

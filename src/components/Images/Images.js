@@ -337,6 +337,7 @@ export const CommissionSamples = [
     size: '76cm x 76cm x 4cm depth',
     info: 'Oil on stretched canvas',
     image: require('./sold/calmingflorals.jpg').default,
+    clName: 'cactive',
   },
   {
     id: 2,
@@ -344,6 +345,7 @@ export const CommissionSamples = [
     size: '',
     info: '',
     image: require('./portrait/martinlutherking.jpg').default,
+    clName: 'cactive',
   },
   {
     id: 3,
@@ -351,6 +353,7 @@ export const CommissionSamples = [
     size: '120cm x 90cm x 4cm depth',
     info: 'Oil on stretched canvas',
     image: require('./globalimages/peacefuljourney.jpg').default,
+    clName: 'cactive',
   },
   {
     id: 4,
@@ -358,5 +361,6 @@ export const CommissionSamples = [
     size: '',
     info: '',
     image: require('./petportraits/charlie.jpg').default,
+    clName: 'cactive',
   },
 ]
