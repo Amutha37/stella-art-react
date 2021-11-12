@@ -3,8 +3,8 @@
     "main.css": "/stella-art-react/static/css/main.2273d7a3.chunk.css",
     "main.js": "/stella-art-react/static/js/main.bc69ae67.chunk.js",
     "main.js.map": "/stella-art-react/static/js/main.bc69ae67.chunk.js.map",
-    "runtime-main.js": "/stella-art-react/static/js/runtime-main.07d2651d.js",
-    "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.07d2651d.js.map",
+    "runtime-main.js": "/stella-art-react/static/js/runtime-main.17440667.js",
+    "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.17440667.js.map",
     "static/css/2.3e9c7b38.chunk.css": "/stella-art-react/static/css/2.3e9c7b38.chunk.css",
     "static/js/2.603a975e.chunk.js": "/stella-art-react/static/js/2.603a975e.chunk.js",
     "static/js/2.603a975e.chunk.js.map": "/stella-art-react/static/js/2.603a975e.chunk.js.map",
@@ -26,7 +26,7 @@
     "static/css/8.3e9c7b38.chunk.css": "/stella-art-react/static/css/8.3e9c7b38.chunk.css",
     "static/js/8.f2098d7b.chunk.js": "/stella-art-react/static/js/8.f2098d7b.chunk.js",
     "static/js/8.f2098d7b.chunk.js.map": "/stella-art-react/static/js/8.f2098d7b.chunk.js.map",
-    "static/css/9.e76da87a.chunk.css": "/stella-art-react/static/css/9.e76da87a.chunk.css",
+    "static/css/9.967979a4.chunk.css": "/stella-art-react/static/css/9.967979a4.chunk.css",
     "static/js/9.6e6e406a.chunk.js": "/stella-art-react/static/js/9.6e6e406a.chunk.js",
     "static/js/9.6e6e406a.chunk.js.map": "/stella-art-react/static/js/9.6e6e406a.chunk.js.map",
     "static/css/10.2b4c95da.chunk.css": "/stella-art-react/static/css/10.2b4c95da.chunk.css",
@@ -55,7 +55,7 @@
     "static/css/6.3e9c7b38.chunk.css.map": "/stella-art-react/static/css/6.3e9c7b38.chunk.css.map",
     "static/css/7.3e9c7b38.chunk.css.map": "/stella-art-react/static/css/7.3e9c7b38.chunk.css.map",
     "static/css/8.3e9c7b38.chunk.css.map": "/stella-art-react/static/css/8.3e9c7b38.chunk.css.map",
-    "static/css/9.e76da87a.chunk.css.map": "/stella-art-react/static/css/9.e76da87a.chunk.css.map",
+    "static/css/9.967979a4.chunk.css.map": "/stella-art-react/static/css/9.967979a4.chunk.css.map",
     "static/css/main.2273d7a3.chunk.css.map": "/stella-art-react/static/css/main.2273d7a3.chunk.css.map",
     "static/js/11.0800e521.chunk.js.LICENSE.txt": "/stella-art-react/static/js/11.0800e521.chunk.js.LICENSE.txt",
     "static/media/StellaArtist.992845c6.jpg": "/stella-art-react/static/media/StellaArtist.992845c6.jpg",
@@ -102,7 +102,7 @@
     "static/media/youngwomanbyawindow.jpg": "/stella-art-react/static/media/youngwomanbyawindow.4ad26ab5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.07d2651d.js",
+    "static/js/runtime-main.17440667.js",
     "static/js/11.0800e521.chunk.js",
     "static/css/main.2273d7a3.chunk.css",
     "static/js/main.bc69ae67.chunk.js"
