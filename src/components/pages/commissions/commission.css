@@ -121,18 +121,12 @@ tr:nth-child(even) {
   border: 1px solid #151515;
   background-color: #dddddd;
 }
-/* @media screen and (max-width: 1024px) {
-  .bg-text {
-    top: 20%;
-    left: 50%;
-  }
-} */
 @media screen and (max-width: 1024px) {
   .commission-container .bg-image {
     height: 250px;
   }
   .commission-container .bg-text {
-    top: 30%;
+    top: 420px;
   }
 }
 @media screen and (max-width: 920px) {
