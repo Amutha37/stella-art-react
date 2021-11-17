@@ -26,7 +26,8 @@ export function FquestionsAsked() {
             <p className='each-question'>Q3. What materials do you use? </p>
             <p className='each-answer'>
               A3. I use artist grade quality oil paints such as Michael Harding,
-              Gamblin, Artist Spectrum and masterclass paints.
+              Gamblin, Artist Spectrum and masterclass paints on streched canvas
+              or wood panels.
             </p>
           </div>
 
@@ -53,15 +54,15 @@ export function FquestionsAsked() {
               location I may be able to deliver it to your door.
             </p>
           </div>
-          <div className='question-answer'>
+          {/* <div className='question-answer'>
             <p className='each-question'>Q7. Do you accept commission work? </p>
             <p className='each-answer'>
               A7. Yes I can, we will need to communicate and see exactly what it
               is you are wanting.
             </p>
-          </div>
+          </div> */}
         </div>
       </header>
     </div>
-  )
+  );
 }

@@ -1,42 +1,56 @@
-import React from 'react'
-import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
-import '../../../App.css'
+import React from 'react';
+import stella from '../../../components/Images/globalimages/StellaArtist.jpg';
+import Footer from '../../Footer/Footer';
+import '../../../App.css';
 // "./Images/globalimages/stellaoutdoor.jpg";
 const About = () => {
   return (
     <div>
       <div className='stellaimg'>
-        <h2 className='about'>About Me</h2>
         <div className='image-box'>
           <img className='center-fit' src={stella} alt='Stella' />
         </div>
+        <h3>Artist Statement</h3>
+        <br></br> <br></br>
         <p>
-          Stella Kypriotis is an artist who lives and works in Sydney Australia.
-          She is married to her husband of 32 years and together have raised 3
-          sons.
-          {/* <br></br> <br></br>
-          Her interest in art started from her school life when she picked Arts
-          as her subject and felt very connected to that subject. */}
+          Stella Kypriotis is a contemporary realist artist based in Sydney
+          Australia. She loves painting a variety of subjects including florals,
+          wildlife, landscapes, seascapes and portraits. She paints mainly in
+          artists grade oil paints such as Windsor and Newton paints, Michael
+          Harding and Art Spectrum on canvas or wooden board ensuring her
+          surface is well prepared and varnished for longevity. Putting her
+          heart and soul into every painting, she desires that the viewer/
+          collector feels connected to her paintings and wants them to feel as
+          though they are stepping into another world.
+        </p>
+        <br></br> <br></br>
+        <h3>My Story</h3>
+        <p>
           <br></br> <br></br>
-          She loves painting a variety of subjects including florals, birds,
-          landscapes and portraits. She paints mainly in (artist grade) oils on
-          canvas or wooden board ensuring her surface is well prepared and
-          finished with varnish for longevity.
+          As a young child, Stella had a longing to create anything, she enjoyed
+          making something out of nothing and gave her a sense of satisfaction.
+          She would sit at her mothers sewing machine for hours at a time, and
+          try to design a dress for her dolls with the left over material her
+          mum was ready to scrap. Her favourite subject in school was Arts, and
+          Stella loved listening to the teachers stories from the previous
+          artist history. Her teacher asked the students to paint something
+          which they felt connected to. Stella went on to paint a large canvas
+          of Crying Girl, by Roy Lichtenstein, which was her 1st ever painting.
+          She hoped one day she will become an artist but noone around her
+          thought there couldn't possible be a career in that, so she put it in
+          the back of her mind.
           <br></br> <br></br>
           During her career life she worked in various office roles, which
-          didn't leave room for her creativity making her realise her true
-          passion was arts. She decided to work in an art-shop which was a great
-          way to help her further explore that field. She then enrolled in art
-          classes to learn oil painting and hasn't stopped since.
+          didn't leave room for her creativity. She then decided to work in an
+          art-shop to help her further explore that field. Then she decided to
+          enrol in art-classes with Artist Christopher Vidal to learn to draw
+          and paint in oils. She hasn't stopped since, and is grateful for the
+          step she chose to take that was her desire.
           <br></br> <br></br>
-          Stella constantly seeks improvement in all her work to ensure the last
-          painting is better then the previous. She also loves to go 'plein-air'
-          whenever possible and staying connected to other artists.
-          <br></br> <br></br>
-          Stella makes every effort to paint every day, knowing that the more
-          someone paints the better they become. Her goal is to be original,
-          authentic and her desire is to be able to touch the collecters with
-          her works, which is what drives her.
+          Stella also loves to go plein-air painting outdoors whenever possible,
+          staying connected to other artists and she constantly seeks
+          improvement in all her work to ensure the last painting is better then
+          the previous.
           <br></br> <br></br>
           "Art speaks where words are unable to explain." by Mathiole"
           <br></br> <br></br>
@@ -55,37 +69,9 @@ const About = () => {
           <br></br>
         </div>
       </div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-//   <br></br>
-// Born in Greece, I migrated here to Sydney at a young age. I am married
-// to my husband of 31 years and together we have raised 3 sons.
-// <br />
-// <br />
-// My love for nature is an inspiration in my work. I paint a variety of
-// subjects especially Australian birds, landscapes and portraits in
-// oils.
-// <br></br>
-// Previously I worked in various office roles, which didn't leave room
-// for my creativity, making me realise my true passion was Arts. I
-// decided to enroll in evening courses doing Floral art, Folk art,
-// Sewing and Jewellery etc etc, to fullfill my desire for creativity.
-// <br></br>I continued my desire for my creativity by working in an Art
-// shop which helped me further explore the Art world.
-// <br></br>
-// For me my happy place is my studio, being original and authentic is my
-// goal.
-// <br></br>I constantly seek improvement in all my work to ensure my
-// last painting is better then the previous. I enjoy staying connected
-// to other artists, (going plein air painting where possible), also
-// encouraging and motivating each other. <br></br>
-// This is what drives me and my passion towards my art every day and why
-// I'm so committed to it.
-// <br></br>
-// If you are interested in any of my work, or would like me commission a
-// painting or custom portrait, please contact me using the links below.
-// <br></br>
-//
-export default About
+export default About;

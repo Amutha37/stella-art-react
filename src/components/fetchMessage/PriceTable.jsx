@@ -19,7 +19,7 @@ export const priceList = [
   {
     size: ' ',
     person: 2,
-    price: '650',
+    price: '710',
   },
   {
     size: '24" x 30" ',
@@ -29,7 +29,7 @@ export const priceList = [
   {
     size: ' ',
     person: 2,
-    price: '750',
+    price: '800',
   },
   {
     size: '24" x 36" ',
@@ -40,15 +40,15 @@ export const priceList = [
   {
     size: '',
     person: 2,
-    price: '780',
+    price: '830',
   },
-]
+];
 
 export function PrintPrice() {
   //   let ind = 0
   return (
     <div className='table-container'>
-      <p>ALL PRICES ARE IN AUDS.</p>
+      <p>ALL PRICES ARE IN AUD$</p>
       <br />
       <p>
         Please note: All paintings require a non-refundable 50% deposit before
@@ -73,5 +73,5 @@ export function PrintPrice() {
         </tbody>
       </table>
     </div>
-  )
+  );
 }

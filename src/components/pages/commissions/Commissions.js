@@ -1,10 +1,14 @@
+// import React, { lazy } from 'react';
 import React from 'react';
 // import peacefuljourney from './peacefuljourney.jpg'
-import Footer from '../Footer/Footer';
+
 import { CommissionSamples } from '../../../components/Images/Images';
 import { Testimonial } from '../../../components/fetchMessage/Testimonial';
 import { PrintPrice } from '../../../components/fetchMessage/PriceTable';
 import './commission.css';
+import Footer from '../../Footer/Footer';
+
+// const Contact = lazy(() => import('../../components/pages/contact/Contact'));
 // import './commission2.css'
 
 function Commissions() {
@@ -24,12 +28,52 @@ function Commissions() {
           <p> FREE SHIPPING in Australia</p>
         </div>
       </div>
+      {/* notes for commission */}
+      <div className='commission-note'>
+        {/* <p className='commission-text'>
+          If you are interested in commissioning me to do a custom painting for
+          you or a loved one, please leave your details in the contact section
+          provided. I would then get in the contact with you to discuss what
+          your preferences are like the size of your painting, the colour scheme
+          to match the decor of your home, your budget and how long your
+          painting should roughly take.
+        </p> */}
+        <p>
+          If you are interested in commissioning me to do a custom painting for
+          you or a loved one, please leave your details in the contact section
+          provided. I would then get in contact with you to discuss what your
+          preferences are like the size of your painting, the colour scheme to
+          match the decor of your home, your budget and how long your painting
+          should roughly take.
+        </p>
+        {/* <a href='/contact' component={Contact}>
+            {' '}
+            contact
+          </a> */}
+        <br></br>
+        <p>
+          If you are happy with this arrangement, we will then proceed with your
+          artwork.
+        </p>
+        <p>
+          I will send you development photos of your painting to keep you
+          informed of the process. On the final photo if there are any minor
+          adjustments we will look at that too.
+        </p>
+        <br></br>
+        <p>
+          Upon completion, I will varnish your work (minimum 2 - 4 weeks) when
+          dry for longevity and then mail it to you once the final payment is
+          received.
+        </p>
+        <br></br>
+      </div>
       {/* <div className='image-container'> */}
-      <div className='commission-images-container'>
+      <div className='commission-images-row'>
         {CommissionSamples.map((sampleImg, i) => (
           <div
             key={i}
-            className='commision-single-image'
+            className='commission-image-column'
             // data-content={sampleImg.name}
             // eslint-disable-next-line react/jsx-no-duplicate-props
             // data-content={sampleImg.size}

@@ -1,7 +1,6 @@
 .landing_Container {
   color: rgb(99, 96, 96);
   text-align: left;
-  /* margin-top: 2rem; */
   font-size: 20px;
   margin-top: 1.5rem;
 }
@@ -16,69 +15,7 @@
   margin-bottom: 1rem;
   font-size: 1.1rem;
   color: rgb(116, 108, 108);
-  /* text-align: left; */
 }
 .landing_Image img {
-  width: 100%;
+  max-width: 100%;
 }
-/* hr {
-  width: 100%;
-  border: 0.1px solid rgb(239, 234, 234);
-  margin: 6rem auto 1rem auto;
-}
-.copyright {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.copyright .footertext p {
-  color: rgb(8, 1, 1);
-}
-.footertext .left p {
-  text-align: left;
-  font-size: 0.8rem;
-  float: left;
-}
-
-.footertext .right p {
-  font-size: 0.9rem;
-}
-.footertext .right {
-  display: flex;
-  float: right;
-  text-align: right;
-}
-.footertext .right .fab {
-  padding: 4px;
-  font-size: 0.9rem;
-} */
-
-/* .footertext {
-  margin-bottom: 2rem;
-} */
-/* @media screen and (max-width: 960px) {
-  .landing_Container {
-    margin-top: 5rem;
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .landing_Image p {
-    text-align: left;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-  }
-} */
-/* @media screen and (max-width: 768px) {
-
-  hr {
-    margin: 9rem auto 2rem auto;
-  }
-  .footertext p {
-    font-size: 0.7rem;
-  }
-  .footertext .right .fab {
-    font-size: 0.7rem;
-  }
-} */

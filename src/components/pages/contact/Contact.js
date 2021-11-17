@@ -1,20 +1,21 @@
-import React, { useState } from 'react'
-import { SocialMedia } from './SocialMedia'
-import './contact.css'
-import emailjs from 'emailjs-com'
+import React, { useState } from 'react';
+// import { SocialMedia } from '../../fetchMessage/SocialMedia';
+import Footer from '../../Footer/Footer';
+import './contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({})
-  const [thankMsg, setThankMsg] = useState(false)
+  const [formData, setFormData] = useState({});
+  const [thankMsg, setThankMsg] = useState(false);
 
   const handleInput = (e) => {
-    const copyFormData = { ...formData }
-    copyFormData[e.target.name] = e.target.value
-    setFormData(copyFormData)
-  }
+    const copyFormData = { ...formData };
+    copyFormData[e.target.name] = e.target.value;
+    setFormData(copyFormData);
+  };
 
   const sendData = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     // email
     // stella
     // emailjs
@@ -25,7 +26,7 @@ const Contact = () => {
     //     "user_A0rfHSP2yohzhMSJ4oDEU"
     //   )
     // Amutha
-    setThankMsg(true)
+    setThankMsg(true);
 
     emailjs
       .sendForm(
@@ -35,12 +36,12 @@ const Contact = () => {
         'user_etuc4QBUGfJPQyWZealTj'
       )
       .then((res) => {
-        console.log(res)
+        console.log(res);
       })
-      .catch((err) => console.log(err))
+      .catch((err) => console.log(err));
     // googlesheet
-    const myHeaders = new Headers()
-    myHeaders.append('Content-Type', 'application/json')
+    const myHeaders = new Headers();
+    myHeaders.append('Content-Type', 'application/json');
     const requestOptions = {
       method: 'post',
       headers: myHeaders,
@@ -53,7 +54,7 @@ const Contact = () => {
           new Date().toLocaleString(),
         ],
       ]),
-    }
+    };
     // Amutha'sgit
     fetch(
       'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
@@ -65,15 +66,15 @@ const Contact = () => {
       //   requestOptions
       // )
       .then((response) => response.text())
-      .catch((error) => console.log('error', error))
-    setFormData({})
-    reset()
-  }
+      .catch((error) => console.log('error', error));
+    setFormData({});
+    reset();
+  };
   const reset = () => {
-    formData.name = ''
-    formData.email = ''
-    formData.message = ''
-  }
+    formData.name = '';
+    formData.email = '';
+    formData.message = '';
+  };
   return (
     <div>
       <div className='contact-main '>
@@ -183,22 +184,21 @@ const Contact = () => {
                 </div> */}
             {/* </div> */}
             {/* </div> */}
-            <SocialMedia />
+            {/* <SocialMedia /> */}
           </form>
         </div>
 
-        {/* </div> */}
-        {/* <div className="classNacontact-main"> */}
-        <p>
+        {/* <p>
           Copyright
           {''}
           <i className='far fa-copyright contact-icons' id='contact-copyright'>
             {' '}
           </i>
           {''} 2021 All Right Reserved.
-        </p>
+        </p> */}
+        <Footer />
       </div>
     </div>
-  )
-}
-export default Contact
+  );
+};
+export default Contact;

@@ -1,7 +1,7 @@
 // import Survey from './survey/Survey'
-import Footer from '../Footer/Footer'
-import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked'
-import './frequently_asked_questions.css'
+import Footer from '../../Footer/Footer';
+import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked';
+import './frequently_asked_questions.css';
 
 const FrequentlyAskedQuestions = () => {
   return (
@@ -72,7 +72,7 @@ const FrequentlyAskedQuestions = () => {
       <FquestionsAsked />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default FrequentlyAskedQuestions
+export default FrequentlyAskedQuestions;

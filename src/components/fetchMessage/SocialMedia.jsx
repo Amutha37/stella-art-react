@@ -2,7 +2,8 @@ export function SocialMedia() {
   return (
     <div className='social-media'>
       {/* <div className="social-media"> */}
-      <p>Follow me ⤵️ </p>
+      {/* <div className='followMe-text'> */}
+      <p id='followMe-text'>Follow me ⤵️ </p>
       <div className='icons'>
         <a href='https://www.facebook.com/search/top?q=stellas_art'>
           <div className='layer'>
@@ -44,7 +45,8 @@ export function SocialMedia() {
           </div>
           <div className='text'>Linkedin</div>
         </a>
+        {/* </div> */}
       </div>
     </div>
-  )
+  );
 }
