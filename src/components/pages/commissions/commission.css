@@ -250,7 +250,7 @@ tr:nth-child(even) {
     width: 95%;
   }
   .commission-container .commission-images-row img {
-    width: 100%;
+    /* width: 100%; */
     max-height: 200px;
   }
   .hero-image-container h1 {
@@ -276,9 +276,9 @@ tr:nth-child(even) {
   .commission-container .hero-image-container p {
     font-size: 0.9rem;
   }
-  .commission-container .commission-images-row {
+  /* .commission-container .commission-images-row {
     width: 100%;
-  }
+  } */
   table {
     width: 80%;
   }

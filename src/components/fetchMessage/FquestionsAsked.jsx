@@ -54,13 +54,6 @@ export function FquestionsAsked() {
               location I may be able to deliver it to your door.
             </p>
           </div>
-          {/* <div className='question-answer'>
-            <p className='each-question'>Q7. Do you accept commission work? </p>
-            <p className='each-answer'>
-              A7. Yes I can, we will need to communicate and see exactly what it
-              is you are wanting.
-            </p>
-          </div> */}
         </div>
       </header>
     </div>

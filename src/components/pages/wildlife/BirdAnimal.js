@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import SlideControler from "../SlideControler";
 import { MessageForSale } from "../../../components/fetchMessage/FetchMessage";
 import { WildLifeImages } from "../../../components/Images/Images";
-import Footer from "../Footer/Footer";
+import Footer from "../../Footer/Footer";
 
 const BirdAnimal = () => {
   const PrintMessage = MessageForSale();
