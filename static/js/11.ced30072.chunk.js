@@ -1,2 +1,0 @@
-(this["webpackJsonpstella-art-react"]=this["webpackJsonpstella-art-react"]||[]).push([[11],{93:function(t,e,s){"use strict";s.r(e);var a=s(0),r=s(35),c=s(42),n=s(36),i=s(43),b=s(1);e.default=function(){var t=Object(c.b)();return Object(b.jsxs)(a.Fragment,{children:[Object(b.jsx)(i.a,{slideImages:n.d,PrintMessage:t}),Object(b.jsx)(r.a,{})]})}}}]);
-//# sourceMappingURL=11.ced30072.chunk.js.map
