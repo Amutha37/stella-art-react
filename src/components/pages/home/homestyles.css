@@ -19,31 +19,5 @@
 .landing_Image img {
   max-width: 100%;
 }
-.quotePeace {
-  text-align: center;
-  margin-top: 2rem;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 12rem;
-}
-.quotePeace p {
-  color: rgb(97, 94, 94);
-  margin-top: 2rem;
-}
-
-/* Nature quote */
-.quotes {
-  text-align: center;
-  margin-top: 2rem;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
-}
-.quotes p {
-  color: rgb(97, 94, 94);
-  margin-top: 2rem;
-}
 
 /* Nature quote */

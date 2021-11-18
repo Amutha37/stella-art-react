@@ -1,8 +1,10 @@
 import { BannerImage } from '../../../components/Images/Images';
+import { QuotesHome } from '../../../components/fetchMessage/FetchMessage';
 import Footer from '../../Footer/Footer';
 import './homestyles.css';
 
 const Home = () => {
+  const PrintQuotes = QuotesHome();
   return (
     <>
       <header>
@@ -12,16 +14,10 @@ const Home = () => {
             <p>Captivated by Nature</p>
             <img src={BannerImage[0].image} alt={BannerImage[0].name} />
           </div>
+          <div>{PrintQuotes}</div>
+          {/* <QuotesHome /> */}
         </div>
       </header>
-      <div className='quotePeace'>
-        <h3>Peaceful Destination</h3>
-        <p>
-          " A commission painting - on the journey heading towards their
-          heavently destination (the Light) with the Dove (Holy-Spirit) guiding
-          them along the way."
-        </p>
-      </div>
 
       <Footer />
     </>
