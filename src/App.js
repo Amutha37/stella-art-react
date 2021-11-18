@@ -3,52 +3,43 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from 'react-router-dom'
-import React, { lazy, Suspense } from 'react'
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-const Home = lazy(() => import('./components/pages/home/Home'))
-// import Home from "./components/pages/home/Home";
-const About = lazy(() => import('./components/pages/about/About'))
+} from 'react-router-dom';
+import React, { lazy, Suspense } from 'react';
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+
+const Home = lazy(() => import('./components/pages/home/Home'));
+
+const About = lazy(() => import('./components/pages/about/About'));
+
 const Commissions = lazy(() =>
   import('./components/pages/commissions/Commissions')
-)
-// import About from "./components/pages/about/About";
+);
 
-const Contact = lazy(() => import('./components/pages/contact/Contact'))
-// import Contact from "./components/pages/contact/Contact";
+const Contact = lazy(() => import('./components/pages/contact/Contact'));
 
-const Florals = lazy(() => import('./components/pages/floral/Florals'))
-// import Florals from "./components/pages/floral/Florals";
+const Florals = lazy(() => import('./components/pages/floral/Florals'));
 
 const Mastercopies = lazy(() =>
   import('./components/pages/mastercopies/Mastercopies')
-)
-// import Mastercopies from "./components/pages/mastercopies/Mastercopies";
+);
 
-const BirdAnimal = lazy(() => import('./components/pages/wildlife/BirdAnimal'))
-// import BirdAnimal from "./components/pages/wildlife/BirdAnimal";
+const BirdAnimal = lazy(() => import('./components/pages/wildlife/BirdAnimal'));
 
-const Sold = lazy(() => import('./components/pages/sold/Sold'))
-// import Sold from "./components/pages/sold/Sold";
+const Sold = lazy(() => import('./components/pages/sold/Sold'));
+const Nature = lazy(() => import('./components/pages/nature/Nature'));
 
-const Nature = lazy(() => import('./components/pages/nature/Nature'))
-// import Nature from "./components/pages/nature/Nature";
-
-const Portraits = lazy(() => import('./components/pages/portrait/Portraits'))
-// import Portraits from "./components/pages/portrait/Portraits";
+const Portraits = lazy(() => import('./components/pages/portrait/Portraits'));
 
 const Petportraits = lazy(() =>
   import('./components/pages/petportrait/Petportraits')
-)
+);
 const FrequentlyAskedQuestions = lazy(() =>
   import('./components/pages/fquestionsAsked/FrequentlyAskedQuestions')
-)
-// import Petportraits from "./components/pages/petportrait/Petportraits";
+);
 
 const App = () => {
   return (
-    // <Fragment>
     <Suspense
       fallback={
         <div className='container-loader'>
@@ -96,6 +87,6 @@ const App = () => {
         </Switch>
       </Router>
     </Suspense>
-  )
-}
-export default App
+  );
+};
+export default App;

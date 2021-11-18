@@ -1,14 +1,10 @@
-/* blury background  hero image */
-/* .commission-container {
-  text-align: center;
-} */
 .commission-container .bg-image {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url('./sunrise3.jpg');
+    url('./sunrise4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -36,76 +32,19 @@ commission-container .bg-text h1 {
 }
 
 .commission-container .commission-note {
-  /* width: 85%; */
-  /* margin-left: auto;
-  margin-right: auto; */
   width: 75%;
   margin-right: auto;
   margin-left: auto;
-  /* height: 190px; */
 }
-/* .commission-container .commission-text {
-
-  margin-left: 10%;
-} */
 .commission-container .commission-note p {
   margin-top: 10px;
-  /* width: 85%; */
-  /* position: relative; */
 
-  /* justify-items: center;
-  justify-content: center;
-  text-justify: center; */
-  /* justify-self: left; */
-  /* float: left; */
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* .row {
-  max-height: 150px;
-}
-.row {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  top: 2rem;
-}
-.row:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.column {
-  margin-right: 5px;
-  overflow-y: hidden;
-  overflow-x: scroll;
-}
-.column:last-child {
-  margin-right: 0px;
-}
-.column img {
-  max-width: 100%;
-  max-height: 9rem;
-  text-align: center;
-  vertical-align: middle;
-} */
 .commission-container .commission-images-row {
-  /* margin-top: 3rem;
-  display: flex;
-  width: 75%;
-
-  overflow-y: hidden;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: center;
-
-  position: relative;
-  overflow: hidden;
-  transition: all; */
-  /* max-height: 150px; */
   margin-right: auto;
   margin-left: auto;
   width: 65%;
@@ -115,9 +54,8 @@ commission-container .bg-text h1 {
   justify-content: center;
   top: 2rem;
 }
-/* .commission-images-row */
+
 .commission-container .commission-image-column {
-  /* max-height: 350px; */
   margin-right: 6px;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -125,14 +63,6 @@ commission-container .bg-text h1 {
   margin-left: auto;
 }
 .commission-container .commission-image-column img {
-  /* position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  max-height: 300px;
-  padding: 4px;
-  overflow-y: hidden; */
-
   max-width: 100%;
   max-height: 400px;
   text-align: center;
@@ -190,7 +120,6 @@ table {
   margin: 3rem auto;
   text-align: center;
   width: 60%;
-  /* font-family: arial, sans-serif; */
   border-collapse: collapse;
   box-sizing: border-box;
 }
@@ -246,11 +175,16 @@ tr:nth-child(even) {
     width: 43%;
     padding: 16px;
   }
+  .commission-container .commission-note {
+    width: 85%;
+  }
+  .commission-container .testimonials {
+    width: 85%;
+  }
   .commission-container .commission-images-row {
     width: 95%;
   }
   .commission-container .commission-images-row img {
-    /* width: 100%; */
     max-height: 200px;
   }
   .hero-image-container h1 {
@@ -270,15 +204,9 @@ tr:nth-child(even) {
     width: 80%;
   }
 
-  /* .hero-image-container h1 {
-    font-size: 1rem;
-  } */
   .commission-container .hero-image-container p {
     font-size: 0.9rem;
   }
-  /* .commission-container .commission-images-row {
-    width: 100%;
-  } */
   table {
     width: 80%;
   }

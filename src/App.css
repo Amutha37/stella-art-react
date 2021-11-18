@@ -58,14 +58,14 @@ h2 {
 .quotes p {
   color: rgb(97, 94, 94);
   margin-top: 2rem;
+  font-size: 20px;
+  /* font-style: italic; */
 }
-@media screen and (max-width: 768px) {
-  .image-box img {
-    width: 40%;
-  }
+h3 {
+  color: rgb(99, 96, 96);
+  font-size: 20px;
 }
-
-/* loader */
+/* Lazy loader */
 .container-loader {
   width: 100vw;
   height: 100vh;
@@ -125,4 +125,13 @@ h2 {
   text-align: center;
   font: 14pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: lighten(#6767fa, 75%);
+}
+
+@media screen and (max-width: 768px) {
+  .image-box img {
+    width: 40%;
+  }
+  .quotePeace {
+    width: 70%;
+  }
 }

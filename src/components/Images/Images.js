@@ -4,8 +4,8 @@ export const BannerImage = [
     name: 'Peaceful Journey',
     image: require('./globalimages/peacefuljourney.jpg').default,
   },
-]
-
+];
+// Nature
 export const NatureImages = [
   {
     id: 1,
@@ -47,11 +47,53 @@ export const NatureImages = [
   },
   {
     id: 7,
+    name: 'Serene Waters',
+    size: '',
+    image: require('./nature/serenewaters.jpg').default,
+  },
+  {
+    id: 8,
     name: '',
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
+];
+// Floral
+export const FloralImages = [
+  {
+    id: 1,
+    name: 'Waterlily Study By Mason',
+    size: '50cm(W) x 40cm(H)',
+    image: require('./floral/waterlilystudybymason.jpg').default,
+  },
+  {
+    id: 2,
+    name: 'Lifes Sweet Perfume',
+    size: '60cm(W) x 30cm(H)',
+    image: require('./floral/lifessweetperfume.jpg').default,
+  },
+
+  {
+    id: 3,
+    name: 'Skoulariki Fuschia Plant',
+    size: '32cm(W) x 27cm(H)',
+    image: require('./floral/skoularikifuschiaplant.jpg').default,
+  },
+
+  {
+    id: 4,
+    name: 'Blossomed Tulip',
+    size: '50cm(W) x 50cm(H)',
+    image: require('./floral/blossomedtulip.jpg').default,
+  },
+  {
+    id: 5,
+    name: 'Note',
+    size: '',
+    image: require('./globalimages/quotation.png').default,
+  },
+];
+
 // wildlife
 export const WildLifeImages = [
   {
@@ -99,42 +141,52 @@ export const WildLifeImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
-// Floral
-export const FloralImages = [
+];
+
+// mastercopies
+export const MastercopiesImages = [
   {
     id: 1,
-    name: 'Waterlily Study By Mason',
-    size: '50cm(W) x 40cm(H)',
-    image: require('./floral/waterlilystudybymason.jpg').default,
+    name: 'Young Woman by a Window',
+    size: '',
+    image: require('./mastercopies/youngwomanbyawindow.jpg').default,
   },
+
   {
     id: 2,
-    name: 'Lifes Sweet Perfume',
-    size: '60cm(W) x 30cm(H)',
-    image: require('./floral/lifessweetperfume.jpg').default,
+    name: 'Play in the Surf',
+    size: '',
+    image: require('./mastercopies/playinthesurf.jpg').default,
   },
 
   {
     id: 3,
-    name: 'Skoulariki Fuschia Plant',
-    size: '32cm(W) x 27cm(H)',
-    image: require('./floral/skoularikifuschiaplant.jpg').default,
+    name: 'The Grand Canal of Venice',
+    size: '',
+    image: require('./mastercopies/thegrandcanalofvenice.jpg').default,
   },
-
   {
     id: 4,
-    name: 'Blossomed Tulip',
-    size: '50cm(W) x 50cm(H)',
-    image: require('./floral/blossomedtulip.jpg').default,
+    name: 'Girl in Pink Dress',
+    size: '',
+    image: require('./mastercopies/girlinpinkdress.jpg').default,
   },
   {
     id: 5,
-    name: 'Note',
+    name: 'Rembrandt Study',
+    // size: "31cm(W)x41cm(H)",
+    size: '',
+    image: require('./mastercopies/rembrandtstudy.jpg').default,
+  },
+
+  {
+    id: 6,
+    name: '',
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
+];
+
 // potraits
 export const PortraitImages = [
   {
@@ -168,7 +220,8 @@ export const PortraitImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
+];
+
 // sold
 export const SoldImages = [
   {
@@ -231,7 +284,7 @@ export const SoldImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
+];
 // more paintings
 export const MorePaintingImages = [
   {
@@ -253,51 +306,7 @@ export const MorePaintingImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
-// mastercopies
-
-export const MastercopiesImages = [
-  {
-    id: 1,
-    name: 'Young Woman by a Window',
-    size: '',
-    image: require('./mastercopies/youngwomanbyawindow.jpg').default,
-  },
-
-  {
-    id: 2,
-    name: 'Play in the Surf',
-    size: '',
-    image: require('./mastercopies/playinthesurf.jpg').default,
-  },
-
-  {
-    id: 3,
-    name: 'The Grand Canal of Venice',
-    size: '',
-    image: require('./mastercopies/thegrandcanalofvenice.jpg').default,
-  },
-  {
-    id: 4,
-    name: 'Girl in Pink Dress',
-    size: '',
-    image: require('./mastercopies/girlinpinkdress.jpg').default,
-  },
-  {
-    id: 5,
-    name: 'Rembrandt Study',
-    // size: "31cm(W)x41cm(H)",
-    size: '',
-    image: require('./mastercopies/rembrandtstudy.jpg').default,
-  },
-
-  {
-    id: 6,
-    name: '',
-    size: '',
-    image: require('./globalimages/quotation.png').default,
-  },
-]
+];
 
 // pet portraits paintings
 export const PetportraitsImages = [
@@ -326,7 +335,7 @@ export const PetportraitsImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-]
+];
 
 // commission images sample display
 
@@ -363,4 +372,4 @@ export const CommissionSamples = [
     image: require('./petportraits/charlie.jpg').default,
     clName: 'cactive',
   },
-]
+];
