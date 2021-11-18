@@ -1,15 +1,30 @@
-import React, { Fragment } from "react";
-import Footer from "../../Footer/Footer";
-import { MessageForSale } from "../../../components/fetchMessage/FetchMessage";
-import { NatureImages } from "../../../components/Images/Images";
-import SlideControler from "../SlideControler";
+import React, { Fragment } from 'react';
+import Footer from '../../Footer/Footer';
+import { MessageForSale } from '../../../components/fetchMessage/FetchMessage';
+import { QuotesNature } from '../../../components/fetchMessage/FetchMessage';
+import { NatureImages } from '../../../components/Images/Images';
+import SlideControler from '../SlideControler';
 
 const Nature = () => {
   const PrintMessage = MessageForSale();
+  const PrintQuotes = QuotesNature();
 
   return (
     <Fragment>
-      <SlideControler slideImages={NatureImages} PrintMessage={PrintMessage} />
+      {/* <div className='quotes'>
+        <h3>Nature</h3>
+        <p>
+          "It's the colours, the light and space thats really unique about
+          Nature. The Australian bush and inland desert that provide health to
+          the soul."
+        </p>
+      </div> */}
+      <SlideControler
+        slideImages={NatureImages}
+        PrintMessage={PrintMessage}
+        PrintQuotes={PrintQuotes}
+      />
+
       <Footer />
     </Fragment>
   );

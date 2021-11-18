@@ -1,17 +1,17 @@
-import React, { Fragment } from "react";
-import Footer from "../../Footer/Footer";
-import { MessageMasterCopy } from "../../../components/fetchMessage/FetchMessage";
-import { MastercopiesImages } from "../../../components/Images/Images";
-import SlideControler from "../SlideControler";
+import React, { Fragment } from 'react';
+import Footer from '../../Footer/Footer';
+// import { MessageMasterCopy } from "../../../components/fetchMessage/FetchMessage";
+import { MastercopiesImages } from '../../../components/Images/Images';
+import SlideControler from '../SlideControler';
 
 const Mastercopies = () => {
-  const PrintMessage = MessageMasterCopy();
+  // const PrintMessage = MessageMasterCopy();
 
   return (
     <Fragment>
       <SlideControler
         slideImages={MastercopiesImages}
-        PrintMessage={PrintMessage}
+        // PrintMessage={PrintMessage}
       />
       <Footer />
     </Fragment>

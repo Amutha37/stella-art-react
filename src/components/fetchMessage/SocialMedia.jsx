@@ -3,7 +3,9 @@ export function SocialMedia() {
     <div className='social-media'>
       {/* <div className="social-media"> */}
       {/* <div className='followMe-text'> */}
-      <p id='followMe-text'>Follow me ⤵️ </p>
+      <div id='followMe-text'>
+        <p>Follow me ⤵️ </p>
+      </div>
       <div className='icons'>
         <a href='https://www.facebook.com/search/top?q=stellas_art'>
           <div className='layer'>
@@ -46,6 +48,13 @@ export function SocialMedia() {
           <div className='text'>Linkedin</div>
         </a>
         {/* </div> */}
+      </div>
+
+      <div className='footertext'>
+        <p>
+          Copyright <i className='far fa-copyright'> </i> Stella Kypriotis 2021
+          All Right Reserved.
+        </p>
       </div>
     </div>
   );

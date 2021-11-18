@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import ThumbNailImages from "../carousel/ThumbNailImages";
-import WholeImageView from "../carousel/WholeImageView";
-import "../carousel/carousel.css";
+import React, { useState } from 'react';
+import ThumbNailImages from '../carousel/ThumbNailImages';
+import WholeImageView from '../carousel/WholeImageView';
+import '../carousel/carousel.css';
 
-const SlideControler = ({ slideImages, PrintMessage }) => {
+const SlideControler = ({ slideImages, PrintMessage, PrintQuotes }) => {
   const imgarrlength = slideImages.length;
 
   const [imageIndex, setImageIndex] = useState(1);
@@ -45,14 +45,15 @@ const SlideControler = ({ slideImages, PrintMessage }) => {
 
   return (
     //  <!-- Container for the image gallery -->
-    <div className="natureContainer">
-      <div className="containernature">
+    <div className='natureContainer'>
+      <div className='containernature'>
         <WholeImageView
           slideIndex={imageIndex}
           slides={slideImages}
           status={status}
           plusSlides={plusSlides}
           PrintMessage={PrintMessage}
+          PrintQuotes={PrintQuotes}
         />
 
         <ThumbNailImages

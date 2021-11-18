@@ -14,6 +14,15 @@ const Home = () => {
           </div>
         </div>
       </header>
+      <div className='quotePeace'>
+        <h3>Peaceful Destination</h3>
+        <p>
+          " A commission painting - on the journey heading towards their
+          heavently destination (the Light) with the Dove (Holy-Spirit) guiding
+          them along the way."
+        </p>
+      </div>
+
       <Footer />
     </>
   );

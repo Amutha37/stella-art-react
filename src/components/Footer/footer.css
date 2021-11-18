@@ -3,59 +3,36 @@
   border: 0.1px solid rgb(239, 234, 234);
   margin: 6rem auto 1rem auto;
 } */
-.copyright {
-  margin-top: 5rem;
+
+.social-media {
+  margin-top: 9rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 15rem;
+  height: 18rem;
   color: #fff;
-  /* background: #486255; */
   background-color: #000;
 }
-.copyright .footertext p {
+
+.social-media .footertext {
+  position: relative;
   color: #fff;
   font-size: 16px;
-  margin-top: 6rem;
+  top: 40%;
 }
-/* .footertext .left p {
-  text-align: left;
-  font-size: 3rem;
-  float: left;
-}
-
-.footertext .right p {
-  font-size: 0.9rem;
-}
-.footertext .right {
-  display: flex;
-  float: right;
-  text-align: right;
-}
-.footertext .right .fab {
-  padding: 4px;
-  font-size: 0.9rem;
-} */
-/* @media screen and (max-width: 768px) {
-
-  hr {
-    margin: 9rem auto 2rem auto;
-  }
-  .footertext p {
-    font-size: 0.7rem;
-  }
-  .footertext .right .fab {
-    font-size: 0.7rem;
-  }
-} */
 
 /* social media disign */
-.social-media .followMe-text {
-  margin-top: 2rem;
+
+#followMe-text {
+  position: relative;
+  margin-top: 6rem;
+  font-size: 20px;
+  top: 10%;
+  font-weight: 700;
 }
 .icons {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: inline-flex;
 }
 .icons a {
@@ -164,7 +141,7 @@
   .social-media {
     margin-top: 3.5rem;
   }
-  .social-media p {
+  .social-media #footertext {
     font-size: 15px;
   }
   .icons a .layer {
