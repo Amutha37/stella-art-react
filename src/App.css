@@ -44,7 +44,8 @@ h2 {
 .quotePeace p {
   color: rgb(97, 94, 94);
   margin-top: 2rem;
-  font-size: 16px;
+  font-size: 18px;
+  font-style: italic;
 }
 
 /* Nature quote */
@@ -59,7 +60,8 @@ h2 {
 .quotes p {
   color: rgb(97, 94, 94);
   margin-top: 2rem;
-  font-size: 16px;
+  font-size: 18px;
+  font-style: italic;
 }
 h3 {
   color: rgb(99, 96, 96);
@@ -133,7 +135,7 @@ h3 {
   }
   .quotePeace h3,
   .quote h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .quotePeace,
   .quote {
