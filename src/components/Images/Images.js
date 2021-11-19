@@ -133,7 +133,7 @@ export const WildLifeImages = [
     name: 'Majesty',
     // size: "31cm(W)x41cm(H)",
     size: '31cm(W)x41cm(H)',
-    image: require('./mastercopies/majesty.jpg').default,
+    image: require('./wildlife/majesty.jpg').default,
   },
   {
     id: 7,
@@ -222,6 +222,34 @@ export const PortraitImages = [
   },
 ];
 
+// pet portraits paintings
+export const PetportraitsImages = [
+  {
+    id: 1,
+    name: 'Striking Macaws',
+    size: '',
+    image: require('./petportraits/strikingmacaws.jpg').default,
+  },
+  {
+    id: 2,
+    name: 'Charlie',
+    size: '',
+    image: require('./petportraits/charlie.jpg').default,
+  },
+  {
+    id: 3,
+    name: 'Lorikeet',
+    size: '',
+    image: require('./petportraits/lorikeet.jpg').default,
+  },
+
+  {
+    id: 4,
+    name: '',
+    size: '',
+    image: require('./globalimages/quotation.png').default,
+  },
+];
 // sold
 export const SoldImages = [
   {
@@ -285,57 +313,6 @@ export const SoldImages = [
     image: require('./globalimages/quotation.png').default,
   },
 ];
-// more paintings
-export const MorePaintingImages = [
-  {
-    id: 1,
-    name: 'Great Ocean Road',
-    size: 'none',
-    image: require('./morepaintings/greatoceanroad.jpg').default,
-  },
-  {
-    id: 2,
-    name: 'The Three Sisters',
-    size: 'none',
-    image: require('./morepaintings/threesisters.jpg').default,
-  },
-
-  {
-    id: 3,
-    name: '',
-    size: '',
-    image: require('./globalimages/quotation.png').default,
-  },
-];
-
-// pet portraits paintings
-export const PetportraitsImages = [
-  {
-    id: 1,
-    name: 'Striking Macaws',
-    size: '',
-    image: require('./petportraits/strikingmacaws.jpg').default,
-  },
-  {
-    id: 2,
-    name: 'Charlie',
-    size: '',
-    image: require('./petportraits/charlie.jpg').default,
-  },
-  {
-    id: 3,
-    name: 'Lorikeet',
-    size: '',
-    image: require('./petportraits/lorikeet.jpg').default,
-  },
-
-  {
-    id: 4,
-    name: '',
-    size: '',
-    image: require('./globalimages/quotation.png').default,
-  },
-];
 
 // commission images sample display
 
@@ -371,5 +348,28 @@ export const CommissionSamples = [
     info: '',
     image: require('./petportraits/charlie.jpg').default,
     clName: 'cactive',
+  },
+];
+
+// more paintings
+export const MorePaintingImages = [
+  {
+    id: 1,
+    name: 'Great Ocean Road',
+    size: 'none',
+    image: require('./morepaintings/greatoceanroad.jpg').default,
+  },
+  {
+    id: 2,
+    name: 'The Three Sisters',
+    size: 'none',
+    image: require('./morepaintings/threesisters.jpg').default,
+  },
+
+  {
+    id: 3,
+    name: '',
+    size: '',
+    image: require('./globalimages/quotation.png').default,
   },
 ];

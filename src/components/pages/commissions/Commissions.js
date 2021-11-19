@@ -1,15 +1,9 @@
-// import React, { lazy } from 'react';
 import React from 'react';
-// import peacefuljourney from './peacefuljourney.jpg'
-
 import { CommissionSamples } from '../../../components/Images/Images';
 import { Testimonial } from '../../../components/fetchMessage/Testimonial';
 import { PrintPrice } from '../../../components/fetchMessage/PriceTable';
 import './commission.css';
 import Footer from '../../Footer/Footer';
-
-// const Contact = lazy(() => import('../../components/pages/contact/Contact'));
-// import './commission2.css'
 
 function Commissions() {
   // const [hover, setHover] = useState(false)
@@ -79,16 +73,17 @@ function Commissions() {
             // data-content={sampleImg.size}
           >
             <img
-              // className='{sampleImg.class[i]}'
               // data-content={sampleImg.size}
               src={sampleImg.image}
               alt={sampleImg.name}
             />
 
-            {/* <div className='overlay-text' activeClassName='{sampleImg.clName}'>
-              <p>{sampleImg.name}</p>
-              <p>{sampleImg.size}</p>
-              <p>{sampleImg.info}</p>
+            {/* <div className='overlay'>
+              <div className='text'>
+                <p>{sampleImg.name}</p>
+                <p>{sampleImg.size}</p>
+                <p>{sampleImg.info}</p>
+              </div>
             </div> */}
           </div>
         ))}

@@ -22,6 +22,7 @@
   text-align: center;
   background-color: rgb(242, 244, 241);
   height: 600px;
+  margin-top: 2rem;
 }
 .mySlides:before {
   content: '';

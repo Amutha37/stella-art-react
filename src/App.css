@@ -131,7 +131,13 @@ h3 {
   .image-box img {
     width: 40%;
   }
-  .quotePeace {
-    width: 70%;
+  .quotePeace h3,
+  .quote h3 {
+    font-size: 19px;
+  }
+  .quotePeace,
+  .quote {
+    width: 75%;
+    font-size: 17px;
   }
 }
