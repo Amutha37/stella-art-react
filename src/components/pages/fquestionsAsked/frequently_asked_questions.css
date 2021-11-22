@@ -3,7 +3,20 @@
   width: 80%;
   margin: 3rem auto 3rem auto;
 }
+.question-main-container .bg-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10%;
 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('./sunrise4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 190px;
+}
 .question-container p {
   font-style: 30px;
   /* float: left; */

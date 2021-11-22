@@ -1,11 +1,21 @@
 // import Survey from './survey/Survey'
-import Footer from '../../Footer/Footer';
-import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked';
-import './frequently_asked_questions.css';
+import Footer from '../../Footer/Footer'
+import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked'
+import './frequently_asked_questions.css'
 
 const FrequentlyAskedQuestions = () => {
   return (
     <>
+      <div className='question-main-container'>
+        <div className='bg-image'></div>
+
+        {/* <div className='bg-text'>
+          <h1>Commission an Artwork</h1>
+          <p>Oil and/or acrylic on canvas or wood panel.</p>
+          <p> FREE SHIPPING in Australia</p>
+        </div> */}
+      </div>
+
       {/* <header>
         <h1>Frequently Asked Questions (FAQs)</h1>
 
@@ -72,7 +82,7 @@ const FrequentlyAskedQuestions = () => {
       <FquestionsAsked />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default FrequentlyAskedQuestions;
+export default FrequentlyAskedQuestions
