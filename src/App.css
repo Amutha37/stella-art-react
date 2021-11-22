@@ -60,7 +60,7 @@ h2 {
 .quotes p {
   color: rgb(97, 94, 94);
   margin-top: 2rem;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
 }
 h3 {
@@ -135,11 +135,11 @@ h3 {
   }
   .quotePeace h3,
   .quote h3 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .quotePeace,
   .quote {
-    width: 75%;
-    font-size: 15px;
+    width: 80%;
+    font-size: 16px;
   }
 }

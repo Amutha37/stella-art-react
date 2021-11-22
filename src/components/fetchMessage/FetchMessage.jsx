@@ -13,8 +13,8 @@ export const MessageForSale = () => {
       <br></br> <br></br>
       <p>Thank you</p>
     </div>
-  );
-};
+  )
+}
 
 // export const MessagePetPortrait = () => {
 //   return (
@@ -132,8 +132,8 @@ export const QuotesHome = () => {
         the way."
       </p>
     </div>
-  );
-};
+  )
+}
 // qoutesNature
 export const QuotesNature = () => {
   return (
@@ -144,8 +144,33 @@ export const QuotesNature = () => {
         The Australian bush and inland desert that provide health to the soul."
       </p>
     </div>
-  );
-};
+  )
+}
+
+// qoutesFlorals
+export const QuotesFlorals = () => {
+  return (
+    <div className='quotes'>
+      <h3>Florals</h3>
+      <p>
+        "The sweet fragrance of a single flower brings colour and hope in your
+        world."
+      </p>
+    </div>
+  )
+}
+// qoutesWildLife
+export const QuotesWildLife = () => {
+  return (
+    <div className='quotes'>
+      <h3>WildLife</h3>
+      <p>
+        "It is in the beauty of Natures Wildlife that holds itselft by its
+        splendorous form of Creation."
+      </p>
+    </div>
+  )
+}
 // export function FrequentQuestions() {
 export const FrequentlyAskedQuestions = () => {
   return (
@@ -205,5 +230,5 @@ export const FrequentlyAskedQuestions = () => {
         </div>
       </header>
     </div>
-  );
-};
+  )
+}
