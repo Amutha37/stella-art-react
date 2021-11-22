@@ -11,8 +11,12 @@ const Florals = () => {
 
   return (
     <Fragment>
-      <SlideControler slideImages={FloralImages} PrintMessage={PrintMessage} />{' '}
-      PrintQuotes={PrintQuotes}
+      <SlideControler
+        slideImages={FloralImages}
+        PrintMessage={PrintMessage}
+        PrintQuotes={PrintQuotes}
+      />
+
       <Footer />
     </Fragment>
   )
