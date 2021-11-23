@@ -29,9 +29,30 @@ export function Testimonial() {
         "Such beautiful pieces of Australiana, Stella seems to capture such
         depth into the beautiful creatures and scenic wonders of nature!!
         Absolutely thrilled to own her artwork and show it off! Every single
-        piece is just one of a kind, and we are lucky to own a few! Thank you"
+        piece is just one of a kind, and we are lucky to own a few!""
+        <br></br>
+        <br></br>
+        <p> "Thank you"</p>
         <br></br>
         <br></br>~ Chantelle ~
+      </p>
+      <hr />
+      <br></br>
+
+      <p>
+        "I absolutely love the depth and variety of this soulful artist's work.
+        She captures and creates a connection with nature and people beautifully
+        through her colourful, warm brush strokes. She extracts her subject's
+        definning characteristics and transforms them into peaceful, realistic
+        and stunning works of art."
+        <br></br>
+        <br></br>
+        <p>
+          "Thank you Stella Kypriotis for sharing with us your heartfelt
+          creative talent."
+        </p>
+        <br></br>
+        <br></br>~ Coral Wilkins ~
       </p>
     </div>
   )

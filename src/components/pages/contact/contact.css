@@ -79,7 +79,12 @@
   font-weight: 400;
   /* color: #7d7e7e; */
 }
-
+/* .name-label {
+  position: relative;
+  top: 0;
+  right: 5rem;
+ 
+} */
 .input,
 .msg .area {
   width: 100%;
@@ -98,9 +103,27 @@
 }
 
 .login .input:last-child {
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
+.required-astrick-name {
+  position: absolute;
+  top: 1;
+  left: 1;
+  color: red;
+  font-weight: 700;
+}
+
+.required-astrick-email {
+  position: absolute;
+  top: 1;
+  left: 50%;
+}
+.required-astrick-message {
+  position: absolute;
+  top: 82%;
+  left: 1;
+}
 .msg .area {
   height: 200px;
 }

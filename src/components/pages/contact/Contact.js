@@ -80,7 +80,7 @@ const Contact = () => {
       <div className='contact-main '>
         <div className='bg-image'></div>
         <header className='bg-text'>
-          <p>Please feel free to contact me</p>
+          <p>Please feel free contact me</p>
         </header>
         {/* <div className='bg-text'>
           <h1>Commission an Artwork</h1>
@@ -93,6 +93,7 @@ const Contact = () => {
           <form className='input-form' required onSubmit={sendData}>
             <div className='login'>
               {/* <label>Name:</label> */}
+
               <input
                 name='name'
                 type='text'
@@ -102,8 +103,10 @@ const Contact = () => {
                 className='input'
               />
             </div>
+            <div className='required-astrick-name'>*</div>
             <div className='login'>
               {/* <label>E-mail :</label> */}
+
               <input
                 name='email'
                 type='email'
@@ -113,6 +116,7 @@ const Contact = () => {
                 className='input'
               />
             </div>
+            <div className='required-astrick-email'>*</div>
 
             {/* <div className="subject">
             <input type="text" placeholder="Subject" className="input" />
@@ -122,10 +126,12 @@ const Contact = () => {
               <label>Message :</label>
               <textarea
                 name='message'
+                required
                 className='area'
                 placeholder='Leave a Message'
                 onChange={handleInput}
               ></textarea>
+              <div className='required-astrick-message'>*</div>
             </div>
 
             <div id='thank-you-container'>
