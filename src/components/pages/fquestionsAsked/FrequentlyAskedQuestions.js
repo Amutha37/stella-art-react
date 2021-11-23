@@ -8,7 +8,9 @@ const FrequentlyAskedQuestions = () => {
     <>
       <div className='question-main-container'>
         <div className='bg-image'></div>
-
+        <header className='bg-text'>
+          <p>Frequently Asked Questions (FAQs)</p>
+        </header>
         {/* <div className='bg-text'>
           <h1>Commission an Artwork</h1>
           <p>Oil and/or acrylic on canvas or wood panel.</p>

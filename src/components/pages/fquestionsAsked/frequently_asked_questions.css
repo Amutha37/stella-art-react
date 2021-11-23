@@ -9,13 +9,26 @@
   padding: 10%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url('./sunrise4.jpg');
+    url('./greatoceanroad.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
   height: 190px;
+}
+.question-main-container .bg-text {
+  text-align: center;
+  position: absolute;
+  line-height: 2;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.question-main-container .bg-text p {
+  font-weight: 700;
+  font-size: 32px;
 }
 .question-container p {
   font-style: 30px;
@@ -168,3 +181,61 @@
     width: 80%;
   }
 } */
+
+/* media screen */
+@media screen and (max-width: 1024px) {
+  .question-main-container .bg-image {
+    height: 250px;
+  }
+  .question-main-container .bg-text {
+    top: 420px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .question-main-container .bg-image {
+    height: 200px;
+  }
+
+  .bg-text {
+    top: 36%;
+    left: 30%;
+  }
+  /* .commission-container .hero-image-container h1 {
+    font-size: 1.5rem;
+  }
+  .commission-container .hero-image-container p {
+    font-size: 1rem;
+  } */
+}
+@media screen and (max-width: 768px) {
+  .question-main-container .bg-image {
+    width: 100%;
+  }
+  .question-main-container .bg-text {
+    top: 25%;
+    width: 43%;
+    padding: 16px;
+  }
+  .question-main-container .bg-text p {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .question-main-container .bg-text {
+    top: 26%;
+    width: 80%;
+  }
+  .question-main-container .bg-text p {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .question-main-container .bg-text {
+    top: 30%;
+    width: 90%;
+  }
+  .question-main-container .bg-text p {
+    font-size: 16px;
+  }
+}
