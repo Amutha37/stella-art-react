@@ -124,25 +124,29 @@ export const MessageForSale = () => {
 // Quotes
 export const QuotesHome = () => {
   return (
-    <div className='quotePeace'>
-      <h3>Peaceful Destination</h3>
-      <p>
-        "A commission painting - on the journey heading towards their heavently
-        destination (the Light) with the Dove (Holy-Spirit) guiding them along
-        the way."
-      </p>
+    <div className='quotes-container'>
+      <div className='quotePeace'>
+        <h3>Peaceful Destination</h3>
+        <p>
+          "A commission painting - On the journey heading towards their heavenly
+          destination (the Light) with the Dove guiding them along the way."
+        </p>
+      </div>
     </div>
   )
 }
 // qoutesNature
 export const QuotesNature = () => {
   return (
-    <div className='quotes'>
-      <h3>Nature</h3>
-      <p>
-        "It's the colours, the light and space thats really unique about Nature.
-        The Australian bush and inland desert that provide health to the soul."
-      </p>
+    <div className='quotes-container'>
+      <div className='quotes'>
+        <h3>Nature</h3>
+        <p>
+          "It's the colours, the light and space thats really unique about
+          Nature. The Australian bush and inland desert that provide health to
+          the soul."
+        </p>
+      </div>
     </div>
   )
 }
@@ -150,24 +154,28 @@ export const QuotesNature = () => {
 // qoutesFlorals
 export const QuotesFlorals = () => {
   return (
-    <div className='quotes'>
-      <h3>Florals</h3>
-      <p>
-        "The sweet fragrance of a single flower brings colour and hope in your
-        world."
-      </p>
+    <div className='quotes-container'>
+      <div className='quotes'>
+        <h3>Florals</h3>
+        <p>
+          "The sweet fragrance of a single flower brings colour and hope in your
+          world."
+        </p>
+      </div>
     </div>
   )
 }
 // qoutesWildLife
 export const QuotesWildLife = () => {
   return (
-    <div className='quotes'>
-      <h3>WildLife</h3>
-      <p>
-        "It is in the beauty of Natures Wildlife that holds itselft by its
-        splendorous form of Creation."
-      </p>
+    <div className='quotes-container'>
+      <div className='quotes'>
+        <h3>WildLife</h3>
+        <p>
+          "It is in the beauty of Natures Wildlife that holds itselft by its
+          splendorous form of Creation."
+        </p>
+      </div>
     </div>
   )
 }

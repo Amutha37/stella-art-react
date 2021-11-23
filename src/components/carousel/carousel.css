@@ -52,20 +52,6 @@
   line-height: 17px;
   margin-top: 1rem;
   text-align: left;
-  /* blury display */
-  /* background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center; */
 }
 p > a {
   color: blue;
@@ -116,6 +102,7 @@ button {
   font-size: 15px;
 }
 #caption {
+  margin-top: 5px;
   width: 45%;
   text-align: center;
   color: black;
@@ -123,11 +110,8 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
-
 .row {
   max-height: 150px;
-}
-.row {
   position: relative;
   display: flex;
   justify-content: center;
@@ -180,16 +164,12 @@ button {
     /* width: 95%; */
     width: 100%;
   }
-  #caption {
+  /* #caption {
     display: none;
-  }
+  } */
   .mySlides {
     height: 500px;
-    /* display: table-cell; */
   }
-  /* .prev {
-    right: 1;
-  } */
   .imagesize {
     font-size: 12px;
   }

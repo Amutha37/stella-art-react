@@ -1,47 +1,47 @@
-import React, { useState } from 'react';
-import ThumbNailImages from '../carousel/ThumbNailImages';
-import WholeImageView from '../carousel/WholeImageView';
-import '../carousel/carousel.css';
+import React, { useState } from 'react'
+import ThumbNailImages from '../carousel/ThumbNailImages'
+import WholeImageView from '../carousel/WholeImageView'
+import '../carousel/carousel.css'
 
 const SlideControler = ({ slideImages, PrintMessage, PrintQuotes }) => {
-  const imgarrlength = slideImages.length;
+  const imgarrlength = slideImages.length
 
-  const [imageIndex, setImageIndex] = useState(1);
+  const [imageIndex, setImageIndex] = useState(1)
   const [status, setStatus] = useState(
     new Array(imgarrlength).fill().map((item, idx) => idx === 0)
-  );
+  )
 
   // Next/previous controls
   function plusSlides(event) {
-    let ind = Number(event.target.value);
-    let newind = imageIndex + ind;
-    let nex;
+    let ind = Number(event.target.value)
+    let newind = imageIndex + ind
+    let nex
 
     if (newind < 1) {
-      nex = imgarrlength;
+      nex = imgarrlength
     } else if (newind > imgarrlength) {
-      nex = 1;
+      nex = 1
     } else {
-      nex = newind;
+      nex = newind
     }
-    statusUpdate(nex);
+    statusUpdate(nex)
   }
 
   // Thumbnail image controls
   const currentSlide = (e) => {
-    const num = Number(e.target.id);
-    statusUpdate(num);
-  };
+    const num = Number(e.target.id)
+    statusUpdate(num)
+  }
 
   // boolean status update
   const statusUpdate = (n) => {
-    const copy = [...status];
-    copy.fill(false);
+    const copy = [...status]
+    copy.fill(false)
 
-    copy[n - 1] = !copy[n - 1];
-    setStatus(copy);
-    setImageIndex(n);
-  };
+    copy[n - 1] = !copy[n - 1]
+    setStatus(copy)
+    setImageIndex(n)
+  }
 
   return (
     //  <!-- Container for the image gallery -->
@@ -53,7 +53,6 @@ const SlideControler = ({ slideImages, PrintMessage, PrintQuotes }) => {
           status={status}
           plusSlides={plusSlides}
           PrintMessage={PrintMessage}
-          PrintQuotes={PrintQuotes}
         />
 
         <ThumbNailImages
@@ -61,10 +60,11 @@ const SlideControler = ({ slideImages, PrintMessage, PrintQuotes }) => {
           currentSlide={currentSlide}
           status={status}
           slideIndex={imageIndex}
+          PrintQuotes={PrintQuotes}
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SlideControler;
+export default SlideControler

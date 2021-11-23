@@ -42,7 +42,7 @@ export const priceList = [
     person: 2,
     price: '830',
   },
-];
+]
 
 export function PrintPrice() {
   //   let ind = 0
@@ -59,7 +59,7 @@ export function PrintPrice() {
           <tr>
             <th>Size "inches"</th>
             <th>Person</th>
-            <th>Price (A$)</th>
+            <th>Price</th>
           </tr>
         </thead>
         <tbody>
@@ -73,5 +73,5 @@ export function PrintPrice() {
         </tbody>
       </table>
     </div>
-  );
+  )
 }

@@ -13,6 +13,7 @@
   height: 18rem;
   color: #fff;
   background-color: #000;
+  overflow-x: hidden;
 }
 
 .social-media .footertext {

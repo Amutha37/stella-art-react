@@ -1,5 +1,5 @@
-import React from 'react';
-import Buttons from './Buttons';
+import React from 'react'
+import Buttons from './Buttons'
 
 const Fullimageview = ({
   status,
@@ -7,7 +7,6 @@ const Fullimageview = ({
   slideIndex,
   plusSlides,
   PrintMessage,
-  PrintQuotes,
 }) => {
   return (
     <>
@@ -33,9 +32,8 @@ const Fullimageview = ({
         <p>{slides[slideIndex - 1].name} </p>{' '}
         <p className='imagesize'>{slides[slideIndex - 1].size}</p>
       </div>
-      {PrintQuotes}
     </>
-  );
-};
+  )
+}
 
-export default Fullimageview;
+export default Fullimageview

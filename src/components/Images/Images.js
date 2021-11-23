@@ -4,7 +4,7 @@ export const BannerImage = [
     name: 'Peaceful Journey',
     image: require('./globalimages/peacefuljourney.jpg').default,
   },
-];
+]
 // Nature
 export const NatureImages = [
   {
@@ -57,7 +57,7 @@ export const NatureImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 // Floral
 export const FloralImages = [
   {
@@ -92,7 +92,7 @@ export const FloralImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 
 // wildlife
 export const WildLifeImages = [
@@ -141,33 +141,33 @@ export const WildLifeImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 
 // mastercopies
 export const MastercopiesImages = [
   {
     id: 1,
-    name: 'Young Woman by a Window',
+    name: 'Young Woman by a Window - Berthe Moriset',
     size: '',
     image: require('./mastercopies/youngwomanbyawindow.jpg').default,
   },
 
   {
     id: 2,
-    name: 'Play in the Surf',
+    name: 'Play in the Surf - Edward Potthast',
     size: '',
     image: require('./mastercopies/playinthesurf.jpg').default,
   },
 
   {
     id: 3,
-    name: 'The Grand Canal of Venice',
+    name: 'The Grand Canal of Venice - Edouard Manet',
     size: '',
     image: require('./mastercopies/thegrandcanalofvenice.jpg').default,
   },
   {
     id: 4,
-    name: 'Girl in Pink Dress',
+    name: 'Girl in Pink Dress - Michael Peter Ancher',
     size: '',
     image: require('./mastercopies/girlinpinkdress.jpg').default,
   },
@@ -185,7 +185,7 @@ export const MastercopiesImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 
 // potraits
 export const PortraitImages = [
@@ -220,7 +220,7 @@ export const PortraitImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 
 // pet portraits paintings
 export const PetportraitsImages = [
@@ -249,7 +249,7 @@ export const PetportraitsImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 // sold
 export const SoldImages = [
   {
@@ -312,7 +312,7 @@ export const SoldImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]
 
 // commission images sample display
 
@@ -349,7 +349,7 @@ export const CommissionSamples = [
     image: require('./petportraits/charlie.jpg').default,
     clName: 'cactive',
   },
-];
+]
 
 // more paintings
 export const MorePaintingImages = [
@@ -372,4 +372,4 @@ export const MorePaintingImages = [
     size: '',
     image: require('./globalimages/quotation.png').default,
   },
-];
+]

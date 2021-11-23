@@ -8,7 +8,7 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
     url('./greatoceanroad.jpg');
   background-repeat: no-repeat;
   background-size: cover;

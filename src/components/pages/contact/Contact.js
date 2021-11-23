@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 // import { SocialMedia } from '../../fetchMessage/SocialMedia';
-import Footer from '../../Footer/Footer';
-import './contact.css';
-import emailjs from 'emailjs-com';
+import Footer from '../../Footer/Footer'
+import './contact.css'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const [formData, setFormData] = useState({});
-  const [thankMsg, setThankMsg] = useState(false);
+  const [formData, setFormData] = useState({})
+  const [thankMsg, setThankMsg] = useState(false)
 
   const handleInput = (e) => {
-    const copyFormData = { ...formData };
-    copyFormData[e.target.name] = e.target.value;
-    setFormData(copyFormData);
-  };
+    const copyFormData = { ...formData }
+    copyFormData[e.target.name] = e.target.value
+    setFormData(copyFormData)
+  }
 
   const sendData = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
     // email
     // stella
     // emailjs
@@ -26,7 +26,7 @@ const Contact = () => {
     //     "user_A0rfHSP2yohzhMSJ4oDEU"
     //   )
     // Amutha
-    setThankMsg(true);
+    setThankMsg(true)
 
     emailjs
       .sendForm(
@@ -36,12 +36,12 @@ const Contact = () => {
         'user_etuc4QBUGfJPQyWZealTj'
       )
       .then((res) => {
-        console.log(res);
+        console.log(res)
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
     // googlesheet
-    const myHeaders = new Headers();
-    myHeaders.append('Content-Type', 'application/json');
+    const myHeaders = new Headers()
+    myHeaders.append('Content-Type', 'application/json')
     const requestOptions = {
       method: 'post',
       headers: myHeaders,
@@ -54,7 +54,7 @@ const Contact = () => {
           new Date().toLocaleString(),
         ],
       ]),
-    };
+    }
     // Amutha'sgit
     fetch(
       'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
@@ -66,18 +66,28 @@ const Contact = () => {
       //   requestOptions
       // )
       .then((response) => response.text())
-      .catch((error) => console.log('error', error));
-    setFormData({});
-    reset();
-  };
+      .catch((error) => console.log('error', error))
+    setFormData({})
+    reset()
+  }
   const reset = () => {
-    formData.name = '';
-    formData.email = '';
-    formData.message = '';
-  };
+    formData.name = ''
+    formData.email = ''
+    formData.message = ''
+  }
   return (
     <div>
       <div className='contact-main '>
+        <div className='bg-image'></div>
+        <header className='bg-text'>
+          <p>Please feel free to contact me</p>
+        </header>
+        {/* <div className='bg-text'>
+          <h1>Commission an Artwork</h1>
+          <p>Oil and/or acrylic on canvas or wood panel.</p>
+          <p> FREE SHIPPING in Australia</p>
+        </div> */}
+
         <div className='form-container'>
           <p id='contact-form-title'>Contact Stella</p>
           <form className='input-form' required onSubmit={sendData}>
@@ -199,6 +209,6 @@ const Contact = () => {
         <Footer />
       </div>
     </div>
-  );
-};
-export default Contact;
+  )
+}
+export default Contact
