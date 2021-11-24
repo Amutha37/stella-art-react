@@ -47,10 +47,14 @@
 }
 
 /* survey styling */
-/* .survey {
+.survey {
   margin-top: 4rem;
   width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  /* text-align: center; */
 }
+
 .wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -59,14 +63,15 @@
   min-width: 80%;
   width: 60%;
   background: #fff;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2); */
   margin-bottom: 4rem;
+  float: left;
 }
 .wrapper .title {
-  color: #fff;
+  color: #000;
   line-height: 65px;
   text-align: center;
-  background: #333;
+  /* background: #333; */
   font-size: 25px;
   font-weight: 500;
 }
@@ -151,9 +156,11 @@
 .form-group {
   margin-bottom: 2rem;
   height: 5rem;
+  /* text-align: left; */
+  text-align: center;
 }
-.question-container .btn-count {
-  padding: 3px;
+.question-container .form-group button {
+  padding: 6px;
   background-color: #486255;
   color: #fff;
   font-size: 15px;
@@ -165,22 +172,21 @@
 #thank-you {
   font-size: 25px;
   color: blue;
-} */
+}
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .survey {
-
-    width: 80%;
+    width: 90%;
   }
   header .container-question {
     color: #fff;
     line-height: 40px;
-    font-size: 18px; 
+    font-size: 18px;
   }
   .wrapper {
-    width: 80%;
+    width: 90%;
   }
-} */
+}
 
 /* media screen */
 @media screen and (max-width: 1024px) {
@@ -200,12 +206,6 @@
     top: 36%;
     left: 30%;
   }
-  /* .commission-container .hero-image-container h1 {
-    font-size: 1.5rem;
-  }
-  .commission-container .hero-image-container p {
-    font-size: 1rem;
-  } */
 }
 @media screen and (max-width: 768px) {
   .question-main-container .bg-image {

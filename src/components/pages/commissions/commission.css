@@ -81,20 +81,24 @@ commission-container .bg-text h1 {
 
 /* testimonial */
 .commission-container .testimonials {
-  width: 70%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5rem;
 }
 
 .commission-container .testimonials h1 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-weight: 400;
 }
 
 .commission-container .testimonials p {
-  color: rgb(97, 94, 94);
+  color: #6c6a6a;
   font-size: 16px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .commission-container hr {
@@ -113,6 +117,9 @@ commission-container .bg-text h1 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+.table-container p {
+  font-size: 16px;
 }
 table {
   margin: 4rem auto;
@@ -152,6 +159,14 @@ tr:nth-child(even) {
   }
 }
 @media screen and (max-width: 920px) {
+  .commission-container::webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .commission-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
   .commission-container .bg-image {
     height: 200px;
   }
@@ -206,7 +221,7 @@ tr:nth-child(even) {
   }
 
   .commission-container .hero-image-container p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   table {
     width: 80%;

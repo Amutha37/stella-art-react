@@ -51,7 +51,7 @@ const Survey = () => {
 
   return (
     <div className='survey'>
-      <h3>A quick survey : </h3>
+      {/* <h3>A quick survey : </h3> */}
       {/* <p>How did you find my website?</p> */}
       <div className='wrapper'>
         <div className='title'>How did you find my website?</div>

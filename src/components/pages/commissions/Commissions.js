@@ -1,9 +1,9 @@
-import React from 'react';
-import { CommissionSamples } from '../../../components/Images/Images';
-import { Testimonial } from '../../../components/fetchMessage/Testimonial';
-import { PrintPrice } from '../../../components/fetchMessage/PriceTable';
-import './commission.css';
-import Footer from '../../Footer/Footer';
+import React from 'react'
+import { CommissionSamples } from '../../../components/Images/Images'
+import { Testimonial } from '../../../components/fetchMessage/Testimonial'
+import { PrintPrice } from '../../../components/fetchMessage/PriceTable'
+import './commission.css'
+import Footer from '../../Footer/Footer'
 
 function Commissions() {
   // const [hover, setHover] = useState(false)
@@ -90,10 +90,11 @@ function Commissions() {
       </div>
       {/* </div> */}
       <PrintPrice />
+
       <Testimonial />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Commissions;
+export default Commissions

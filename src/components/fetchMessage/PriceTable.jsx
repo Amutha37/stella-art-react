@@ -14,33 +14,33 @@ export const priceList = [
   {
     size: '16" x 20" ',
     person: 1,
-    price: '610',
+    price: '650',
   },
   {
     size: ' ',
     person: 2,
-    price: '710',
+    price: '850',
   },
   {
     size: '24" x 30" ',
     person: 1,
-    price: '700',
+    price: '810',
   },
   {
     size: ' ',
     person: 2,
-    price: '800',
+    price: '1,000',
   },
   {
     size: '24" x 36" ',
     person: 1,
-    price: '730',
+    price: '850',
   },
 
   {
     size: '',
     person: 2,
-    price: '830',
+    price: '1,100',
   },
 ]
 
@@ -54,6 +54,11 @@ export function PrintPrice() {
         Please note: All paintings require a non-refundable 50% deposit before
         starting.
       </p>
+      <br></br>
+      <p>
+        Portrait Price painted in oils on ready to hang canvas or wood panel.
+      </p>
+
       <table className='dml_table' cellPadding={0} cellSpacing={0}>
         <thead className='sticky-thc'>
           <tr>
@@ -72,6 +77,14 @@ export function PrintPrice() {
           ))}
         </tbody>
       </table>
+      <div>
+        <p>(Please contact me if you want to enquire price on other sizes).</p>
+        <br></br>
+        <p>
+          * All other paintings/commissions you may be considering, please
+          contact me and I will get back to you as soon as possible.
+        </p>
+      </div>
     </div>
   )
 }

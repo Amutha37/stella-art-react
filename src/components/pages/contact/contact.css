@@ -11,7 +11,7 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url('./threesisters2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,9 @@
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
   box-sizing: border-box;
   padding: 40px;
-  /* background-color: black; */
+  background-color: #eef4f2;
+  /* background-color: #e5edeb; */
+  /* background-color: rgb(244, 240, 239); */
   text-align: center;
   /* border-style: double; */
   border: 7px double #000;
@@ -73,7 +75,7 @@
 .form-container p {
   text-align: center;
   letter-spacing: 1px;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: #486255;
   font-weight: 400;
@@ -106,7 +108,7 @@
   margin-left: 7px;
 }
 
-.required-astrick-name {
+/* .required-astrick-name {
   position: absolute;
   top: 1;
   left: 1;
@@ -118,12 +120,12 @@
   position: absolute;
   top: 1;
   left: 50%;
-}
-.required-astrick-message {
+} */
+/* .required-astrick-message {
   position: absolute;
   top: 82%;
   left: 1;
-}
+} */
 .msg .area {
   height: 200px;
 }
@@ -197,10 +199,8 @@
   }
   .form-container {
     width: 390px;
-    height: 645px;
-  }
-  .form-container p {
-    font-size: 30px;
+    height: 600px;
+    font-size: 16px;
   }
   .input,
   .msg .area {

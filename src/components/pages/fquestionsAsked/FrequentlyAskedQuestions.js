@@ -1,4 +1,4 @@
-// import Survey from './survey/Survey'
+import Survey from './survey/Survey'
 import Footer from '../../Footer/Footer'
 import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked'
 import './frequently_asked_questions.css'
@@ -80,8 +80,9 @@ const FrequentlyAskedQuestions = () => {
         </div>
       </header> */}
       {/* <PrintFAQ /> */}
-      {/* <Survey /> */}
+
       <FquestionsAsked />
+      <Survey />
       <Footer />
     </>
   )

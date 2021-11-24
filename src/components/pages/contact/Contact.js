@@ -80,14 +80,16 @@ const Contact = () => {
       <div className='contact-main '>
         <div className='bg-image'></div>
         <header className='bg-text'>
-          <p>Please feel free contact me</p>
+          <p>Contact me</p>
         </header>
         {/* <div className='bg-text'>
           <h1>Commission an Artwork</h1>
           <p>Oil and/or acrylic on canvas or wood panel.</p>
           <p> FREE SHIPPING in Australia</p>
         </div> */}
-
+        <div className='contact-note'>
+          <p>Please fell free to contact me for any enquiries or comments.</p>
+        </div>
         <div className='form-container'>
           <p id='contact-form-title'>Contact Stella</p>
           <form className='input-form' required onSubmit={sendData}>
@@ -103,7 +105,7 @@ const Contact = () => {
                 className='input'
               />
             </div>
-            <div className='required-astrick-name'>*</div>
+            {/* <div className='required-astrick-name'>*</div> */}
             <div className='login'>
               {/* <label>E-mail :</label> */}
 
@@ -116,7 +118,7 @@ const Contact = () => {
                 className='input'
               />
             </div>
-            <div className='required-astrick-email'>*</div>
+            {/* <div className='required-astrick-email'>*</div> */}
 
             {/* <div className="subject">
             <input type="text" placeholder="Subject" className="input" />
@@ -131,7 +133,7 @@ const Contact = () => {
                 placeholder='Leave a Message'
                 onChange={handleInput}
               ></textarea>
-              <div className='required-astrick-message'>*</div>
+              {/* <div className='required-astrick-message'>*</div> */}
             </div>
 
             <div id='thank-you-container'>

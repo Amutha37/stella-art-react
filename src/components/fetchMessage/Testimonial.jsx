@@ -3,6 +3,27 @@ export function Testimonial() {
     <div className='testimonials'>
       <h1>Testimonials</h1>
       <br></br>
+
+      <p>
+        "I absolutely love the depth and variety of this soulful artist's work.
+        She captures and creates a connection with nature and people beautifully
+        through her colourful, warm brush strokes. She extracts her subject's
+        defining characteristics and transforms them into peaceful, realistic
+        and stunning works of art."
+        <br></br>
+        <br></br>
+        <p>
+          "Thank you Stella Kypriotis for sharing with us your heartfelt
+          creative talent."
+        </p>
+        <br></br>~ Coral Wilkins ~
+      </p>
+      {/* <hr /> */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <p>
         "Watching Stella evolve as a person, as a woman and as an artist,
         through her artwork, has been an absolute delight. For me, it was not a
@@ -22,9 +43,12 @@ export function Testimonial() {
         <br></br>
         <br></br>~ Themis Thomas ~
       </p>
-      <hr />
+      {/* <hr /> */}
       <br></br>
-
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <p>
         "Such beautiful pieces of Australiana, Stella seems to capture such
         depth into the beautiful creatures and scenic wonders of nature!!
@@ -35,24 +59,6 @@ export function Testimonial() {
         <p> "Thank you"</p>
         <br></br>
         <br></br>~ Chantelle ~
-      </p>
-      <hr />
-      <br></br>
-
-      <p>
-        "I absolutely love the depth and variety of this soulful artist's work.
-        She captures and creates a connection with nature and people beautifully
-        through her colourful, warm brush strokes. She extracts her subject's
-        definning characteristics and transforms them into peaceful, realistic
-        and stunning works of art."
-        <br></br>
-        <br></br>
-        <p>
-          "Thank you Stella Kypriotis for sharing with us your heartfelt
-          creative talent."
-        </p>
-        <br></br>
-        <br></br>~ Coral Wilkins ~
       </p>
     </div>
   )
