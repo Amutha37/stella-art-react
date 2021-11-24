@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import Footer from "../Footer/Footer";
-import '../frequently_asked_questions.css'
+// import '../frequently_asked_questions.css'
 
 const Survey = () => {
   const [countOption, setCountOption] = useState({})

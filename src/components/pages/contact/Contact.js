@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 // import { SocialMedia } from '../../fetchMessage/SocialMedia';
+import Survey from './survey/Survey'
 import Footer from '../../Footer/Footer'
 import './contact.css'
 import emailjs from 'emailjs-com'
@@ -90,69 +91,70 @@ const Contact = () => {
         <div className='contact-note'>
           <p>Please fell free to contact me for any enquiries or comments.</p>
         </div>
-        <div className='form-container'>
-          <p id='contact-form-title'>Contact Stella</p>
-          <form className='input-form' required onSubmit={sendData}>
-            <div className='login'>
-              {/* <label>Name:</label> */}
+        <div className='contact-survery-wrapper'>
+          <div className='form-container'>
+            <p id='contact-form-title'>Contact Stella</p>
+            <form className='input-form' required onSubmit={sendData}>
+              <div className='login'>
+                {/* <label>Name:</label> */}
 
-              <input
-                name='name'
-                type='text'
-                required
-                placeholder='Your Name'
-                onChange={handleInput}
-                className='input'
-              />
-            </div>
-            {/* <div className='required-astrick-name'>*</div> */}
-            <div className='login'>
-              {/* <label>E-mail :</label> */}
+                <input
+                  name='name'
+                  type='text'
+                  required
+                  placeholder='Your Name'
+                  onChange={handleInput}
+                  className='input'
+                />
+              </div>
+              {/* <div className='required-astrick-name'>*</div> */}
+              <div className='login'>
+                {/* <label>E-mail :</label> */}
 
-              <input
-                name='email'
-                type='email'
-                required
-                placeholder='Your Email Address'
-                onChange={handleInput}
-                className='input'
-              />
-            </div>
-            {/* <div className='required-astrick-email'>*</div> */}
+                <input
+                  name='email'
+                  type='email'
+                  required
+                  placeholder='Your Email Address'
+                  onChange={handleInput}
+                  className='input'
+                />
+              </div>
+              {/* <div className='required-astrick-email'>*</div> */}
 
-            {/* <div className="subject">
+              {/* <div className="subject">
             <input type="text" placeholder="Subject" className="input" />
           </div> */}
 
-            <div className='msg'>
-              <label>Message :</label>
-              <textarea
-                name='message'
-                required
-                className='area'
-                placeholder='Leave a Message'
-                onChange={handleInput}
-              ></textarea>
-              {/* <div className='required-astrick-message'>*</div> */}
-            </div>
+              <div className='msg'>
+                {/* <label>Message :</label> */}
+                <textarea
+                  name='message'
+                  required
+                  className='area'
+                  placeholder='Leave a Message'
+                  onChange={handleInput}
+                ></textarea>
+                {/* <div className='required-astrick-message'>*</div> */}
+              </div>
 
-            <div id='thank-you-container'>
-              {!thankMsg ? (
-                <div className='btn'>
-                  <input
-                    className='btn'
-                    name='submit'
-                    type='submit'
-                    value='Send'
-                  />
-                </div>
-              ) : (
-                <p id='thank-you'> Submited Thank you!</p>
-              )}
-            </div>
+              <div id='thank-you-container'>
+                {!thankMsg ? (
+                  <div className='btn'>
+                    <input
+                      className='btn'
+                      name='submit'
+                      type='submit'
+                      value='Send'
+                    />
+                  </div>
+                ) : (
+                  <p id='thank-you'> Submited Thank you!</p>
+                )}
+              </div>
 
-            {/* social media */}
-            {/* <div>
+              {/* social media */}
+              {/* <div>
               <div className='social-media'>
                 <p>Follow me ⤵️ </p>
                 <div className='icons'>
@@ -200,10 +202,14 @@ const Contact = () => {
                   </a>
                  
                 </div> */}
-            {/* </div> */}
-            {/* </div> */}
-            {/* <SocialMedia /> */}
-          </form>
+              {/* </div> */}
+              {/* </div> */}
+              {/* <SocialMedia /> */}
+            </form>
+          </div>
+          <div className='survey-form'>
+            <Survey />
+          </div>
         </div>
 
         {/* <p>

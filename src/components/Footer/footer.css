@@ -12,7 +12,7 @@
   text-align: center;
   color: #fff;
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     url('./nature1.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,15 +61,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
   border: 1px solid #fff;
   border-radius: 5px;
   transition: all 0.3s;
   font-weight: 700;
 }
 .icons a .layer span.fab {
-  font-size: 17px;
+  font-size: 19px;
   line-height: 35px;
   text-align: center;
   padding-top: 2px;
@@ -153,18 +153,23 @@
   .social-media #footertext {
     font-size: 15px;
   }
-  .icons a .layer {
-    width: 45px;
-    height: 45px;
-  }
   .icons a .layer span {
     height: 80%;
     width: 80%;
   }
   .icons a .layer span.fab {
     line-height: 25px;
+    padding-top: 4px;
   }
   .icons a .text {
-    font-size: 16px;
+    font-size: 19px;
   }
 }
+
+/* @media screen and (max-width: 680px) {
+  .icons {
+    margin-top: 4rem;
+    display: inline-flex;
+    margin-bottom: 3rem;
+  }
+} */
