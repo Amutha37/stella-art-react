@@ -80,25 +80,39 @@ commission-container .bg-text h1 {
 /* overlay on hover */
 
 /* testimonial */
-.commission-container .testimonials {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5rem;
-}
-
 .commission-container .testimonials h1 {
   margin-top: 2rem;
   margin-bottom: 4rem;
   font-weight: 400;
 }
+.commission-container .testimonials {
+  /* width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem; */
+  width: 100%;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  /* font: 500 100%/1.5 system-ui; */
+}
 
 .commission-container .testimonials p {
   color: #6c6a6a;
-  font-size: 16px;
+  /* font-size: 500 100%/1.5 system-ui; */
   font-family: 'Quattrocento Sans', sans-serif;
   font-style: italic;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-size: 16px;
+}
+
+.commission-container .testimonials img {
+  max-width: 100%;
+  height: auto;
 }
 
 .commission-container hr {
@@ -194,9 +208,9 @@ tr:nth-child(even) {
   .commission-container .commission-note {
     width: 85%;
   }
-  .commission-container .testimonials {
+  /* .commission-container .testimonials {
     width: 85%;
-  }
+  } */
   .commission-container .commission-images-row {
     width: 95%;
   }
@@ -215,6 +229,17 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-width: 680px) {
+  .commission-container .testimonials {
+    display: block;
+    font-size: 80%;
+    background-color: rgba(rgb(72, 16, 16), 0.8);
+  }
+  .commission-container .testimonials p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background-color: rgba(rgb(72, 16, 16), 0.8);
+  }
   .commission-container .bg-text {
     top: 26%;
     width: 80%;
