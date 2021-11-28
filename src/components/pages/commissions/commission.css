@@ -81,39 +81,35 @@ commission-container .bg-text h1 {
 
 /* testimonial */
 .commission-container .testimonials h1 {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   font-weight: 400;
 }
 .commission-container .testimonials {
-  /* width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5rem; */
-
   display: grid;
-  width: 100%;
   padding: 2rem;
   grid-template-columns: 300px 1fr;
   gap: 1rem;
   align-items: center;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  /* font: 500 100%/1.5 system-ui; */
+  font: 400 100%/1.1 system-ui;
 }
 
 .commission-container .testimonials p {
   color: #6c6a6a;
-  /* font-size: 500 100%/1.5 system-ui; */
+  font-size: 400 100%/1.1 system-ui;
   font-family: 'Quattrocento Sans', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   /* font-weight: 400; */
   font-size: 16px;
 }
 
 .commission-container .testimonials img {
   max-width: 100%;
+  width: 80%;
   height: auto;
+  /* margin-top: 3rem; */
 }
 
 .commission-container hr {
@@ -210,8 +206,8 @@ tr:nth-child(even) {
     width: 85%;
   }
   /* .commission-container .testimonials {
-    width: 85%;
-  } */
+      width: 85%;
+    } */
   .commission-container .commission-images-row {
     width: 95%;
   }
@@ -234,14 +230,18 @@ tr:nth-child(even) {
     display: block;
     font-size: 80%;
   }
+  .commission-container .testimonials img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+  }
   /* .commission-container .testimonials .testimonial-note {
-    background-color: rgba(72, 16, 16, 0.8);
-  } */
+      background-color: rgba(72, 16, 16, 0.8);
+    } */
   .commission-container .testimonials p {
     position: relative;
     margin: -4rem 0 2rem 1rem;
     padding: 1rem;
-    color: black;
     background-color: rgba(255, 255, 255, 0.8);
   }
   .commission-container .bg-text {
