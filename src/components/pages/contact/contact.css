@@ -33,7 +33,8 @@
   font-weight: 700;
   font-size: 32px;
 }
-
+/* <div className='contact-survey-wrapper'>
+<div className='form-container'> */
 .form-container {
   max-width: 100%;
   height: 610px;

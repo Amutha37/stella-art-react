@@ -100,7 +100,10 @@ commission-container .bg-text h1 {
   margin-top: 3rem;
   width: 75%;
   padding: 15px;
-  background-color: rgb(235, 231, 231);
+  /* background-color: rgb(235, 231, 231); */
+  background-color: rgba(72, 98, 85, 0.1);
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+
   display: flex;
 }
 .commission-container .testimonial-row .column-left {
@@ -118,6 +121,7 @@ commission-container .bg-text h1 {
   color: #6c6a6a;
   margin-top: auto;
   margin-bottom: auto;
+  font-style: italic;
 }
 .commission-container .testimonials .column-left p {
   color: #6c6a6a;
@@ -230,25 +234,25 @@ tr:nth-child(even) {
   .commission-images-row img {
     max-height: 170px;
   }
-}
 
-@media screen and (max-width: 680px) {
+  .commission-container .testimonials .testimonial-row {
+    display: block;
+    padding: 15px;
+  }
   .commission-container .testimonials .column-left img {
     max-width: 100%;
     width: 55%;
     height: auto;
   }
-  .commission-container .testimonials .testimonial-row {
-    display: block;
-    padding: 15px;
-  }
-
   .commission-container .testimonial-row .column-right p {
     position: relative;
     margin: -4rem 0 2rem 1rem;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.7);
   }
+}
+
+@media screen and (max-width: 680px) {
   .commission-container .bg-text {
     top: 26%;
     width: 80%;
