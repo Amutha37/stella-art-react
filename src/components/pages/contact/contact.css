@@ -4,6 +4,7 @@
 .contact-main {
   margin-top: 1rem;
   text-align: center;
+  font-size: 16px;
 }
 
 .contact-main .bg-image {
@@ -33,24 +34,21 @@
   font-weight: 700;
   font-size: 32px;
 }
-/* <div className='contact-survey-wrapper'>
-<div className='form-container'> */
+
+.contact-survey-wrapper {
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .form-container {
-  max-width: 100%;
-  height: 610px;
-  /* background: #fff; */
+  height: 700px;
   margin: 50px auto;
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
   box-sizing: border-box;
   padding: 40px;
-  /* background-color: #eaf1ef; */
   background-color: #e5edeb;
-  /* background-color: rgb(244, 240, 239); */
   text-align: center;
-  /* border-style: double; */
   border: 7px double #000;
-  /* display: grid;
-  place-items: center; */
 }
 /* .form-container:before {
   content: ' ';
@@ -134,7 +132,6 @@
 .btn {
   width: 250px;
   background: #486255;
-  /* background: #7d7e7e; */
   height: 50px;
   line-height: 40px;
   text-align: center;
@@ -165,17 +162,13 @@
 /* grid */
 /* 
  */
-.contact-survey-wrapper {
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  font: 400 100%/1.1 system-ui;
-}
+
 /* survey styling */
+/* .survery .wrapper .box {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+} */
 .survey {
   margin-top: 1rem;
   /* width: 70%; */
@@ -192,8 +185,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
-  /* max-width: 50%;
-  min-width: 80%; */
+  max-width: 30%;
+  min-width: 90%;
   /* width: 40%; */
   background: #fff;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
@@ -215,7 +208,7 @@
 }
 .wrapper .box label {
   display: flex;
-  height: 53px;
+  height: 33px;
   align-items: center;
   margin: 10px 0;
   padding-left: 20px;
@@ -314,6 +307,9 @@
   .contact-main .bg-text {
     top: 420px;
   }
+  .contact-survey-wrapper {
+    max-width: 50%;
+  }
 }
 @media screen and (max-width: 920px) {
   .contact-main .bg-image {
@@ -323,6 +319,9 @@
   .bg-text {
     top: 36%;
     left: 30%;
+  }
+  .contact-survey-wrapper {
+    max-width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -340,22 +339,18 @@
   .contact-main .bg-text p {
     font-size: 23px;
   }
-  .form-container {
-    width: 390px;
-    height: 600px;
-    font-size: 16px;
-  }
+
   .input,
   .msg .area {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-    border: 2px solid #e9eaea;
-    font-size: 12px;
-    border-radius: 5px;
-    outline: none;
-    transform: all 0.5s ease;
+    /* box-sizing: border-box; */
+    /* margin-bottom: 15px; */
+    /* border: 2px solid #e9eaea; */
+    /* font-size: 12px; */
+    /* border-radius: 5px; */
+    /* outline: none; */
+    /* transform: all 0.5s ease; */
   }
 
   .btn {
@@ -377,7 +372,7 @@
 }
 @media screen and (max-width: 680px) {
   .contact-main .bg-text {
-    top: 26%;
+    top: 23%;
     width: 80%;
   }
   .contact-main .bg-text p {

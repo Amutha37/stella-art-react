@@ -78,8 +78,8 @@ const Survey = () => {
               value='instagram'
               onChange={handleSelect}
             ></input>
-          </div>
-          <div className='box'>
+            {/* </div> */}
+            {/* <div className='box'> */}
             <input
               type='radio'
               name='select'
@@ -134,7 +134,12 @@ const Survey = () => {
           </div>
           <div className='form-group'>
             {!surveyThankMsg ? (
-              <button type='submit' className='btn-count'>
+              <button
+                type='submit'
+                className='btn'
+                name='submit'
+                value='Submit'
+              >
                 Submit
               </button>
             ) : (

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { SocialMedia } from '../../fetchMessage/SocialMedia';
 import Survey from './survey/Survey'
 import Footer from '../../Footer/Footer'
 import './contact.css'
@@ -49,7 +48,8 @@ const Contact = () => {
       redirect: 'follow',
       body: JSON.stringify([
         [
-          formData.name,
+          formData.fname,
+          formData.lname,
           formData.email,
           formData.message,
           new Date().toLocaleString(),
@@ -72,7 +72,8 @@ const Contact = () => {
     reset()
   }
   const reset = () => {
-    formData.name = ''
+    formData.fname = ''
+    formData.lname = ''
     formData.email = ''
     formData.message = ''
   }
@@ -89,20 +90,27 @@ const Contact = () => {
           <p> FREE SHIPPING in Australia</p>
         </div> */}
         <div className='contact-note'>
-          <p>Please fell free to contact me for any enquiries or comments.</p>
+          <p>Please fell free to contact me in the contact form below.</p>
         </div>
         <div className='contact-survey-wrapper'>
           <div className='form-container'>
-            <p id='contact-form-title'>Contact Stella</p>
+            <p id='contact-form-title'>Contact Form</p>
             <form className='input-form' required onSubmit={sendData}>
               <div className='login'>
                 {/* <label>Name:</label> */}
 
                 <input
-                  name='name'
+                  name='fname'
                   type='text'
                   required
-                  placeholder='Your Name'
+                  placeholder='First name'
+                  onChange={handleInput}
+                  className='input'
+                />
+                <input
+                  name='lname'
+                  type='text'
+                  placeholder='Last Name'
                   onChange={handleInput}
                   className='input'
                 />
@@ -145,7 +153,7 @@ const Contact = () => {
                       className='btn'
                       name='submit'
                       type='submit'
-                      value='Send'
+                      value='Submit'
                     />
                   </div>
                 ) : (
