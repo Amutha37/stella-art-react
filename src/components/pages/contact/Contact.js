@@ -91,7 +91,7 @@ const Contact = () => {
         <div className='contact-note'>
           <p>Please fell free to contact me for any enquiries or comments.</p>
         </div>
-        <div className='contact-survery-wrapper'>
+        <div className='contact-survey-wrapper'>
           <div className='form-container'>
             <p id='contact-form-title'>Contact Stella</p>
             <form className='input-form' required onSubmit={sendData}>

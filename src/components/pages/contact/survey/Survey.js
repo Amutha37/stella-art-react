@@ -78,6 +78,8 @@ const Survey = () => {
               value='instagram'
               onChange={handleSelect}
             ></input>
+          </div>
+          <div className='box'>
             <input
               type='radio'
               name='select'
