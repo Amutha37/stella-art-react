@@ -202,7 +202,7 @@ tr:nth-child(even) {
   }
   .commission-container .testimonial-row .column-right p {
     position: relative;
-    margin: -4rem 0 2rem 1rem;
+    margin: -3rem 0 2rem 1rem;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -250,7 +250,7 @@ tr:nth-child(even) {
     width: 80%;
   }
   .commission-container .testimonials .testimonial-row {
-    width: 85%;
+    width: 95%;
   }
 }
 @media screen and (max-width: 480px) {
