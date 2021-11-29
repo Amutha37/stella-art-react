@@ -48,7 +48,7 @@ export function PrintPrice() {
   //   let ind = 0
   return (
     <div className='table-container'>
-      <p>ALL PRICES ARE IN AUD$</p>
+      {/* <p>ALL PRICES ARE IN AUD$</p> */}
       <br />
       <p>
         Please note: All paintings require a non-refundable 50% deposit before
@@ -64,7 +64,7 @@ export function PrintPrice() {
           <tr>
             <th>Size "inches"</th>
             <th>Person</th>
-            <th>Price</th>
+            <th>AUD</th>
           </tr>
         </thead>
         <tbody>
@@ -72,7 +72,7 @@ export function PrintPrice() {
             <tr key={i}>
               <td>{item.size}</td>
               <td>{item.person}</td>
-              <td>{item.price}</td>
+              <td>${item.price}</td>
             </tr>
           ))}
         </tbody>
