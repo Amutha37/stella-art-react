@@ -1,11 +1,20 @@
 export function SocialMedia() {
   return (
     <div className='social-media'>
-      {/* <div className="social-media"> */}
-      {/* <div className='followMe-text'> */}
+      <div className='bluethum-badge'>
+        <a href='https://bluethumb.com.au/stella-kypriotis/Artwork/waterlily-study-by-mason'>
+          <img
+            src='https://bluethumb.com.au/integrations/badge/for-sale/outline-blue.png?destination_id=my_artist_profile&fbclid=IwAR1x91rquyySqIXg33D2cTj9uIPXXUM4BE9LFwO4wnekR3NdNyHUbceF7L4'
+            alt=''
+            width='128'
+            height='50'
+          />
+        </a>
+      </div>
       <div id='followMe-text'>
         <p>Follow me ⤵️ </p>
       </div>
+
       <div className='icons'>
         <a href='https://www.facebook.com/search/top?q=stellas_art'>
           <div className='layer'>
@@ -57,5 +66,5 @@ export function SocialMedia() {
         </p>
       </div>
     </div>
-  );
+  )
 }

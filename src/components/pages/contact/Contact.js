@@ -123,9 +123,9 @@ const Contact = () => {
     <div>
       <div className='contact-main '>
         <div className='bg-image'></div>
-        <header className='bg-text'>
+        {/* <header className='bg-text'>
           <p>Contact me</p>
-        </header>
+        </header> */}
         {/* <div className='bg-text'>
           <h1>Commission an Artwork</h1>
           <p>Oil and/or acrylic on canvas or wood panel.</p>

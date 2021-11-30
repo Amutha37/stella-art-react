@@ -138,8 +138,17 @@
   transition: bottom 0.3s ease, opacity 0.3s ease;
 }
 .icons a:hover .text {
-  bottom: -20px;
+  top: 49;
   opacity: 1;
+}
+/* bluethumb */
+.bluethum-badge {
+  /* position: relative; */
+  margin-top: 5%;
+  /* margin-left: 10px; */
+  float: left;
+  height: auto;
+  margin-left: 5px;
 }
 /* copyright  */
 .contact-copyright {

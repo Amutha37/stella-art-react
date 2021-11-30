@@ -16,22 +16,27 @@ const Fullimageview = ({
           style={status[index] ? { display: 'block' } : { display: 'none' }}
           key={index}
         >
-          {index === slides.length - 1 ? null : (
+          {<img src={item.image} alt={item.name} />}
+          {/* {index === slides.length - 1 ? null : (
             <img src={item.image} alt={item.name} />
-          )}
+          )} */}
 
           {/* contact note */}
-          {PrintMessage && slideIndex === slides.length && (
+          {/* {PrintMessage && slideIndex === slides.length && (
             <div className='contactnote'>{PrintMessage}</div>
-          )}
+          )} */}
         </div>
       ))}
 
       <Buttons plusSlides={plusSlides} />
+      {/* <div className='caption-container'> */}
       <div id='caption'>
         <p>{slides[slideIndex - 1].name} </p>{' '}
         <p className='imagesize'>{slides[slideIndex - 1].size}</p>
       </div>
+
+      {/* <img src={item.image} alt={item.name} /> */}
+      {/* </div> */}
     </>
   )
 }

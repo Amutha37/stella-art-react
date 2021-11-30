@@ -110,6 +110,12 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
+/* .caption-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+/* thumbnail */
 .row {
   max-height: 150px;
   position: relative;
