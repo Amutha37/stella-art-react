@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
-// import Survey from './survey/Survey'
+import Survey from './survey/Survey'
 import Footer from '../../Footer/Footer'
 import './contact.css'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const [formData, setFormData] = useState({})
-  const [countOption, setCountOption] = useState({})
   const [thankMsg, setThankMsg] = useState(false)
 
   const handleInput = (e) => {
@@ -42,7 +41,7 @@ const Contact = () => {
       .catch((err) => console.log(err))
     // googlesheet
     const myHeaders = new Headers()
-    await myHeaders.append('Content-Type', 'application/json')
+    myHeaders.append('Content-Type', 'application/json')
     const requestOptions = {
       method: 'post',
       headers: myHeaders,
@@ -71,47 +70,6 @@ const Contact = () => {
       .catch((error) => console.log('error', error))
     setFormData({})
     reset()
-
-    //   survery form
-
-    // googlesheet
-    const myHeadersSurvey = new Headers()
-    await myHeadersSurvey.append('Content-Type', 'application/json')
-    const requestCountOptions = {
-      method: 'post',
-      headers: myHeaders,
-      redirect: 'follow',
-      body: JSON.stringify([
-        [
-          countOption.google,
-          countOption.facebook,
-          countOption.instagram,
-          countOption.bluethumb,
-          countOption.family,
-          countOption.other,
-          new Date().toLocaleString(),
-        ],
-      ]),
-    }
-    // Amutha'sgit
-
-    fetch(
-      'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey',
-      requestCountOptions
-    )
-      // STELLA'S
-      // fetch(
-      //   'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
-      //   requestCountOptions
-      // )
-      .then((response) => response.text())
-      .catch((error) => console.log('error', error))
-    setCountOption({})
-  }
-  const handleSelect = (e) => {
-    const copycountOption = { ...countOption }
-    copycountOption[e.target.value] = 1
-    setCountOption(copycountOption)
   }
   const reset = () => {
     formData.fname = ''
@@ -188,93 +146,6 @@ const Contact = () => {
                 {/* <div className='required-astrick-message'>*</div> */}
               </div>
 
-              {/*SURVEY OPTION  */}
-              <div className='survey'>
-                <div className='title'>How did you find my website?</div>
-                <div className='wrapper'>
-                  <div className='box'>
-                    {/* <div className='survey-left'> */}
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-1'
-                      value='google'
-                      onChange={handleSelect}
-                    ></input>
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-2'
-                      value='facebook'
-                      onChange={handleSelect}
-                    ></input>
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-3'
-                      value='instagram'
-                      onChange={handleSelect}
-                    ></input>
-                    {/* </div> */}
-
-                    {/* </div> */}
-                    {/* <div className='box'> */}
-                    {/* <div className='survey-left'> */}
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-4'
-                      value='bluethumb'
-                      onChange={handleSelect}
-                    ></input>
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-5'
-                      value='family'
-                      onChange={handleSelect}
-                    ></input>
-                    <input
-                      type='radio'
-                      name='select'
-                      id='option-6'
-                      value='other'
-                      onChange={handleSelect}
-                    ></input>
-                    {/* </div> */}
-                    <label for='option-1' type='radio' className='option-1'>
-                      <div className='dot'></div>
-                      <div className='text'>Google</div>
-                    </label>
-
-                    <label for='option-2' type='radio' className='option-2'>
-                      <div className='dot'></div>
-                      <div className='text'>Facebook</div>
-                    </label>
-
-                    <label for='option-3' type='radio' className='option-3'>
-                      <div className='dot'></div>
-                      <div className='text'>Instagram</div>
-                    </label>
-
-                    <label for='option-4' type='radio' className='option-4'>
-                      <div className='dot'></div>
-                      <div className='text'>Bluethumb</div>
-                    </label>
-
-                    <label for='option-5' type='radio' className='option-5'>
-                      <div className='dot'></div>
-                      <div className='text'>Family/friend</div>
-                    </label>
-
-                    <label for='option-6' type='radio' className='option-6'>
-                      <div className='dot'></div>
-                      <div className='text'>Other</div>
-                    </label>
-                  </div>
-                </div>
-              </div>
-              {/* SURVEY END HERE  */}
               <div id='thank-you-container'>
                 {!thankMsg ? (
                   <div className='btn'>
@@ -344,9 +215,9 @@ const Contact = () => {
               {/* <SocialMedia /> */}
             </form>
           </div>
-          {/* <div className='survey-form'>
+          <div className='survey-form'>
             <Survey />
-          </div> */}
+          </div>
         </div>
 
         {/* <p>
