@@ -2,6 +2,7 @@ export function FquestionsAsked() {
   return (
     <div className='question-container'>
       <div className='whole-list-questions'>
+        <h1>Frequently Asked Questions</h1>
         <div className='question-answer'>
           <p className='each-question'>Q1. Do you sell original artworks? </p>
           <p className='each-answer'>
