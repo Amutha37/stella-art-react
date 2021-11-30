@@ -47,9 +47,6 @@
 .question-container .each-answer {
   margin-top: 7px;
 }
-/* question-container .each-answer p {
-  margin-top: 6px;
-} */
 
 @media screen and (max-width: 768px) {
   .survey {
@@ -105,6 +102,11 @@
   }
   .question-main-container .bg-text p {
     font-size: 21px;
+  }
+  .question-container .whole-list-questions {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 480px) {
