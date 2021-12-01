@@ -1,8 +1,8 @@
 import Coralwilkins from '.././Images/sold/aussielorikeet.jpg'
+import Themis from '.././Images/sold/deepblueseaturtle.jpg'
 import chantelle from '.././Images/testimonial/chantelle.jpg'
 import melanie from '.././Images/testimonial/melanie.jpg'
-import Stellamum from './stellamum.jpg'
-import Themis from './deepblueseaturtle.jpg'
+import Stellamum from '.././Images/testimonial/stellamum.jpg'
 
 export function Testimonial() {
   return (
@@ -22,8 +22,8 @@ export function Testimonial() {
             peaceful, realistic and stunning works of art."
             <br></br>
             <br></br>
-            "Thank you Stella Kypriotis for sharing with us your heartfelt
-            creative talent."
+            Thank you Stella Kypriotis for sharing with us your heartfelt
+            creative talent.
             <br></br>
             <br></br>~ Coral Wilkins ~
           </p>
@@ -37,13 +37,12 @@ export function Testimonial() {
         <div className='column-right'>
           <p>
             "Such beautiful pieces of Australiana, Stella seems to capture such
-            depth into the beautiful creatures and scenic wonders of nature!!
+            depth into the beautiful creatures and scenic wonders of nature!!"
             <br></br>
             <br></br>
             Absolutely thrilled to own her artwork and show it off! Every single
-            piece is just one of a kind, and we are lucky to own a few!"
-            <br></br>
-            "Thank you"
+            piece is just one of a kind, and we are lucky to own a few! Thank
+            you
             <br></br>
             <br></br>~ Chantelle ~
           </p>
@@ -59,7 +58,7 @@ export function Testimonial() {
             delivered it to my door. I asked her to create an original and
             unique artwork for me, to suit the decor of my lounge room setting."
             <br></br>
-            <br></br>"Thank you Stella"
+            <br></br>Thank you Stella
             <br></br>
             <br></br>~ Melanie ~
           </p>
@@ -76,10 +75,10 @@ export function Testimonial() {
             eventually came up with this idea of a travelling road leading me
             towards the light and guided by the dove."
             <br></br>
-            <br></br>"I absolutely love how this painting makes me feel, it
-            brightens my living room and makes me feel at peace."
+            <br></br>I absolutely love how this painting makes me feel, it
+            brightens my living room and makes me feel at peace.
             <br></br>
-            <br></br> "Thank you Stella"
+            <br></br> Thank you Stella
             <br></br>
             <br></br> ~ Mum ~
           </p>

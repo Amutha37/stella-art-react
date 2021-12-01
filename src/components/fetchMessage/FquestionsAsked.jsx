@@ -24,7 +24,7 @@ export function FquestionsAsked() {
           <p className='each-question'>Q3. What materials do you use? </p>
           <p className='each-answer'>
             A3. I use artist grade quality oil paints such as Michael Harding,
-            Gamblin, Artist Spectrum and masterclass paints on streched canvas
+            Gamblin, Artist Spectrum and masterclass paints on stretched canvas
             or wood panels.
           </p>
         </div>

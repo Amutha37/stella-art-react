@@ -132,7 +132,12 @@ const Contact = () => {
           <p> FREE SHIPPING in Australia</p>
         </div> */}
         <div className='contact-note'>
-          <p>Please fell free to contact me in the contact form below.</p>
+          <p>
+            Please fell free to contact me for any enquiries or comments and I
+            will get back to you. If you are an SEO website marketer or any
+            other related marketer, please do not bother me as I will not
+            respond.
+          </p>
         </div>
         <div className='contact-survey-wrapper'>
           <div className='form-container'>
@@ -242,32 +247,32 @@ const Contact = () => {
                       onChange={handleSelect}
                     ></input>
                     {/* </div> */}
-                    <label for='option-1' type='radio' className='option-1'>
+                    <label htmlFor='option-1' type='radio' className='option-1'>
                       <div className='dot'></div>
                       <div className='text'>Google</div>
                     </label>
 
-                    <label for='option-2' type='radio' className='option-2'>
+                    <label htmlFor='option-2' type='radio' className='option-2'>
                       <div className='dot'></div>
                       <div className='text'>Facebook</div>
                     </label>
 
-                    <label for='option-3' type='radio' className='option-3'>
+                    <label htmlFor='option-3' type='radio' className='option-3'>
                       <div className='dot'></div>
                       <div className='text'>Instagram</div>
                     </label>
 
-                    <label for='option-4' type='radio' className='option-4'>
+                    <label htmlFor='option-4' type='radio' className='option-4'>
                       <div className='dot'></div>
                       <div className='text'>Bluethumb</div>
                     </label>
 
-                    <label for='option-5' type='radio' className='option-5'>
+                    <label htmlFor='option-5' type='radio' className='option-5'>
                       <div className='dot'></div>
                       <div className='text'>Family/friend</div>
                     </label>
 
-                    <label for='option-6' type='radio' className='option-6'>
+                    <label htmlFor='option-6' type='radio' className='option-6'>
                       <div className='dot'></div>
                       <div className='text'>Other</div>
                     </label>

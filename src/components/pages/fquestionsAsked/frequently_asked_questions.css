@@ -103,6 +103,9 @@
   .question-main-container .bg-text p {
     font-size: 21px;
   }
+  .question-container .whole-list-questions h1 {
+    font-size: 24px;
+  }
   .question-container .whole-list-questions {
     width: 100%;
     margin-left: auto;

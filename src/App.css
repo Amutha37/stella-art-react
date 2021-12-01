@@ -5,7 +5,8 @@
 }
 .stellaimg {
   width: 90%;
-  margin-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
   margin-top: 1rem;
@@ -13,28 +14,24 @@ h2 {
 }
 .image-box {
   margin-top: 1rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
 .image-box img {
   width: 40%;
   float: left;
   margin-right: 1rem;
+  padding: 6px;
+  border: 3px solid #486255;
 }
 .image-box p {
   width: 30%;
-  /* text-align: justify; */
-  font-size: 20px;
-  /* text-align-last: justify; */
+  font-size: 16px;
 }
 
 #exhibitionNote {
   margin-top: 1rem;
 }
-/* .quotes-container {
-  margin-top: 2rem;
-} */
 .quotePeace {
   text-align: center;
   margin-top: 6rem;
@@ -59,10 +56,10 @@ h2 {
   margin-right: auto;
   margin-bottom: 2rem;
 }
-.quotes p {
+.quotes-container .quotes p {
   color: rgb(97, 94, 94);
   margin-top: 2rem;
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
 }
 h3 {
@@ -76,7 +73,6 @@ h3 {
   position: fixed;
   top: 0;
   left: 0;
-  /* background: #292970; */
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -132,8 +128,16 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .image-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
   .image-box img {
-    width: 40%;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
   }
   .quotePeace h3,
   .quote h3 {

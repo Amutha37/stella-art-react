@@ -128,8 +128,8 @@ export const QuotesHome = () => {
       <div className='quotePeace'>
         <h3>Peaceful Destination</h3>
         <p>
-          "A commission painting - On the journey heading towards their heavenly
-          destination (the Light) with the Dove guiding them along the way."
+          "A commission painting - On a journey towards a peaceful and heavenly
+          destination."
         </p>
       </div>
     </div>
