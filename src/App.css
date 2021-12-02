@@ -12,6 +12,9 @@
 }
 .stellaimg #about {
   font-size: 1.7rem;
+  /* font-size: 24px; */
+  font-weight: 500;
+  /* font-family: 'Droid Serif' !important; */
 }
 .image-box {
   margin-top: 0.7rem;
@@ -27,7 +30,6 @@
 }
 .image-box p {
   width: 30%;
-  font-size: 16px;
 }
 
 #exhibitionNote {
@@ -139,14 +141,20 @@ h2 {
     margin-bottom: 3rem;
   }
   .image-box img {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
   }
-  .stellaimg #about {
-    text-align: center;
+  .stellaimg {
+    width: 95%;
   }
+  /* .stellaimg h3 {
+    text-align: center;
+  } */
+  /* .stellaimg #about {
+    text-align: center;
+  } */
   /* .quotePeace h3,
   .quote h3 {
     font-size: 17px;

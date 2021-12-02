@@ -15,19 +15,17 @@ const About = () => {
         <br></br> <br></br>
         <p>
           Stella Kypriotis is a contemporary realist artist based in Sydney
-          Australia. She loves painting a variety of subjects including florals,
+          {/* Australia. She loves painting a variety of subjects including florals,
           wildlife, landscapes, seascapes and portraits. She paints mainly in
           artists grade oil paints such as Windsor and Newton paints, Michael
           Harding and Art Spectrum on canvas or wooden board ensuring her
           surface is well prepared and varnished for longevity. Putting her
           heart and soul into every painting, she desires that the viewer/
           collector feels connected to her paintings and wants them to feel as
-          though they are stepping into another world.
+          though they are stepping into another world. */}
         </p>
-        <br></br> <br></br>
-        <h3>My Story</h3>
+        <br></br>
         <p>
-          <br></br> <br></br>
           As a young child, Stella had a longing to create anything, she enjoyed
           making something out of nothing and gave her a sense of satisfaction.
           She would sit at her mothers sewing machine for hours at a time, and
@@ -48,12 +46,26 @@ const About = () => {
           and paint in oils. She hasn't stopped since, and is grateful for the
           step she chose to take that was her desire.
           <br></br> <br></br>
-          Stella also loves to go plein-air painting outdoors whenever possible,
-          staying connected to other artists and she constantly seeks
-          improvement in all her work to ensure the last painting is better then
-          the previous.
+        </p>
+        {/* ARTIST STATEMENT */}
+        <h3>Artist's statement</h3>
+        <p>
+          <br></br> <br></br>I love painting a variety of subjects such as
+          florals, wildlife, landscapes, seascapes and portraits. I use artist
+          grade oil paints such as Michael Harding, Windsor and Newton,
+          Masterclass and Art Spectrum or acrylics on a well prepares primed
+          canvas or wooden panel.
+          <br></br> <br></br>I love to put my heart and sould into every
+          painting I do, my goal is that the viewer/collector feel connected to
+          my paintings and love having them displayed in their home for
+          generations to come. I paint or draw in my home studio mostly every
+          day and whenever possible go plein-air painting in the beautiful
+          country Australia where I live and staying connected to other artists.
           <br></br> <br></br>
-          "Art speaks where words are unable to explain." by Mathiole"
+          "Art is as vital as sunshine and as natural as breathing" - Stella
+          Kypriotis
+          <br></br> <br></br>
+          "Art speaks where words are unable to explain." - Mathiole
           <br></br> <br></br>
         </p>
         <div id='exhibitionNote'>

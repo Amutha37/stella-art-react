@@ -29,7 +29,13 @@ export function FquestionsAsked() {
             <p className='each-answer'>
               A3. Some of these paintings are available for purchase on my
               personal account on{' '}
-              <a href='https://bluethumb.com.au/stella-kypriotis'>Bluethumb</a>.
+              <a
+                href='https://bluethumb.com.au/stella-kypriotis'
+                id='bluethumb-link'
+              >
+                Bluethumb
+              </a>
+              .
             </p>
             {/* <p>
             {' '}

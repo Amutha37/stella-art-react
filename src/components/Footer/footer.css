@@ -174,8 +174,13 @@
   .icons a .text {
     font-size: 16px;
   }
+  .social-media .footertext p {
+    font-size: 13px;
+  }
+  .social-media .footertext hr {
+    width: 95%;
+  }
 }
-
 /* @media screen and (max-width: 680px) {
   .icons {
     margin-top: 4rem;
