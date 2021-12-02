@@ -1,9 +1,3 @@
-/* hr {
-  width: 100%;
-  border: 0.1px solid rgb(239, 234, 234);
-  margin: 6rem auto 1rem auto;
-} */
-
 .social-media {
   margin-top: 9rem;
   width: 100%;
@@ -13,7 +7,7 @@
   color: #fff;
   overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url('./nature1.jpeg');
+    url('.././Images/globalimages/leaves.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -35,7 +29,7 @@
   font-weight: 700;
 }
 .icons {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: inline-flex;
   margin-bottom: 3rem;
   font-weight: 700;
@@ -143,16 +137,23 @@
 }
 /* bluethumb */
 .bluethum-badge {
-  /* position: relative; */
+  position: relative;
   margin-top: 5%;
-  /* margin-left: 10px; */
-  float: left;
-  height: auto;
-  margin-left: 5px;
 }
 /* copyright  */
-.contact-copyright {
-  text-align: center;
+.social-media .footertext p {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  top: 20%;
+  text-transform: uppercase;
+}
+.social-media .footertext hr {
+  display: flex;
+  width: 80%;
+  color: #000;
+  border-color: rgb(17, 78, 54);
+  margin: 10px auto 30px auto;
 }
 /* media screen */
 @media screen and (max-width: 768px) {
@@ -160,7 +161,7 @@
     margin-top: 3.5rem;
   }
   .social-media #footertext {
-    font-size: 15px;
+    font-size: 16px;
   }
   .icons a .layer span {
     height: 80%;

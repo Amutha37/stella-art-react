@@ -7,7 +7,7 @@ import Stellamum from '.././Images/testimonial/stellamum.jpg'
 export function Testimonial() {
   return (
     <div className='testimonials'>
-      <h1>Testimonials</h1>
+      <h2 id='testimonial-heading'>Testimonials</h2>
 
       <div className='testimonial-row'>
         <div className='column-left'>
@@ -54,9 +54,10 @@ export function Testimonial() {
         </div>
         <div className='column-right'>
           <p>
-            "I was thrilled when I received my artwork from Stella the day she
-            delivered it to my door. I asked her to create an original and
-            unique artwork for me, to suit the decor of my lounge room setting."
+            "I love the artwork that Stella has painted for me and would highly
+            recommend her to anyone. My experince from asking her to create an
+            original piece for me was exciting and special. The end result was
+            personal and unique."
             <br></br>
             <br></br>Thank you Stella
             <br></br>

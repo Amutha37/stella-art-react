@@ -1,16 +1,17 @@
-import React from 'react';
-import stella from '../../../components/Images/globalimages/StellaArtist.jpg';
-import Footer from '../../Footer/Footer';
-import '../../../App.css';
+import React from 'react'
+import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
+import Footer from '../../Footer/Footer'
+import '../../../App.css'
 // "./Images/globalimages/stellaoutdoor.jpg";
 const About = () => {
   return (
     <div>
       <div className='stellaimg'>
+        <h3 id='about'>About Stella</h3>
         <div className='image-box'>
           <img className='center-fit' src={stella} alt='Stella' />
         </div>
-        <h3>Artist Statement</h3>
+        <h3>Biography</h3>
         <br></br> <br></br>
         <p>
           Stella Kypriotis is a contemporary realist artist based in Sydney
@@ -71,7 +72,7 @@ const About = () => {
       </div>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -128,7 +128,7 @@ export const QuotesHome = () => {
       <div className='quotePeace'>
         <h3>Peaceful Destination</h3>
         <p>
-          "A commission painting - On a journey towards a peaceful and heavenly
+          A commission painting - "On a journey towards a peaceful and heavenly
           destination."
         </p>
       </div>

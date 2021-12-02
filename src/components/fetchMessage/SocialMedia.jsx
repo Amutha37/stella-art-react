@@ -64,6 +64,7 @@ export function SocialMedia() {
           Copyright <i className='far fa-copyright'> </i> Stella Kypriotis 2021
           All Right Reserved.
         </p>
+        <hr />
       </div>
     </div>
   )

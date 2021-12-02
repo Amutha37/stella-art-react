@@ -2,18 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Nobel Book', 'san-serif';
 }
 .stellaimg {
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3rem;
 }
-h2 {
-  margin-top: 1rem;
-  text-align: center;
+.stellaimg #about {
+  font-size: 1.8rem;
 }
 .image-box {
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
@@ -31,6 +32,9 @@ h2 {
 
 #exhibitionNote {
   margin-top: 1rem;
+}
+#exhibitionNote h3 {
+  margin-bottom: 1rem;
 }
 .quotePeace {
   text-align: center;
@@ -62,9 +66,10 @@ h2 {
   font-size: 18px;
   font-style: italic;
 }
-h3 {
+h3,
+h2 {
   color: rgb(99, 96, 96);
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 /* Lazy loader */
 .container-loader {
@@ -123,7 +128,7 @@ h3 {
 .load-text {
   padding-top: 15px;
   text-align: center;
-  font: 14pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font: 14pt 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   color: lighten(#6767fa, 75%);
 }
 
@@ -139,13 +144,16 @@ h3 {
     margin-right: auto;
     margin-left: auto;
   }
-  .quotePeace h3,
+  .stellaimg #about {
+    text-align: center;
+  }
+  /* .quotePeace h3,
   .quote h3 {
     font-size: 17px;
-  }
+  } */
   .quotePeace,
   .quote {
     width: 80%;
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 }

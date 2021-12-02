@@ -51,12 +51,6 @@ export const NatureImages = [
     size: '',
     image: require('./nature/serenewaters.jpg').default,
   },
-  // {
-  //   id: 8,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 // Floral
 export const FloralImages = [
@@ -86,12 +80,6 @@ export const FloralImages = [
     size: '50cm(W) x 50cm(H)',
     image: require('./floral/blossomedtulip.jpg').default,
   },
-  // {
-  //   id: 5,
-  //   name: 'Note',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 
 // wildlife
@@ -131,16 +119,9 @@ export const WildLifeImages = [
   {
     id: 6,
     name: 'Majesty',
-    // size: "31cm(W)x41cm(H)",
     size: '31cm(W)x41cm(H)',
     image: require('./wildlife/majesty.jpg').default,
   },
-  // {
-  //   id: 7,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 
 // mastercopies
@@ -178,13 +159,6 @@ export const MastercopiesImages = [
     size: '',
     image: require('./mastercopies/rembrandtstudy.jpg').default,
   },
-
-  // {
-  //   id: 6,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 
 // potraits
@@ -213,13 +187,6 @@ export const PortraitImages = [
     size: '',
     image: require('./portrait/christopher.jpg').default,
   },
-
-  // {
-  //   id: 5,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 
 // pet portraits paintings
@@ -242,13 +209,6 @@ export const PetportraitsImages = [
     size: '',
     image: require('./petportraits/lorikeet.jpg').default,
   },
-
-  // {
-  //   id: 4,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 // sold
 export const SoldImages = [
@@ -306,12 +266,6 @@ export const SoldImages = [
     size: ' ',
     image: require('./sold/ontheroadtominnamurrafalls.jpg').default,
   },
-  // {
-  //   id: 10,
-  //   name: '',
-  //   size: '',
-  //   image: require('./globalimages/quotation.png').default,
-  // },
 ]
 
 // commission images sample display
@@ -364,12 +318,5 @@ export const MorePaintingImages = [
     name: 'The Three Sisters',
     size: 'none',
     image: require('./morepaintings/threesisters.jpg').default,
-  },
-
-  {
-    id: 3,
-    name: '',
-    size: '',
-    image: require('./globalimages/quotation.png').default,
   },
 ]

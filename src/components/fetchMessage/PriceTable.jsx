@@ -29,7 +29,7 @@ export const priceList = [
   {
     size: ' ',
     person: 2,
-    price: '1,000',
+    price: '1000',
   },
   {
     size: '24" x 36" ',
@@ -40,7 +40,7 @@ export const priceList = [
   {
     size: '',
     person: 2,
-    price: '1,100',
+    price: '1100',
   },
 ]
 
@@ -64,7 +64,7 @@ export function PrintPrice() {
           <tr>
             <th>Size "inches"</th>
             <th>Person</th>
-            <th>AUD</th>
+            <th>AUD$</th>
           </tr>
         </thead>
         <tbody>
@@ -72,17 +72,16 @@ export function PrintPrice() {
             <tr key={i}>
               <td>{item.size}</td>
               <td>{item.person}</td>
-              <td>${item.price}</td>
+              <td>{item.price}</td>
             </tr>
           ))}
         </tbody>
       </table>
       <div>
-        <p>(Please contact me if you want to enquire price on other sizes).</p>
-        <br></br>
         <p>
-          * All other paintings/commissions you may be considering, please
-          contact me and I will get back to you as soon as possible.
+          * All other paintings/commissions and enquiries you may be
+          considering, please contact me and I will get back to you as soon as
+          possible.
         </p>
       </div>
     </div>

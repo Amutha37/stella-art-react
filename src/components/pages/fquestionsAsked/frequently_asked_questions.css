@@ -8,8 +8,9 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
-    url('./greatoceanroad.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('../.././Images/globalimages/greatoceanroad.jpg');
+
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -30,36 +31,28 @@
   font-weight: 700;
   font-size: 32px;
 }
-.question-container p {
+/* .question-container p {
   font-style: 30px;
-  /* float: left; */
-}
+  
+} */
 .question-container .whole-list-questions {
   margin-top: 4rem;
   margin-left: 14px;
   text-align: left;
   border: 5px double black;
   padding: 40px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.question-container .whole-list-questions h2 {
+  color: rgb(99, 96, 96);
 }
 .question-container .each-question {
   margin-top: 3rem;
 }
 .question-container .each-answer {
   margin-top: 7px;
-}
-
-@media screen and (max-width: 768px) {
-  .survey {
-    width: 90%;
-  }
-  header .container-question {
-    color: #fff;
-    line-height: 40px;
-    font-size: 18px;
-  }
-  .wrapper {
-    width: 90%;
-  }
 }
 
 /* media screen */
@@ -90,9 +83,21 @@
     width: 43%;
     padding: 16px;
   }
-  .question-main-container .bg-text p {
-    font-size: 23px;
-  }
+
+  /* .question-container .whole-list-questions {
+    width: 90%;
+  } */
+  /* @media screen and (max-width: 768px) {
+   
+    header .container-question {
+      color: #fff;
+      line-height: 40px;
+      font-size: 18px;
+    }
+    .wrapper {
+      width: 90%;
+    }
+  } */
 }
 
 @media screen and (max-width: 680px) {
@@ -100,16 +105,11 @@
     top: 26%;
     width: 80%;
   }
-  .question-main-container .bg-text p {
+  /* .question-main-container .bg-text p {
     font-size: 21px;
-  }
+  } */
   .question-container .whole-list-questions h1 {
     font-size: 24px;
-  }
-  .question-container .whole-list-questions {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 480px) {

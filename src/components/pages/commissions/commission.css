@@ -3,8 +3,9 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url('./sunrise3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('../.././Images/globalimages/sunrise.jpg');
+
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -119,6 +120,10 @@
   margin-bottom: auto;
   font-style: italic;
 }
+.commission-container .testimonial-row #testimonial-heading {
+  color: rgb(99, 96, 96);
+  font-size: 3rem;
+}
 /* overlay */
 /* table */
 .table-container {
@@ -147,9 +152,14 @@ thead {
   color: #fff;
   text-align: center;
 }
-td,
+
 th {
   border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+td {
+  border: 1px solid rgba(72, 98, 85, 0.1);
   text-align: center;
   padding: 8px;
 }
@@ -157,8 +167,9 @@ tr td {
   font-weight: bold;
 }
 tr:nth-child(even) {
-  border: 1px solid #151515;
-  background-color: #dddddd;
+  border: 1px solid rgba(72, 98, 85, 0.1);
+  /* background-color: #dddddd; */
+  background-color: rgba(72, 98, 85, 0.1);
 }
 @media screen and (max-width: 1024px) {
   .commission-container .bg-image {
