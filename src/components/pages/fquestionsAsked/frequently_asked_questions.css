@@ -35,15 +35,17 @@
   font-style: 30px;
   
 } */
+.question-container .question-box {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .question-container .whole-list-questions {
   margin-top: 4rem;
   /* margin-left: 14px; */
   text-align: left;
   border: 5px double black;
-  padding: 20px;
-  width: 85%;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 20px 20px 20px 20px;
 }
 .question-container .whole-list-questions h2 {
   color: rgb(99, 96, 96);
@@ -87,6 +89,11 @@
 
   .question-container .whole-list-questions {
     width: 100%;
+  }
+  .question-container .question-box {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
   /* @media screen and (max-width: 768px) {
    

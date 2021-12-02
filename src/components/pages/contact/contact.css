@@ -330,7 +330,7 @@
     width: 100%;
   }
   .contact-main .contact-survey-wrapper {
-    width: 100%;
+    width: 95%;
   }
 
   /* .wrapper .box {
@@ -368,9 +368,6 @@
   .wrapper .box {
     padding-top: 10px;
     display: block;
-    position: relative;
-
-    justify-self: center;
   }
   .wrapper .box label {
     height: 26px;
