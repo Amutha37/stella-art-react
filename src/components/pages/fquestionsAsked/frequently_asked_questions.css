@@ -41,7 +41,7 @@
   text-align: left;
   border: 5px double black;
   padding: 40px;
-  width: 90%;
+  width: 75%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -84,9 +84,9 @@
     padding: 16px;
   }
 
-  /* .question-container .whole-list-questions {
-    width: 90%;
-  } */
+  .question-container .whole-list-questions {
+    width: 100%;
+  }
   /* @media screen and (max-width: 768px) {
    
     header .container-question {
