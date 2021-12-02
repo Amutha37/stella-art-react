@@ -51,6 +51,12 @@ export const NatureImages = [
     size: '',
     image: require('./nature/serenewaters.jpg').default,
   },
+  {
+    id: 8,
+    name: 'Beside Still Waters',
+    size: '',
+    image: require('./nature/besidestillwaters.jpg').default,
+  },
 ]
 // Floral
 export const FloralImages = [

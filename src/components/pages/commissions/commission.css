@@ -118,7 +118,9 @@
   color: #6c6a6a;
   margin-top: auto;
   margin-bottom: auto;
-  font-style: italic;
+  font-style: italic !important;
+  font-size: 18px !important;
+  line-height: 16px;
 }
 .commission-container .testimonial-row #testimonial-heading {
   color: rgb(99, 96, 96);
@@ -207,7 +209,6 @@ tr:nth-child(even) {
     padding: 15px;
   }
   .commission-container .testimonials .column-left img {
-    /* max-width: 100%; */
     width: 55%;
     height: auto;
   }
@@ -240,9 +241,9 @@ tr:nth-child(even) {
   .commission-container .hero-image-container h1 {
     font-size: 1.4rem;
   }
-  .commission-container .hero-image-container p {
+  /* .commission-container .hero-image-container p {
     font-size: 1rem;
-  }
+  } */
   .commission-images-row img {
     max-height: 170px;
   }

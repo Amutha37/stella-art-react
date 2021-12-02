@@ -125,14 +125,14 @@
 .icons a .text {
   position: absolute;
   left: 50%;
-  bottom: -5px;
+  bottom: -3px;
   opacity: 0;
   font-weight: 500;
   transform: translateX(-50%);
   transition: bottom 0.3s ease, opacity 0.3s ease;
 }
 .icons a:hover .text {
-  top: 49;
+  top: 52;
   opacity: 1;
 }
 /* bluethumb */
@@ -172,7 +172,7 @@
     padding-top: 4px;
   }
   .icons a .text {
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 
