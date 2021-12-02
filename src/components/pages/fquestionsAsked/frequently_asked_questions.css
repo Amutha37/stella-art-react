@@ -8,7 +8,7 @@
   margin-bottom: 2rem;
   padding: 10%;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url('../.././Images/globalimages/greatoceanroad.jpg');
 
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
   color: white;
 }
 .question-main-container .bg-text p {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 32px;
 }
 /* .question-container p {
@@ -37,16 +37,17 @@
 } */
 .question-container .whole-list-questions {
   margin-top: 4rem;
-  margin-left: 14px;
+  /* margin-left: 14px; */
   text-align: left;
   border: 5px double black;
-  padding: 40px;
-  width: 75%;
+  padding: 20px;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
 }
 .question-container .whole-list-questions h2 {
   color: rgb(99, 96, 96);
+  margin-top: 1rem;
 }
 .question-container .each-question {
   margin-top: 3rem;
@@ -114,10 +115,7 @@
 }
 @media screen and (max-width: 480px) {
   .question-main-container .bg-text {
-    top: 30%;
+    top: 33%;
     width: 90%;
-  }
-  .question-main-container .bg-text p {
-    font-size: 16px;
   }
 }

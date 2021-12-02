@@ -2,7 +2,6 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url('../.././Images/globalimages/sunrise.jpg');
 
@@ -16,7 +15,7 @@
 
 /* Position text in the middle of the page/image */
 .commission-container .bg-text h1 {
-  font-weight: 800;
+  font-weight: 400;
 }
 .commission-container .bg-text {
   text-align: center;
@@ -28,7 +27,7 @@
   color: white;
 }
 .commission-container .bg-text p {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -266,7 +265,7 @@ tr:nth-child(even) {
 }
 @media screen and (max-width: 480px) {
   .commission-container .bg-text {
-    top: 30%;
+    top: 34%;
     width: 90%;
   }
 }
