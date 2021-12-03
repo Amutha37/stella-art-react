@@ -61,9 +61,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(9px + 3vmin);
-  color: rgb(12, 12, 12);
+  font-size: calc(10px + 3vmin);
+  color: rgb(97, 94, 94);
+  /* color: rgb(12, 12, 12); */
   margin-top: 7rem;
+  font-weight: 600;
   /* font-family: 'Nobel Book', 'san-serif'; */
   /* all side shadow */
   /* text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
