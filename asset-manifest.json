@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.c80f775d.chunk.css",
+    "main.css": "/stella-art-react/static/css/main.148d3279.chunk.css",
     "main.js": "/stella-art-react/static/js/main.bca30768.chunk.js",
     "main.js.map": "/stella-art-react/static/js/main.bca30768.chunk.js.map",
-    "runtime-main.js": "/stella-art-react/static/js/runtime-main.722a4a9e.js",
-    "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.722a4a9e.js.map",
+    "runtime-main.js": "/stella-art-react/static/js/runtime-main.11cd6891.js",
+    "runtime-main.js.map": "/stella-art-react/static/js/runtime-main.11cd6891.js.map",
     "static/css/2.aaf8b243.chunk.css": "/stella-art-react/static/css/2.aaf8b243.chunk.css",
     "static/js/2.35853304.chunk.js": "/stella-art-react/static/js/2.35853304.chunk.js",
     "static/js/2.35853304.chunk.js.map": "/stella-art-react/static/js/2.35853304.chunk.js.map",
@@ -29,7 +29,7 @@
     "static/css/9.aaf8b243.chunk.css": "/stella-art-react/static/css/9.aaf8b243.chunk.css",
     "static/js/9.d6fe62c4.chunk.js": "/stella-art-react/static/js/9.d6fe62c4.chunk.js",
     "static/js/9.d6fe62c4.chunk.js.map": "/stella-art-react/static/js/9.d6fe62c4.chunk.js.map",
-    "static/css/10.3a8f6c95.chunk.css": "/stella-art-react/static/css/10.3a8f6c95.chunk.css",
+    "static/css/10.47016778.chunk.css": "/stella-art-react/static/css/10.47016778.chunk.css",
     "static/js/10.b2000582.chunk.js": "/stella-art-react/static/js/10.b2000582.chunk.js",
     "static/js/10.b2000582.chunk.js.map": "/stella-art-react/static/js/10.b2000582.chunk.js.map",
     "static/js/11.9924549f.chunk.js": "/stella-art-react/static/js/11.9924549f.chunk.js",
@@ -43,10 +43,10 @@
     "static/js/14.c87dea14.chunk.js": "/stella-art-react/static/js/14.c87dea14.chunk.js",
     "static/js/14.c87dea14.chunk.js.map": "/stella-art-react/static/js/14.c87dea14.chunk.js.map",
     "static/css/15.95f812b3.chunk.css": "/stella-art-react/static/css/15.95f812b3.chunk.css",
-    "static/js/15.f9507acc.chunk.js": "/stella-art-react/static/js/15.f9507acc.chunk.js",
-    "static/js/15.f9507acc.chunk.js.map": "/stella-art-react/static/js/15.f9507acc.chunk.js.map",
+    "static/js/15.015f015e.chunk.js": "/stella-art-react/static/js/15.015f015e.chunk.js",
+    "static/js/15.015f015e.chunk.js.map": "/stella-art-react/static/js/15.015f015e.chunk.js.map",
     "index.html": "/stella-art-react/index.html",
-    "static/css/10.3a8f6c95.chunk.css.map": "/stella-art-react/static/css/10.3a8f6c95.chunk.css.map",
+    "static/css/10.47016778.chunk.css.map": "/stella-art-react/static/css/10.47016778.chunk.css.map",
     "static/css/12.73fc7e54.chunk.css.map": "/stella-art-react/static/css/12.73fc7e54.chunk.css.map",
     "static/css/13.1106a704.chunk.css.map": "/stella-art-react/static/css/13.1106a704.chunk.css.map",
     "static/css/15.95f812b3.chunk.css.map": "/stella-art-react/static/css/15.95f812b3.chunk.css.map",
@@ -58,7 +58,7 @@
     "static/css/7.aaf8b243.chunk.css.map": "/stella-art-react/static/css/7.aaf8b243.chunk.css.map",
     "static/css/8.aaf8b243.chunk.css.map": "/stella-art-react/static/css/8.aaf8b243.chunk.css.map",
     "static/css/9.aaf8b243.chunk.css.map": "/stella-art-react/static/css/9.aaf8b243.chunk.css.map",
-    "static/css/main.c80f775d.chunk.css.map": "/stella-art-react/static/css/main.c80f775d.chunk.css.map",
+    "static/css/main.148d3279.chunk.css.map": "/stella-art-react/static/css/main.148d3279.chunk.css.map",
     "static/js/11.9924549f.chunk.js.LICENSE.txt": "/stella-art-react/static/js/11.9924549f.chunk.js.LICENSE.txt",
     "static/media/StellaArtist.992845c6.jpg": "/stella-art-react/static/media/StellaArtist.992845c6.jpg",
     "static/media/aussielorikeet.jpg": "/stella-art-react/static/media/aussielorikeet.13c62958.jpg",
@@ -111,9 +111,9 @@
     "static/media/youngwomanbyawindow.jpg": "/stella-art-react/static/media/youngwomanbyawindow.4ad26ab5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.722a4a9e.js",
+    "static/js/runtime-main.11cd6891.js",
     "static/js/11.9924549f.chunk.js",
-    "static/css/main.c80f775d.chunk.css",
+    "static/css/main.148d3279.chunk.css",
     "static/js/main.bca30768.chunk.js"
   ]
 }
