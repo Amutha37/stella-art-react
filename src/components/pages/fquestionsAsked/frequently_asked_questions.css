@@ -37,9 +37,10 @@
   text-align: left;
   border: 5px double black;
   padding: 20px 20px 20px 20px;
+  color: rgba(97, 94, 94, 0.99);
 }
 .question-container .whole-list-questions h2 {
-  color: rgb(99, 96, 96);
+  color: rgb(97, 94, 94);
   margin-top: 1rem;
 }
 .question-container .each-question {

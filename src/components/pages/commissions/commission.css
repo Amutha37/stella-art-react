@@ -42,6 +42,7 @@
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+  color: rgba(97, 94, 94, 0.99);
 }
 
 .commission-container .commission-images-row {
@@ -121,7 +122,7 @@
   font-size: 16px;
 }
 .commission-container .testimonial-row #testimonial-heading {
-  color: rgb(99, 96, 96);
+  color: rgb(97, 94, 94);
   /* font-size: 3rem; */
 }
 /* overlay */
@@ -135,6 +136,7 @@
 }
 .table-container p {
   font-size: 16px;
+  color: rgba(97, 94, 94, 0.99);
 }
 table {
   margin: 4rem auto;
@@ -145,6 +147,7 @@ table {
   width: 60%;
   border-collapse: collapse;
   box-sizing: border-box;
+  color: rgb(97, 94, 95);
 }
 
 thead {

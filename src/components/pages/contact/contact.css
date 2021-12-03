@@ -44,6 +44,7 @@
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  color: rgba(97, 94, 94, 0.99);
 }
 
 .form-container {
@@ -62,7 +63,8 @@
   letter-spacing: 1px;
   font-size: 40px;
   margin-bottom: 20px;
-  color: #486255;
+  /* color: #486255; */
+  color: rgba(97, 94, 94, 0.99);
   font-weight: 400;
 }
 .input,
@@ -162,7 +164,7 @@
 }
 
 .survey .title {
-  color: #000;
+  color: #486255;
   line-height: 65px;
   text-align: center;
   position: relative;
@@ -241,8 +243,8 @@
   transform: translate(-50%, -50%) scale(1);
 }
 .wrapper .box label .text {
-  color: #333;
-  font-size: 16px;
+  /* color: #333; */
+  color: rgba(97, 94, 94, 0.99);
   font-weight: 400;
   padding-left: 10px;
   transition: color 0.3s ease;
