@@ -58,12 +58,14 @@ const About = () => {
           <br></br> <br></br>I love to put my heart and sould into every
           painting I do, my goal is that the viewer/collector feel connected to
           my paintings and love having them displayed in their home for
-          generations to come. I paint or draw in my home studio mostly every
-          day and whenever possible go plein-air painting in the beautiful
-          country Australia where I live and staying connected to other artists.
-          <br></br> <br></br>
-          "Art is as vital as sunshine and as natural as breathing" - Stella
-          Kypriotis
+          generations to come. In our ordinary hectic life, we can miss out on
+          seeing the beauty of our surroundings in nature, when I paint it gives
+          me the apportunity to reflect on my subject and appreciate the
+          beautiful life that God has given us on all it's form and beauty.
+          <br></br> <br></br>I paint or draw in my home studio mostly every day
+          and whenever possible go plein-air painting in the beautiful country
+          Australia where I live and staying connected to other artists. "Art is
+          as vital as sunshine and as natural as breathing" - Stella Kypriotis
           <br></br> <br></br>
           "Art speaks where words are unable to explain." - Mathiole
           <br></br> <br></br>

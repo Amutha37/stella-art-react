@@ -268,4 +268,8 @@ tr:nth-child(even) {
     top: 34%;
     width: 90%;
   }
+  .commission-container .testimonial-row .column-right p {
+    font-style: italic;
+    margin: -2rem 0 2rem 1rem;
+  }
 }
