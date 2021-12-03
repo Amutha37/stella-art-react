@@ -294,9 +294,9 @@
     height: 200px;
   }
 
-  .bg-text {
-    top: 36%;
-    left: 30%;
+  .contact-main .bg-text {
+    top: 40%;
+    left: 50%;
   }
   /* .contact-survey-wrapper {
     max-width: 75%;

@@ -192,9 +192,9 @@ tr:nth-child(even) {
     height: 200px;
   }
 
-  .bg-text {
-    top: 36%;
-    left: 30%;
+  .commission-container .bg-text {
+    top: 40%;
+    left: 50%;
   }
   .commission-container .hero-image-container h1 {
     font-size: 1.5rem;
@@ -206,6 +206,7 @@ tr:nth-child(even) {
     display: block;
     padding: 15px;
   }
+
   .commission-container .testimonials .column-left img {
     width: 55%;
     height: auto;

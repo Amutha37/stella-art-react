@@ -16,6 +16,7 @@
   font-weight: 500;
   /* font-family: 'Droid Serif' !important; */
 }
+
 .image-box {
   margin-top: 0.7rem;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
@@ -26,12 +27,20 @@
   float: left;
   margin-right: 1rem;
   padding: 6px;
-  border: 3px solid #486255;
+  border: 1px solid #486255;
 }
 .image-box p {
   width: 30%;
 }
 
+.stellaimg #artist-quote {
+  font-style: italic;
+  font-size: 16px;
+}
+.stellaimg #stella-name {
+  font-weight: 500;
+  font-style: normal;
+}
 #exhibitionNote {
   margin-top: 1rem;
 }

@@ -22,10 +22,8 @@
 /* social media disign */
 
 #followMe-text {
-  /* position: relative; */
   margin-top: 3rem;
   font-size: 20px;
-  /* top: 10%; */
   font-weight: 700;
 }
 .icons {
@@ -175,7 +173,7 @@
     font-size: 16px;
   }
   .social-media .footertext p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .social-media .footertext hr {
     width: 95%;

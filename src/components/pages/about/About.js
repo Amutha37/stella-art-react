@@ -14,7 +14,7 @@ const About = () => {
         <h3>Biography</h3>
         <br></br> <br></br>
         <p>
-          Stella Kypriotis is a contemporary realist artist based in Sydney
+          Stella Kypriotis is a contemporary realist artist based in Sydney.
           {/* Australia. She loves painting a variety of subjects including florals,
           wildlife, landscapes, seascapes and portraits. She paints mainly in
           artists grade oil paints such as Windsor and Newton paints, Michael
@@ -27,24 +27,22 @@ const About = () => {
         <br></br>
         <p>
           As a young child, Stella had a longing to create anything, she enjoyed
-          making something out of nothing and gave her a sense of satisfaction.
-          She would sit at her mothers sewing machine for hours at a time, and
-          try to design a dress for her dolls with the left over material her
-          mum was ready to scrap. Her favourite subject in school was Arts, and
-          Stella loved listening to the teachers stories from the previous
-          artist history. Her teacher asked the students to paint something
-          which they felt connected to. Stella went on to paint a large canvas
-          of Crying Girl, by Roy Lichtenstein, which was her 1st ever painting.
-          She hoped one day she will become an artist but noone around her
-          thought there couldn't possible be a career in that, so she put it in
-          the back of her mind.
+          making something out of nothing which gave her a sense of
+          satisfaction. She would sit at her mothers sewing machine for hours at
+          a time, and try to design a dress for her dolls with the left over
+          material her mum was ready to scrap. Her favourite subject in school
+          was Arts, and Stella loved listening to the teachers stories from the
+          previous artist history. Her teacher asked the students to paint
+          something which they felt connected to. Stella went on to paint a
+          large canvas of Crying Girl, by Roy Lichtenstein, which was her 1st
+          ever painting.
           <br></br> <br></br>
           During her career life she worked in various office roles, which
           didn't leave room for her creativity. She then decided to work in an
-          art-shop to help her further explore that field. Then she decided to
-          enrol in art-classes with Artist Christopher Vidal to learn to draw
-          and paint in oils. She hasn't stopped since, and is grateful for the
-          step she chose to take that was her desire.
+          Art-shop to help her further explore that field. Then she decided to
+          enrol in art-classes with artist Christopher Vidal to learn to draw
+          and paint in oils, and then she would practice for many hours a day to
+          better her skill in drawing and painting.
           <br></br> <br></br>
         </p>
         {/* ARTIST STATEMENT */}
@@ -53,21 +51,23 @@ const About = () => {
           <br></br> <br></br>I love painting a variety of subjects such as
           florals, wildlife, landscapes, seascapes and portraits. I use artist
           grade oil paints such as Michael Harding, Windsor and Newton,
-          Masterclass and Art Spectrum or acrylics on a well prepares primed
+          Masterclass and Art Spectrum or acrylics on a well prepared primed
           canvas or wooden panel.
-          <br></br> <br></br>I love to put my heart and sould into every
-          painting I do, my goal is that the viewer/collector feel connected to
-          my paintings and love having them displayed in their home for
-          generations to come. In our ordinary hectic life, we can miss out on
-          seeing the beauty of our surroundings in nature, when I paint it gives
-          me the apportunity to reflect on my subject and appreciate the
-          beautiful life that God has given us on all it's form and beauty.
+          <br></br> <br></br>I love to put my heart and soul into every painting
+          I do, my goal is that the viewer/collector feels connected to my
+          paintings and love having them displayed in their home for generations
+          to come. In our ordinary hectic life, we can miss out on seeing the
+          beauty of our surroundings in nature, when I paint it gives me the
+          opportunity to reflect on my subject and appreciate the beautiful life
+          that God has given us on all it's form and beauty.
           <br></br> <br></br>I paint or draw in my home studio mostly every day
           and whenever possible go plein-air painting in the beautiful country
-          Australia where I live and staying connected to other artists. "Art is
-          as vital as sunshine and as natural as breathing" - Stella Kypriotis
+          Australia where I live and staying connected to other artists.
           <br></br> <br></br>
-          "Art speaks where words are unable to explain." - Mathiole
+        </p>
+        <p id='artist-quote'>
+          <span>"Art is as vital as sunshine and as natural as breathing"</span>{' '}
+          - <span id='stella-name'>Stella Kypriotis </span>
           <br></br> <br></br>
         </p>
         <div id='exhibitionNote'>
