@@ -2,7 +2,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url('../.././Images/globalimages/sunrise.jpg');
 
   background-repeat: no-repeat;
@@ -88,22 +88,20 @@
 }
 
 .commission-container .testimonials {
-  padding: 2rem;
   align-items: center;
-  max-width: 100%;
-  margin: 3rem auto;
-  font: 400 100%/1.1 system-ui;
+  width: 100%;
+  margin: 3.5rem auto;
+  font: 400 100%/1.2 system-ui;
   display: grid;
   justify-items: center;
 }
 
 .commission-container .testimonial-row {
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 75%;
   padding: 15px;
   background-color: rgba(72, 98, 85, 0.1);
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
-
   display: flex;
 }
 
@@ -114,7 +112,7 @@
 }
 .commission-container .testimonial-row .column-right {
   max-width: 900px;
-  margin-left: 1rem;
+  margin-left: 1.4rem;
   color: #6c6a6a;
   margin-top: auto;
   margin-bottom: auto;
@@ -264,7 +262,7 @@ tr:nth-child(even) {
     width: 80%;
   }
   .commission-container .testimonials .testimonial-row {
-    width: 95%;
+    width: 96%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -274,6 +272,6 @@ tr:nth-child(even) {
   }
   .commission-container .testimonial-row .column-right p {
     font-style: italic;
-    margin: -2rem 0 2rem 1rem;
+    margin: -3rem 0 2rem 1rem;
   }
 }

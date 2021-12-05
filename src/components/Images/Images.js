@@ -54,7 +54,7 @@ export const NatureImages = [
   {
     id: 8,
     name: 'Beside Still Waters',
-    size: '',
+    size: '150cm(W)x40cm(H)',
     image: require('./nature/besidestillwaters.jpg').default,
   },
 ]

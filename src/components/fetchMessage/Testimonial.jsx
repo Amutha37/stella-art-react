@@ -55,7 +55,7 @@ export function Testimonial() {
         <div className='column-right'>
           <p>
             "I love the artwork that Stella has painted for me and would highly
-            recommend her to anyone. My experince from asking her to create an
+            recommend her to anyone. My experience from asking her to create an
             original piece for me was exciting and special. The end result was
             personal and unique."
             <br></br>
