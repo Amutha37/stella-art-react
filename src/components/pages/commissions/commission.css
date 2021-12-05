@@ -91,7 +91,7 @@
   align-items: center;
   width: 100%;
   margin: 3.5rem auto;
-  font: 400 100%/1.2 system-ui;
+  font: 400 100%/1 system-ui;
   display: grid;
   justify-items: center;
 }
@@ -177,7 +177,7 @@ tr:nth-child(even) {
     height: 250px;
   }
   .commission-container .bg-text {
-    top: 420px;
+    top: 45%;
   }
 }
 @media screen and (max-width: 920px) {
@@ -262,7 +262,7 @@ tr:nth-child(even) {
     width: 80%;
   }
   .commission-container .testimonials .testimonial-row {
-    width: 96%;
+    width: 94%;
   }
 }
 @media screen and (max-width: 480px) {

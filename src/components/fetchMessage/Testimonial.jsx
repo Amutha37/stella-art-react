@@ -1,4 +1,4 @@
-import Coralwilkins from '.././Images/sold/aussielorikeet.jpg'
+import Coralwilkins from '.././Images/testimonial/coralwilkins.jpg'
 import Themis from '.././Images/sold/deepblueseaturtle.jpg'
 import chantelle from '.././Images/testimonial/chantelle.jpg'
 import melanie from '.././Images/testimonial/melanie.jpg'
