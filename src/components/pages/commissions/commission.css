@@ -178,7 +178,7 @@ tr:nth-child(even) {
     height: 250px;
   } */
   .commission-container .bg-text {
-    top: 52%;
+    top: 43%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -278,6 +278,8 @@ tr:nth-child(even) {
   .commission-container .bg-text {
     top: 34%;
     width: 90%;
+    line-height: 1;
+    font-size: 18;
   }
   .commission-container .testimonial-row .column-right p {
     font-style: italic;
