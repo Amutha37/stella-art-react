@@ -1,10 +1,10 @@
-import { BannerImage } from '../../../components/Images/Images';
-import { QuotesHome } from '../../../components/fetchMessage/FetchMessage';
-import Footer from '../../Footer/Footer';
-import './homestyles.css';
+import { BannerImage } from '../../../components/Images/Images'
+import { QuotesHome } from '../../../components/fetchMessage/FetchMessage'
+// import Footer from '../../Footer/Footer'
+import './homestyles.css'
 
 const Home = () => {
-  const PrintQuotes = QuotesHome();
+  const PrintQuotes = QuotesHome()
   return (
     <>
       <header>
@@ -15,13 +15,10 @@ const Home = () => {
             <img src={BannerImage[0].image} alt={BannerImage[0].name} />
           </div>
           <div>{PrintQuotes}</div>
-          {/* <QuotesHome /> */}
         </div>
       </header>
-
-      <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
