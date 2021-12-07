@@ -94,7 +94,7 @@ function Commissions() {
       </div>
       {/* </div> */}
       {/* <PrintPrice /> */}
-      <div className='commission-note'>
+      <div className='table-container'>
         <p>
           Please note: All paintings require a non-refundable 50% deposit before
           starting.
