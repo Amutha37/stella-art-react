@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 // import Survey from './survey/Survey'
+// import config from '.././utils/config'
 import Footer from '../../Footer/Footer'
 import './contact.css'
 import emailjs from 'emailjs-com'
@@ -14,7 +15,8 @@ const Contact = () => {
     copyFormData[e.target.name] = e.target.value
     setFormData(copyFormData)
   }
-
+  // const contactUrl = config.CONTACT_URL
+  // const surveyUrl = config.SURVEY_URL
   const sendData = async (e) => {
     e.preventDefault()
     // email
@@ -58,6 +60,7 @@ const Contact = () => {
       ]),
     }
     // Amutha'sgit
+    // fetch(contactUrl, requestOptions)
     fetch(
       'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
       requestOptions
@@ -94,7 +97,7 @@ const Contact = () => {
       ]),
     }
     // Amutha'sgit
-
+    // fetch(surveyUrl, requestCountOptions)
     fetch(
       'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey',
       requestCountOptions
