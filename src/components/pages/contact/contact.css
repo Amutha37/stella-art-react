@@ -362,11 +362,16 @@
     top: 34%;
     width: 90%;
   }
-  /* .survey {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-  } */
+  .form-container {
+    /* height: 100%;
+    margin: 50px auto; */
+    box-shadow: none;
+    /* box-sizing: border-box;
+    padding: 50px; */
+    background-color: #fff;
+
+    border: none;
+  }
   .wrapper .box {
     padding-top: 10px;
     display: block;

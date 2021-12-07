@@ -101,4 +101,7 @@
     top: 33%;
     width: 90%;
   }
+  .question-container .whole-list-questions {
+    border: none;
+  }
 }

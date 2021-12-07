@@ -50,7 +50,7 @@ function Commissions() {
           </a> */}
         <br></br>
         <p>
-          If you and I are both happy with the duscussion and you would like to
+          If you and I are both happy with the discussion and you would like to
           go ahead, I will then start on the exciting journey of your painting.
           I will keep you informed on the progress painting and will send you
           development photos along the way. On the final photo if there are any
@@ -94,6 +94,12 @@ function Commissions() {
       </div>
       {/* </div> */}
       {/* <PrintPrice /> */}
+      <div className='commission-note'>
+        <p>
+          Please note: All paintings require a non-refundable 50% deposit before
+          starting.
+        </p>
+      </div>
       <Testimonial />
       <Footer />
     </div>
