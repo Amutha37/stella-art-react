@@ -1,7 +1,7 @@
 import React from 'react'
 import { CommissionSamples } from '../../../components/Images/Images'
 import { Testimonial } from '../../../components/fetchMessage/Testimonial'
-import { PrintPrice } from '../../../components/fetchMessage/PriceTable'
+// import { PrintPrice } from '../../../components/fetchMessage/PriceTable'
 import './commission.css'
 import Footer from '../../Footer/Footer'
 
@@ -35,10 +35,14 @@ function Commissions() {
         <p>
           If you are interested in commissioning me to do a custom painting for
           you or a loved one, please leave your details in the contact section
-          provided. I would then get in contact with you to discuss what your
+          provided. I would contact you to discuss what you are considering for
+          a painting, the size of your canvas, your budget and how long it
+          should roughly take, (depending if I have other commission work needed
+          to be completed first).
+          {/* I would then get in contact with you to discuss what your
           preferences are like the size of your painting, the colour scheme to
           match the decor of your home, your budget and how long your painting
-          should roughly take.
+          should roughly take. */}
         </p>
         {/* <a href='/contact' component={Contact}>
             {' '}
@@ -46,13 +50,13 @@ function Commissions() {
           </a> */}
         <br></br>
         <p>
-          If you are happy with this arrangement, we will then proceed with your
-          artwork.
-        </p>
-        <p>
-          I will send you development photos of your painting to keep you
-          informed of the process. On the final photo if there are any minor
-          adjustments we will look at that too.
+          If you and I are both happy with the duscussion and you would like to
+          go ahead, I will then start on the exciting journey of your painting.
+          I will keep you informed on the progress painting and will send you
+          development photos along the way. On the final photo if there are any
+          minor adjustments we will look at that too.
+          {/* I will send you development photos of your painting to keep you
+          informed of the process.  */}
         </p>
         <br></br>
         <p>
@@ -89,8 +93,7 @@ function Commissions() {
         ))}
       </div>
       {/* </div> */}
-      <PrintPrice />
-
+      {/* <PrintPrice /> */}
       <Testimonial />
       <Footer />
     </div>
