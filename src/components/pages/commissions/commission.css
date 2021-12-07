@@ -104,6 +104,11 @@
   background-color: rgba(72, 98, 85, 0.1);
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
   display: flex;
+  background-color: linear-gradient(
+    to left,
+    rgba(72, 98, 85, 0.1) 0%,
+    #486255 100%
+  );
 }
 
 .commission-container .testimonial-row .column-left img {
@@ -122,6 +127,7 @@
 }
 .commission-container .testimonial-row #testimonial-heading {
   color: rgb(97, 94, 94);
+
   /* font-size: 3rem; */
 }
 /* overlay */
@@ -227,6 +233,13 @@ tr:nth-child(even) {
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.7);
   }
+  .commission-container .testimonial-row {
+    background: linear-gradient(
+      to top right,
+      rgba(72, 98, 85, 0.1) 0%,
+      #486255 100%
+    );
+  }
 }
 @media screen and (max-width: 768px) {
   .commission-container .bg-image {
@@ -273,13 +286,17 @@ tr:nth-child(even) {
   .commission-container .testimonials .testimonial-row {
     width: 93%;
   }
+  .commission-container .testimonial-row .column-right p {
+    font-style: italic;
+    margin: -3rem 0 2rem 1rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .commission-container .bg-text {
     top: 34%;
     width: 90%;
     line-height: 1;
-    font-size: 18;
+    font-size: 16;
   }
   .commission-container .testimonial-row .column-right p {
     font-style: italic;
