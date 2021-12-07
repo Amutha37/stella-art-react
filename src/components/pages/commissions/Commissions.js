@@ -65,6 +65,12 @@ function Commissions() {
           received.
         </p>
         <br></br>
+        {/* <div className='table-container'> */}
+        <p>
+          Please note: All paintings require a non-refundable 50% deposit before
+          starting.
+        </p>
+        {/* </div> */}
       </div>
       {/* <div className='image-container'> */}
       <div className='commission-images-row'>
@@ -94,12 +100,7 @@ function Commissions() {
       </div>
       {/* </div> */}
       {/* <PrintPrice /> */}
-      <div className='table-container'>
-        <p>
-          Please note: All paintings require a non-refundable 50% deposit before
-          starting.
-        </p>
-      </div>
+
       <Testimonial />
       <Footer />
     </div>

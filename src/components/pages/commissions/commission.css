@@ -84,21 +84,21 @@
 
 /* testimonial */
 .commission-container .testimonials h1 {
-  margin-top: 1rem;
-  margin-bottom: 3rem;
   font-weight: 500;
 }
 
 .commission-container .testimonials {
   align-items: center;
   width: 100%;
-  margin: 5rem auto;
+  margin: 9rem auto;
   /* font: 400 100%/1 system-ui; */
   font-size: 16px;
   display: grid;
   justify-items: center;
 }
-
+.commission-container .testimonial-row:first-child {
+  margin-top: 3rem;
+}
 .commission-container .testimonial-row {
   margin-top: 1rem;
   width: 75%;
@@ -115,7 +115,7 @@
 }
 
 .commission-container .testimonial-row .column-right {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin-left: 1.4rem;
   color: #6c6a6a;
   margin-top: auto;
@@ -125,7 +125,6 @@
 }
 .commission-container .testimonial-row #testimonial-heading {
   color: rgb(97, 94, 94);
-  /* font-size: 3rem; */
 }
 /* overlay */
 /* table */
