@@ -144,7 +144,7 @@ export const QuotesNature = () => {
         <p>
           "It's the colours, the light and space thats really unique about
           Nature. The Australian bush and inland desert that provide health to
-          the soul."
+          the soul." - Stella Kypriotis
         </p>
       </div>
     </div>
@@ -159,7 +159,7 @@ export const QuotesFlorals = () => {
         <h3>Florals</h3>
         <p>
           "The sweet fragrance of a single flower brings colour and hope in your
-          world."
+          world." - Stella Kypriotis
         </p>
       </div>
     </div>
@@ -170,10 +170,10 @@ export const QuotesWildLife = () => {
   return (
     <div className='quotes-container'>
       <div className='quotes'>
-        <h3>WildLife</h3>
+        <h3>Wildlife</h3>
         <p>
-          "It is in the beauty of Natures Wildlife that holds itselft by its
-          splendorous form of Creation."
+          "It is in the beauty of Natures' Wildlife that holds itself by its
+          splendorous form of Creation." - Stella Kypriotis
         </p>
       </div>
     </div>

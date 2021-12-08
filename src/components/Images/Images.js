@@ -10,7 +10,7 @@ export const NatureImages = [
   {
     id: 1,
     name: 'Caves beach',
-    size: '75cm(W)x50cm(H)',
+    size: '75cm(W) x 50cm(H)',
     image: require('./nature/cavesbeach.jpg').default,
   },
 
@@ -36,25 +36,25 @@ export const NatureImages = [
   {
     id: 5,
     name: 'Shining Gum Tree',
-    size: '40cm(W)x30cm(H)',
+    size: '40cm(W) x 30cm(H)',
     image: require('./nature/shininggumtree.jpg').default,
   },
   {
     id: 6,
     name: 'The Lighthouse Wollongong',
-    size: '18cm(W)x13cm(H)',
+    size: '18cm(W) x 13cm(H)',
     image: require('./nature/thelighthousewollongong.jpeg').default,
   },
   {
     id: 7,
     name: 'Serene Waters',
-    size: '',
+    size: '120cm(W) x 90cm(H)',
     image: require('./nature/serenewaters.jpg').default,
   },
   {
     id: 8,
     name: 'Beside Still Waters',
-    size: '150cm(W)x40cm(H)',
+    size: '50cm(W) x 40cm(H)',
     image: require('./nature/besidestillwaters.jpg').default,
   },
 ]
@@ -93,39 +93,39 @@ export const WildLifeImages = [
   {
     id: 1,
     name: 'Kookaburra Study by Bishal',
-    size: '40cm(W)x50cm(H)',
+    size: '40cm(W) x 50cm(H)',
     image: require('./wildlife/kookaburrastudybybishal.jpg').default,
   },
   {
     id: 2,
     name: 'Lorikeets in Love',
-    size: '15cm(W)x15cm(H)',
+    size: '15cm(W) x 15cm(H)',
     image: require('./wildlife/lorikeetsinlove.jpg').default,
   },
 
   {
     id: 3,
     name: 'Sulfar Crested Cockatoo in Fruit Tree',
-    size: '76cm(W)x51cm(H)x3.5cm(D)',
+    size: '76cm(W) x 51cm(H)x3.5cm(D)',
     image: require('./wildlife/sulfarcrestedcockatooinfruittree.jpg').default,
   },
   {
     id: 4,
     name: 'Green Parrot in Tree',
-    size: '31cm(W)x40cm(H)',
+    size: '31cm(W) x 39cm(H)',
     image: require('./wildlife/greenparrotintree.jpg').default,
   },
 
   {
     id: 5,
     name: 'Silver-Gull by the Beach',
-    size: '30cm(W)x30cm(H)',
+    size: '30cm(W) x 30cm(H)',
     image: require('./wildlife/silvergullbythebeach.jpg').default,
   },
   {
     id: 6,
     name: 'Majesty',
-    size: '31cm(W)x41cm(H)',
+    size: '31cm(W) x 41cm(H)',
     image: require('./wildlife/majesty.jpg').default,
   },
 ]
@@ -134,7 +134,7 @@ export const WildLifeImages = [
 export const MastercopiesImages = [
   {
     id: 1,
-    name: 'Young Woman by a Window - Berthe Moriset',
+    name: 'Young woman by a window - Berthe Moriset',
     size: '',
     image: require('./mastercopies/youngwomanbyawindow.jpg').default,
   },

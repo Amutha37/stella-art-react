@@ -17,6 +17,13 @@ const Home = () => {
           <div>{PrintQuotes}</div>
         </div>
       </header>
+      <div className='footertext-home'>
+        <p>
+          Copyright <i className='far fa-copyright'> </i> Stella Kypriotis 2021
+          All Right Reserved.
+        </p>
+        {/* <hr /> */}
+      </div>
     </>
   )
 }
