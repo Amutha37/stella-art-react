@@ -19,8 +19,12 @@
 .landing_Image img {
   max-width: 100%;
 }
-
 .footertext-home {
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .footertext-home {
+    font-size: 12px;
+  }
 }
 /* Nature quote */
