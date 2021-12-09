@@ -14,12 +14,12 @@ function Commissions() {
     <div className='commission-container'>
       {/* blury background */}
       <div className='hero-image-container'>
-        <div className='bg-image'></div>
-
-        <div className='bg-text'>
-          <h1>Commission an Artwork</h1>
-          <p>Oil and/or acrylic on canvas or wood panel.</p>
-          <p> FREE SHIPPING in Australia</p>
+        <div className='bg-image'>
+          <div className='bg-text'>
+            <h1>Commission an Artwork</h1>
+            <p>Oil and/or acrylic on canvas or wood panel.</p>
+            <p> FREE SHIPPING in Australia</p>
+          </div>
         </div>
       </div>
       {/* notes for commission */}

@@ -8,6 +8,7 @@
 }
 
 .contact-main .bg-image {
+  position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
@@ -283,23 +284,18 @@
 }
 
 /* media screen */
-@media screen and (max-width: 1024px) {
-  .contact-main .bg-image {
-    height: 250px;
-  }
-  .contact-main .bg-text {
-    top: 38%;
-  }
-}
-@media screen and (max-width: 920px) {
-  .contact-main .bg-image {
-    height: 200px;
-  }
 
-  .contact-main .bg-text {
+@media screen and (max-width: 920px) {
+  /* .contact-main .bg-image {
+    height: 200px;
+  } */
+  .contact-main .bg-text p {
+    font-size: 29px;
+  }
+  /* .contact-main .bg-text {
     top: 35%;
     left: 50%;
-  }
+  } */
   /* .contact-survey-wrapper {
     max-width: 75%;
   } */
@@ -312,9 +308,7 @@
     width: 100%;
   }
   .contact-main .bg-text {
-    top: 25%;
-    width: 43%;
-    padding: 16px;
+    top: 33%;
   }
 
   .input,
@@ -342,9 +336,8 @@
 }
 
 @media screen and (max-width: 680px) {
-  .contact-main .bg-text {
-    top: 23%;
-    width: 80%;
+  .contact-main .bg-text p {
+    font-size: 23px;
   }
 
   .survey .title {
@@ -359,23 +352,23 @@
 }
 @media screen and (max-width: 480px) {
   .contact-main .bg-text {
-    top: 34%;
-    width: 90%;
+    top: 35%;
+  }
+
+  .contact-main .bg-text p {
+    font-size: 17px;
   }
   .form-container {
-    /* height: 100%;
-    margin: 50px auto; */
     box-shadow: none;
-    /* box-sizing: border-box;
-    padding: 50px; */
     background-color: #fff;
-
     border: none;
   }
+
   .wrapper .box {
     padding-top: 10px;
     display: block;
   }
+
   .wrapper .box label {
     height: 26px;
   }

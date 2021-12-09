@@ -1,4 +1,5 @@
 .commission-container .bg-image {
+  position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
@@ -175,21 +176,19 @@ tr:nth-child(even) {
   /* background-color: #dddddd; */
   background-color: rgba(72, 98, 85, 0.1);
 }
-@media screen and (max-width: 1920px) {
-  /* .commission-container .bg-image {
-    height: 250px;
-  } */
+/* @media screen and (max-width: 1920px) {
+  
   .commission-container .bg-text {
     top: 43%;
   }
-}
+} */
 @media screen and (max-width: 1024px) {
   .commission-container .bg-image {
     height: 250px;
   }
-  .commission-container .bg-text {
+  /* .commission-container .bg-text {
     top: 45%;
-  }
+  } */
 }
 @media screen and (max-width: 920px) {
   .commission-container::webkit-scrollbar {
@@ -200,9 +199,9 @@ tr:nth-child(even) {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  .commission-container .bg-image {
+  /* .commission-container .bg-image {
     height: 200px;
-  }
+  } */
 
   .commission-container .bg-text {
     top: 40%;
@@ -235,8 +234,8 @@ tr:nth-child(even) {
     width: 100%;
   }
   .commission-container .bg-text {
-    top: 25%;
-    width: 43%;
+    /* top: 25%; */
+    /* width: 43%; */
     padding: 16px;
   }
   .commission-container .commission-note {
@@ -262,8 +261,7 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 680px) {
   .commission-container .bg-text {
-    top: 26%;
-    width: 80%;
+    width: 100%;
   }
 
   .commission-container .hero-image-container p {
@@ -281,12 +279,10 @@ tr:nth-child(even) {
   }
 }
 @media screen and (max-width: 480px) {
-  .commission-container .bg-text {
-    top: 36%;
-    width: 90%;
-    line-height: 1;
+  /* .commission-container .bg-text {
+   
     font-size: 16;
-  }
+  } */
   .commission-container .testimonial-row .column-right p {
     font-style: italic;
     margin: -3rem 0 2rem 1rem;

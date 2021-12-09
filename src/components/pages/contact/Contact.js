@@ -61,15 +61,15 @@ const Contact = () => {
     }
     // Amutha'sgit
     // fetch(contactUrl, requestOptions)
+    // fetch(
+    //   'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
+    //   requestOptions
+    // )
+    // STELLA'S
     fetch(
-      'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback',
+      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
       requestOptions
     )
-      // STELLA'S
-      // fetch(
-      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
-      //   requestOptions
-      // )
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setFormData({})
@@ -98,15 +98,15 @@ const Contact = () => {
     }
     // Amutha'sgit
     // fetch(surveyUrl, requestCountOptions)
+    // fetch(
+    //   'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey',
+    //   requestCountOptions
+    // )
+    // STELLA'S
     fetch(
-      'https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey',
+      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
       requestCountOptions
     )
-      // STELLA'S
-      // fetch(
-      //   'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
-      //   requestCountOptions
-      // )
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setCountOption({})
@@ -125,10 +125,12 @@ const Contact = () => {
   return (
     <div>
       <div className='contact-main '>
-        <div className='bg-image'></div>
-        <header className='bg-text'>
-          <p>Captivating Beauty in Arts</p>
-        </header>
+        <div className='bg-image'>
+          <header className='bg-text'>
+            <p>Captivating Beauty in Arts</p>
+          </header>
+        </div>
+
         {/* <div className='bg-text'>
           <h1>Commission an Artwork</h1>
           <p>Oil and/or acrylic on canvas or wood panel.</p>
