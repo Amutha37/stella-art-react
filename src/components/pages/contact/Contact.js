@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Footer from '../../Footer/Footer'
 import './contact.css'
 import emailjs from 'emailjs-com'
-
+// process.env.PUBLIC_URL
 const Contact = () => {
   const [formData, setFormData] = useState({})
   const [countOption, setCountOption] = useState({})
@@ -17,26 +17,26 @@ const Contact = () => {
   }
   // const contactUrl = config.CONTACT_URL
   // const surveyUrl = config.SURVEY_URL
-  const sendData = async (e) => {
+  const summitData = async (e) => {
     e.preventDefault()
     // email
-    // stella
-    // emailjs
-    //   .sendForm(
-    //     "service_8wvri2s",
-    //     "template_l28p8xt",
-    //     e.target,
-    //     "user_A0rfHSP2yohzhMSJ4oDEU"
-    //   )
+
     // Amutha
     setThankMsg(true)
-
+    // emailjs
+    //   .sendForm(
+    //     'service_1lpa9id',
+    //     'template_n6n6r8p',
+    //     e.target,
+    //     'user_etuc4QBUGfJPQyWZealTj'
+    //   )
+    // stella
     emailjs
       .sendForm(
-        'service_1lpa9id',
-        'template_n6n6r8p',
+        'service_8wvri2s',
+        'template_l28p8xt',
         e.target,
-        'user_etuc4QBUGfJPQyWZealTj'
+        'user_A0rfHSP2yohzhMSJ4oDEU'
       )
       .then((res) => {
         console.log(res)
@@ -66,10 +66,9 @@ const Contact = () => {
     //   requestOptions
     // )
     // STELLA'S
-    fetch(
-      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
-      requestOptions
-    )
+
+    // 'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
+    fetch(`{process.env.CONTACT_URL_AMUTHA}`, requestOptions)
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setFormData({})
@@ -103,10 +102,9 @@ const Contact = () => {
     //   requestCountOptions
     // )
     // STELLA'S
-    fetch(
-      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
-      requestCountOptions
-    )
+
+    // 'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
+    fetch(`process.env.SURVEY_URL`, requestCountOptions)
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setCountOption({})
@@ -117,10 +115,11 @@ const Contact = () => {
     setCountOption(copycountOption)
   }
   const reset = () => {
-    formData.fname = ''
-    formData.lname = ''
-    formData.email = ''
-    formData.message = ''
+    setFormData({})
+    // formData.fname = ''
+    // formData.lname = ''
+    // formData.email = ''
+    // formData.message = ''
   }
   return (
     <div>
@@ -147,7 +146,7 @@ const Contact = () => {
         <div className='contact-survey-wrapper'>
           <div className='form-container'>
             <p id='contact-form-title'>Contact Form</p>
-            <form className='input-form' required onSubmit={sendData}>
+            <form className='input-form' required onSubmit={summitData}>
               <div className='login'>
                 {/* <label>Name:</label> */}
 

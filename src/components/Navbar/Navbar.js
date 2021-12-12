@@ -1,5 +1,5 @@
+// import React, { useState, Fragment, useEffect } from 'react'
 import React, { useState, Fragment } from 'react'
-
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Dropdown from './Dropdown'
@@ -8,6 +8,18 @@ function Navbar() {
   const [shutDropdown, setShutDropdown] = useState(false)
   const [toggleShut, setToggleShut] = useState(false)
   const [dropdown, setDropdown] = useState(false)
+  // const [show, setHandleShow] = useState(false)
+  // using string template nav class always but if the show is true set class to nav-black
+  // useEffect(() => {
+  //   window.addEventListener('scroll', () => {
+  //     if (window.scrollY > 150) {
+  //       setHandleShow(true)
+  //     } else setHandleShow(false)
+  //   })
+  //   return () => {
+  //     window.removeEventListener('scroll')
+  //   }
+  // }, [])
 
   const handleClick = () => setToggleShut(!toggleShut)
   const closeMobileMenu = () => setToggleShut(false)
@@ -32,6 +44,7 @@ function Navbar() {
       <div className='appheader'>
         <p>Stella Kypriotis Fine Art </p>
       </div>
+      {/* <nav className={`navbar ${show && 'nav_black'}`}> */}
       <nav className='navbar'>
         <div className='menu-icon' onClick={handleClick}>
           <i className={toggleShut ? 'fas fa-times' : 'fas fa-bars'} />
