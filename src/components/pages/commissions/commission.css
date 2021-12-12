@@ -90,12 +90,16 @@
 
 .commission-container .testimonials {
   align-items: center;
-  width: 100%;
-  margin: 9rem auto;
+  width: 97%;
+  margin: 6rem auto;
   /* font: 400 100%/1 system-ui; */
+  /* background: red; */
   font-size: 16px;
   display: grid;
   justify-items: center;
+  padding-bottom: 2rem;
+  z-index: -1;
+  position: static;
 }
 .commission-container .testimonial-row:first-child {
   margin-top: 3rem;
@@ -107,6 +111,7 @@
   background-color: rgba(72, 98, 85, 0.1);
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
   display: flex;
+  z-index: 1;
 }
 
 .commission-container .testimonial-row .column-left img {
@@ -124,8 +129,10 @@
   font-style: italic;
   font-size: 16px;
 }
-.commission-container .testimonial-row #testimonial-heading {
+.commission-container .testimonials #testimonial-heading {
   color: rgb(97, 94, 94);
+  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 /* overlay */
 /* table */
