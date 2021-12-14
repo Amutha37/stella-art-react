@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-// import Survey from './survey/Survey'
-// import config from '.././utils/config'
 import Footer from '../../Footer/Footer'
 import './contact.css'
 import emailjs from 'emailjs-com'
-// process.env.PUBLIC_URL
+
 const Contact = () => {
   const [formData, setFormData] = useState({})
   const [countOption, setCountOption] = useState({})
@@ -19,6 +17,8 @@ const Contact = () => {
   // const surveyUrl = config.SURVEY_URL
   const summitData = async (e) => {
     e.preventDefault()
+    // const survey = config.SURVEY
+    // const contact = config.CONTACT
     // email
 
     // Amutha
@@ -30,6 +30,7 @@ const Contact = () => {
     //     e.target,
     //     'user_etuc4QBUGfJPQyWZealTj'
     //   )
+
     // stella
     emailjs
       .sendForm(
@@ -42,6 +43,7 @@ const Contact = () => {
         console.log(res)
       })
       .catch((err) => console.log(err))
+
     // googlesheet
     const myHeaders = new Headers()
     await myHeaders.append('Content-Type', 'application/json')
@@ -66,9 +68,10 @@ const Contact = () => {
     //   requestOptions
     // )
     // STELLA'S
-
-    // 'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
-    fetch(`{process.env.CONTACT_URL_AMUTHA}`, requestOptions)
+    fetch(
+      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients',
+      requestOptions
+    )
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setFormData({})
@@ -102,9 +105,10 @@ const Contact = () => {
     //   requestCountOptions
     // )
     // STELLA'S
-
-    // 'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
-    fetch(`process.env.SURVEY_URL`, requestCountOptions)
+    fetch(
+      'https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey',
+      requestCountOptions
+    )
       .then((response) => response.text())
       .catch((error) => console.log('error', error))
     setCountOption({})
