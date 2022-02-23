@@ -163,17 +163,16 @@ h2 {
   }
   /* .stellaimg h3 {
     text-align: center;
-  } */
-  /* .stellaimg #about {
+  }
+  .stellaimg #about {
     text-align: center;
-  } */
-  /* .quotePeace h3,
+  }
+  .quotePeace h3,
   .quote h3 {
     font-size: 17px;
   } */
   .quotePeace,
   .quote {
     width: 80%;
-    /* font-size: 16px; */
   }
 }

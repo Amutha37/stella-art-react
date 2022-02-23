@@ -3,7 +3,7 @@ import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
 import Footer from '../../Footer/Footer'
 import '../../../App.css'
 // "./Images/globalimages/stellaoutdoor.jpg";
-const About = () => {
+const Artist = () => {
   return (
     <div>
       <div className='stellaimg'>
@@ -89,4 +89,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Artist

@@ -10,7 +10,7 @@ import Navbar from './components/Navbar/Navbar'
 
 const Home = lazy(() => import('./components/pages/home/Home'))
 
-const About = lazy(() => import('./components/pages/about/About'))
+const Artist = lazy(() => import('./components/pages/Artist/Artist'))
 
 const Commissions = lazy(() =>
   import('./components/pages/commissions/Commissions')
@@ -58,7 +58,7 @@ const App = () => {
           <Switch>
             <Route path='/' exact component={Home} />
 
-            <Route path='/about' component={About} />
+            <Route path='/Artist' component={Artist} />
 
             <Route path='/commissions' component={Commissions} />
 

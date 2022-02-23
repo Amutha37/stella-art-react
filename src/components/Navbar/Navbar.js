@@ -75,7 +75,7 @@ function Navbar() {
             {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
           <li className='nav-item'>
-            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/Artist' className='nav-links' onClick={closeMobileMenu}>
               THE ARTIST
             </Link>
           </li>
