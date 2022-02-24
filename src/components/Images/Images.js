@@ -86,6 +86,12 @@ export const FloralImages = [
     size: '50cm(W) x 50cm(H)',
     image: require('./floral/blossomedtulip.jpg').default,
   },
+  {
+    id: 5,
+    name: 'Love Blossoms',
+    size: '90cm(W) x 76cm(H)',
+    image: require('./floral/loveblossoms.jpg').default,
+  },
 ]
 
 // wildlife
