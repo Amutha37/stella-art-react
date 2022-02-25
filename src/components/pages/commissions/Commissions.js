@@ -5,11 +5,7 @@ import { Testimonial } from '../../../components/fetchMessage/Testimonial'
 import './commission.css'
 import Footer from '../../Footer/Footer'
 
-function Commissions() {
-  // const [hover, setHover] = useState(false)
-  // const onHover = () => {
-  //   setHover(!hover)
-  // }
+const Commissions = () => {
   return (
     <div className='commission-container'>
       {/* blury background */}
@@ -22,16 +18,8 @@ function Commissions() {
           </div>
         </div>
       </div>
-      {/* notes for commission */}
+
       <div className='commission-note'>
-        {/* <p className='commission-text'>
-          If you are interested in commissioning me to do a custom painting for
-          you or a loved one, please leave your details in the contact section
-          provided. I would then get in the contact with you to discuss what
-          your preferences are like the size of your painting, the colour scheme
-          to match the decor of your home, your budget and how long your
-          painting should roughly take.
-        </p> */}
         <p>
           If you are interested in commissioning me to do a custom painting for
           you or a loved one, please leave your details in the contact section
@@ -39,15 +27,8 @@ function Commissions() {
           a painting, the size of your canvas, your budget and how long it
           should roughly take, (depending if I have other commission work needed
           to be completed first).
-          {/* I would then get in contact with you to discuss what your
-          preferences are like the size of your painting, the colour scheme to
-          match the decor of your home, your budget and how long your painting
-          should roughly take. */}
         </p>
-        {/* <a href='/contact' component={Contact}>
-            {' '}
-            contact
-          </a> */}
+
         <br></br>
         <p>
           If you and I are both happy with the discussion and you would like to
@@ -55,8 +36,6 @@ function Commissions() {
           I will keep you informed on the progress painting and will send you
           development photos along the way. On the final photo if there are any
           minor adjustments we will look at that too.
-          {/* I will send you development photos of your painting to keep you
-          informed of the process.  */}
         </p>
         <br></br>
         <p>
@@ -87,19 +66,9 @@ function Commissions() {
               src={sampleImg.image}
               alt={sampleImg.name}
             />
-
-            {/* <div className='overlay'>
-              <div className='text'>
-                <p>{sampleImg.name}</p>
-                <p>{sampleImg.size}</p>
-                <p>{sampleImg.info}</p>
-              </div>
-            </div> */}
           </div>
         ))}
       </div>
-      {/* </div> */}
-      {/* <PrintPrice /> */}
 
       <Testimonial />
       <Footer />
