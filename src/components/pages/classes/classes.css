@@ -36,6 +36,7 @@
       width: 40rem; 
     margin-left:auto;
     margin-right:auto;
+    display: block;
   }
   #class_details p{
     margin-top:1rem;
@@ -91,6 +92,10 @@
     .classes-container .whole-list-classess h1 {
       font-size: 24px;
     }
+    #class_details{
+      padding: 1rem 1rem 1rem 1rem;
+      width: 20rem; 
+    }
   }
   @media screen and (max-width: 480px) {
     .classes-main-container .bg-image {
@@ -104,5 +109,9 @@
     }
     .classes-container .whole-list-classess {
       border: none;
+    }
+    #class_details{
+      padding: 1rem 1rem 1rem 1rem;
+      width: 15rem; 
     }
   }
