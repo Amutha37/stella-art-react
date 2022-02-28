@@ -5,12 +5,12 @@ import { NatureImages } from '../../Images/Images'
 import { PetportraitsImages } from '../../Images/Images'
 import { PortraitImages } from '../../Images/Images'
 import { WildLifeImages } from '../../Images/Images'
-import { FloralImages } from '../../../components/Images/Images'
+import { FloralImages } from '../../Images/Images'
 // import './galery.css'
-import GaleryImages from '../../GaleryImages/GaleryImages'
+import GalleryImages from '../../GalleryImages/GalleryImages'
 import Footer from '../../Footer/Footer'
 
-const Galery = () => {
+const Gallery = () => {
   return (
     <div className='galery-container'>
       {/* blury background */}
@@ -24,16 +24,16 @@ const Galery = () => {
         </div>
       </div>
       {/* <GaleryImages galImages={CommissionSamples} /> */}
-      <GaleryImages galImages={MastercopiesImages} />
-      <GaleryImages galImages={NatureImages} />
-      <GaleryImages galImages={PortraitImages} />
-      <GaleryImages galImages={PetportraitsImages} />
-      <GaleryImages galImages={WildLifeImages} />
-      <GaleryImages galImages={FloralImages} />
+      <GalleryImages galImages={MastercopiesImages} />
+      <GalleryImages galImages={NatureImages} />
+      <GalleryImages galImages={PortraitImages} />
+      <GalleryImages galImages={PetportraitsImages} />
+      <GalleryImages galImages={WildLifeImages} />
+      <GalleryImages galImages={FloralImages} />
 
       <Footer />
     </div>
   )
 }
 
-export default Galery
+export default Gallery

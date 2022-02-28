@@ -93,6 +93,16 @@ function Navbar() {
               CONTACT
             </Link>
           </li>
+          
+          <li className='nav-item'>
+            <Link
+              to='/classes'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+            CLASSES
+            </Link>
+          </li>
           <li className='nav-item'>
             <Link
               to='/faquestions'

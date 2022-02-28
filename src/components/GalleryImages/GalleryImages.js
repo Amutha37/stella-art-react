@@ -1,8 +1,8 @@
 import React from 'react'
-import './galery_images.css'
+import './gallery_images.css'
 // import Footer from '../../Footer/Footer'
 
-const GaleryImages = ({ galImages }) => {
+const GalleryImages = ({ galImages }) => {
   console.log('galimages', galImages)
   return (
     <div className='galery-container'>
@@ -18,4 +18,4 @@ const GaleryImages = ({ galImages }) => {
   )
 }
 
-export default GaleryImages
+export default GalleryImages

@@ -37,8 +37,8 @@ export const DropDownItems = [
     cName: 'dropdown-link',
   },
   {
-    title: 'GALERY',
-    path: '/galery',
+    title: 'GALLERY',
+    path: '/gallery',
     cName: 'dropdown-link',
   },
 ]
