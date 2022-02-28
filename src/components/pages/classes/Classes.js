@@ -17,13 +17,13 @@ const Classes = () => {
        
       <div id="class_details">
       <h2>
-      EXCITING NEWS IN 2022
+    NEW IN 2022
       </h2>
 
 <p>
-Children Art Classes 10 +
+Children Art Classes will be running shortly in school terms.
 </p>
-<p>Details soon to be advised.</p>
+<p>For further information I will be giving more details shortly.</p>
 </div>
       <Footer />
     </>
