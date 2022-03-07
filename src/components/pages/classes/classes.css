@@ -4,7 +4,7 @@
     margin-bottom: 2rem;
     padding: 10%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-      url('../.././Images/globalimages/greatoceanroad.jpg');
+      url('../.././Images/globalimages/handpaint.jpg');
   
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,10 @@
     }
     #class_details{
       padding: 1rem 1rem 1rem 1rem;
-      width: 20rem; 
+      width: 26rem; 
+    }
+    #class_details h2{
+      font-size: 1.5rem;
     }
   }
   @media screen and (max-width: 480px) {
@@ -112,6 +115,7 @@
     }
     #class_details{
       padding: 1rem 1rem 1rem 1rem;
-      width: 15rem; 
+      width: 24rem; 
     }
+    
   }

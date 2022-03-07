@@ -34,7 +34,6 @@ const Portraits = lazy(() => import('./components/pages/portrait/Portraits'))
 const Petportraits = lazy(() =>
   import('./components/pages/petportrait/Petportraits')
 )
-// const Gallery = lazy(() => import('./components/pages/gallery/Gallery'))
 
 const Class = lazy(()=> import('./components/pages/classes/Classes'))
 
@@ -81,11 +80,6 @@ const App = () => {
             <Route path='/birdanimal' component={BirdAnimal} />
 
             <Route path='/sold' component={Sold} />
-
-            {/* <Route
-              path='/gall
-            ery'
-              component={Gallery}            /> */}
               
 <Route path='/classes' component={Class}/>
 
