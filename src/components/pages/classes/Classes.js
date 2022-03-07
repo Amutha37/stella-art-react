@@ -7,9 +7,7 @@ const Classes = () => {
     <>
       <div className="classes-main-container">
         <div className="bg-image">
-          <header className="bg-text">
-            <p>Being creative is not a hobby, it is a way of life. </p>
-          </header>
+          <header className="bg-text"></header>
         </div>
       </div>
 
