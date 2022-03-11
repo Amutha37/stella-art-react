@@ -4,14 +4,14 @@
   margin-bottom: 2rem;
   padding: 10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("../.././Images/globalimages/handpaint.jpg");
-
+    url("../.././Images/globalimages/small brushes.jpg");
+  /* url("../.././Images/globalimages/small brushes.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  height: 190px;
+  height: 250px;
 }
 .classes-main-container .bg-text {
   text-align: center;

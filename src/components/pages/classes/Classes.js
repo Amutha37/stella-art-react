@@ -12,7 +12,7 @@ const Classes = () => {
       </div>
 
       <div id="class_details">
-        <h3>ART CLASSES</h3>
+        <h2>ART CLASSES</h2>
 
         <p>
           Starting in TERM 2 for children aged 8+ in Sydney south-west
@@ -21,7 +21,7 @@ const Classes = () => {
         <div>
           <p>
             I will be running children's art classes from my ART-STUDIO located
-            in Sydney south-west (Cambelltown) area.
+            in Sydney south-west (Campbelltown) area.
           </p>
           <p>More information will be posted here on 31st MARCH 2022.</p>
         </div>

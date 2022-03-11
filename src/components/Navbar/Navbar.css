@@ -9,6 +9,15 @@
   z-index: 1;
   color: rgba(97, 94, 94, 0.7);
 }
+/* .nav_black {
+  background-color: rgba(72, 98, 85, 0.9);
+  color: #000;
+} */
+
+/* .fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+} */
 
 .nav-item {
   display: flex;
@@ -21,7 +30,7 @@
   grid-gap: 5px;
   list-style: none;
   text-align: center;
-  margin-right: 1.2rem;
+  margin-right: 1rem;
 }
 .nav-links {
   color: rgba(97, 94, 94, 0.7);
@@ -32,7 +41,7 @@
   color: white;
 }
 .nav-links:after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   transition: width 0.7s ease, background-color 0.5s ease;
@@ -62,8 +71,16 @@
   justify-content: center;
   font-size: calc(10px + 3vmin);
   color: rgb(97, 94, 94);
+  /* color: rgb(12, 12, 12); */
   margin-top: 5rem;
   font-weight: 600;
+  /* font-family: 'Nobel Book', 'san-serif'; */
+  /* all side shadow */
+  /* text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
 }
 /* media screen */
 @media screen and (max-width: 768px) {
@@ -75,7 +92,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-      : 100%;
+    width: 100%;
     height: 100vh;
     position: absolute;
     top: 12%;
@@ -90,14 +107,13 @@
     transition: all 0.5s ease;
   }
 
- .active {
+  .nav-menu.active {
     width: 100%;
     background: #242222;
     left: 0;
     opacity: 0.9;
     transition: all 0.5s ease;
     z-index: 1;
-    color: blue;
   }
   .nav-links {
     text-align: center;
@@ -135,7 +151,7 @@
 @media only screen and (max-width: 600px) {
   .appheader p {
     font-size: calc(10px + 4vmin);
-  
+    /* margin-top: 3.7rem; */
   }
 }
 
