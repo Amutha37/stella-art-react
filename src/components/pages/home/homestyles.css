@@ -15,9 +15,13 @@
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   color: rgb(116, 108, 108);
+  margin-top: 2rem;
 }
 .landing_Image img {
   max-width: 100%;
+}
+#oilOnCanvas {
+  margin-top: 0;
 }
 .footertext-home {
   text-align: center;

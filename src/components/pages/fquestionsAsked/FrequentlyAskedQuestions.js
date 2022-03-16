@@ -1,13 +1,13 @@
-import Footer from '../../Footer/Footer'
-import { FquestionsAsked } from '../../../components/fetchMessage/FquestionsAsked'
-import './frequently_asked_questions.css'
+import Footer from "../../Footer/Footer";
+import { FquestionsAsked } from "../../../components/fetchMessage/FquestionsAsked";
+import "./frequently_asked_questions.css";
 
 const FrequentlyAskedQuestions = () => {
   return (
     <>
-      <div className='question-main-container'>
-        <div className='bg-image'>
-          <header className='bg-text'>
+      <div className="question-main-container">
+        <div className="bg-image">
+          <header className="bg-text">
             <p>Using Creativity in Brush Strokes</p>
           </header>
         </div>
@@ -15,7 +15,7 @@ const FrequentlyAskedQuestions = () => {
       <FquestionsAsked />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default FrequentlyAskedQuestions
+export default FrequentlyAskedQuestions;

@@ -23,7 +23,14 @@ const Classes = () => {
             I will be running children's art classes from my ART-STUDIO located
             in Sydney south-west (Campbelltown) area.
           </p>
-          <p>More information will be posted here on 31st MARCH 2022.</p>
+          <p>More information will be posted here on </p>
+          <p>
+            <em>31st MARCH 2022.</em>
+          </p>
+          <p>
+            For any enquries please contact me through contact form that's
+            available on this website.
+          </p>
         </div>
       </div>
       <Footer />

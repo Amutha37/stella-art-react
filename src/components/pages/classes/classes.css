@@ -5,7 +5,7 @@
   padding: 10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url("../.././Images/globalimages/small brushes.jpg");
-  /* url("../.././Images/globalimages/small brushes.jpg"); */
+
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -37,6 +37,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  /* background-color: rgba(255, 255, 255, 0.7); */
 }
 #class_details p {
   margin-top: 1rem;
