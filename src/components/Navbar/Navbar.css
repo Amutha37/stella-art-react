@@ -52,6 +52,7 @@
   display: none;
 }
 .appheader {
+  justify-content: center;
   margin-top: 5rem;
 }
 .appheader p {
