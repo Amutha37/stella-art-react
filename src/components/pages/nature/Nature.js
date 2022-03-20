@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import Footer from '../../Footer/Footer';
-import { MessageForSale } from '../../../components/fetchMessage/FetchMessage';
-import { QuotesNature } from '../../../components/fetchMessage/FetchMessage';
-import { NatureImages } from '../../../components/Images/Images';
-import SlideControler from '../SlideControler';
+import React, { Fragment } from "react";
+import Footer from "../../Footer/Footer";
+import { MessageForSale, QuotesNature } from "../../fetchContent/FetchMessage";
+
+import { NatureImages } from "../../../components/Images/Images";
+import SlideControler from "../SlideControler";
 
 const Nature = () => {
   const PrintMessage = MessageForSale();

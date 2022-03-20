@@ -15,13 +15,22 @@
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   color: rgb(116, 108, 108);
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 .landing_Image img {
   max-width: 100%;
 }
+.quotePeace {
+  text-align: center;
+  /* text-justify: center; */
+}
 #oilOnCanvas {
+  font-style: italic;
   margin-top: 0;
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(116, 108, 108);
+  text-align: center;
 }
 .footertext-home {
   text-align: center;

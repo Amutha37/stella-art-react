@@ -6,9 +6,9 @@ const Classes = () => {
   return (
     <>
       <div className="classes-main-container">
-        <div className="bg-image">
+        {/* <div className="bg-image">
           <header className="bg-text"></header>
-        </div>
+        </div> */}
       </div>
 
       <div id="class_details">
