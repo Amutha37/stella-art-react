@@ -43,21 +43,17 @@ export const DropDownItems = [
 const ServiceOption = [
   {
     label: "Commissions",
-    value: "1",
   },
 
   {
-    label: "Pet Portrait",
-    value: "2",
+    label: "Portrait",
   },
   {
     label: "Classes",
-    value: "3",
   },
 
   {
     label: "General",
-    value: "4",
   },
 ];
 

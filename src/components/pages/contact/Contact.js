@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../../Footer/Footer";
-import ServiceOption from "../../Navbar/dropDownItems";
+import EnquiriesOption from "../../Navbar/dropDownItems";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import Select from "react-select";
@@ -8,8 +8,8 @@ import Select from "react-select";
 const Contact = () => {
   const [formData, setFormData] = useState({});
   const [countFinding, setcountFinding] = useState({});
-  const [countService, setCountService] = useState({});
-  const [service, setService] = useState("");
+  const [countEnquiries, setCountEnquiries] = useState({});
+  // const [enquiries, setEnquiries] = useState("");
   const [thankMsg, setThankMsg] = useState(false);
 
   const handleInput = (e) => {
@@ -21,14 +21,22 @@ const Contact = () => {
   const summitData = async (e) => {
     e.preventDefault();
     setThankMsg(true);
-    // stella
+    // Amutha
     emailjs
       .sendForm(
-        "service_8wvri2s",
-        "template_l28p8xt",
+        "service_1lpa9id",
+        "template_n6n6r8p",
         e.target,
-        "user_A0rfHSP2yohzhMSJ4oDEU"
+        "user_etuc4QBUGfJPQyWZealTj"
       )
+      // stella
+      // emailjs
+      //   .sendForm(
+      //     "service_8wvri2s",
+      //     "template_l28p8xt",
+      //     e.target,
+      //     "user_A0rfHSP2yohzhMSJ4oDEU"
+      //   )
       .then((res) => {
         console.log(res);
       })
@@ -51,16 +59,18 @@ const Contact = () => {
         ],
       ]),
     };
-
-    // STELLA'S
+    // AmuthA
     fetch(
-      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
+      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback",
       requestOptions
     )
+      // STELLA'S
+      // fetch(
+      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
+      //   requestOptions
+      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
-    setFormData({});
-    reset();
 
     //   survery form
 
@@ -83,42 +93,54 @@ const Contact = () => {
         ],
       ]),
     };
-
-    // STELLA'S
+    // Amutha
     fetch(
-      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey",
+      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey",
       requestcountFindings
     )
+      // .then(console.log("requestcountFindings", requestcountFindings))
+      // STELLA'S
+      // fetch(
+      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey",
+      //   requestcountFindings
+      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
-    setcountFinding({});
+    // setcountFinding({});
 
     //   collect service data
-    const myHeadersService = new Headers();
-    await myHeadersService.append("Content-Type", "application/json");
-    const requestcountService = {
+    const myHeaderEnquiries = new Headers();
+    await myHeaderEnquiries.append("Content-Type", "application/json");
+    const requestcountEnquiries = {
       method: "post",
       headers: myHeaders,
       redirect: "follow",
       body: JSON.stringify([
         [
-          countService.Classes,
-          countService.PetPortrait,
-          countService.Commissions,
-          countService.General,
+          countEnquiries.Commissions,
+          countEnquiries.Portrait,
+          countEnquiries.Classes,
+          countEnquiries.General,
           new Date().toLocaleString(),
         ],
       ]),
     };
 
-    // STELLA'S service data
+    // Amutha
     fetch(
-      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Service",
-      requestcountService
+      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Enquiries",
+      requestcountEnquiries
     )
+      .then(console.log("requestcountEnquiries", requestcountEnquiries))
+      // STELLA'S enquiries data
+      // fetch(
+      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Enquiries",
+      //   requestcountEnquiries
+      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
-    setcountFinding({});
+
+    reset();
   };
 
   const handleSelect = (e) => {
@@ -127,26 +149,31 @@ const Contact = () => {
     setcountFinding(copycountFinding);
   };
 
-  const handleService = (e) => {
-    const arrValue = e.value;
-    setCountService({});
-    const copycountService = { ...countService };
-    copycountService[arrValue] = 1;
-    setCountService(copycountService);
-    //  setService("");
-    setService(ServiceOption[arrValue].label);
-    console.log(
-      //   "value",
-      //   e.value,
-      "arrValue",
-      arrValue,
-      "label",
-      service
-    );
+  const handleEnquiries = (e) => {
+    const arrValue = e.label;
+    console.log(arrValue);
+    setCountEnquiries({});
+    const copycountEnquiries = { ...countEnquiries };
+    copycountEnquiries[arrValue] = 1;
+    setCountEnquiries(copycountEnquiries);
   };
 
   const reset = () => {
-    setFormData({});
+    // setFormData({});
+    formData.fname = " ";
+    formData.lname = " ";
+    formData.email = " ";
+    formData.message = " ";
+    countFinding.google = "";
+    countFinding.facebook = "";
+    countFinding.instagram = "";
+    countFinding.bluethumb = "";
+    countFinding.family = "";
+    countFinding.other = "";
+    countEnquiries.Classes = "";
+    countEnquiries.Portrait = "";
+    countEnquiries.Commissions = "";
+    countEnquiries.General = "";
   };
 
   return (
@@ -171,11 +198,8 @@ const Contact = () => {
                 <h4> Enquiry : </h4>
                 <div id="select_service">
                   <Select
-                    // style={{ width: "7px" }}
-                    options={ServiceOption}
-                    onChange={handleService}
-                    value={ServiceOption.value}
-                    // label={service}
+                    options={EnquiriesOption}
+                    onChange={handleEnquiries}
                   />
                 </div>
                 <input
