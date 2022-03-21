@@ -37,29 +37,34 @@ const Menu = () => {
         SetOptionSelected({ NatureImages });
         SetSlideName(0);
         break;
+      // eslint-disable-next-line no-duplicate-case
+      case "NATURE":
+        SetOptionSelected({ NatureImages });
+        SetSlideName(1);
+        break;
       case "FLORALS":
         SetOptionSelected({ FloralImages });
-        SetSlideName(1);
+        SetSlideName(2);
         break;
       case "WILD-LIFE":
         SetOptionSelected({ WildLifeImages });
-        SetSlideName(2);
+        SetSlideName(3);
         break;
       case "MASTER-COPY":
         SetOptionSelected({ MastercopiesImages });
-        SetSlideName(3);
+        SetSlideName(4);
         break;
       case "PORTRAITS":
         SetOptionSelected({ PortraitImages });
-        SetSlideName(4);
+        SetSlideName(5);
         break;
       case "PET PORTRAIT":
         SetOptionSelected({ PetportraitsImages });
-        SetSlideName(5);
+        SetSlideName(6);
         break;
       case "SOLD":
         SetOptionSelected({ SoldImages });
-        SetSlideName("SOLD");
+        SetSlideName(7);
         // Object.values(data.menu[7]).push("NATURE");
         break;
       default:
