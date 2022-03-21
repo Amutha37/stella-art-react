@@ -1,13 +1,15 @@
-import React, { Fragment } from 'react'
-import SlideControler from '../SlideControler'
-import { MessageForSale } from '../../../components/fetchMessage/FetchMessage'
-import { QuotesWildLife } from '../../../components/fetchMessage/FetchMessage'
-import { WildLifeImages } from '../../../components/Images/Images'
-import Footer from '../../Footer/Footer'
+import React, { Fragment } from "react";
+import SlideControler from "../SlideControler";
+import {
+  MessageForSale,
+  QuotesWildLife,
+} from "../../fetchContent/FetchMessage";
+import { WildLifeImages } from "../../../components/Images/Images";
+import Footer from "../../Footer/Footer";
 
 const BirdAnimal = () => {
-  const PrintMessage = MessageForSale()
-  const PrintQuotes = QuotesWildLife()
+  const PrintMessage = MessageForSale();
+  const PrintQuotes = QuotesWildLife();
 
   return (
     <Fragment>
@@ -19,7 +21,7 @@ const BirdAnimal = () => {
 
       <Footer />
     </Fragment>
-  )
-}
+  );
+};
 
-export default BirdAnimal
+export default BirdAnimal;

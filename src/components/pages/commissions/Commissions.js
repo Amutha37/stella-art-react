@@ -1,17 +1,16 @@
-import React from 'react'
-import { CommissionSamples } from '../../../components/Images/Images'
-import { Testimonial } from '../../../components/fetchMessage/Testimonial'
-// import { PrintPrice } from '../../../components/fetchMessage/PriceTable'
-import './commission.css'
-import Footer from '../../Footer/Footer'
+import React from "react";
+import { CommissionSamples } from "../../../components/Images/Images";
+// import { Testimonial } from "../../fetchContent/Testimonial";
+import "./commission.css";
+import Footer from "../../Footer/Footer";
 
 const Commissions = () => {
   return (
-    <div className='commission-container'>
+    <div className="commission-container">
       {/* blury background */}
-      <div className='hero-image-container'>
-        <div className='bg-image'>
-          <div className='bg-text'>
+      <div className="hero-image-container">
+        <div className="bg-image">
+          <div className="bg-text">
             <h1>Commission an Artwork</h1>
             <p>Oil and/or acrylic on canvas or wood panel.</p>
             <p> FREE SHIPPING in Australia</p>
@@ -19,7 +18,7 @@ const Commissions = () => {
         </div>
       </div>
 
-      <div className='commission-note'>
+      <div className="commission-note">
         <p>
           If you are interested in commissioning me to do a custom painting for
           you or a loved one, please leave your details in the contact section
@@ -44,7 +43,7 @@ const Commissions = () => {
           received.
         </p>
         <br></br>
-        <div className='table-container'>
+        <div className="table-container">
           <p>
             Please note: All paintings require a non-refundable 50% deposit
             before starting.
@@ -52,28 +51,18 @@ const Commissions = () => {
         </div>
       </div>
       {/* <div className='image-container'> */}
-      <div className='commission-images-row'>
+      <div className="commission-images-row">
         {CommissionSamples.map((sampleImg, i) => (
-          <div
-            key={i}
-            className='commission-image-column'
-            // data-content={sampleImg.name}
-            // eslint-disable-next-line react/jsx-no-duplicate-props
-            // data-content={sampleImg.size}
-          >
-            <img
-              // data-content={sampleImg.size}
-              src={sampleImg.image}
-              alt={sampleImg.name}
-            />
+          <div key={i} className="commission-image-column">
+            <img src={sampleImg.image} alt={sampleImg.name} />
           </div>
         ))}
       </div>
 
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Commissions
+export default Commissions;

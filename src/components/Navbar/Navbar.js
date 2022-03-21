@@ -83,6 +83,21 @@ function Navbar() {
               🏠 HOME
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/classes" className="nav-links" onClick={closeMobileMenu}>
+              CLASSES
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/commissions"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              COMMISSIONS
+            </Link>
+          </li>
+
           <li
             className="nav-item"
             onMouseEnter={onMouseEnter}
@@ -107,24 +122,14 @@ function Navbar() {
               THE ARTIST
             </Link>
           </li>
+
           <li className="nav-item">
             <Link
-              to="/commissions"
+              to="/testimonial"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              COMMISSIONS
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-              CONTACT
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link to="/classes" className="nav-links" onClick={closeMobileMenu}>
-              CLASSES
+              TESTIMONIAL
             </Link>
           </li>
           <li className="nav-item">
@@ -134,6 +139,11 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               FAQ
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+              CONTACT
             </Link>
           </li>
         </ul>

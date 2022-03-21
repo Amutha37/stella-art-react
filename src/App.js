@@ -37,6 +37,9 @@ const Petportraits = lazy(() =>
 
 const Class = lazy(() => import("./components/pages/classes/Classes"));
 
+const Testimonial = lazy(() =>
+  import("./components/pages/testimonial/Testimonial")
+);
 const FrequentlyAskedQuestions = lazy(() =>
   import("./components/pages/fquestionsAsked/FrequentlyAskedQuestions")
 );
@@ -82,6 +85,7 @@ const App = () => {
             <Route path="/sold" component={Sold} />
 
             <Route path="/classes" component={Class} />
+            <Route path="/testimonial" component={Testimonial} />
 
             <Route path="/faquestions" component={FrequentlyAskedQuestions} />
 

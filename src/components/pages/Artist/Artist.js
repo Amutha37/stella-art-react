@@ -1,13 +1,16 @@
-import React from 'react'
-import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
-import Footer from '../../Footer/Footer'
-import '../../../App.css'
+import React from "react";
+// import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
+import Footer from "../../Footer/Footer";
+import ArtistMessage from "../../fetchContent/bodyContent/Artist.jsx";
+import "../../../App.css";
+
 // "./Images/globalimages/stellaoutdoor.jpg";
 const Artist = () => {
   return (
     <div>
-      <div className='stellaimg'>
-        <h3 id='about'>About Stella</h3>
+      <div className="stellaimg">
+        {ArtistMessage}
+        {/* <h3 id='about'>About Stella</h3>
         <div className='image-box'>
           <img className='center-fit' src={stella} alt='Stella' />
         </div>
@@ -15,14 +18,7 @@ const Artist = () => {
         <br></br> <br></br>
         <p>
           Stella Kypriotis is a contemporary realist artist based in Sydney.
-          {/* Australia. She loves painting a variety of subjects including florals,
-          wildlife, landscapes, seascapes and portraits. She paints mainly in
-          artists grade oil paints such as Windsor and Newton paints, Michael
-          Harding and Art Spectrum on canvas or wooden board ensuring her
-          surface is well prepared and varnished for longevity. Putting her
-          heart and soul into every painting, she desires that the viewer/
-          collector feels connected to her paintings and wants them to feel as
-          though they are stepping into another world. */}
+         
         </p>
         <br></br>
         <p>
@@ -45,7 +41,7 @@ const Artist = () => {
           better her skill in drawing and painting.
           <br></br> <br></br>
         </p>
-        {/* ARTIST STATEMENT */}
+   
         <h3>Artist's statement</h3>
         <p>
           <br></br> <br></br>I love painting a variety of subjects such as
@@ -82,11 +78,11 @@ const Artist = () => {
           <p>Budgies in love</p>
           <p>August 2019.</p>
           <br></br>
-        </div>
+  </div>*/}
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Artist
+export default Artist;

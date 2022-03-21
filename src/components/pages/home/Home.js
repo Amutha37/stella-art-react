@@ -1,7 +1,8 @@
+import React from "react";
 import { BannerImage } from "../../../components/Images/Images";
-import { QuotesHome } from "../../../components/fetchMessage/FetchMessage";
+import { QuotesHome } from "../../fetchContent/FetchMessage";
 import Footer from "../../Footer/Footer";
-import Classes from "./../classes/Classes";
+import { Link } from "react-router-dom";
 import "./homestyles.css";
 
 const Home = () => {
@@ -15,17 +16,34 @@ const Home = () => {
             <img src={BannerImage[0].image} alt={BannerImage[0].name} />
             <p>{PrintQuotes}</p>
           </div>
-          {/* <div>{PrintQuotes}</div> */}
         </div>
       </header>
-      <Classes />
-      <Footer />
-      {/* <div className='footertext-home'>
+      {/* <Classes /> */}
+      {/* temporary add */}
+      <div id="class_details">
+        <h2>ART CLASSES</h2>
         <p>
-          Copyright <i className='far fa-copyright'> </i> Stella Kypriotis 2021
-          All Right Reserved.
+          Starting in TERM 2 for children aged 8+ in Sydney south-west
+          (Campbelltown area).
         </p>
-      </div> */}
+        <div>
+          <p>
+            I will be running children's art classes from my ART-STUDIO located
+            in Sydney south-west (Campbelltown) area.
+          </p>
+          <p>More information will be posted here on </p>
+          <p>
+            <em>31st MARCH 2022.</em>
+          </p>
+          <p>Enquire</p>
+          <Link to="/contact" className="enquire_now">
+            NOW
+          </Link>
+        </div>{" "}
+      </div>
+      {/* temporary add ends */}
+
+      <Footer />
     </>
   );
 };

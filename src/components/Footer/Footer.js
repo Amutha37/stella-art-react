@@ -1,6 +1,6 @@
-import React from 'react';
-import { SocialMedia } from '../fetchMessage/SocialMedia';
-import './footer.css';
+import React from "react";
+import { SocialMedia } from "../fetchContent/SocialMedia";
+import "./footer.css";
 
 function Footer() {
   return (
