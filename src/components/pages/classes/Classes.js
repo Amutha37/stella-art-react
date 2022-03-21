@@ -1,4 +1,4 @@
-import Footer from "../../Footer/Footer";
+// import Footer from "../../Footer/Footer";
 
 import "./classes.css";
 
@@ -33,7 +33,7 @@ const Classes = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

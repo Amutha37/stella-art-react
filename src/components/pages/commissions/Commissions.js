@@ -2,7 +2,7 @@ import React from "react";
 import { CommissionSamples } from "../../../components/Images/Images";
 // import { Testimonial } from "../../fetchContent/Testimonial";
 import "./commission.css";
-import Footer from "../../Footer/Footer";
+// import Footer from "../../Footer/Footer";
 
 const Commissions = () => {
   return (
@@ -60,7 +60,7 @@ const Commissions = () => {
       </div>
 
       {/* <Testimonial /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

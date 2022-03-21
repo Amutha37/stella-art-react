@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../Footer/Footer";
+// import Footer from "../../Footer/Footer";
 import ContactForm from "../../Form/contactForm";
 // import "./contact.css";
 // import emailjs from "emailjs-com";
@@ -179,7 +179,7 @@ const Contact = () => {
   return (
     <div>
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
