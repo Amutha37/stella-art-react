@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Footer from "../../Footer/Footer";
+// import Footer from "../../Footer/Footer";
 import { MessageForSale, QuotesNature } from "../../fetchContent/FetchMessage";
 
 import { NatureImages } from "../../../components/Images/Images";
@@ -25,7 +25,7 @@ const Nature = () => {
         PrintQuotes={PrintQuotes}
       />
 
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

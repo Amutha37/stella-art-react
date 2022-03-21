@@ -21,21 +21,21 @@ const ContactForm = () => {
     e.preventDefault();
     setThankMsg(true);
     // Amutha
+    // emailjs
+    //   .sendForm(
+    //     "service_1lpa9id",
+    //     "template_n6n6r8p",
+    //     e.target,
+    //     "user_etuc4QBUGfJPQyWZealTj"
+    //   )
+    // stella
     emailjs
       .sendForm(
-        "service_1lpa9id",
-        "template_n6n6r8p",
+        "service_8wvri2s",
+        "template_l28p8xt",
         e.target,
-        "user_etuc4QBUGfJPQyWZealTj"
+        "user_A0rfHSP2yohzhMSJ4oDEU"
       )
-      // stella
-      // emailjs
-      //   .sendForm(
-      //     "service_8wvri2s",
-      //     "template_l28p8xt",
-      //     e.target,
-      //     "user_A0rfHSP2yohzhMSJ4oDEU"
-      //   )
       .then((res) => {
         console.log(res);
       })
@@ -59,15 +59,15 @@ const ContactForm = () => {
       ]),
     };
     // AmuthA
+    // fetch(
+    //   "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback",
+    //   requestOptions
+    // )
+    // STELLA'S
     fetch(
-      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Feedback",
+      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
       requestOptions
     )
-      // STELLA'S
-      // fetch(
-      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Clients",
-      //   requestOptions
-      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
 
@@ -93,16 +93,16 @@ const ContactForm = () => {
       ]),
     };
     // Amutha
+    // fetch(
+    //   "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey",
+    //   requestcountFindings
+    // )
+    // .then(console.log("requestcountFindings", requestcountFindings))
+    // STELLA'S
     fetch(
-      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Survey",
+      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey",
       requestcountFindings
     )
-      // .then(console.log("requestcountFindings", requestcountFindings))
-      // STELLA'S
-      // fetch(
-      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Survey",
-      //   requestcountFindings
-      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
     // setcountFinding({});
@@ -126,16 +126,16 @@ const ContactForm = () => {
     };
 
     // Amutha
+    // fetch(
+    //   "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Enquiries",
+    //   requestcountEnquiries
+    // )
+    //   .then(console.log("requestcountEnquiries", requestcountEnquiries))
+    // STELLA'S enquiries data
     fetch(
-      "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Enquiries",
+      "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Enquiries",
       requestcountEnquiries
     )
-      .then(console.log("requestcountEnquiries", requestcountEnquiries))
-      // STELLA'S enquiries data
-      // fetch(
-      //   "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Enquiries",
-      //   requestcountEnquiries
-      // )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
 
