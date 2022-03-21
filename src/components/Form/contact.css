@@ -14,7 +14,7 @@
   padding: 10%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("../.././Images/globalimages/threesisters.jpeg");
+    url("../Images/globalimages/threesisters.jpeg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@ h7 {
 
   margin: 0 auto;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
 }
 /* .required-astrick-name {
     position: absolute;

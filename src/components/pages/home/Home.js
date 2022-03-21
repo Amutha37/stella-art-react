@@ -21,25 +21,24 @@ const Home = () => {
       {/* <Classes /> */}
       {/* temporary add */}
       <div id="class_details">
-        <h2>ART CLASSES</h2>
-        <p>
-          Starting in TERM 2 for children aged 8+ in Sydney south-west
-          (Campbelltown area).
-        </p>
+        <h2>ART CLASSES TERM 2, 2022</h2>
+        <p>NEW & EXCITING ANNOUNCEMENT</p>
         <div>
           <p>
-            I will be running children's art classes from my ART-STUDIO located
-            in Sydney south-west (Campbelltown) area.
+            Stell'a Fine Art Now Teaching Children's Art Classes age 8 - 14 yrs.
           </p>
-          <p>More information will be posted here on </p>
           <p>
-            <em>31st MARCH 2022.</em>
+            Click on this{" "}
+            <em>
+              <Link to="/classes" className="enquire_now">
+                LINK
+              </Link>{" "}
+            </em>{" "}
+            for further information.
           </p>
-          <p>Enquire</p>
-          <Link to="/contact" className="enquire_now">
-            NOW
-          </Link>
-        </div>{" "}
+
+          <p>* Limited spaces available. *</p>
+        </div>
       </div>
       {/* temporary add ends */}
 
