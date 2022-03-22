@@ -1,6 +1,6 @@
 import React from "react";
 // import stella from '../../../components/Images/globalimages/StellaArtist.jpg'
-// import Footer from "../../Footer/Footer";
+import Footer from "../../Footer/Footer";
 import ArtistMessage from "../../fetchContent/bodyContent/Artist.jsx";
 import "../../../App.css";
 
@@ -80,7 +80,7 @@ const Artist = () => {
           <br></br>
   </div>*/}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

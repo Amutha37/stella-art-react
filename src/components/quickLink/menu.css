@@ -1,21 +1,22 @@
 .menucontainer {
   /* background-image: url(./dataimg1.jpeg); */
-  height: 100%;
-  margin-bottom: 45rem;
+  height: 90%;
+  /* margin-bottom: 1rem; */
+  /* margin-right: 1rem; */
 }
 .Menu {
   position: relative;
-  margin: 2em 3em;
+  /* margin: 2em 3em; */
 }
 
 .m-item {
   position: absolute;
   top: 0;
-  width: 12em;
+  width: 8em;
   background-color: #002366;
   box-shadow: 1px 2px 2px #a77dda;
 
-  padding: 0.2em;
+  padding: 0em;
 
   border-radius: 1em;
 
@@ -32,6 +33,7 @@
   margin-bottom: 4rem;
   margin-right: auto;
   margin-left: auto;
+  /* z-index: 1; */
 }
 .m-item:hover {
   border: 1px solid black;
@@ -42,7 +44,7 @@
 
 @media screen and (max-width: 560px) {
   .m-item {
-    width: 9em;
+    width: 8em;
     font-size: 1em;
   }
   .m-item:hover {

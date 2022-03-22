@@ -1,15 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { BannerImage } from "../../../components/Images/Images";
 import { QuotesHome } from "../../fetchContent/FetchMessage";
-// import Footer from "../../Footer/Footer";
-import Menu from "../../homeCorousel/Menu";
 import Artist from "../Artist/Artist";
 import Testimonial from "../testimonial/Testimonial";
-// import Classes from "../classes/Classes";
-import Commissions from "../commissions/Commissions";
-import FrequentlyAskedQuestions from "../fquestionsAsked/FrequentlyAskedQuestions";
-import Contact from "../contact/Contact";
-// import { Link } from "react-router-dom";
+import Footer from "../../../components/Footer/Footer";
 import "./homestyles.css";
 
 const Home = () => {
@@ -38,11 +33,11 @@ const Home = () => {
             </p>
             <p>
               Click on this{" "}
-              {/* <em>
+              <em>
                 <Link to="/classes" className="enquire_now">
                   LINK
                 </Link>{" "}
-              </em>{" "} */}
+              </em>{" "}
               for further information.
             </p>
 
@@ -50,16 +45,10 @@ const Home = () => {
           </div>
         </div>
         {/* temporary add ends */}
-
-        <Commissions />
-        <Menu />
-        <Artist />
         <Testimonial />
-        <FrequentlyAskedQuestions />
-        <Contact />
+        <Artist />
+        <Footer />
       </div>
-
-      {/* <Footer /> */}
     </div>
   );
 };

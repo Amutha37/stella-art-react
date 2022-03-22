@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "./menudata.json";
 // import { DropDownItems } from "../Navbar/dropDownItems";
+import { Link } from "react-router-dom";
 import { NatureImages } from "../Images/Images";
 import { FloralImages } from "../Images/Images";
 import { WildLifeImages } from "../Images/Images";
@@ -16,7 +17,7 @@ import "./menu.css";
 const Menu = () => {
   // conditionally render dropdown affect based on this boolean
   const [optionSelected, SetOptionSelected] = useState({ NatureImages });
-  const [slideName, SetSlideName] = useState(1);
+  const [slideName, SetSlideName] = useState("Painting");
   const [openMenu, setOpenMenu] = useState(false);
   //   SetSlideName(data.menu.name);
   // const useEffect(() => {
@@ -29,37 +30,43 @@ const Menu = () => {
   // }, [third])
 
   // takes route string as parameter
-  const pushToRoute = (slideName) => {
+  const pushToRoute = (name) => {
     // props.history.push(route);
     console.log("slideName", slideName);
-    switch (slideName) {
-      case "NATURE":
+    switch (name) {
+      case "Nature":
+        <p>
+          <em>
+            <Link to="/nature">Nature</Link>
+          </em>
+        </p>;
+
         SetOptionSelected({ NatureImages });
-        SetSlideName(0);
+        SetSlideName(name);
         break;
-      case "FLORALS":
+      case "Florals":
         SetOptionSelected({ FloralImages });
-        SetSlideName(1);
+        SetSlideName(name);
         break;
-      case "WILD-LIFE":
+      case "Wild-Life":
         SetOptionSelected({ WildLifeImages });
-        SetSlideName(2);
+        SetSlideName(name);
         break;
-      case "MASTER-COPY":
+      case "Master-Copy":
         SetOptionSelected({ MastercopiesImages });
-        SetSlideName(3);
+        SetSlideName(name);
         break;
-      case "PORTRAITS":
+      case "Portraits":
         SetOptionSelected({ PortraitImages });
-        SetSlideName(4);
+        SetSlideName(name);
         break;
-      case "PET PORTRAIT":
+      case "Pet Portraits":
         SetOptionSelected({ PetportraitsImages });
-        SetSlideName(5);
+        SetSlideName(name);
         break;
-      case "SOLD":
+      case "Sold":
         SetOptionSelected({ SoldImages });
-        SetSlideName("SOLD");
+        SetSlideName(name);
         // Object.values(data.menu[7]).push("NATURE");
         break;
       default:
@@ -74,11 +81,11 @@ const Menu = () => {
     setOpenMenu(false);
   };
 
-  <SlideControler
-    slideImages={FloralImages}
-    PrintMessage={""}
-    PrintQuotes={""}
-  />;
+  // <SlideControler
+  //   slideImages={FloralImages}
+  //   PrintMessage={""}
+  //   PrintQuotes={""}
+  // />;
   console.log("optionSelected", optionSelected);
   // render each menu item after initial Menu button
   const renderMenuItems = (data) => {
@@ -98,7 +105,7 @@ const Menu = () => {
 
       // dynamic styles for each menu item
       const itemStyle = {
-        top: `${index * 1.9}em`,
+        top: `${index * 1.6}em`,
         backgroundColor: colorArr[index % colorArr.length],
         boxShadow: `2px 3px 3px #a77dda`,
       };
@@ -120,7 +127,7 @@ const Menu = () => {
     <div className="menucontainer">
       <div className="Menu">
         <div className={"m-item m-logo"} onClick={() => setOpenMenu(!openMenu)}>
-          {Object.values(data.menu[slideName])}
+          {slideName}
         </div>
 
         {renderMenuItems(data)}

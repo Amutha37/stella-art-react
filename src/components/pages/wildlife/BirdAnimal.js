@@ -5,7 +5,8 @@ import {
   MessageForSale,
   QuotesWildLife,
 } from "../../fetchContent/FetchMessage";
-import { WildLifeImages } from "../../../components/Images/Images";
+import { WildLifeImages, blueThumb } from "../../../components/Images/Images";
+import Footer from "../../../components/Footer/Footer";
 // import Footer from "../../Footer/Footer";
 
 const BirdAnimal = () => {
@@ -18,9 +19,10 @@ const BirdAnimal = () => {
         slideImages={WildLifeImages}
         PrintMessage={PrintMessage}
         PrintQuotes={PrintQuotes}
+        blueThumb={blueThumb}
       />
 
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };

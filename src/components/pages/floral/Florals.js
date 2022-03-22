@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { MessageForSale } from "../../fetchContent/FetchMessage";
-import { QuotesFlorals } from "../../fetchContent/FetchMessage";
-import { FloralImages } from "../../../components/Images/Images";
+import { MessageForSale, QuotesFlorals } from "../../fetchContent/FetchMessage";
+import { FloralImages, blueThumb } from "../../../components/Images/Images";
 import SlideControler from "../SlideControler";
 import Footer from "../../Footer/Footer";
 
@@ -15,6 +14,7 @@ const Florals = () => {
         slideImages={FloralImages}
         PrintMessage={PrintMessage}
         PrintQuotes={PrintQuotes}
+        blueThumb={blueThumb}
       />
 
       <Footer />

@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "name": "Paintings"
+    },
+    {
+      "name": "Nature"
+    },
+
+    {
+      "name": "Florals"
+    },
+    {
+      "name": "Wild-Life"
+    },
+    {
+      "name": "Master-Copy"
+    },
+    {
+      "name": "Portraits"
+    },
+    {
+      "name": "Pet Portraits"
+    },
+    {
+      "name": "Sold"
+    }
+  ]
+}

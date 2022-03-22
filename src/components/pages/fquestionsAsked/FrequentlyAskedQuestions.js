@@ -1,4 +1,4 @@
-// import Footer from "../../Footer/Footer";
+import Footer from "../../Footer/Footer";
 import { FquestionsAsked } from "../../fetchContent/FquestionsAsked";
 import "./frequently_asked_questions.css";
 
@@ -13,7 +13,7 @@ const FrequentlyAskedQuestions = () => {
         </div>
       </div>
       <FquestionsAsked />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
