@@ -1,4 +1,5 @@
 import Footer from "../../../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 import "./classes.css";
 
@@ -28,8 +29,13 @@ const Classes = () => {
             <em>31st MARCH 2022.</em>
           </p>
           <p>
-            For any enquries please contact me through contact form that's
-            available on this website.
+            For any enquries please contact me{" "}
+            <em>
+              <Link to="/contact" className="enquire_now">
+                HERE
+              </Link>{" "}
+            </em>{" "}
+            on this website.
           </p>
         </div>
       </div>
