@@ -61,23 +61,25 @@
   /* width: 50%;
   display: flex;
   color: white; */
+
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .quickLink_left p {
   color: white;
   font-size: 1em;
-  padding: 4px 4px;
+  padding: 6px 6px;
 }
 #bluethum-badge {
   width: 20%;
 }
 #painting_link {
   position: relative;
-  top: 0;
-  left: 8px;
+  top: 1rem;
+  left: 2px;
   z-index: 1;
   padding-top: 1rem;
+  font-style: italic;
 }
 #painting_link p {
   color: white;
@@ -85,7 +87,7 @@
 }
 /* social media disign */
 #followMe-text {
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-size: 20px;
   font-weight: 700;
   z-index: -1;
@@ -225,6 +227,19 @@
   }
   .social-media #footertext {
     font-size: 16px;
+  }
+  #painting_link {
+    padding-bottom: 2rem;
+  }
+  .quickLink_left {
+    width: 10%;
+  }
+  #bluethum-badge {
+    width: 90%;
+    float: right;
+  }
+  #followMe-text {
+    margin-top: 11rem;
   }
   .icons a .layer span {
     height: 80%;

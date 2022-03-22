@@ -22,8 +22,8 @@ export const DropdownFooter = () => {
   //   const handleClick = () => setToggleShut(!toggleShut);
   //   const closeMobileMenu = () => setToggleShut(false);
 
-  const handleClick = () => setToggleShut(!toggleShut);
-  const closeMobileMenu = () => setToggleShut(false);
+  // const handleClick = () => setToggleShut(!toggleShut);
+  const closeMobileMenu = () => setToggleShut(!toggleShut);
 
   const onMouseEnter = () => {
     setDropdown(true);
@@ -42,16 +42,17 @@ export const DropdownFooter = () => {
 
   return (
     <>
-      <ul onClick={handleClick}>
+      <ul onClick={onMouseEnter}>
         <li
           className="nav-item"
-          onMouseEnter={onMouseEnter}
+          // onMouseEnter={onMouseEnter}
+          onClick={onMouseEnter}
           onMouseLeave={onMouseLeave}
         >
           <Link to="/" className="nav-links">
-            <p>Painting</p>
-
-            <i className="fas fa-caret-down" />
+            <p>Painting{""}⏩</p>
+            {/* <i class="fa-solid fa-chevron-right"></i> */}
+            {/* <i className="fas fa-caret-arrow" /> */}
           </Link>
           {dropdown && (
             <DropdownFooterPanting

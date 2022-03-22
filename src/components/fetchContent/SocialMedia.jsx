@@ -18,6 +18,9 @@ const mystyle = {
 const SocialMedia = (
   <div className="social-media">
     <h4>Quick Links</h4>
+    <div className="quickLink_left" id="painting_link">
+      <DropdownFooter />
+    </div>
     <div id="quickLink_blueThumb">
       <div className="quickLink_left">
         <div className="quickLink_left">
@@ -88,9 +91,7 @@ const SocialMedia = (
         </a>
       </div>
     </div>
-    <div className="quickLink_left" id="painting_link">
-      <DropdownFooter />
-    </div>
+
     <div id="followMe-text">
       <p>Follow me ⤵️ </p>
     </div>

@@ -5,7 +5,7 @@
   list-style: none;
   text-align: start;
   z-index: 2;
-  margin-left: 4rem;
+  margin-left: 6rem;
   color: white;
   /* margin-top: 0.2rem; */
 }
@@ -67,9 +67,8 @@
   .dropdown-footer:after {
     left: 80%;
   }
-  */ .dropdown-footer li {
+  .dropdown-footer li {
     font-size: 0.8rem;
-    /* background-color: #929292; */
     background-color: #486255;
     color: white;
   }

@@ -316,7 +316,7 @@ export const CommissionSamples = [
     name: "Peaceful Journey 2021",
     size: "120cm x 90cm x 4cm depth",
     info: "Oil on stretched canvas",
-    image: require("./globalimages/peacefulJourney.jpg").default,
+    image: require("./sold/peacefuljourney.jpg").default,
     clName: "cactive",
   },
   {
