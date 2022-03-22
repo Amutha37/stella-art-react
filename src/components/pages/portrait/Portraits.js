@@ -3,7 +3,6 @@ import SlideControler from "../SlideControler";
 // import { MessagePortrait } from "../../../components/fetchMessage/FetchMessage";
 import { PortraitImages } from "../../../components/Images/Images";
 // import Footer from '../../Footer/Footer';
-import Footer from "../../../components/Footer/Footer";
 
 const Portraits = () => {
   // const PrintMessage = MessagePortrait();
@@ -15,7 +14,7 @@ const Portraits = () => {
         // PrintMessage={PrintMessage}
         blueThumb={""}
       />
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

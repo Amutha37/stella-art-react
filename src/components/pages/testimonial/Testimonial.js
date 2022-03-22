@@ -2,13 +2,13 @@ import React from "react";
 // import { CommissionSamples } from "../../../components/Images/Images";
 import { Testimonial } from "../../fetchContent/Testimonial";
 import "./testimonial.css";
-import Footer from "../../../components/Footer/Footer";
+// import Footer from "../../../components/Footer/Footer";
 
 const Testimoniall = () => {
   return (
     <div className="commission-container">
       <Testimonial />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

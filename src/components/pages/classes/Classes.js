@@ -1,4 +1,3 @@
-import Footer from "../../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 import "./classes.css";
@@ -39,7 +38,7 @@ const Classes = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

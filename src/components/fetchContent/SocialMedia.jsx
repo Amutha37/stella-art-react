@@ -1,6 +1,7 @@
 import React from "react";
-import Menu from "../quickLink/Menu";
+// import Menu from "../quickLink/Menu";
 import { Link } from "react-router-dom";
+import { DropdownFooter } from "../Navbar/DropdownFooter";
 // import {
 //   Redirect,
 //   BrowserRouter as Router,
@@ -11,6 +12,7 @@ const mystyle = {
   color: "white",
   textDecoration: "none",
   marginLeft: "12px",
+  // cursor: "pointer",
 };
 
 const SocialMedia = (
@@ -19,6 +21,13 @@ const SocialMedia = (
     <div id="quickLink_blueThumb">
       <div className="quickLink_left">
         <div className="quickLink_left">
+          <p>
+            <em>
+              <Link style={mystyle} to="/home" className="enquire_now">
+                Home
+              </Link>
+            </em>
+          </p>
           <p>
             <em>
               <Link style={mystyle} to="/classes" className="enquire_now">
@@ -62,34 +71,10 @@ const SocialMedia = (
               </Link>
             </em>
           </p>
-          <p>
-            <em>
-              {/* <Link to="/" className="nav-links">
-              PAINTINGS
-              <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown && (
-              <Dropdown
-                closeDropdownMenu={closeDropdownMenu}
-                closeMobileMenu={closeMobileMenu}
-                shutDropdown={shutDropdown}
-                handleSelect={handleSelect}
-              />
-            )} */}
-              {/* <Link style={mystyle} to="/contact">
-                Contact
-              </Link> */}
-            </em>
-          </p>
         </div>
-        <div className="quickLink_left">
-          {/* <Link style={mystyle} to="/contact"> */}
-          <p id="painting_link">
-            <Menu />
-          </p>
-
-          {/* </Link> */}
-        </div>
+        {/* <p className="quickLink_left" id="painting_link">
+          <DropdownFooter />
+        </p> */}
       </div>
 
       <div id="bluethum-badge">
@@ -103,7 +88,9 @@ const SocialMedia = (
         </a>
       </div>
     </div>
-
+    <div className="quickLink_left" id="painting_link">
+      <DropdownFooter />
+    </div>
     <div id="followMe-text">
       <p>Follow me ⤵️ </p>
     </div>

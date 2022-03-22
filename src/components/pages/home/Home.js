@@ -4,7 +4,7 @@ import { BannerImage } from "../../../components/Images/Images";
 import { QuotesHome } from "../../fetchContent/FetchMessage";
 import Artist from "../Artist/Artist";
 import Testimonial from "../testimonial/Testimonial";
-import Footer from "../../../components/Footer/Footer";
+// import Footer from "../../../components/Footer/Footer";
 import "./homestyles.css";
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
       {/* <Classes /> */}
       {/* temporary add */}
       <div>
-        <div id="class_details">
+        <div id="class_details1">
           <h2>ART CLASSES TERM 2, 2022</h2>
           <h3>NEW & EXCITING ANNOUNCEMENT</h3>
           <div>
@@ -47,7 +47,7 @@ const Home = () => {
         {/* temporary add ends */}
         <Testimonial />
         <Artist />
-        <Footer />
+        {/* <Footer />{" "} */}
       </div>
     </div>
   );
