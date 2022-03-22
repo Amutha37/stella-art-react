@@ -1,5 +1,5 @@
 .social-media {
-  margin-top: 12rem;
+  margin-top: 9rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -10,6 +10,7 @@
     url(".././Images/globalimages/leaves.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .social-media .footertext {
@@ -18,19 +19,73 @@
   font-size: 16px;
   top: 20%;
 }
+/* blue thum and quick link */
+.social-media h4 {
+  position: absolute;
+  top: 3;
+  left: 6px;
+  margin-top: 1rem;
+}
+#quickLink_blueThumb {
+  display: flex;
+  margin-top: 2rem;
+}
+.quickLink_left {
+  /* color: white;
+  padding: 3px 3px;
+  margin-right: 3x;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  margin-right: 1rem;*/
+  width: 70%;
+  padding: 3px;
+  margin: 0;
+  list-style: none;
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  height: 3rem;
+}
 
+.quickLink_left {
+  /* width: 50%;
+  display: flex;
+  color: white; */
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#bluethum-badge {
+  width: 30%;
+}
+#painting_link {
+  margin-left: 10px;
+  /* position: absolute;
+  bottom: 2;
+  right: 8px; */
+  z-index: 1;
+}
 /* social media disign */
 
 #followMe-text {
   margin-top: 3rem;
   font-size: 20px;
   font-weight: 700;
+  z-index: -1;
 }
 .icons {
   margin-top: 2rem;
   display: inline-flex;
   margin-bottom: 3rem;
   font-weight: 700;
+  /* z-index: -1; */
 }
 .icons a {
   margin: 0 15px;

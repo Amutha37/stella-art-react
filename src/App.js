@@ -7,7 +7,7 @@ import {
 import React, { lazy, Suspense, Fragment } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 
 const Home = lazy(() => import("./components/pages/home/Home"));
 
@@ -97,7 +97,6 @@ const App = () => {
             </Route>
           </Switch>
         </Router>
-        <Footer />
       </Suspense>
     </Fragment>
   );

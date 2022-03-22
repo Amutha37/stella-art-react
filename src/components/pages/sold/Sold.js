@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 // import { MessageMasterCopy } from "../../../components/fetchMessage/FetchMessage";
 import { SoldImages } from "../../../components/Images/Images";
 import SlideControler from "../SlideControler";
+import Footer from "../../../components/Footer/Footer";
 // import Footer from '../../Footer/Footer';
 
 const Sold = () => {
@@ -12,8 +13,9 @@ const Sold = () => {
       <SlideControler
         slideImages={SoldImages}
         // PrintMessage={PrintMessage}
+        blueThumb={""}
       />
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };

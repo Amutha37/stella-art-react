@@ -1,5 +1,5 @@
-import React from 'react'
-import Buttons from './Buttons'
+import React from "react";
+import Buttons from "./Buttons";
 
 const Fullimageview = ({
   status,
@@ -7,13 +7,14 @@ const Fullimageview = ({
   slideIndex,
   plusSlides,
   PrintMessage,
+  PrintBlueThumb,
 }) => {
   return (
     <>
       {slides.map((item, index) => (
         <div
-          className='mySlides'
-          style={status[index] ? { display: 'block' } : { display: 'none' }}
+          className="mySlides"
+          style={status[index] ? { display: "block" } : { display: "none" }}
           key={index}
         >
           {<img src={item.image} alt={item.name} />}
@@ -30,15 +31,18 @@ const Fullimageview = ({
 
       <Buttons plusSlides={plusSlides} />
       {/* <div className='caption-container'> */}
-      <div id='caption'>
-        <p>{slides[slideIndex - 1].name} </p>{' '}
-        <p className='imagesize'>{slides[slideIndex - 1].size}</p>
+      <div id="caption">
+        <div id="caption_left">{PrintBlueThumb}</div>
+        <div id="caption_right">
+          <p>{slides[slideIndex - 1].name} </p>{" "}
+          <p className="imagesize">{slides[slideIndex - 1].size}</p>
+        </div>
       </div>
 
       {/* <img src={item.image} alt={item.name} /> */}
       {/* </div> */}
     </>
-  )
-}
+  );
+};
 
-export default Fullimageview
+export default Fullimageview;

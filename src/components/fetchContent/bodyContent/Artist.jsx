@@ -64,6 +64,11 @@ const ArtistMessage = (
       <p>Budgies in love</p>
       <p>August 2019.</p>
       <br></br>
+      <h3>Upcoming Exhibitions</h3>
+
+      <p>Sydney Royal Easter Show 2022</p>
+      <p>Kookaburra Study</p>
+      <p>Martin Luther King</p>
     </div>
   </>
 );

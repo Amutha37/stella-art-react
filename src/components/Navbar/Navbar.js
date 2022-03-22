@@ -118,20 +118,20 @@ function Navbar() {
             {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
           <li className="nav-item">
-            <Link to="/Artist" className="nav-links" onClick={closeMobileMenu}>
-              THE ARTIST
-            </Link>
-          </li>
-
-          <li className="nav-item">
             <Link
               to="/testimonial"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              TESTIMONIAL
+              TESTIMONIALS
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/Artist" className="nav-links" onClick={closeMobileMenu}>
+              THE ARTIST
+            </Link>
+          </li>
+
           <li className="nav-item">
             <Link
               to="/faquestions"

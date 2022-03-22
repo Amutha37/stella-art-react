@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 // import Footer from "../../Footer/Footer";
+import Footer from "../../../components/Footer/Footer";
 import { MessageForSale, QuotesNature } from "../../fetchContent/FetchMessage";
 
-import { NatureImages } from "../../../components/Images/Images";
+import { NatureImages, blueThumb } from "../../../components/Images/Images";
 import SlideControler from "../SlideControler";
 
 const Nature = () => {
@@ -23,9 +24,10 @@ const Nature = () => {
         slideImages={NatureImages}
         PrintMessage={PrintMessage}
         PrintQuotes={PrintQuotes}
+        blueThumb={blueThumb}
       />
 
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };
