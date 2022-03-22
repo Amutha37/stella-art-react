@@ -44,60 +44,29 @@ const Menu = () => {
         SetOptionSelected({ NatureImages });
         SetSlideName(name);
         break;
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-      // eslint-disable-next-line no-duplicate-case
-      case "NATURE":
-        SetOptionSelected({ NatureImages });
-        SetSlideName(1);
-        break;
-      case "FLORALS":
-        SetOptionSelected({ FloralImages });
-        SetSlideName(2);
-=======
       case "Florals":
         SetOptionSelected({ FloralImages });
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         break;
       case "Wild-Life":
         SetOptionSelected({ WildLifeImages });
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-        SetSlideName(3);
-=======
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         break;
       case "Master-Copy":
         SetOptionSelected({ MastercopiesImages });
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-        SetSlideName(4);
-=======
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         break;
       case "Portraits":
         SetOptionSelected({ PortraitImages });
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-        SetSlideName(5);
-=======
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         break;
       case "Pet Portraits":
         SetOptionSelected({ PetportraitsImages });
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-        SetSlideName(6);
-=======
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         break;
       case "Sold":
         SetOptionSelected({ SoldImages });
-<<<<<<< HEAD:src/components/homeCorousel/Menu.js
-        SetSlideName(7);
-=======
         SetSlideName(name);
->>>>>>> frontPagePaintingSlide:src/components/quickLink/Menu.js
         // Object.values(data.menu[7]).push("NATURE");
         break;
       default:
