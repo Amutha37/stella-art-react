@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
-// import { MessageMasterCopy } from "../../../components/fetchMessage/FetchMessage";
 import { SoldImages } from "../../../components/Images/Images";
 import SlideControler from "../SlideControler";
-import Footer from "../../../components/Footer/Footer";
+// import Footer from "../../../components/Footer/Footer";
 // import Footer from '../../Footer/Footer';
 
 const Sold = () => {
@@ -15,7 +14,7 @@ const Sold = () => {
         // PrintMessage={PrintMessage}
         blueThumb={""}
       />
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

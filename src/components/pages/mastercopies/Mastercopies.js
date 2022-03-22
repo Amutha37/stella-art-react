@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Footer from "../../Footer/Footer";
+// import Footer from "../../Footer/Footer";
 // import { MessageMasterCopy } from "../../../components/fetchMessage/FetchMessage";
 import { MastercopiesImages } from "../../../components/Images/Images";
 import SlideControler from "../SlideControler";
@@ -13,7 +13,7 @@ const Mastercopies = () => {
         slideImages={MastercopiesImages}
         // PrintMessage={PrintMessage}
       />
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

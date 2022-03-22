@@ -3,7 +3,7 @@ import SlideControler from "../SlideControler";
 // import { MessagePetPortrait } from "../../../components/fetchMessage/FetchMessage";
 import { PetportraitsImages } from "../../../components/Images/Images";
 // import Footer from '../../Footer/Footer';
-import Footer from "../../../components/Footer/Footer";
+// import Footer from "../../../components/Footer/Footer";
 
 const Petportraits = () => {
   // const PrintMessage = MessagePetPortrait();
@@ -15,7 +15,7 @@ const Petportraits = () => {
         PrintMessage={""}
         blueThumb={""}
       />
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

@@ -6,8 +6,8 @@ import {
   QuotesWildLife,
 } from "../../fetchContent/FetchMessage";
 import { WildLifeImages, blueThumb } from "../../../components/Images/Images";
-import Footer from "../../../components/Footer/Footer";
-// import Footer from "../../Footer/Footer";
+// import Footer from "../../../components/Footer/Footer";
+import Footer from "../../Footer/Footer";
 
 const BirdAnimal = () => {
   const PrintMessage = MessageForSale();
