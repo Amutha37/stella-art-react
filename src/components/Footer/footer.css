@@ -83,7 +83,7 @@
 }
 #painting_link p {
   color: white;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 /* social media disign */
 #followMe-text {
@@ -221,6 +221,15 @@
   margin: 10px auto 30px auto;
 }
 /* media screen */
+/* @media screen and (max-width: 1324px) {
+  .quickLink_left {
+    width: 10%;
+  }
+  #bluethum-badge {
+    width: 90%;
+  }
+} */
+/* media screen */
 @media screen and (max-width: 768px) {
   .social-media {
     margin-top: 3.5rem;
@@ -228,16 +237,16 @@
   .social-media #footertext {
     font-size: 16px;
   }
-  #painting_link {
-    padding-bottom: 2rem;
-  }
   .quickLink_left {
     width: 10%;
   }
   #bluethum-badge {
     width: 90%;
-    float: right;
   }
+  #painting_link {
+    padding-bottom: 2rem;
+  }
+
   #followMe-text {
     margin-top: 11rem;
   }

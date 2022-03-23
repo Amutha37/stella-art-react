@@ -1,7 +1,7 @@
 import React from "react";
 // import Menu from "../quickLink/Menu";
 import { Link } from "react-router-dom";
-import { DropdownFooter } from "../Navbar/DropdownFooter";
+import { DropdownFooter } from "../Footer/dropdownFooter/DropdownFooter";
 // import {
 //   Redirect,
 //   BrowserRouter as Router,

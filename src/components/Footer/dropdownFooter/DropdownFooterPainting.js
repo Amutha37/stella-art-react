@@ -1,5 +1,5 @@
 import React from "react";
-import { DropDownItems } from "./dropDownItems";
+import { DropDownItems } from "../../Navbar/dropDownItems";
 import "./dropdownFooter.css";
 import { Link } from "react-router-dom";
 //

@@ -62,7 +62,6 @@ export const DropdownFooter = () => {
               handleSelect={handleSelect}
             />
           )}
-          {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
         </li>
       </ul>
     </>
