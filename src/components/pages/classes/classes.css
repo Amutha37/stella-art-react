@@ -4,14 +4,14 @@
   margin-bottom: 2rem;
   padding: 10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("../.././Images/globalimages/sunrise.jpg");
+    url("../.././Images/globalimages/smallbrushes.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  height: 190px;
+  height: 250px;
   /* margin-top: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -64,12 +64,16 @@
 #class_details {
   text-align: center;
   margin-top: 4rem;
-  padding: 2rem 2rem 2rem 2rem;
-  border: 8px solid #486255;
-  width: 36rem;
+  /* padding: 2rem 2rem 2rem 2rem;
+  border: 8px solid #486255; */
+  /* width: 36rem; */
   margin-left: auto;
   margin-right: auto;
   display: block;
+  /* font-size: 1.7rem; */
+  color: rgb(97, 94, 94);
+  font-weight: 500;
+  width: 80%;
 }
 #class_details p {
   margin-top: 1rem;
@@ -123,13 +127,13 @@
   .classes-container .whole-list-classess h1 {
     font-size: 24px;
   }
-  #class_details {
+  /* #class_details {
     padding: 1rem 1rem 1rem 1rem;
     width: 26rem;
   }
   #class_details h2 {
     font-size: 1.5rem;
-  }
+  } */
 }
 @media screen and (max-width: 480px) {
   .classes-main-container .bg-image {
@@ -144,10 +148,10 @@
   .classes-container .whole-list-classess {
     border: none;
   }
-  #class_details {
+  /* #class_details {
     padding: 1rem 1rem 1rem 1rem;
     width: 24rem;
-  }
+  } */
 }
 /* media screen */
 @media screen and (max-width: 1224px) {
@@ -195,13 +199,13 @@
   .classes-container .whole-list-classess h1 {
     font-size: 24px;
   }
-  #class_details {
+  /* #class_details {
     padding: 1rem 1rem 1rem 1rem;
     width: 26rem;
   }
   #class_details h2 {
     font-size: 1.5rem;
-  }
+  } */
 }
 @media screen and (max-width: 480px) {
   .classes-main-container .bg-image {
@@ -216,8 +220,8 @@
   .classes-container .whole-list-classess {
     border: none;
   }
-  #class_details {
+  /* #class_details {
     padding: 1rem 1rem 1rem 1rem;
     width: 24rem;
-  }
+  } */
 }

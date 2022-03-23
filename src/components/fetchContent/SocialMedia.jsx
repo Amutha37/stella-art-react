@@ -142,10 +142,11 @@ const SocialMedia = (
 
     <div className="footertext">
       <p>
-        Copyright <i className="far fa-copyright"> </i> Stella Kypriotis 2021
+        Copyright <i className="far fa-copyright"> </i> Stella Kypriotis 2022
         All Right Reserved.
       </p>
       <hr />
+      <p>ABN: 11 549 121 620</p>
     </div>
   </div>
 );

@@ -83,21 +83,6 @@ function Navbar() {
               🏠 HOME
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/classes" className="nav-links" onClick={closeMobileMenu}>
-              CLASSES
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/commissions"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              COMMISSIONS
-            </Link>
-          </li>
-
           <li
             className="nav-item"
             onMouseEnter={onMouseEnter}
@@ -118,17 +103,32 @@ function Navbar() {
             {/* {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />} */}
           </li>
           <li className="nav-item">
+            <Link to="/Artist" className="nav-links" onClick={closeMobileMenu}>
+              THE ARTIST
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link
               to="/testimonial"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              TESTIMONIALS
+              TESTIMONIAL
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              to="/commissions"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              COMMISSIONS
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Artist" className="nav-links" onClick={closeMobileMenu}>
-              THE ARTIST
+            <Link to="/classes" className="nav-links" onClick={closeMobileMenu}>
+              CLASSES
             </Link>
           </li>
 
