@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stella-art-react/static/css/main.85bbe6a2.chunk.css",
+    "main.css": "/stella-art-react/static/css/main.53c945a6.chunk.css",
     "main.js": "/stella-art-react/static/js/main.8f37d973.chunk.js",
     "main.js.map": "/stella-art-react/static/js/main.8f37d973.chunk.js.map",
     "runtime-main.js": "/stella-art-react/static/js/runtime-main.2dd7175b.js",
@@ -54,7 +54,7 @@
     "static/css/7.49802ced.chunk.css.map": "/stella-art-react/static/css/7.49802ced.chunk.css.map",
     "static/css/8.49802ced.chunk.css.map": "/stella-art-react/static/css/8.49802ced.chunk.css.map",
     "static/css/9.49802ced.chunk.css.map": "/stella-art-react/static/css/9.49802ced.chunk.css.map",
-    "static/css/main.85bbe6a2.chunk.css.map": "/stella-art-react/static/css/main.85bbe6a2.chunk.css.map",
+    "static/css/main.53c945a6.chunk.css.map": "/stella-art-react/static/css/main.53c945a6.chunk.css.map",
     "static/js/2.e2cbf802.chunk.js.LICENSE.txt": "/stella-art-react/static/js/2.e2cbf802.chunk.js.LICENSE.txt",
     "static/media/StellaArtist.992845c6.jpg": "/stella-art-react/static/media/StellaArtist.992845c6.jpg",
     "static/media/aussielorikeet.jpg": "/stella-art-react/static/media/aussielorikeet.13c62958.jpg",
@@ -116,7 +116,7 @@
   "entrypoints": [
     "static/js/runtime-main.2dd7175b.js",
     "static/js/2.e2cbf802.chunk.js",
-    "static/css/main.85bbe6a2.chunk.css",
+    "static/css/main.53c945a6.chunk.css",
     "static/js/main.8f37d973.chunk.js"
   ]
 }
