@@ -9,6 +9,7 @@ export const DropDownItems = [
     title: "FLORALS",
     path: "/florals",
     cName: "dropdown-link",
+    
   },
   {
     title: "WILD-LIFE",

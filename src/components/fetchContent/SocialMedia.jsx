@@ -141,7 +141,7 @@ const SocialMedia = (
       </p>
     </div>
     <hr />
-    <p>ABN: 11 549 121 620</p>
+    <p id="abnnote">ABN: 11 549 121 620</p>
   </div>
 );
 export { SocialMedia };
