@@ -7,9 +7,9 @@ const FrequentlyAskedQuestions = () => {
     <>
       <div className="question-main-container">
         <div className="bg-image">
-          <header className="bg-text">
+          {/* <header className="bg-text">
             <p>Using Creativity in Brush Strokes</p>
-          </header>
+          </header> */}
         </div>
       </div>
       <FquestionsAsked />

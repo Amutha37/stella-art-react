@@ -12,6 +12,7 @@ const Mastercopies = () => {
       <SlideControler
         slideImages={MastercopiesImages}
         // PrintMessage={PrintMessage}
+        blueThumb={""}
       />
       {/* <Footer /> */}
     </Fragment>

@@ -8,8 +8,8 @@ import React, { lazy, Suspense, Fragment } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-
-const Home = lazy(() => import("./components/pages/home/Home"));
+import Home from "./components/pages/home/Home";
+// const Home = lazy(() => import("./components/pages/home/Home"));
 
 const Artist = lazy(() => import("./components/pages/Artist/Artist"));
 

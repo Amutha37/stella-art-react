@@ -1,19 +1,19 @@
-import Coralwilkins from '.././Images/testimonial/coralwilkins.jpg'
-import Themis from '.././Images/sold/deepblueseaturtle.jpg'
-import chantelle from '.././Images/testimonial/chantelle.jpg'
-import melanie from '.././Images/testimonial/melanie.jpg'
-import Stellamum from '.././Images/testimonial/stellamum.jpg'
+import Coralwilkins from ".././Images/testimonial/coralwilkins.jpg";
+import Themis from ".././Images/sold/deepblueseaturtle.jpg";
+import chantelle from ".././Images/testimonial/chantelle.jpg";
+import melanie from ".././Images/testimonial/melanie.jpg";
+import Stellamum from ".././Images/testimonial/stellamum.jpg";
 
 export function Testimonial() {
   return (
-    <div className='testimonials'>
-      <h2 id='testimonial-heading'>Testimonials</h2>
+    <div className="testimonials">
+      <h2 id="testimonial-heading">Testimonials</h2>
 
-      <div className='testimonial-row'>
-        <div className='column-left'>
-          <img src={Coralwilkins} alt='...' height='' width='' />
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img src={Coralwilkins} alt="..." height="" width="" loading="lazy" />
         </div>
-        <div className='column-right'>
+        <div className="column-right">
           <p>
             "I absolutely love the depth and variety of this soulful artist's
             work. She captures and creates a connection with nature and people
@@ -30,11 +30,11 @@ export function Testimonial() {
         </div>
       </div>
 
-      <div className='testimonial-row'>
-        <div className='column-left'>
-          <img src={chantelle} alt='...' height='' width='' />
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img src={chantelle} alt="..." height="" width="" loading="lazy" />
         </div>
-        <div className='column-right'>
+        <div className="column-right">
           <p>
             "Such beautiful pieces of Australiana, Stella seems to capture such
             depth into the beautiful creatures and scenic wonders of nature!!"
@@ -48,11 +48,11 @@ export function Testimonial() {
           </p>
         </div>
       </div>
-      <div className='testimonial-row'>
-        <div className='column-left'>
-          <img src={melanie} alt='...' height='' width='' />
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img src={melanie} alt="..." height="" width="" loading="lazy" />
         </div>
-        <div className='column-right'>
+        <div className="column-right">
           <p>
             "I love the artwork that Stella has painted for me and would highly
             recommend her to anyone. My experience from asking her to create an
@@ -65,11 +65,11 @@ export function Testimonial() {
           </p>
         </div>
       </div>
-      <div className='testimonial-row'>
-        <div className='column-left'>
-          <img src={Stellamum} alt='...' height='' width='' />
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img src={Stellamum} alt="..." height="" width="" loading="lazy" />
         </div>
-        <div className='column-right'>
+        <div className="column-right">
           <p>
             " This commission piece I asked Stella to create for me. I wanted
             her to paint something which had a special meaning behind it. We
@@ -85,11 +85,11 @@ export function Testimonial() {
           </p>
         </div>
       </div>
-      <div className='testimonial-row'>
-        <div className='column-left'>
-          <img src={Themis} alt='...' height='' width='' />
+      <div className="testimonial-row">
+        <div className="column-left">
+          <img src={Themis} alt="..." height="" width="" loading="lazy" />
         </div>
-        <div className='column-right'>
+        <div className="column-right">
           <p>
             "Watching Stella evolve as a person, as a woman and as an artist,
             through her artwork, has been an absolute delight. For me, it was
@@ -111,5 +111,5 @@ export function Testimonial() {
         </div>
       </div>
     </div>
-  )
+  );
 }

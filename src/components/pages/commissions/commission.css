@@ -4,7 +4,7 @@
   margin-bottom: 2rem;
   padding: 10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url('../.././Images/globalimages/sunrise.jpg');
+    url("../.././Images/globalimages/sunrise.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,19 +16,15 @@
 
 /* Position text in the middle of the page/image */
 .commission-container .bg-text h1 {
-  font-weight: 400;
+  font-weight: 700;
 }
 .commission-container .bg-text {
   text-align: center;
-  position: absolute;
   line-height: 2;
-  top: 43%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }
 .commission-container .bg-text p {
-  font-weight: 600;
+  color: rgb(97, 94, 94);
+  font-weight: 500;
   font-size: 20px;
 }
 

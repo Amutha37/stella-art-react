@@ -27,10 +27,27 @@
   margin-top: 1rem;
   bottom: 4;
 }
-#quickLink_blueThumb {
-  display: flex;
-  margin-top: 3rem;
-  font-family: "Nobel Book", "san-serif";
+.quickLink_header {
+  height: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* position: relative; */
+}
+.quickLink_header div {
+  display: inline-block;
+  position: absolute;
+}
+.quickLink_header_left {
+  left: 0px;
+  margin-left: 2rem;
+}
+.quickLink_header_right {
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+.quickLink_header_right {
+  right: 0px;
 }
 .quickLink_left {
   /* color: white;
@@ -68,17 +85,16 @@
 .quickLink_left p {
   color: white;
   font-size: 1em;
-  padding: 6px 6px;
+  padding: 1rem 1rem;
 }
-#bluethum-badge {
-  width: 20%;
-}
+
 #painting_link {
   position: relative;
-  top: 1rem;
-  left: 2px;
-  z-index: 1;
-  padding-top: 1rem;
+
+  /* left: 2px; */
+  z-index: 2;
+  margin-bottom: 2rem;
+  /* padding-top: 1rem; */
   font-style: italic;
 }
 #painting_link p {
@@ -213,13 +229,14 @@
   top: 20%;
   text-transform: uppercase;
 }
-.social-media .footertext hr {
+.social-media hr {
   display: flex;
   width: 80%;
   color: #000;
   border-color: rgb(17, 78, 54);
-  margin: 10px auto 30px auto;
+  margin: 10px auto 0px auto;
 }
+
 /* media screen */
 /* @media screen and (max-width: 1324px) {
   .quickLink_left {
@@ -248,7 +265,7 @@
   }
 
   #followMe-text {
-    margin-top: 11rem;
+    margin-top: 25rem;
   }
   .icons a .layer span {
     height: 80%;

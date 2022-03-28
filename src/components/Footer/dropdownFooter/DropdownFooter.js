@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import DropdownFooterPanting from "./DropdownFooterPainting";
 
 export const DropdownFooter = () => {
-  const [shutDropdown, setShutDropdown] = useState(false);
+  const [shutDropdownn, setShutDropdownn] = useState(false);
   const [toggleShut, setToggleShut] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  const [dropdownn, setDropdownn] = useState(false);
   // const [show, setHandleShow] = useState(false)
   // using string template nav class always but if the show is true set class to nav-black
   // useEffect(() => {
@@ -23,43 +23,43 @@ export const DropdownFooter = () => {
   //   const closeMobileMenu = () => setToggleShut(false);
 
   // const handleClick = () => setToggleShut(!toggleShut);
-  const closeMobileMenu = () => setToggleShut(!toggleShut);
+  const closeMobileMenuu = () => setToggleShut(!toggleShut);
 
-  const onMouseEnter = () => {
-    setDropdown(true);
+  const onMouseEnterr = () => {
+    setDropdownn(true);
   };
 
-  const onMouseLeave = () => {
-    setDropdown(false);
-    setShutDropdown(false);
+  const onMouseLeavee = () => {
+    setDropdownn(false);
+    setShutDropdownn(false);
   };
 
   // dropdown menu control
-  const handleSelect = () => setShutDropdown(!shutDropdown);
-  const closeDropdownMenu = () => {
-    setShutDropdown(false);
+  const handleSelectt = () => setShutDropdownn(!shutDropdownn);
+  const closeDropdownMenuu = () => {
+    setShutDropdownn(false);
   };
 
   return (
     <>
-      <ul onClick={onMouseEnter}>
+      <ul onClick={onMouseEnterr}>
         <li
           className="nav-item"
           // onMouseEnter={onMouseEnter}
-          onClick={onMouseEnter}
-          onMouseLeave={onMouseLeave}
+          onClick={onMouseEnterr}
+          onMouseLeave={onMouseLeavee}
         >
           <Link to="/" className="nav-links">
             <p>Painting{""}⏩</p>
             {/* <i class="fa-solid fa-chevron-right"></i> */}
             {/* <i className="fas fa-caret-arrow" /> */}
           </Link>
-          {dropdown && (
+          {dropdownn && (
             <DropdownFooterPanting
-              closeDropdownMenu={closeDropdownMenu}
-              closeMobileMenu={closeMobileMenu}
-              shutDropdown={shutDropdown}
-              handleSelect={handleSelect}
+              closeDropdownMenu={closeDropdownMenuu}
+              closeMobileMenu={closeMobileMenuu}
+              shutDropdown={shutDropdownn}
+              handleSelect={handleSelectt}
             />
           )}
         </li>

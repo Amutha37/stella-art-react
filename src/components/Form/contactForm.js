@@ -8,7 +8,6 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({});
   const [countFinding, setcountFinding] = useState({});
   const [countEnquiries, setCountEnquiries] = useState({});
-  // const [enquiries, setEnquiries] = useState("");
   const [thankMsg, setThankMsg] = useState(false);
 
   const handleInput = (e) => {
@@ -105,7 +104,6 @@ const ContactForm = () => {
     )
       .then((response) => response.text())
       .catch((error) => console.log("error", error));
-    // setcountFinding({});
 
     //   collect service data
     const myHeaderEnquiries = new Headers();
@@ -130,7 +128,7 @@ const ContactForm = () => {
     //   "https://v1.nocodeapi.com/amutha/google_sheets/sDBpXXCxMheMRxIY?tabId=Enquiries",
     //   requestcountEnquiries
     // )
-    //   .then(console.log("requestcountEnquiries", requestcountEnquiries))
+    // .then(console.log("requestcountEnquiries", requestcountEnquiries))
     // STELLA'S enquiries data
     fetch(
       "https://v1.nocodeapi.com/stellak/google_sheets/ibmNMYYgtHKNLrwp?tabId=Enquiries",

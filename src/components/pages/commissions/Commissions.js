@@ -10,15 +10,20 @@ const Commissions = () => {
     <div className="commission-container">
       {/* blury background */}
       <div className="hero-image-container">
-        <div className="bg-image">
-          <div className="bg-text">
-            <h1>Commission an Artwork</h1>
-            <p>Oil and/or acrylic on canvas or wood panel.</p>
-            <p> FREE SHIPPING in Australia</p>
-          </div>
-        </div>
+        <div className="bg-image"></div>
       </div>
-
+      <div className="bg-text">
+        <h1>Commission an Artwork</h1>
+        <p>Oil and/or acrylic on canvas or wood panel.</p>
+        <p> FREE SHIPPING in Australia</p>
+      </div>
+      <div className="commission-images-row">
+        {CommissionSamples.map((sampleImg, i) => (
+          <div key={i} className="commission-image-column">
+            <img src={sampleImg.image} alt={sampleImg.name} />
+          </div>
+        ))}
+      </div>
       <div className="commission-note">
         <p>
           If you are interested in commissioning me to do a custom painting for
@@ -50,14 +55,6 @@ const Commissions = () => {
             before starting.
           </p>
         </div>
-      </div>
-      {/* <div className='image-container'> */}
-      <div className="commission-images-row">
-        {CommissionSamples.map((sampleImg, i) => (
-          <div key={i} className="commission-image-column">
-            <img src={sampleImg.image} alt={sampleImg.name} />
-          </div>
-        ))}
       </div>
 
       {/* <Testimonial /> */}

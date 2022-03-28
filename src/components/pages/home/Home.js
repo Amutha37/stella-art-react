@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BannerImage } from "../../../components/Images/Images";
+// import { BannerImage } from "../../../components/Images/Images";
+import HomeBanner from "./peacefulJourney1.jpg";
 import { QuotesHome } from "../../fetchContent/FetchMessage";
 import Artist from "../Artist/Artist";
 import Testimonial from "../testimonial/Testimonial";
@@ -24,7 +25,8 @@ const Home = () => {
         {/* home page */}
         <div className="landing_Container">
           <div className="landing_Image">
-            <img src={BannerImage[0].image} alt={BannerImage[0].name} />
+            <img src={HomeBanner} alt="Peacefull Journey Painting" />
+            {/* <img src={BannerImage[0].image} alt={BannerImage[0].name} /> */}
             <p>{PrintQuotes}</p>
           </div>
         </div>

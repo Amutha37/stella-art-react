@@ -104,16 +104,21 @@ button {
 #caption {
   display: flex;
   margin-top: 5px;
-  width: 45%;
+  /* width: 45%; */
   text-align: center;
   color: black;
-  font-size: 1.5rem;
+  font-size: calc(7px + 1.5vmin);
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
 }
 #caption_left {
-  margin-right: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+#caption_right {
+  vertical-align: middle;
+  margin-top: 0.4rem;
 }
 /* .caption-container {
   display: grid;
@@ -184,11 +189,13 @@ button {
   .imagesize {
     font-size: 12px;
   }
-  #caption {
-    width: 55%;
-    font-size: 1.1rem;
-  }
+  /* #caption {
 
+    font-size: 1.1rem;
+  } */
+  #caption_right {
+    margin-top: 0.8rem;
+  }
   .column img {
     max-height: 9rem;
   }
@@ -204,9 +211,9 @@ button {
   .column img {
     max-height: 8rem;
   }
-  #caption {
+  /* #caption {
     font-size: 0.9rem;
-  }
+  } */
   .contactnote {
     font-size: 13px;
     line-height: 13px;
