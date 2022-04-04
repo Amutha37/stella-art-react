@@ -39,7 +39,44 @@ const Home = () => {
           </div>
         </div>
       </header>
+
       <div className="paintbrush_text">
+        <div className="headpaint">
+          <h1>NEW & EXCITING ANNOUNCEMENT</h1>
+          <p className="announcement_home">Children's Art Classes </p>{" "}
+          <p className="announcement_home">Starting in TERM 2 </p>
+        </div>
+
+        <div className="home-images-row">
+          <div className="home-image-column">
+            <img src={PaintBrush} alt="paintBrushes" />
+          </div>
+        </div>
+        <div className="headpaint">
+          <div id="class_details1">
+            <p className="ages_home">
+              {" "}
+              Stella's Fine-Art now teaching
+              <p className="ages_home">
+                Children's Art Classes ages 8 - 14 years.
+              </p>
+            </p>
+            <div className="webpagelink">
+              <p>
+                For more information click{" "}
+                <em id="link">
+                  https://www.fineartstellakypriotis.com
+                  {/* <Link to="/classes" className="enquire_now">
+                  here.
+                </Link> */}
+                </em>
+              </p>
+            </div>
+            <p>* Limited spaces available *</p>
+          </div>
+        </div>
+      </div>
+      {/* <div className="paintbrush_text">
         <p id="home_paintTitle">NEW & EXCITING ANNOUNCEMENT</p>{" "}
         <p className="announcement_home">Children's Art Classes </p>{" "}
         <p className="announcement_home">Starting in TERM 2 </p>
@@ -58,9 +95,7 @@ const Home = () => {
             <p>
               For more information visit my website{" "}
               <em id="link">
-                {/* <Link to="/classes" className="enquire_now">
-                  LINK
-                </Link>{" "} */}
+               
                 https://www.fineartstellakypriotis.com
               </em>
             </p>
@@ -68,7 +103,10 @@ const Home = () => {
 
           <p>* Limited spaces available *</p>
         </div>
-      </div>
+      </div> */}
+      {/* <Link to="/classes" className="enquire_now">
+                  LINK
+                </Link>{" "} */}
       {/* <div>
         <div className="paintbrush_text">
           <div className="home-images-row">
