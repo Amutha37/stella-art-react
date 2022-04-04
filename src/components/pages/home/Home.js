@@ -63,7 +63,7 @@ const Home = () => {
             </p>
             <div className="webpagelink">
               <p>
-                For more information click{" "}
+                For more information visit{" "}
                 <em id="link">
                   https://www.fineartstellakypriotis.com
                   {/* <Link to="/classes" className="enquire_now">
